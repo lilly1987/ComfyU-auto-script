@@ -1,0 +1,13 @@
+{
+    "EriIbusaki-10" : {        
+        "positive":{
+            "char":"EriIbusaki, 1girl, long hair, blue eyes, black hair, blue hair, blunt bangs, ",
+            "dress":"{pleated skirt, black skirt,|} {dress, cleavage,|} {red jacket,|} {hoop earrings,|} {choker,|} {belt,|} {bracelet,|} {thigh strap,|},",
+        },
+        //"negative":{
+        //    "foot":"",
+        //},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+}

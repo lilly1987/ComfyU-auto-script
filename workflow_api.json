@@ -1,0 +1,286 @@
+{
+  "KSampler": {
+    "inputs": {
+      "seed": 585865642639084,
+      "steps": 20,
+      "cfg": 7,
+      "sampler_name": "dpmpp_2m_sde",
+      "scheduler": "karras",
+      "denoise": 1,
+      "model": [
+        "Lora",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "7",
+        0
+      ],
+      "latent_image": [
+        "EmptyLatentImage",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KSampler"
+    }
+  },
+  "CheckpointLoaderSimple": {
+    "inputs": {
+      "ckpt_name": "SD\\pppAnimix_v20.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": "Load Checkpoint"
+    }
+  },
+  "EmptyLatentImage": {
+    "inputs": {
+      "width": 368,
+      "height": 736,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "Empty Latent Image"
+    }
+  },
+  "6": {
+    "inputs": {
+      "text": [
+        "positive",
+        0
+      ],
+      "clip": [
+        "Lora",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "7": {
+    "inputs": {
+      "text": [
+        "negative",
+        0
+      ],
+      "clip": [
+        "Lora",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "VAEDecode": {
+    "inputs": {
+      "samples": [
+        "KSampler",
+        0
+      ],
+      "vae": [
+        "CheckpointLoaderSimple",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "SaveImage1": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "VAEDecode",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "positive": {
+    "inputs": {
+      "wildcard_text": "",
+      "populated_text": "",
+      "mode": true,
+      "seed": 474125042521937,
+      "Select to add Wildcard": "Select the Wildcard to add to the text"
+    },
+    "class_type": "ImpactWildcardProcessor",
+    "_meta": {
+      "title": "positive"
+    }
+  },
+  "negative": {
+    "inputs": {
+      "wildcard_text": "",
+      "populated_text": "",
+      "mode": true,
+      "seed": 526052559443515,
+      "Select to add Wildcard": "Select the Wildcard to add to the text"
+    },
+    "class_type": "ImpactWildcardProcessor",
+    "_meta": {
+      "title": "negative"
+    }
+  },
+  "FaceDetailer": {
+    "inputs": {
+      "guide_size": 368,
+      "guide_size_for": true,
+      "max_size": 368,
+      "seed": 896983011874101,
+      "steps": 10,
+      "cfg": 7,
+      "sampler_name": "dpmpp_2m_sde",
+      "scheduler": "karras",
+      "denoise": 0.35000000000000003,
+      "feather": 5,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.5,
+      "bbox_dilation": 10,
+      "bbox_crop_factor": 3,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "wildcard": "",
+      "cycle": 1,
+      "inpaint_model": false,
+      "noise_mask_feather": 20,
+      "image": [
+        "VAEDecode",
+        0
+      ],
+      "model": [
+        "Lora",
+        0
+      ],
+      "clip": [
+        "Lora",
+        1
+      ],
+      "vae": [
+        "CheckpointLoaderSimple",
+        2
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "7",
+        0
+      ],
+      "bbox_detector": [
+        "29",
+        0
+      ]
+    },
+    "class_type": "FaceDetailer",
+    "_meta": {
+      "title": "FaceDetailer"
+    }
+  },
+  "SaveImage2": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "FaceDetailer",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "24": {
+    "inputs": {
+      "images": [
+        "FaceDetailer",
+        1
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "25": {
+    "inputs": {
+      "images": [
+        "FaceDetailer",
+        2
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "26": {
+    "inputs": {
+      "images": [
+        "FaceDetailer",
+        5
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "29": {
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "UltralyticsDetectorProvider"
+    }
+  },
+  "Lora": {
+    "inputs": {
+      "category_filter": "All",
+      "lora_name": "Pony\\Hiro_Shinosawa_Pony-10.safetensors",
+      "strength_model": 1,
+      "strength_clip": 1,
+      "inverse": false,
+      "seed": 0,
+      "A": 4,
+      "B": 1,
+      "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+      "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+      "bypass": false,
+      "model": [
+        "CheckpointLoaderSimple",
+        0
+      ],
+      "clip": [
+        "CheckpointLoaderSimple",
+        1
+      ]
+    },
+    "class_type": "LoraLoaderBlockWeight //Inspire",
+    "_meta": {
+      "title": "Lora Loader (Block Weight)"
+    }
+  }
+}
