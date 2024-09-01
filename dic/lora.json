@@ -1,0 +1,43 @@
+{
+    "BalletBoots" : {        
+        "positive":{
+            "BalletBoots":"ballet boots,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+    "balletboots_v1" : {        
+        "positive":{
+            "balletboots_v1":"ballet boots,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+    
+    "multiple_insertions_v0.2" : {        
+        "positive":{
+            "multiple_insertions":"(multiple insertions:1.0), large insertion, missionary, dildo, tentacles, penis, cucumber, banana,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+    "hyper_penetration_stomach_bulge_v8all-000004" : {        
+        "positive":{
+            "hyper_penetration_stomach_bulge_v8all":"stomach bulge,large insertion,{-2$$vaginalanal},,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+}

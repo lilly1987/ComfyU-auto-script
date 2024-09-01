@@ -1,32 +1,34 @@
 {
-    //"CheckpointLoaderSimple": {
-    //    "ckpt_name": "SD\\pppAnimix_v20.safetensors"
-    //},
-    "KSampler":{
-        "steps": 20,
-        "cfg": 7,
-        "sampler_name": "dpmpp_2m_sde",
-        "scheduler": "karras",
+    "workflow":{
+        #"CheckpointLoaderSimple": {
+        #    "ckpt_name": "SD\\pppAnimix_v20.safetensors"
+        #},
+        "KSampler":{
+            "steps": (20,30),
+            "steps": (1,1),
+            "cfg": (4,10),
+            "sampler_name": ["dpmpp_2m_sde","dpmpp_sde",],
+            "scheduler": "karras",
+        },
+        "FaceDetailer":{
+            "steps": (20,30),
+            "steps": (1,1),
+            "cfg": (4,10),
+            "sampler_name": ["dpmpp_2m_sde","dpmpp_sde",],
+            "scheduler": "karras",
+            "denoise": (0.3,0.4),
+        },
+        "EmptyLatentImage":{
+          "width": 400,
+          "height": 800,
+        },
+        #"SaveImage":{
+        #    "filename_prefix": "ComfyUI"
+        #},
+
     },
-    "FaceDetailer":{
-        "steps": 20,
-        "cfg": 7,
-        "sampler_name": "dpmpp_2m_sde",
-        "scheduler": "karras",
-    },
-    "EmptyLatentImage":{
-      "width": 368,
-      "height": 736,
-    },
-    "SaveImage":{
-        "filename_prefix": "ComfyUI"
-    },
-    //
-    "CheckpointPath":"SD\\",
-    "positive":{
-        
-    },
-    "negative":{
-        
-    },
+    "CheckpointPath":"SD/*.*",
+    "LoraPath":"SD/*.*",
+    "LoraAdd":True,
+    "LoraAddCnt":(1,3),
 }

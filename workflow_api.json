@@ -1,7 +1,7 @@
 {
   "KSampler": {
     "inputs": {
-      "seed": 585865642639084,
+      "seed": 0,
       "steps": 20,
       "cfg": 7,
       "sampler_name": "dpmpp_2m_sde",
@@ -99,7 +99,7 @@
   },
   "SaveImage1": {
     "inputs": {
-      "filename_prefix": "ComfyUI",
+      "filename_prefix": "",
       "images": [
         "VAEDecode",
         0
@@ -115,7 +115,7 @@
       "wildcard_text": "",
       "populated_text": "",
       "mode": true,
-      "seed": 474125042521937,
+      "seed": 0,
       "Select to add Wildcard": "Select the Wildcard to add to the text"
     },
     "class_type": "ImpactWildcardProcessor",
@@ -128,7 +128,7 @@
       "wildcard_text": "",
       "populated_text": "",
       "mode": true,
-      "seed": 526052559443515,
+      "seed": 0,
       "Select to add Wildcard": "Select the Wildcard to add to the text"
     },
     "class_type": "ImpactWildcardProcessor",
@@ -141,7 +141,7 @@
       "guide_size": 368,
       "guide_size_for": true,
       "max_size": 368,
-      "seed": 896983011874101,
+      "seed": 0,
       "steps": 10,
       "cfg": 7,
       "sampler_name": "dpmpp_2m_sde",
@@ -200,7 +200,7 @@
   },
   "SaveImage2": {
     "inputs": {
-      "filename_prefix": "ComfyUI",
+      "filename_prefix": "",
       "images": [
         "FaceDetailer",
         0
