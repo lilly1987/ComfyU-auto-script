@@ -19,12 +19,15 @@ url="http://127.0.0.1:8188/prompt"
 try:
     while True:
         
-        queue_prompt_wait(url=url)
+        
         
         #==============================================
         
         setup=readDic("setup.json")
         #print(setup)
+        if setup.get("queue_prompt_wait",True):
+            queue_prompt_wait(url=url)
+        
         
         dicFileCheckpoint,dicFileLora=setup_loop(setup)
         

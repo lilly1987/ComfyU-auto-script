@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "SD\\cleanlinearmix_final.safetensors"
+            "ckpt_name": "SD\\aamAnyloraAnimeMixAnime_v1.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,10 +10,10 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 3313578780928929433,
+            "seed": 8953834297982008079,
             "steps": 20,
-            "cfg": 10,
-            "sampler_name": "dpmpp_sde",
+            "cfg": 4,
+            "sampler_name": "dpmpp_2m_sde",
             "scheduler": "karras",
             "denoise": 1,
             "model": [
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "cleanlinearmix_final/Sucy_Manbaravan/cleanlinearmix_final-Sucy_Manbaravan-20240901-235142-1",
+            "filename_prefix": "aamAnyloraAnimeMixAnime_v1/EriIbusaki-10/aamAnyloraAnimeMixAnime_v1-EriIbusaki-10-20240902-003337-1",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positive": {
         "inputs": {
-            "wildcard_text": "Sucy,,Luna Nova Uniform,,",
+            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},NSFW,uncensored,{1-3$$anime style,|2D,|anime,},sex,multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion, {1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,},asphyxiation, rolling eyes,,{arms_behind_back, bound_arms, arms bound,|},,{pleated skirt, black skirt,|} {dress, cleavage,|} {red jacket,|} {hoop earrings,|} {choker,|} {belt,|} {bracelet,|} {thigh strap,|},,{off shoulder,|bare shoulder,|capelet,},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,breasts out,pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy, {chest open,|} ,skinny,anorexia,anorexic,Anorexia nervosa,garigari,thin waist, ,EriIbusaki, 1girl, long hair, blue eyes, black hair, blue hair, blunt bangs, ",
             "populated_text": "",
             "mode": true,
-            "seed": 1421871591928120152,
+            "seed": 17310427823845160391,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -128,7 +128,7 @@
             "wildcard_text": "low quality,worstquality,grayscale,monochrome,lowres,bad proportions,out of focus,,embedding:easynegative.safetensors,,logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,",
             "populated_text": "",
             "mode": true,
-            "seed": 17345259964894944499,
+            "seed": 6914795216660395555,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 368,
             "guide_size_for": true,
             "max_size": 368,
-            "seed": 45403598573194661,
+            "seed": 14188802972597196123,
             "steps": 20,
-            "cfg": 4,
-            "sampler_name": "dpmpp_sde",
+            "cfg": 10,
+            "sampler_name": "dpmpp_2m_sde",
             "scheduler": "karras",
-            "denoise": 0.36194987218026425,
+            "denoise": 0.3725300713287655,
             "feather": 5,
             "noise_mask": true,
             "force_inpaint": true,
@@ -164,10 +164,6 @@
             "cycle": 1,
             "inpaint_model": false,
             "noise_mask_feather": 20,
-            "image": [
-                "VAEDecode",
-                0
-            ],
             "model": [
                 "LoraLoader",
                 0
@@ -200,7 +196,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "cleanlinearmix_final/Sucy_Manbaravan/cleanlinearmix_final-Sucy_Manbaravan-20240901-235142-2",
+            "filename_prefix": "aamAnyloraAnimeMixAnime_v1/EriIbusaki-10/aamAnyloraAnimeMixAnime_v1-EriIbusaki-10-20240902-003337-2",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +255,49 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "SD\\BalletBoots.safetensors",
+            "lora_name": "SD\\EriIbusaki-10.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 2.394889556244702,
-            "B": 1.0904381386299629,
+            "A": 3.5495151428702987,
+            "B": 1.3436693236644475,
             "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-Sucy_Manbaravan",
+                "LoraLoader-EriIbusaki-10",
                 0
             ],
             "clip": [
-                "LoraLoader-Sucy_Manbaravan",
+                "LoraLoader-EriIbusaki-10",
+                1
+            ]
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-EriIbusakiBattl3-10": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "SD\\EriIbusakiBattl3-10.safetensors",
+            "strength_model": 1,
+            "strength_clip": 1,
+            "inverse": false,
+            "seed": 0,
+            "A": 3.0034126870811946,
+            "B": 1.7594262065092416,
+            "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "CheckpointLoaderSimple",
+                0
+            ],
+            "clip": [
+                "CheckpointLoaderSimple",
                 1
             ]
         },
@@ -291,17 +314,17 @@
             "strength_clip": 1,
             "inverse": false,
             "seed": 0,
-            "A": 1.1207547374853126,
-            "B": 1.6016545293191244,
+            "A": 3.660703805346582,
+            "B": 1.896624911929368,
             "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "CheckpointLoaderSimple",
+                "LoraLoader-EriIbusakiBattl3-10",
                 0
             ],
             "clip": [
-                "CheckpointLoaderSimple",
+                "LoraLoader-EriIbusakiBattl3-10",
                 1
             ]
         },
@@ -310,52 +333,25 @@
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-largebulg1-000012": {
+    "LoraLoader-EriIbusaki-10": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "SD\\largebulg1-000012.safetensors",
-            "strength_model": 1,
-            "strength_clip": 1,
-            "inverse": false,
-            "seed": 0,
-            "A": 1.6470691377336326,
-            "B": 1.4220434753486004,
-            "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "bypass": false,
-            "model": [
-                "LoraLoader-microwaist",
-                0
-            ],
-            "clip": [
-                "LoraLoader-microwaist",
-                1
-            ]
-        },
-        "class_type": "LoraLoaderBlockWeight //Inspire",
-        "_meta": {
-            "title": "Lora Loader (Block Weight)"
-        }
-    },
-    "LoraLoader-Sucy_Manbaravan": {
-        "inputs": {
-            "category_filter": "All",
-            "lora_name": "SD\\Sucy_Manbaravan.safetensors",
+            "lora_name": "SD\\EriIbusaki-10.safetensors",
             "strength_model": 0.75,
             "strength_clip": 1,
             "inverse": false,
             "seed": 0,
-            "A": 1.8428680904675336,
-            "B": 1.593770175843309,
+            "A": 1.5950926528524894,
+            "B": 1.918320293865942,
             "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-largebulg1-000012",
+                "LoraLoader-microwaist",
                 0
             ],
             "clip": [
-                "LoraLoader-largebulg1-000012",
+                "LoraLoader-microwaist",
                 1
             ]
         },
