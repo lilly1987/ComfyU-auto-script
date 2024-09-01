@@ -29,7 +29,7 @@ try:
             queue_prompt_wait(url=url)
         
         
-        dicFileCheckpoint,dicFileLora=setup_loop(setup)
+        dicFileCheckpoint,dicFileLora,dicFileChar=setup_loop(setup)
         
         
         setup_workflow(setup)

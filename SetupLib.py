@@ -9,6 +9,7 @@ dcheckpoints=Path(wd,"../ComfyUI/models/checkpoints")
 dLora=Path(wd,"../ComfyUI/models/Loras")
 dicFileCheckpoint={}
 dicFileLora={}
+dicFileChar={}
 
 ckptPath=None
 ckptMax=64
@@ -32,11 +33,13 @@ def setup_loop(setup):
     
     global dicFileCheckpoint
     global dicFileLora
+    global dicFileChar
     print(Path(setup["Path"],setup["CheckpointPath"]))
     dicFileCheckpoint=GetFileDic(str( Path(setup["Path"],setup["CheckpointPath"]) ),dcheckpoints)
     dicFileLora=GetFileDic(str(Path(setup["Path"],setup["LoraPath"])),dLora)    
+    dicFileChar=GetFileDic(str(Path(setup["Path"],setup["CharPath"])),dLora)    
     
-    return dicFileCheckpoint,dicFileLora
+    return dicFileCheckpoint,dicFileLora,dicFileChar
     
 def setup_workflow(setup):
     
@@ -62,10 +65,10 @@ def setup_workflow(setup):
     d=w.setdefault("negative",{})
     SetSeed(d)
     
-    listLora=list(dicFileLora.keys())
+    listLora=list(dicFileChar.keys())
     n=random.choice(listLora)
     d=w.setdefault("LoraLoader",{})
-    d.setdefault("lora_name",str(dicFileLora[n]))
+    d.setdefault("lora_name",str(dicFileChar[n]))
     
     #==============================================
     
@@ -138,7 +141,7 @@ def setup_lora(setup,dicLora):
             d=dicLora.get(v,{})            
             #if d is None:
             #    continue
-            f=dicFileLora.get(v)
+            f=dicFileLora.get(v,dicFileChar.get(v))
             #print("dicFileLora",f)
             d.setdefault("lora_name",str(f))
             Loras[k]=d

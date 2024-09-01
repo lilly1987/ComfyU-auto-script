@@ -30,6 +30,16 @@
         "strength_model": 0.75,
         "strength_clip": 1,
     },
+    "DoggystyleFromside1" : {        
+        "positive":{
+            "DoggystyleFromside1":"doggystyle, from side, 1girl, 1boy, sex from behind,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
     "hyper_penetration_stomach_bulge_v8all-000004" : {        
         "positive":{
             "hyper_penetration_stomach_bulge_v8all":"stomach bulge,large insertion,{-2$$vaginalanal},,",

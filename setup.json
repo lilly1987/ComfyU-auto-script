@@ -5,14 +5,14 @@
         },
         "KSampler":{
             "steps": (20,30),
-            "steps": 20,
+            "steps": 25,
             "cfg": (4,10),
             "sampler_name": ["dpmpp_2m_sde","dpmpp_sde",],
             "scheduler": "karras",
         },
         "FaceDetailer":{
             "steps": (20,30),
-            "steps": 20,
+            "steps": 25,
             "cfg": (4,10),
             "sampler_name": ["dpmpp_2m_sde","dpmpp_sde",],
             "scheduler": "karras",
@@ -33,8 +33,11 @@
         #},
 
     },
+    "ckptMax":4,
+    "listMax":2,
     "Path":"SD",
     "CheckpointPath":"*.*",
+    "CharPath":"char/*.*",
     "LoraPath":"*.*",
     "LoraAdd":True,
     "LoraAddCnt":(1,3),

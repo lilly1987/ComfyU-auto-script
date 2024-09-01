@@ -1,8 +1,8 @@
 {
-    "EriIbusaki-10" : {        
+    "EriIbusakiBattl3-10" : {        
         "positive":{
-            "char":"EriIbusaki, 1girl, long hair, blue eyes, black hair, blue hair, blunt bangs, ",
-            "dress":"{pleated skirt, black skirt,|} {dress, cleavage,|} {red jacket,|} {hoop earrings,|} {choker,|} {belt,|} {bracelet,|} {thigh strap,|},",
+            "char":"EriIbusakiBattl3, 1girl, long hair, blue eyes, black hair,  purple eyes, ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
         },
         #"negative":{
         #    "foot":"",
@@ -10,10 +10,109 @@
         "strength_model": 0.75,
         "strength_clip": 1,
     },
+    "EriIbusaki-10" : {        
+        "positive":{
+            "char":"EriIbusaki, 1girl, long hair, blue eyes, black hair, blue hair, blunt bangs, ",
+            #"dress":"{pleated skirt, black skirt,|} {dress, cleavage,|} {red jacket,|} {hoop earrings,|} {choker,|} {belt,|} {bracelet,|} {thigh strap,|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": (0.5,1.0),
+        "strength_clip": (0.5,1.0),
+    },
+    "KurumiTokisaki-10" : {        
+        "positive":{
+            "char":"Kurumi Tokisaki,",
+            #"dress":"Luna Nova Uniform,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+    "mayumi-mahouka-01" : {        
+        "positive":{
+            "char":"mayumi saegusa,",
+            #"dress":"{Luna Nova Uniform,|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+    "MahoukaMayumi-v1-06" : {        
+        "positive":{
+            "char":"ChopioMayumi,",
+            #"dress":"{Luna Nova Uniform,|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+    "saegusamayumi-10" : {        
+        "positive":{
+            "char":"Saegusa Mayumi,",
+            #"dress":"{Luna Nova Uniform,|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+    "Saegusa_Mayumi_MagicHighSchool-KK77-V1" : {        
+        "positive":{
+            "char":"Red eyes, black hair,bangs,Long hair,,",
+            #"dress":"{Luna Nova Uniform,|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+    "mayumi_v1.0-000002" : {        
+        "positive":{
+            "char":"mayumi,",
+            #"dress":"{Luna Nova Uniform,|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+    "Mayumi Saegusa-lora-Faxtron" : {        
+        "positive":{
+            "char":"mayumi,Mayumi Saegusa,",
+            #"dress":"{Luna Nova Uniform,|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": 0.75,
+        "strength_clip": 1,
+    },
+    "Inagaki Sae(sk)" : {        
+        "positive":{
+            "char":"Inagaki Sae,long hair,black hair,white hairband,sidelocks,bangs,blue eyes,",
+            "dress":"{school uniform,blazer,black jacket,pink ribbon,white shirt,collared shirt,sleeves past wrists,long sleeves,small breasts,black dress,pleated skirt,black socks,loafers,|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": (0.6,1.0),
+        "strength_clip": 1,
+    },
     "Sucy_Manbaravan" : {        
         "positive":{
             "char":"Sucy,",
-            "dress":"Luna Nova Uniform,,",
+            "dress":"{Luna Nova Uniform,|},",
         },
         #"negative":{
         #    "foot":"",
