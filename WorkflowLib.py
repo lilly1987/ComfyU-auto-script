@@ -7,6 +7,7 @@ from SetLib import *
 
 positive={}
 negative={}
+image=None
 
 def workflow_setup(workflow_api,setup):
     
@@ -23,7 +24,14 @@ def workflow_setup(workflow_api,setup):
     global negative
     positive=setup.get("positive",{})
     negative=setup.get("negative",{})
-            
+    
+    if setup.get("noFaceDetailer",False):
+        global image
+        i=workflow_api["FaceDetailer"]["inputs"]["image"]
+        image=i.copy()
+        del i
+        #print(image)
+    #workflow_api["FaceDetailer"]["inputs"].remove(image)
             
 def SetArrRnd2(setup,d,f,k,v):
     if k in f :

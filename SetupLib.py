@@ -32,9 +32,9 @@ def setup_loop(setup):
     
     global dicFileCheckpoint
     global dicFileLora
-
-    dicFileCheckpoint=GetFileDic(setup["CheckpointPath"],dcheckpoints)
-    dicFileLora=GetFileDic(setup["LoraPath"],dLora)    
+    print(Path(setup["Path"],setup["CheckpointPath"]))
+    dicFileCheckpoint=GetFileDic(str( Path(setup["Path"],setup["CheckpointPath"]) ),dcheckpoints)
+    dicFileLora=GetFileDic(str(Path(setup["Path"],setup["LoraPath"])),dLora)    
     
     return dicFileCheckpoint,dicFileLora
     
@@ -94,7 +94,7 @@ def setup_list(setup):
     if listCnt<=0:
         listCnt=listMax
         global listDic
-        listFiles=GetFileList("list/*.json")
+        listFiles=GetFileList(str(Path(setup["Path"],"list/*.json")))
         listFile=random.choice(listFiles)
         listDic=readDic(listFile)
         #setup["list_name"]=listFile.stem
@@ -145,13 +145,14 @@ def setup_lora(setup,dicLora):
             
 def setup_last(setup):
     tm=time.strftime('%Y%m%d-%H%M%S')
+    n=f"{ckptPath.stem}/{listFile.stem}/{ckptPath.stem}-{listFile.stem}-{tm}"
     
     w=setup["workflow"]
     
     d=w.setdefault("SaveImage1",{})    
-    d.setdefault("filename_prefix",f"{ckptPath.stem}-{listFile.stem}-{tm}-1")    
+    d.setdefault("filename_prefix",f"{n}-1")    
     d=w.setdefault("SaveImage2",{})    
-    d.setdefault("filename_prefix",f"{ckptPath.stem}-{listFile.stem}-{tm}-2")    
+    d.setdefault("filename_prefix",f"{n}-2")    
     #workflow_api["SaveImage1"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-1"
     #workflow_api["SaveImage2"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-2"
     

@@ -58,7 +58,7 @@ try:
         setup_last(setup)
         #==============================================
         
-        workflow_api=readJson("workflow_api.json")
+        workflow_api=readJson(Path(setup["Path"],"workflow_api.json"))
         #print(workflow_api)
         #print(type(workflow_api))
         
