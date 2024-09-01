@@ -13,12 +13,13 @@ missing   = required - installed
 if missing:
     python = sys.executable
     subprocess.check_call([python, '-m', 'pip', 'install', *missing], stdout=subprocess.DEVNULL)
-import json5 as json
+import json5 
+import json
 
 
 def readJson(path,dic={}):
     with open(path) as file:
-        dic = json.load(file)
+        dic = json5.load(file)
     return dic
     
 def readDic(path,dic={}):
@@ -51,3 +52,8 @@ def GetFileDic(path,dir="."):
     #        #print(os.path.relpath(f,d))
     #        print(PurePath.relative_to(f,d))
     return dic
+    
+def dicToJsonFile(d,path):
+    with open(path,"w") as f:
+        #f.write(t)
+        json.dump(d, f, indent=4)

@@ -1,0 +1,340 @@
+{
+    "CheckpointLoaderSimple": {
+        "inputs": {
+            "ckpt_name": "SD\\pppAnimix_v20.safetensors"
+        },
+        "class_type": "CheckpointLoaderSimple",
+        "_meta": {
+            "title": "Load Checkpoint"
+        }
+    },
+    "KSampler": {
+        "inputs": {
+            "seed": 10636957673510311497,
+            "steps": 10,
+            "cfg": 6,
+            "sampler_name": "dpmpp_sde",
+            "scheduler": "karras",
+            "denoise": 1,
+            "model": [
+                "LoraLoader",
+                0
+            ],
+            "positive": [
+                "CLIPTextEncodeP",
+                0
+            ],
+            "negative": [
+                "CLIPTextEncodeN",
+                0
+            ],
+            "latent_image": [
+                "EmptyLatentImage",
+                0
+            ]
+        },
+        "class_type": "KSampler",
+        "_meta": {
+            "title": "KSampler"
+        }
+    },
+    "EmptyLatentImage": {
+        "inputs": {
+            "width": 400,
+            "height": 800,
+            "batch_size": 1
+        },
+        "class_type": "EmptyLatentImage",
+        "_meta": {
+            "title": "Empty Latent Image"
+        }
+    },
+    "CLIPTextEncodeP": {
+        "inputs": {
+            "text": [
+                "positive",
+                0
+            ],
+            "clip": [
+                "LoraLoader",
+                1
+            ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+            "title": "CLIP Text Encode (Prompt) positive"
+        }
+    },
+    "CLIPTextEncodeN": {
+        "inputs": {
+            "text": [
+                "negative",
+                0
+            ],
+            "clip": [
+                "LoraLoader",
+                1
+            ]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": {
+            "title": "CLIP Text Encode (Prompt) negative"
+        }
+    },
+    "VAEDecode": {
+        "inputs": {
+            "samples": [
+                "KSampler",
+                0
+            ],
+            "vae": [
+                "CheckpointLoaderSimple",
+                2
+            ]
+        },
+        "class_type": "VAEDecode",
+        "_meta": {
+            "title": "VAE Decode"
+        }
+    },
+    "SaveImage1": {
+        "inputs": {
+            "filename_prefix": "pppAnimix_v20-EriIbusaki-10-20240901-222039-1",
+            "images": [
+                "VAEDecode",
+                0
+            ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+            "title": "Save Image 1"
+        }
+    },
+    "positive": {
+        "inputs": {
+            "wildcard_text": "EriIbusaki, 1girl, long hair, blue eyes, black hair, blue hair, blunt bangs, ,{pleated skirt, black skirt,|} {dress, cleavage,|} {red jacket,|} {hoop earrings,|} {choker,|} {belt,|} {bracelet,|} {thigh strap,|},",
+            "populated_text": "",
+            "mode": true,
+            "seed": 11951495172000010492,
+            "Select to add Wildcard": "Select the Wildcard to add to the text"
+        },
+        "class_type": "ImpactWildcardProcessor",
+        "_meta": {
+            "title": "positive"
+        }
+    },
+    "negative": {
+        "inputs": {
+            "wildcard_text": "low quality,worstquality,grayscale,monochrome,lowres,bad proportions,out of focus,,embedding:easynegative.safetensors,,logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,",
+            "populated_text": "",
+            "mode": true,
+            "seed": 1754062855487463094,
+            "Select to add Wildcard": "Select the Wildcard to add to the text"
+        },
+        "class_type": "ImpactWildcardProcessor",
+        "_meta": {
+            "title": "negative"
+        }
+    },
+    "FaceDetailer": {
+        "inputs": {
+            "guide_size": 368,
+            "guide_size_for": true,
+            "max_size": 368,
+            "seed": 6110289491510782491,
+            "steps": 10,
+            "cfg": 7,
+            "sampler_name": "dpmpp_sde",
+            "scheduler": "karras",
+            "denoise": 0.3735611850413709,
+            "feather": 5,
+            "noise_mask": true,
+            "force_inpaint": true,
+            "bbox_threshold": 0.5,
+            "bbox_dilation": 10,
+            "bbox_crop_factor": 3,
+            "sam_detection_hint": "center-1",
+            "sam_dilation": 0,
+            "sam_threshold": 0.93,
+            "sam_bbox_expansion": 0,
+            "sam_mask_hint_threshold": 0.7,
+            "sam_mask_hint_use_negative": "False",
+            "drop_size": 10,
+            "wildcard": "",
+            "cycle": 1,
+            "inpaint_model": false,
+            "noise_mask_feather": 20,
+            "image": [
+                "VAEDecode",
+                0
+            ],
+            "model": [
+                "LoraLoader",
+                0
+            ],
+            "clip": [
+                "LoraLoader",
+                1
+            ],
+            "vae": [
+                "CheckpointLoaderSimple",
+                2
+            ],
+            "positive": [
+                "CLIPTextEncodeP",
+                0
+            ],
+            "negative": [
+                "CLIPTextEncodeN",
+                0
+            ],
+            "bbox_detector": [
+                "UltralyticsDetectorProvider",
+                0
+            ]
+        },
+        "class_type": "FaceDetailer",
+        "_meta": {
+            "title": "FaceDetailer"
+        }
+    },
+    "SaveImage2": {
+        "inputs": {
+            "filename_prefix": "pppAnimix_v20-EriIbusaki-10-20240901-222039-2",
+            "images": [
+                "FaceDetailer",
+                0
+            ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+            "title": "Save Image 2"
+        }
+    },
+    "PreviewImage24": {
+        "inputs": {
+            "images": [
+                "FaceDetailer",
+                1
+            ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+            "title": "Preview Image"
+        }
+    },
+    "25": {
+        "inputs": {
+            "images": [
+                "FaceDetailer",
+                2
+            ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+            "title": "Preview Image"
+        }
+    },
+    "26": {
+        "inputs": {
+            "images": [
+                "FaceDetailer",
+                5
+            ]
+        },
+        "class_type": "PreviewImage",
+        "_meta": {
+            "title": "Preview Image"
+        }
+    },
+    "UltralyticsDetectorProvider": {
+        "inputs": {
+            "model_name": "bbox/face_yolov8m.pt"
+        },
+        "class_type": "UltralyticsDetectorProvider",
+        "_meta": {
+            "title": "UltralyticsDetectorProvider"
+        }
+    },
+    "LoraLoader": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "SD\\KurumiTokisaki-10.safetensors",
+            "strength_model": 0,
+            "strength_clip": 0,
+            "inverse": false,
+            "seed": 0,
+            "A": 1.1655453487381076,
+            "B": 1.7662084666789872,
+            "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-Mayumi Saegusa-lora-Faxtron",
+                0
+            ],
+            "clip": [
+                "LoraLoader-Mayumi Saegusa-lora-Faxtron",
+                1
+            ]
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-EriIbusaki-10": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "SD\\EriIbusaki-10.safetensors",
+            "strength_model": 0.75,
+            "strength_clip": 1,
+            "inverse": false,
+            "seed": 0,
+            "A": 1.8874785074610534,
+            "B": 1.9122006559464038,
+            "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "CheckpointLoaderSimple",
+                0
+            ],
+            "clip": [
+                "CheckpointLoaderSimple",
+                1
+            ]
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-Mayumi Saegusa-lora-Faxtron": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "SD\\Mayumi Saegusa-lora-Faxtron.safetensors",
+            "strength_model": 1,
+            "strength_clip": 1,
+            "inverse": false,
+            "seed": 0,
+            "A": 3.976973058105194,
+            "B": 1.9632294019578251,
+            "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-EriIbusaki-10",
+                0
+            ],
+            "clip": [
+                "LoraLoader-EriIbusaki-10",
+                1
+            ]
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    }
+}

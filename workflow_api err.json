@@ -260,7 +260,7 @@
   "LoraLoader": {
     "inputs": {
       "category_filter": "All",
-      "lora_name": "",
+      "lora_name": "Hiro_Shinosawa_Pony-10.safetensors",
       "strength_model": 0,
       "strength_clip": 0,
       "inverse": false,

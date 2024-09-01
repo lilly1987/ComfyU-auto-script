@@ -1,35 +1,26 @@
 {
-  "CheckpointLoaderSimple": {
+  "3": {
     "inputs": {
-      "ckpt_name": "SD\\pppAnimix_v20.safetensors"
-    },
-    "class_type": "CheckpointLoaderSimple",
-    "_meta": {
-      "title": "Load Checkpoint"
-    }
-  },
-  "KSampler": {
-    "inputs": {
-      "seed": 0,
+      "seed": 585865642639084,
       "steps": 20,
       "cfg": 7,
       "sampler_name": "dpmpp_2m_sde",
       "scheduler": "karras",
       "denoise": 1,
       "model": [
-        "LoraLoader",
+        "32",
         0
       ],
       "positive": [
-        "CLIPTextEncodeP",
+        "6",
         0
       ],
       "negative": [
-        "CLIPTextEncodeN",
+        "7",
         0
       ],
       "latent_image": [
-        "EmptyLatentImage",
+        "5",
         0
       ]
     },
@@ -38,8 +29,16 @@
       "title": "KSampler"
     }
   },
-
-  "EmptyLatentImage": {
+  "4": {
+    "inputs": {
+      "ckpt_name": "SD\\pppAnimix_v20.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": "Load Checkpoint"
+    }
+  },
+  "5": {
     "inputs": {
       "width": 368,
       "height": 736,
@@ -50,46 +49,46 @@
       "title": "Empty Latent Image"
     }
   },
-  "CLIPTextEncodeP": {
+  "6": {
     "inputs": {
       "text": [
-        "positive",
+        "18",
         0
       ],
       "clip": [
-        "LoraLoader",
+        "32",
         1
       ]
     },
     "class_type": "CLIPTextEncode",
     "_meta": {
-      "title": "CLIP Text Encode (Prompt) positive"
+      "title": "CLIP Text Encode P"
     }
   },
-  "CLIPTextEncodeN": {
+  "7": {
     "inputs": {
       "text": [
-        "negative",
+        "19",
         0
       ],
       "clip": [
-        "LoraLoader",
+        "32",
         1
       ]
     },
     "class_type": "CLIPTextEncode",
     "_meta": {
-      "title": "CLIP Text Encode (Prompt) negative"
+      "title": "CLIP Text Encode N"
     }
   },
-  "VAEDecode": {
+  "8": {
     "inputs": {
       "samples": [
-        "KSampler",
+        "3",
         0
       ],
       "vae": [
-        "CheckpointLoaderSimple",
+        "4",
         2
       ]
     },
@@ -98,25 +97,25 @@
       "title": "VAE Decode"
     }
   },
-  "SaveImage1": {
+  "9": {
     "inputs": {
-      "filename_prefix": "",
+      "filename_prefix": "ComfyUI",
       "images": [
-        "VAEDecode",
+        "8",
         0
       ]
     },
     "class_type": "SaveImage",
     "_meta": {
-      "title": "Save Image 1"
+      "title": "Save Image"
     }
   },
-  "positive": {
+  "18": {
     "inputs": {
       "wildcard_text": "",
-      "populated_text": "",
+      "populated_text": ",",
       "mode": true,
-      "seed": 0,
+      "seed": 474125042521937,
       "Select to add Wildcard": "Select the Wildcard to add to the text"
     },
     "class_type": "ImpactWildcardProcessor",
@@ -124,12 +123,12 @@
       "title": "positive"
     }
   },
-  "negative": {
+  "19": {
     "inputs": {
       "wildcard_text": "",
       "populated_text": "",
       "mode": true,
-      "seed": 0,
+      "seed": 526052559443515,
       "Select to add Wildcard": "Select the Wildcard to add to the text"
     },
     "class_type": "ImpactWildcardProcessor",
@@ -137,12 +136,12 @@
       "title": "negative"
     }
   },
-  "FaceDetailer": {
+  "22": {
     "inputs": {
       "guide_size": 368,
       "guide_size_for": true,
       "max_size": 368,
-      "seed": 0,
+      "seed": 896983011874101,
       "steps": 10,
       "cfg": 7,
       "sampler_name": "dpmpp_2m_sde",
@@ -158,7 +157,7 @@
       "sam_dilation": 0,
       "sam_threshold": 0.93,
       "sam_bbox_expansion": 0,
-      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_threshold": 0.7000000000000001,
       "sam_mask_hint_use_negative": "False",
       "drop_size": 10,
       "wildcard": "",
@@ -166,31 +165,31 @@
       "inpaint_model": false,
       "noise_mask_feather": 20,
       "image": [
-        "VAEDecode",
+        "8",
         0
       ],
       "model": [
-        "LoraLoader",
+        "32",
         0
       ],
       "clip": [
-        "LoraLoader",
+        "32",
         1
       ],
       "vae": [
-        "CheckpointLoaderSimple",
+        "4",
         2
       ],
       "positive": [
-        "CLIPTextEncodeP",
+        "6",
         0
       ],
       "negative": [
-        "CLIPTextEncodeN",
+        "7",
         0
       ],
       "bbox_detector": [
-        "UltralyticsDetectorProvider",
+        "29",
         0
       ]
     },
@@ -199,11 +198,11 @@
       "title": "FaceDetailer"
     }
   },
-  "SaveImage2": {
+  "23": {
     "inputs": {
-      "filename_prefix": "",
+      "filename_prefix": "ComfyUI",
       "images": [
-        "FaceDetailer",
+        "22",
         0
       ]
     },
@@ -212,10 +211,10 @@
       "title": "Save Image 2"
     }
   },
-  "PreviewImage24": {
+  "24": {
     "inputs": {
       "images": [
-        "FaceDetailer",
+        "22",
         1
       ]
     },
@@ -227,7 +226,7 @@
   "25": {
     "inputs": {
       "images": [
-        "FaceDetailer",
+        "22",
         2
       ]
     },
@@ -239,7 +238,7 @@
   "26": {
     "inputs": {
       "images": [
-        "FaceDetailer",
+        "22",
         5
       ]
     },
@@ -248,7 +247,7 @@
       "title": "Preview Image"
     }
   },
-  "UltralyticsDetectorProvider": {
+  "29": {
     "inputs": {
       "model_name": "bbox/face_yolov8m.pt"
     },
@@ -257,12 +256,12 @@
       "title": "UltralyticsDetectorProvider"
     }
   },
-  "LoraLoader": {
+  "32": {
     "inputs": {
       "category_filter": "All",
-      "lora_name": "",
-      "strength_model": 0,
-      "strength_clip": 0,
+      "lora_name": "Pony\\Hiro_Shinosawa_Pony-10.safetensors",
+      "strength_model": 1,
+      "strength_clip": 1,
       "inverse": false,
       "seed": 0,
       "A": 4,
@@ -271,17 +270,17 @@
       "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
       "bypass": false,
       "model": [
-        "CheckpointLoaderSimple",
+        "4",
         0
       ],
       "clip": [
-        "CheckpointLoaderSimple",
+        "4",
         1
       ]
     },
     "class_type": "LoraLoaderBlockWeight //Inspire",
     "_meta": {
-      "title": "Lora Loader (Block Weight)"
+      "title": "Lora Loader"
     }
   }
 }

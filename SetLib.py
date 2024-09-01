@@ -17,3 +17,7 @@ def SetArrRnd(d,k,v=None):
     elif not v is None :
         d[k]=v
     return v
+    
+def SetSeed(d):
+    if SetArrRnd(d,"seed") is None:
+        d["seed"]=random.randint(0, 0xffffffffffffffff )

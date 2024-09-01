@@ -1,18 +1,18 @@
 {
     "workflow":{
-        #"CheckpointLoaderSimple": {
+        "CheckpointLoaderSimple": {
         #    "ckpt_name": "SD\\pppAnimix_v20.safetensors"
-        #},
+        },
         "KSampler":{
             "steps": (20,30),
-            "steps": (1,1),
+            "steps": 20,
             "cfg": (4,10),
             "sampler_name": ["dpmpp_2m_sde","dpmpp_sde",],
             "scheduler": "karras",
         },
         "FaceDetailer":{
             "steps": (20,30),
-            "steps": (1,1),
+            "steps": 20,
             "cfg": (4,10),
             "sampler_name": ["dpmpp_2m_sde","dpmpp_sde",],
             "scheduler": "karras",
@@ -21,6 +21,10 @@
         "EmptyLatentImage":{
           "width": 400,
           "height": 800,
+        },
+        "LoraLoader":{
+          "A": (1.0,4.0),
+          "B": (1.0,2.0),
         },
         #"SaveImage":{
         #    "filename_prefix": "ComfyUI"
@@ -31,4 +35,13 @@
     "LoraPath":"SD/*.*",
     "LoraAdd":True,
     "LoraAddCnt":(1,3),
+    "shuffle":False,
+    "positive":{
+    },
+    "negative":{
+        "quality":"low quality,worstquality,grayscale,monochrome,lowres,bad proportions,out of focus,",
+        "lora":"embedding:easynegative.safetensors,",
+        "etc":"logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,",
+        "body":"bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,",
+    },
 }

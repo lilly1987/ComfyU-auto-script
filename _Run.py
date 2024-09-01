@@ -11,17 +11,26 @@ from FileLib import *
 from WorkflowLib import *
 from DicLib import *
 from SetupLib import *
+from queue_prompt import *
+import SetupLib 
+
+url="http://127.0.0.1:8188/prompt"
 
 try:
     while True:
+        
+        queue_prompt_wait(url=url)
         
         #==============================================
         
         setup=readDic("setup.json")
         #print(setup)
         
-        dicFileCheckpoint,dicFileLora=setup_workflow(setup)
+        dicFileCheckpoint,dicFileLora=setup_loop(setup)
         
+        
+        setup_workflow(setup)
+        #print(cname)
         #==============================================
         
         dicLora={}
@@ -37,28 +46,41 @@ try:
         
         #==============================================
         
-        listFiles=GetFileList("list/*.json")
-        listFile=random.choice(listFiles)
-        listDic=readDic(listFile)
+
+        setup_list(setup)
+        
         #print("listDic : ",listDic)
         
         #==============================================
         setup_lora(setup,dicLora)
         #print("setup",setup)
         #==============================================
+        setup_last(setup)
+        #==============================================
         
         workflow_api=readJson("workflow_api.json")
         #print(workflow_api)
         #print(type(workflow_api))
         
-        workflow_setup(workflow_api,setup["workflow"])
-        workflow_Loras(workflow_api,setup["Loras"])
+        workflow_setup(workflow_api,setup)
+        workflow_Loras(workflow_api,setup)
+        workflow_Wildcard(workflow_api,setup)
         
-        #print(workflow_api)
+        dicToJsonFile(workflow_api,"test.json")
+        print(setup)
+        print(workflow_api)
+        
+        #==============================================
+        if setup.get("queue_prompt",True):
+            if queue_prompt(workflow_api,url=url):
+                time.sleep(1)
+                #pass
+                
+        Setup_print()
         
         #==============================================
         
-        break
+        #break
         
 except KeyboardInterrupt:
     print('Interrupted')
