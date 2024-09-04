@@ -19,10 +19,109 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "BadDildo" : {        
+        "positive":{
+            "BadDildo" :"masturbation,vaginal,dildo,sex toy,pussy,baddildo,object insertion,squatting,extra large sex toy,dildo riding,thighhighs,strap-on,holding,tail,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "cowgirl_position_nonpov_xl" : {        
+        "positive":{
+            "cowgirl_position_nonpov_xl":"1boy, sex, cowgirl position, girl on top, straddling",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     
+    "restrained_magic_circle" : {        
+        "positive":{
+            "restrained_magic_circle":"magic circle, restrained,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    
+    "AssRipple-XL-V4" : {        
+        "positive":{
+            "AssRipple-XL-V4":"Ass Ripple, sex from behind,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    
+	"witch_Pony_V1.0": {	
+        "positive":{
+            "dress":"jyojifuku, witch, dress, pantyhose,hat, ",
+            #"dress":",",
+        },
+    },
     "multiple_insertions_v0.2" : {        
         "positive":{
             "multiple_insertions":"(multiple insertions:1.0), large insertion, missionary, dildo, tentacles, penis, cucumber, banana,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "garrote_2-000012" : {        
+        "positive":{
+            "garrote_2-000012":"afraid,(surprised), sitting, one boy standing behind,arms behind back,",
+            "pose":"",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "pussybursterXVer00" : {        
+        "positive":{
+             "pussybursterXVer001":"nsfw, pussybursterX, birthing monster, pussyburster, monster, alien, vaginal insertion,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "pussybursterX" : {        
+        "positive":{
+            "pussybursterX":" pussybursterX,",	
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "BBCDeepthroat" : {        
+        "positive":{
+            "BBCDeepthroat":"bbcdeepthroat,",		
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "bulgesmallXLPony" : {        
+        "positive":{
+            "bulgesmallXLPony":" stomach bulge, ",
         },
         #"negative":{
         #    "foot":"",

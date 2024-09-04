@@ -24,7 +24,7 @@ listFileName=""
 ckptFileName=""
 workflow={}
 Loras={}
-sPath=
+sPath=None
 
 def setup_start(setup):
 

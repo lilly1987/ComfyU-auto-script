@@ -11,7 +11,7 @@ image=None
 
 def workflow_setup(workflow_api,setup):
     
-    workflow=setup["workflow"]
+    workflow=setup.pop("workflow")
     
     for item in workflow: 
         if item in workflow_api:
@@ -25,7 +25,7 @@ def workflow_setup(workflow_api,setup):
     positive=setup.get("positive",{})
     negative=setup.get("negative",{})
     
-    if setup.get("noFaceDetailer",False):
+    if setup.pop("noFaceDetailer",False):
         global image
         i=workflow_api["FaceDetailer"]["inputs"]["image"]
         image=i.copy()
@@ -46,10 +46,12 @@ def SetArrRnd2(setup,d,f,k,v):
     
 def workflow_Loras(workflow_api,setup):
     
-    LorasDic=setup["Loras"]
+    LorasDic=setup.pop("Loras")
     
     global positive
     global negative
+    positive=setup.get("positive",{})
+    negative=setup.get("negative",{})
     
     LoraLoader=workflow_api["LoraLoader"]
     linputs=LoraLoader["inputs"]
@@ -89,11 +91,13 @@ def workflow_Wildcard(workflow_api,setup):
     global negative
     #print("positive",positive)
     #print("negative",negative)
+    positive=setup.pop("positive",{})
+    negative=setup.pop("negative",{})
     
     lpositive=list(positive.values())
     lnegative=list(negative.values())
     
-    if setup.get("shuffle",False):
+    if setup.pop("shuffle",False):
         random.shuffle(lpositive)
         random.shuffle(lnegative)
     

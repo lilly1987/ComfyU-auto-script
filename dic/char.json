@@ -149,6 +149,49 @@
             #"dress": "bow, clothes around waist, plaid, plaid skirt, school uniform, skirt, sweater, sweater around waist,",
         },
     },
+	"Edel_PONY_from_Sousou_no_Frieren": {	
+        "positive":{
+            "char" :"Edel , light brown hair, bob hair, splashed hair tips, center part bangs, brown eyes, slant eyes, droopy eyes,,",
+            "hair":",",
+            "dress":"{white one-piece, white mini skirt one-piece,  white one-piece dress, puffy sleeves, short sleeves, black thighhigh boots,},",
+        },
+    },
+	"mki-pony-jade-v4-000050": {	
+        "positive":{
+            "char" :"jade, honkai: star rail, hat,",
+            "hair":",",
+            #"dress":",",
+        },
+    },
+	"celia claire_PONY_epoch-000016": {	
+        "positive":{
+            "char":"celia-default,  ",
+            "hair":",",
+            "dress":"celia claire,blue eyes,grey hair,two side up,hair ribbon,white capelet,white frilled shirt,long sleeves, blue dress, black pantyhose,blue headwear,purple footwear,",
+            #"dress":",",
+        },
+    },
+	"Hannah_littlewitch": {	
+        "positive":{
+            "char":"hannah, 1girl,  brown hair,  ponytail,  grey eyes,,  ",
+            "hair":",",
+            "dress":"luna nova school uniform school uniform,socks, shoes,yellow ribbon, white shirt, skirt, shirt, collared shirt, long sleeves, loafers, blue vest, vest, kneehighs, blue socks,,",
+        },
+    },
+	"Saegusa_Mayumi": {	
+        "positive":{
+            "char":"saegusa mayumi, long hair,black hair,red eyes ,  ",
+            "hair":",",
+            #"dress":",",
+        },
+    },
+	"PinkHairWitchV1": {	
+        "positive":{
+            "char" :"1girl,gloves,hat,feathers on the hat,white hat,long hair,pink hair,brown hair,hat,hat ornament,blue eyes,leather gloves,pink necktie,long hair,halterneck,expressionless,detached collar,green dress,,thigh strap,breasts,brown hair,multicolored hair,frills,ribbon,bangs,witch,standing,belt,hair ornament,bare shoulders,,",
+            "hair":",",
+            "dress":",",
+        },
+    },
 	"Sorasaki_Hina_Pony-10": {	
         "positive":{
             "char" :"1girl, {purple_eyes, white_hair, very_long_hair, ahoge, parted_bangs, small_breasts, halo, black_horns, demon_girl, demon_horns, demon_wings|purple_eyes, white_hair, long_hair, ponytail, halo, demon_girl, demon_horns, demon_wings, hair_ribbon, black_ribbon, necklace, purple_dress, purple_pantyhose, sidelocks, wavy_hair, strapless_dress, elbow_gloves, purple_gloves, dangle_earrings, pearl_necklace, official_alternate_hairstyle, official_alternate_costume}, ",

@@ -139,11 +139,11 @@
   },
   "FaceDetailer": {
     "inputs": {
-      "guide_size": 368,
+      "guide_size": 512,
       "guide_size_for": true,
-      "max_size": 368,
+      "max_size": 512,
       "seed": 0,
-      "steps": 10,
+      "steps": 30,
       "cfg": 7,
       "sampler_name": "dpmpp_2m_sde",
       "scheduler": "karras",

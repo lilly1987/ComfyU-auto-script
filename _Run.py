@@ -29,7 +29,14 @@ try:
     for i in range(max):
 
         setup=readDic("setup.json")
+        setup.pop("totalMax")
         vdebug=setup.pop("debug",False)
+        print_setup=setup.pop("print setup",False)
+        print_workflow=setup.pop("print workflow",False)
+        vqueue_prompt=setup.pop("queue_prompt",True)
+        vqueue_prompt_wait=setup.pop("queue_prompt_wait",True)
+        vsleep=setup.pop("sleep",0)
+        
         debug("setup_start",setup)
         
         
@@ -60,30 +67,33 @@ try:
         #print(type(workflow_api))
         
         workflow_setup(workflow_api,setup)
+        debug("workflow_setup",setup)
         debug("workflow_setup",workflow_api)
         workflow_Loras(workflow_api,setup)
+        debug("workflow_Loras",setup)
         debug("workflow_Loras",workflow_api)
         workflow_Wildcard(workflow_api,setup)
+        debug("workflow_Wildcard",setup)
         debug("workflow_Wildcard",workflow_api)
         
         dicToJsonFile(workflow_api,"test.json")
         
-        if setup.get("print setup",False):
+        if print_setup:
             print("setup",setup)
-        if setup.get("print workflow",False):
+        if print_workflow:
             print("workflow_api",workflow_api)
         
         #==============================================
-        if setup.get("queue_prompt",True):
+        if vqueue_prompt:
             if queue_prompt(workflow_api,url=url):
                 pass
                 
         Setup_print(i,max)
         
         #==============================================
-        if setup.get("queue_prompt_wait",True):
+        if vqueue_prompt_wait:
             queue_prompt_wait(url=url)
-        time.sleep(setup.get("sleep",0))
+        time.sleep(vsleep)
         #break
         
 except KeyboardInterrupt:
