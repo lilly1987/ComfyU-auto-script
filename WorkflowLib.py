@@ -97,8 +97,8 @@ def workflow_Wildcard(workflow_api,setup):
         random.shuffle(lpositive)
         random.shuffle(lnegative)
     
-    workflow_api["positive"]["inputs"]['wildcard_text']=",".join(lpositive)
-    workflow_api["negative"]["inputs"]['wildcard_text']=",".join(lnegative)
+    workflow_api["positiveWildcard"]["inputs"]['wildcard_text']=",".join(lpositive)
+    workflow_api["negativeWildcard"]["inputs"]['wildcard_text']=",".join(lnegative)
     #workflow_api["negative"]["inputs"]['populated_text']=
     #workflow_api["positive"]["inputs"]['populated_text']=
     #print("positive",workflow_api["positive"]["inputs"]['populated_text'])

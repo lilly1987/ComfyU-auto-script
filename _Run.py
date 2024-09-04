@@ -17,7 +17,8 @@ import SetupLib
 url="http://127.0.0.1:8188/prompt"
 
 try:
-    while True:
+    #while True:
+    for i in range(readDic("setup.json").get("totalMax",1280)):
         
         
         
@@ -29,34 +30,22 @@ try:
             queue_prompt_wait(url=url)
         
         
-        dicFileCheckpoint,dicFileLora,dicFileChar=setup_loop(setup)
+        dicFileCheckpoint,dicFileLora,dicFileChar=setup_start(setup)
         
         
         setup_workflow(setup)
         #print(cname)
         #==============================================
-        
-        dicLora={}
-        dicFiles=GetFileList("dic/*.json")
-        for f in dicFiles:
-            update(dicLora,readDic(f))
-            
-        #print(dicLora)
-        
-        #==============================================
-        
-        
-        
-        #==============================================
-        
+        setup_checkpoint(setup)
 
         setup_list(setup)
         
         #print("listDic : ",listDic)
         
         #==============================================
-        setup_lora(setup,dicLora)
+        setup_lora(setup)
         #print("setup",setup)
+        
         #==============================================
         setup_last(setup)
         #==============================================
@@ -70,8 +59,11 @@ try:
         workflow_Wildcard(workflow_api,setup)
         
         dicToJsonFile(workflow_api,"test.json")
-        print(setup)
-        print(workflow_api)
+        
+        if setup.get("print setup",False):
+            print("setup",setup)
+        if setup.get("print workflow",False):
+            print("workflow_api",workflow_api)
         
         #==============================================
         if setup.get("queue_prompt",True):

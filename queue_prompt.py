@@ -33,7 +33,7 @@ def queue_prompt_wait(url="http://127.0.0.1:8188/prompt", max=1):
         
     time.sleep(2)
     
-def queue_prompt(prompt,url="http://127.0.0.1:8188/prompt", max=1):
+def queue_prompt(prompt,url="http://127.0.0.1:8188/prompt"):
     try:
         p = {"prompt": prompt}
         data = json.dumps(p).encode('utf-8')

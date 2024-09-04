@@ -1,0 +1,26 @@
+{
+    "hosekiLustrousmixPony_v20" : {        
+        "positive":{
+            "quality":"score_9, score_7_up, source_anime, ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "quality":"monochrome, greyscale",
+        },
+        #"steps": (30,30),
+        #"cfg": (4,10),
+    },
+    "honeyMixXLHighContrast_v1" : {        
+        "positive":{
+            "quality":"score_9, score_8_up, source_anime, ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "quality":"monochrome, greyscale",
+        },
+        #"steps": (30,60),
+        "cfg": (4,8),
+        #Euler a or DPM++ 2M Karras
+        "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+}

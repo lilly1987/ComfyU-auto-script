@@ -10,3 +10,13 @@ def update(d, u):
             d[k] = v
     return d
     
+def updatek(d, u, k):
+    #print(f"[{ccolor}]update d: [/{ccolor}]",d)
+    #print(f"[{ccolor}]update u: [/{ccolor}]",u)
+    if k in u:
+        if k in d:
+            update(d[k], u[k])
+        else:
+            d[k]=u[k]
+    return d
+    

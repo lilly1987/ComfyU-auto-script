@@ -10,6 +10,8 @@ dLora=Path(wd,"../ComfyUI/models/Loras")
 dicFileCheckpoint={}
 dicFileLora={}
 dicFileChar={}
+dicCheckpoint={} # Checkpoint 사전
+listDic={} #  사전
 
 ckptPath=None
 ckptMax=64
@@ -17,19 +19,23 @@ listMax=8
 ckptCnt=0
 listCnt=0
 listFile=None
+listFileName=""
+ckptFileName=""
+workflow={}
 
-
-def setup_loop(setup):
+def setup_start(setup):
 
     global ckptMax
     global ckptCnt
     global listMax
     global listCnt
+    global ckptPath
+    global ckptFileName
     
     ckptMax=setup.get("ckptMax",64)
     listMax=setup.get("listMax",8)
     ckptCnt-=1
-    listCnt-=1
+    listCnt-=1    
     
     global dicFileCheckpoint
     global dicFileLora
@@ -38,36 +44,67 @@ def setup_loop(setup):
     dicFileCheckpoint=GetFileDic(str( Path(setup["Path"],setup["CheckpointPath"]) ),dcheckpoints)
     dicFileLora=GetFileDic(str(Path(setup["Path"],setup["LoraPath"])),dLora)    
     dicFileChar=GetFileDic(str(Path(setup["Path"],setup["CharPath"])),dLora)    
-    
+
+    if ckptCnt<=0:
+        ckptCnt=ckptMax
+        k=random.choice(list(dicFileCheckpoint.keys()))
+        ckptPath=dicFileCheckpoint[k]
+        ckptFileName=ckptPath.stem
+    setup.setdefault("ckpt_name",ckptFileName)   
+    #print(type(ckptPath))
+    #print(ckptPath)
     return dicFileCheckpoint,dicFileLora,dicFileChar
+    
+def setup_checkpoint(setup):
+    global workflow
+    global dicCheckpoint
+    dicCheckpoint={}
+    dicFiles=GetFileList("checkpoint/*.json")
+    for f in dicFiles:
+        update(dicCheckpoint,readDic(f))
+    
+    name=setup.get("ckpt_name")
+    d=dicCheckpoint.get(name)
+    if d is None:
+        print("[yellow]Dic Checkpoint No[/yellow] : ",name)
+    else:
+    #print("dicCheckpoint : ",d)
+        updatek(setup,d,"negative")
+        updatek(setup,d,"positive")
+        d.pop("positive",{})
+        d.pop("negative",{})
+        updatek(workflow["KSampler"],d)
+        updatek(workflow["FaceDetailer"],d)
+    
+    
     
 def setup_workflow(setup):
     
     #==============================================
+    global workflow
+    workflow=setup.setdefault("workflow",{})
     
-    w=setup["workflow"]
-    
-    d=w.setdefault("KSampler",{})    
+    d=workflow.setdefault("KSampler",{})    
     SetSeed(d)
     SetArrRnd(d,"denoise")
     for k in d:
         SetArrRnd(d,k)
             
-    d=w.setdefault("FaceDetailer",{})    
+    d=workflow.setdefault("FaceDetailer",{})    
     SetSeed(d)
     SetArrRnd(d,"denoise")
     for k in d:
         SetArrRnd(d,k)
             
-    d=w.setdefault("positive",{})
+    d=workflow.setdefault("positiveWildcard",{})
     SetSeed(d)            
         
-    d=w.setdefault("negative",{})
+    d=workflow.setdefault("negativeWildcard",{})
     SetSeed(d)
     
     listLora=list(dicFileChar.keys())
     n=random.choice(listLora)
-    d=w.setdefault("LoraLoader",{})
+    d=workflow.setdefault("LoraLoader",{})
     d.setdefault("lora_name",str(dicFileChar[n]))
     
     #==============================================
@@ -75,38 +112,42 @@ def setup_workflow(setup):
     #print(wd)
     #print(dcheckpoints)
 
+    
     global ckptMax
     global ckptCnt
     global ckptPath
     
-    d=w.setdefault("CheckpointLoaderSimple",{})    
-    if ckptCnt<=0:
-        ckptCnt=ckptMax
-        k=random.choice(list(dicFileCheckpoint.keys()))
-        ckptPath=dicFileCheckpoint[k]
-
+    d=workflow.setdefault("CheckpointLoaderSimple",{})    
     d.setdefault("ckpt_name",str(ckptPath))    
-    setup.setdefault("ckpt_name",ckptPath.stem)   
         
 
+
+    
     
 def setup_list(setup):
     global listMax
     global listCnt
     global listFile
+    global listFileName
     if listCnt<=0:
         listCnt=listMax
         global listDic
         listFiles=GetFileList(str(Path(setup["Path"],"list/*.json")))
-        listFile=random.choice(listFiles)
-        listDic=readDic(listFile)
-        #setup["list_name"]=listFile.stem
-        #list_name=listFile.stem
-        if "loras" in listDic:
-            listDic["Loras"]=listDic.pop("loras")
-    setup.setdefault("list_name",listFile.stem)   
+        if len(listFiles)>0:
+            listFile=random.choice(listFiles)
+            listFileName=listFile.stem
+            listDic=readDic(listFile)
+            #setup["list_name"]=listFile.stem
+            #list_name=listFile.stem
+            if "loras" in listDic:
+                listDic["Loras"]=listDic.pop("loras")
+        else:
+            listFile=None
+            listFileName=""
+    setup.setdefault("list_name",listFileName)   
     
-def setup_lora(setup,dicLora):
+def setup_lora(setup):
+    
     #==============================================
     
     Loras=setup.setdefault("Loras",{})
@@ -134,12 +175,18 @@ def setup_lora(setup,dicLora):
     
     
     #==============================================
+    dicLora={}
+    dicFiles=GetFileList("dic/*.json")
+    for f in dicFiles:
+        update(dicLora,readDic(f))
     
     #print("Loras : ",Loras)    
     for k, v in Loras.items():
         if isinstance(v,str):
-            d=dicLora.get(v,{})            
-            #if d is None:
+            d=dicLora.get(v)            
+            if d is None:
+                print("[yellow]Dic Lora No[/yellow] : ",v)
+                d={}
             #    continue
             f=dicFileLora.get(v,dicFileChar.get(v))
             #print("dicFileLora",f)
@@ -148,7 +195,7 @@ def setup_lora(setup,dicLora):
             
 def setup_last(setup):
     tm=time.strftime('%Y%m%d-%H%M%S')
-    n=f"{ckptPath.stem}/{listFile.stem}/{ckptPath.stem}-{listFile.stem}-{tm}"
+    n=f"{ckptFileName}/{listFileName}/{ckptFileName}-{listFileName}-{tm}"
     
     w=setup["workflow"]
     
@@ -160,5 +207,5 @@ def setup_last(setup):
     #workflow_api["SaveImage2"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-2"
     
 def Setup_print():
-    print(f"{ckptCnt}/{ckptMax} ; {listCnt}/{listMax} ; {ckptPath.stem} ; {listFile.stem}")
+    print(f"{ckptCnt}/{ckptMax} ; {listCnt}/{listMax} ; {ckptFileName} ; {listFileName}")
     

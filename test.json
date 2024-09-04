@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "SD\\hassakuHentaiModel_v13.safetensors"
+            "ckpt_name": "Pony\\hassakuXLHentai_v12.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,10 +10,10 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 17692712295785792616,
-            "steps": 25,
-            "cfg": 9,
-            "sampler_name": "dpmpp_sde",
+            "seed": 5431975710001970636,
+            "steps": 40,
+            "cfg": 7,
+            "sampler_name": "dpmpp_2m_sde",
             "scheduler": "karras",
             "denoise": 1,
             "model": [
@@ -40,8 +40,8 @@
     },
     "EmptyLatentImage": {
         "inputs": {
-            "width": 360,
-            "height": 720,
+            "width": 520,
+            "height": 1040,
             "batch_size": 1
         },
         "class_type": "EmptyLatentImage",
@@ -52,7 +52,7 @@
     "CLIPTextEncodeP": {
         "inputs": {
             "text": [
-                "positive",
+                "positiveWildcard",
                 0
             ],
             "clip": [
@@ -68,7 +68,7 @@
     "CLIPTextEncodeN": {
         "inputs": {
             "text": [
-                "negative",
+                "negativeWildcard",
                 0
             ],
             "clip": [
@@ -88,8 +88,8 @@
                 0
             ],
             "vae": [
-                "CheckpointLoaderSimple",
-                2
+                "VAELoader",
+                0
             ]
         },
         "class_type": "VAEDecode",
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "hassakuHentaiModel_v13/Sucy_Manbaravan/hassakuHentaiModel_v13-Sucy_Manbaravan-20240902-212034-1",
+            "filename_prefix": "hassakuXLHentai_v12//hassakuXLHentai_v12--20240904-173113-1",
             "images": [
                 "VAEDecode",
                 0
@@ -110,12 +110,12 @@
             "title": "Save Image 1"
         }
     },
-    "positive": {
+    "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},NSFW,uncensored,{1-3$$anime style,|2D,|anime,},sex,multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion, {1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,},asphyxiation, rolling eyes,,{arms_behind_back, bound_arms, arms bound,|},,{Luna Nova Uniform,|},,{off shoulder,|bare shoulder,|capelet,},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,breasts out,pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy, {chest open,|} ,skinny,anorexia,anorexic,Anorexia nervosa,garigari,thin waist, ,ballet boots,,doggystyle, from side, 1girl, 1boy, sex from behind,,,Sucy,",
+            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},NSFW,uncensored,{1-3$$anime style,|2D,|anime,},sex,multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion, {1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,},asphyxiation, rolling eyes,,{arms_behind_back, bound_arms, arms bound,|},,{strapless dress,|},{off shoulder,|bare shoulder,|capelet,},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,breasts out,pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy, {chest open,|} ,skinny,anorexia,anorexic,Anorexia nervosa,garigari,thin waist, ,full body, ",
             "populated_text": "",
             "mode": true,
-            "seed": 15754113240639095872,
+            "seed": 11027017252478465212,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -123,12 +123,12 @@
             "title": "positive"
         }
     },
-    "negative": {
+    "negativeWildcard": {
         "inputs": {
-            "wildcard_text": "low quality,worstquality,grayscale,monochrome,lowres,bad proportions,out of focus,,embedding:easynegative.safetensors,,logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,",
+            "wildcard_text": "low quality,worstquality,grayscale,monochrome,lowres,bad proportions,out of focus,,embedding:easynegative.safetensors,,logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,lower body",
             "populated_text": "",
             "mode": true,
-            "seed": 5131400090704088193,
+            "seed": 16834833336913885763,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 368,
             "guide_size_for": true,
             "max_size": 368,
-            "seed": 7092279633256775005,
-            "steps": 25,
-            "cfg": 9,
-            "sampler_name": "dpmpp_sde",
+            "seed": 8540686840324254795,
+            "steps": 59,
+            "cfg": 7,
+            "sampler_name": "euler_ancestral",
             "scheduler": "karras",
-            "denoise": 0.34535422385619946,
+            "denoise": 0.36600104956582613,
             "feather": 5,
             "noise_mask": true,
             "force_inpaint": true,
@@ -164,6 +164,10 @@
             "cycle": 1,
             "inpaint_model": false,
             "noise_mask_feather": 20,
+            "image": [
+                "VAEDecode",
+                0
+            ],
             "model": [
                 "LoraLoader",
                 0
@@ -173,8 +177,8 @@
                 1
             ],
             "vae": [
-                "CheckpointLoaderSimple",
-                2
+                "VAELoader",
+                0
             ],
             "positive": [
                 "CLIPTextEncodeP",
@@ -196,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "hassakuHentaiModel_v13/Sucy_Manbaravan/hassakuHentaiModel_v13-Sucy_Manbaravan-20240902-212034-2",
+            "filename_prefix": "hassakuXLHentai_v12//hassakuXLHentai_v12--20240904-173113-2",
             "images": [
                 "FaceDetailer",
                 0
@@ -255,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "SD\\char\\saegusamayumi-10.safetensors",
+            "lora_name": "Pony\\char\\Eris_PONY.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 3.5574085956100903,
-            "B": 1.3721186110593981,
-            "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "A": 3.998507628995157,
+            "B": 1.6592777656331044,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-Sucy_Manbaravan",
+                "LoraLoader-midori-maid_blue archive_PONY_epoch-000020",
                 0
             ],
             "clip": [
-                "LoraLoader-Sucy_Manbaravan",
+                "LoraLoader-midori-maid_blue archive_PONY_epoch-000020",
                 1
             ]
         },
@@ -279,79 +283,34 @@
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-BalletBoots": {
+    "VAELoader": {
         "inputs": {
-            "category_filter": "All",
-            "lora_name": "SD\\BalletBoots.safetensors",
-            "strength_model": 0.75,
-            "strength_clip": 1,
-            "inverse": false,
-            "seed": 0,
-            "A": 2.886583751277647,
-            "B": 1.713147362316612,
-            "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "bypass": false,
-            "model": [
-                "CheckpointLoaderSimple",
-                0
-            ],
-            "clip": [
-                "CheckpointLoaderSimple",
-                1
-            ]
+            "vae_name": "taesd"
         },
-        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "class_type": "VAELoader",
         "_meta": {
-            "title": "Lora Loader (Block Weight)"
+            "title": "Load VAE"
         }
     },
-    "LoraLoader-DoggystyleFromside1": {
+    "LoraLoader-Kyoker DEF3-000009": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "SD\\DoggystyleFromside1.safetensors",
-            "strength_model": 0.75,
-            "strength_clip": 1,
-            "inverse": false,
-            "seed": 0,
-            "A": 2.3073882922644695,
-            "B": 1.132955822071822,
-            "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "bypass": false,
-            "model": [
-                "LoraLoader-BalletBoots",
-                0
-            ],
-            "clip": [
-                "LoraLoader-BalletBoots",
-                1
-            ]
-        },
-        "class_type": "LoraLoaderBlockWeight //Inspire",
-        "_meta": {
-            "title": "Lora Loader (Block Weight)"
-        }
-    },
-    "LoraLoader-microwaist": {
-        "inputs": {
-            "category_filter": "All",
-            "lora_name": "SD\\microwaist.safetensors",
+            "lora_name": "Pony\\Kyoker DEF3-000009.safetensors",
             "strength_model": 1,
             "strength_clip": 1,
             "inverse": false,
             "seed": 0,
-            "A": 3.338750300104584,
-            "B": 1.6791129041444286,
-            "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "A": 1.7424875399213677,
+            "B": 1.8477369923610882,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-DoggystyleFromside1",
+                "CheckpointLoaderSimple",
                 0
             ],
             "clip": [
-                "LoraLoader-DoggystyleFromside1",
+                "CheckpointLoaderSimple",
                 1
             ]
         },
@@ -360,25 +319,52 @@
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-Sucy_Manbaravan": {
+    "LoraLoader-hina-nosleeves_blue archive_PONY_last": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "SD\\char\\Sucy_Manbaravan.safetensors",
-            "strength_model": 0.75,
+            "lora_name": "Pony\\hina-nosleeves_blue archive_PONY_last.safetensors",
+            "strength_model": 1,
             "strength_clip": 1,
             "inverse": false,
             "seed": 0,
-            "A": 3.9603696997849305,
-            "B": 1.0360062223379802,
-            "preset": "SD-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "A": 1.9294332748013714,
+            "B": 1.02431151067016,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-microwaist",
+                "LoraLoader-Kyoker DEF3-000009",
                 0
             ],
             "clip": [
-                "LoraLoader-microwaist",
+                "LoraLoader-Kyoker DEF3-000009",
+                1
+            ]
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-midori-maid_blue archive_PONY_epoch-000020": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "Pony\\midori-maid_blue archive_PONY_epoch-000020.safetensors",
+            "strength_model": 1,
+            "strength_clip": 1,
+            "inverse": false,
+            "seed": 0,
+            "A": 1.5113473361099161,
+            "B": 1.3025580604484106,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-hina-nosleeves_blue archive_PONY_last",
+                0
+            ],
+            "clip": [
+                "LoraLoader-hina-nosleeves_blue archive_PONY_last",
                 1
             ]
         },
