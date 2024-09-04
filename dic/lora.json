@@ -6,8 +6,8 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
-        "strength_clip": 1,
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
     },
     "balletboots_v1" : {        
         "positive":{
@@ -16,8 +16,8 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
-        "strength_clip": 1,
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
     },
     
     "multiple_insertions_v0.2" : {        
@@ -27,8 +27,8 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
-        "strength_clip": 1,
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
     },
     "DoggystyleFromside1" : {        
         "positive":{
@@ -37,8 +37,8 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
-        "strength_clip": 1,
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
     },
     "hyper_penetration_stomach_bulge_v8all-000004" : {        
         "positive":{
@@ -47,7 +47,17 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
-        "strength_clip": 1,
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "bulgesuperXLPony" : {        
+        "positive":{
+            "bulgesuperXLPony":" absurd stomach bulge, stomach bulge,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
     },
 }

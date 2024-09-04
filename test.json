@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "Pony\\hassakuXLHentai_v12.safetensors"
+            "ckpt_name": "Pony\\mklanNSFWANIMEHentai_mklan233hentaiHyper.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,10 +10,10 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 5431975710001970636,
-            "steps": 40,
+            "seed": 16589562527158738143,
+            "steps": 54,
             "cfg": 7,
-            "sampler_name": "dpmpp_2m_sde",
+            "sampler_name": "euler_ancestral",
             "scheduler": "karras",
             "denoise": 1,
             "model": [
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "hassakuXLHentai_v12//hassakuXLHentai_v12--20240904-173113-1",
+            "filename_prefix": "mklanNSFWANIMEHentai_mklan233hentaiHyper/Diana_Cavendish-000006/mklanNSFWANIMEHentai_mklan233hentaiHyper-Diana_Cavendish-000006-20240904-203506-1",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},NSFW,uncensored,{1-3$$anime style,|2D,|anime,},sex,multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion, {1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,},asphyxiation, rolling eyes,,{arms_behind_back, bound_arms, arms bound,|},,{strapless dress,|},{off shoulder,|bare shoulder,|capelet,},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,breasts out,pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy, {chest open,|} ,skinny,anorexia,anorexic,Anorexia nervosa,garigari,thin waist, ,full body, ",
+            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},NSFW,uncensored,{1-3$$anime style,|2D,|anime,},sex,multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion, {1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,},asphyxiation, rolling eyes,,{arms_behind_back, bound_arms, arms bound,|},,school uniform, socks, {|witch robe, witch hat,} ,{off shoulder,|bare shoulder,|capelet,},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,breasts out,pussy,exposure, breasts exposure,  nipples exposure, pussy exposure,breast exposed,breasts exposed,  exposed breasts, exposed pussy, {chest open,|} ,skinny,anorexia,anorexic,Anorexia nervosa,garigari,thin waist, ,full body, ,score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, 1girl, Diana, multicolored hair, blue eyes,   , ",
             "populated_text": "",
             "mode": true,
-            "seed": 11027017252478465212,
+            "seed": 11729162504346612594,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -128,7 +128,7 @@
             "wildcard_text": "low quality,worstquality,grayscale,monochrome,lowres,bad proportions,out of focus,,embedding:easynegative.safetensors,,logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,lower body",
             "populated_text": "",
             "mode": true,
-            "seed": 16834833336913885763,
+            "seed": 4185901230297167151,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 368,
             "guide_size_for": true,
             "max_size": 368,
-            "seed": 8540686840324254795,
-            "steps": 59,
-            "cfg": 7,
-            "sampler_name": "euler_ancestral",
+            "seed": 6578067959951578721,
+            "steps": 42,
+            "cfg": 10,
+            "sampler_name": "dpmpp_2m",
             "scheduler": "karras",
-            "denoise": 0.36600104956582613,
+            "denoise": 0.3684169367489678,
             "feather": 5,
             "noise_mask": true,
             "force_inpaint": true,
@@ -200,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "hassakuXLHentai_v12//hassakuXLHentai_v12--20240904-173113-2",
+            "filename_prefix": "mklanNSFWANIMEHentai_mklan233hentaiHyper/Diana_Cavendish-000006/mklanNSFWANIMEHentai_mklan233hentaiHyper-Diana_Cavendish-000006-20240904-203506-2",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\Eris_PONY.safetensors",
+            "lora_name": "Pony\\char\\Diana_Cavendish-000006.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 3.998507628995157,
-            "B": 1.6592777656331044,
+            "A": 2.6409041667408495,
+            "B": 1.7816622593348783,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-midori-maid_blue archive_PONY_epoch-000020",
+                "LoraLoader-queen_elizabeth_(meta)_XL-bf16-pony-v1",
                 0
             ],
             "clip": [
-                "LoraLoader-midori-maid_blue archive_PONY_epoch-000020",
+                "LoraLoader-queen_elizabeth_(meta)_XL-bf16-pony-v1",
                 1
             ]
         },
@@ -285,23 +285,23 @@
     },
     "VAELoader": {
         "inputs": {
-            "vae_name": "taesd"
+            "vae_name": "taesdxl"
         },
         "class_type": "VAELoader",
         "_meta": {
             "title": "Load VAE"
         }
     },
-    "LoraLoader-Kyoker DEF3-000009": {
+    "LoraLoader-Diana_Cavendish-000006": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\Kyoker DEF3-000009.safetensors",
-            "strength_model": 1,
+            "lora_name": "Pony\\char\\Diana_Cavendish-000006.safetensors",
+            "strength_model": 0.5707758805291568,
             "strength_clip": 1,
             "inverse": false,
             "seed": 0,
-            "A": 1.7424875399213677,
-            "B": 1.8477369923610882,
+            "A": 3.140395365480875,
+            "B": 1.311870875406921,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -319,25 +319,25 @@
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-hina-nosleeves_blue archive_PONY_last": {
+    "LoraLoader-Mutsuki_Pony-10": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\hina-nosleeves_blue archive_PONY_last.safetensors",
-            "strength_model": 1,
+            "lora_name": "Pony\\Mutsuki_Pony-10.safetensors",
+            "strength_model": 0.08454509588928727,
             "strength_clip": 1,
             "inverse": false,
             "seed": 0,
-            "A": 1.9294332748013714,
-            "B": 1.02431151067016,
+            "A": 3.1423971616749893,
+            "B": 1.271623700205907,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-Kyoker DEF3-000009",
+                "LoraLoader-Diana_Cavendish-000006",
                 0
             ],
             "clip": [
-                "LoraLoader-Kyoker DEF3-000009",
+                "LoraLoader-Diana_Cavendish-000006",
                 1
             ]
         },
@@ -346,25 +346,52 @@
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-midori-maid_blue archive_PONY_epoch-000020": {
+    "LoraLoader-Consome style (pony)": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\midori-maid_blue archive_PONY_epoch-000020.safetensors",
-            "strength_model": 1,
+            "lora_name": "Pony\\Consome style (pony).safetensors",
+            "strength_model": 0.5213672681384723,
             "strength_clip": 1,
             "inverse": false,
             "seed": 0,
-            "A": 1.5113473361099161,
-            "B": 1.3025580604484106,
+            "A": 3.111905289976768,
+            "B": 1.0210851428895138,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-hina-nosleeves_blue archive_PONY_last",
+                "LoraLoader-Mutsuki_Pony-10",
                 0
             ],
             "clip": [
-                "LoraLoader-hina-nosleeves_blue archive_PONY_last",
+                "LoraLoader-Mutsuki_Pony-10",
+                1
+            ]
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-queen_elizabeth_(meta)_XL-bf16-pony-v1": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "Pony\\queen_elizabeth_(meta)_XL-bf16-pony-v1.safetensors",
+            "strength_model": 0.3918753178949066,
+            "strength_clip": 1,
+            "inverse": false,
+            "seed": 0,
+            "A": 3.137532876498663,
+            "B": 1.5794888519875268,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-Consome style (pony)",
+                0
+            ],
+            "clip": [
+                "LoraLoader-Consome style (pony)",
                 1
             ]
         },

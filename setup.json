@@ -1,15 +1,18 @@
 {
+    "debug":True,
     "totalMax":1280,
     "ckptMax":64,
     "listMax":4,
     "Path":"SD",
     "Path":"Pony",
-    "CheckpointPath":"hosekiLustrousmixPony_v20.*",
-    "CheckpointPath":"*.*",
-    "CharPath":"char/*.*",
-    "LoraPath":"*.*",
+    "CheckpointPath":"hosekiLustrousmixPony_v20.safetensors",
+    "CheckpointPath":"*.safetensors",
+    "CharPath":"char/*.safetensors",
+    "CharPath":"char/Diana_Cavendish-000006.safetensors",
+    "LoraPath":"*.safetensors",
     "LoraAdd":True,
     "LoraAddCnt":(1,3),
+    "perList":0.0,
     #"noFaceDetailer":True,
     "noFaceDetailer":False,
     "workflow":{
@@ -52,8 +55,8 @@
         #    "filename_prefix": "ComfyUI"
         #},
         "VAELoader":{
-            "vae_name": "taesd"
-            "vae_name": "taesdxl"
+            "vae_name": "taesd",
+            "vae_name": "taesdxl",
         },
     },
     "positive":{
@@ -78,6 +81,14 @@
         "etc":"logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,",
         "bad":"bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,",
         "shot":"lower body",
+    },
+    "charSet":{
+        "strength_model": (0.75,1.0),
+        "strength_clip": 1,
+    },
+    "loraSet":{
+        "strength_model": (0.0,1.0),
+        "strength_clip": 1,
     },
     "shuffle":False,
     "queue_prompt_wait":True,

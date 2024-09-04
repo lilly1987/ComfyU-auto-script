@@ -7,8 +7,8 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
-        "strength_clip": 1,
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
     },
     "EriIbusaki-10" : {        
         "positive":{
@@ -29,8 +29,8 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
-        "strength_clip": 1,
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
     },
     "mayumi-mahouka-01" : {        
         "positive":{
@@ -40,7 +40,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
+        "strength_model": (0.5,1.0),
         "strength_clip": 1,
     },
     "MahoukaMayumi-v1-06" : {        
@@ -51,7 +51,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
+        "strength_model": (0.5,1.0),
         "strength_clip": 1,
     },
     "saegusamayumi-10" : {        
@@ -62,7 +62,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
+        "strength_model": (0.5,1.0),
         "strength_clip": 1,
     },
     "Saegusa_Mayumi_MagicHighSchool-KK77-V1" : {        
@@ -73,7 +73,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
+        "strength_model": (0.5,1.0),
         "strength_clip": 1,
     },
     "mayumi_v1.0-000002" : {        
@@ -84,7 +84,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
+        "strength_model": (0.5,1.0),
         "strength_clip": 1,
     },
     "Mayumi Saegusa-lora-Faxtron" : {        
@@ -95,7 +95,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
+        "strength_model": (0.5,1.0),
         "strength_clip": 1,
     },
     "Inagaki Sae(sk)" : {        
@@ -117,7 +117,43 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": 0.75,
+        "strength_model": (0.5,1.0),
         "strength_clip": 1,
     },
+	"Diana_Cavendish-000006": {	
+        "positive":{
+            "char":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, 1girl, Diana, multicolored hair, blue eyes,   ",
+            "hair":" ",
+            "dress": "school uniform, socks, {|witch robe, witch hat,} ",
+        },
+        "strength_model": (0.5,1.0),
+    },
+	"mika-jougasaki-ponyxl-lora-nochekaiser": {	
+        "positive":{
+            "char":"mika jougasaki, hair bow, long hair, pink hair, yellow eyes, ponytail,  ",
+            "hair":" ",
+            "dress": "bow, clothes around waist, plaid, plaid skirt, school uniform, skirt, sweater, sweater around waist,",
+        },
+    },
+	"mki-pony-jade-v4": {	
+        "positive":{
+            "char":"jade, honkai: star rail,  ",
+            "hair":" hat,",
+            #"dress": "bow, clothes around waist, plaid, plaid skirt, school uniform, skirt, sweater, sweater around waist,",
+        },
+    },
+	"sumomo_blue archive_PONY_last": {	
+        "positive":{
+            "char" :"{sumomo-default|sumomo-leotard},",
+            "hair":"sumomo \(blue archive\),orange eyes, white hair, long hair, two side up,horn,pointy ears,halo,demon tail, ",
+            #"dress": "bow, clothes around waist, plaid, plaid skirt, school uniform, skirt, sweater, sweater around waist,",
+        },
+    },
+	"Sorasaki_Hina_Pony-10": {	
+        "positive":{
+            "char" :"1girl, {purple_eyes, white_hair, very_long_hair, ahoge, parted_bangs, small_breasts, halo, black_horns, demon_girl, demon_horns, demon_wings|purple_eyes, white_hair, long_hair, ponytail, halo, demon_girl, demon_horns, demon_wings, hair_ribbon, black_ribbon, necklace, purple_dress, purple_pantyhose, sidelocks, wavy_hair, strapless_dress, elbow_gloves, purple_gloves, dangle_earrings, pearl_necklace, official_alternate_hairstyle, official_alternate_costume}, ",
+            
+        },
+    },
+
 }

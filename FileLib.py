@@ -36,16 +36,17 @@ def readDic(path,dic={}):
         raise
     
     
-def GetFileList(path,dir="."):
+def GetFileList(path,dir=".",regex=None):
     list=[i.relative_to(dir) for i in Path(dir).glob(path)]
+    #print("list",list)
     #if not d is None:
     #    for f in list:
     #        #print(os.path.relpath(f,d))
     #        print(PurePath.relative_to(f,d))
     return list
     
-def GetFileDic(path,dir="."):
-    list=GetFileList(path,dir)
+def GetFileDic(path,dir=".",regex=None):
+    list=GetFileList(path,dir,regex)
     dic=dict(zip( [i.stem for i in list], list))
     #if not d is None:
     #    for f in list:

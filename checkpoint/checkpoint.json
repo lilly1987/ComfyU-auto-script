@@ -20,7 +20,45 @@
         },
         #"steps": (30,60),
         "cfg": (4,8),
-        #Euler a or DPM++ 2M Karras
         "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "omegaPonyXLAnime_v20" : {        
+        "positive":{
+            "quality":"score_9,{score_8_up, score_7_up,|} ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, 3d, photo, hyperrealistic, realstic, rough sketch, fewer digits, extra digits, signature, artist name, ",
+			"style":",",
+        },
+        #"steps": (30,60),
+        #"cfg": (4,8),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "specterPDXL_v10" : {        
+        #"positive":{
+        #    "quality":"score_9,{score_8_up, score_7_up,|} ",
+        #    #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        #},
+        #"negative":{
+        #    "isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, 3d, photo, hyperrealistic, realstic, rough sketch, fewer digits, extra digits, signature, artist name, ",
+		#	"style":",",
+        #},
+        "steps": (30,50),
+        #"cfg": (4,8),
+        "sampler_name": ["dpmpp_3m_sde",],
+    },
+    "aaaautismPonyFinetune_rsLightning4steps" : {        
+        #"positive":{
+        #    "quality":"score_9,{score_8_up, score_7_up,|} ",
+        #    #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        #},
+        #"negative":{
+        #    "isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, 3d, photo, hyperrealistic, realstic, rough sketch, fewer digits, extra digits, signature, artist name, ",
+		#	"style":",",
+        #},
+        "steps": 4,
+        #"cfg": (4,8),
+        "sampler_name": ["dpmpp_3m_sde",],
     },
 }

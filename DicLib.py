@@ -19,4 +19,19 @@ def updatek(d, u, k):
         else:
             d[k]=u[k]
     return d
-    
+
+
+def updaten(d, u):
+    for k, v in u.items():
+        if isinstance(v, collections.abc.Mapping):
+            d[k] = updaten(d.get(k, {}), v)
+        else:
+            if not k in d:
+                d[k] = v
+    return d
+
+        # A 
+        #   B
+        # C D
+        # =ABC
+        # !ABD
