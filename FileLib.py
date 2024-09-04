@@ -24,7 +24,7 @@ def readJson(path,dic={}):
     
 def readDic(path,dic={}):
     try:
-        with open(path) as file:
+        with open(path, encoding='UTF8') as file:
             #dic = json.load(file)
             text=file.read()
             text=text.replace('true', 'True')

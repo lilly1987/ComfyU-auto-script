@@ -10,7 +10,30 @@
         #"steps": (30,30),
         #"cfg": (4,10),
     },
-    "honeyMixXLHighContrast_v1" : {        
+    "baseAnimeStylePony_v3" : {# 
+        "positive":{
+            "quality":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            #"quality":"monochrome, greyscale",
+        },
+        #"steps": (30,60),
+        #"cfg": (4,8),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "0001Pony_v2" : {# -
+        "positive":{
+            "isXl":"score_9, score_8_up, score_7_up, score_6_up, source_anime,",
+        },
+        "negative":{
+            "isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, rough sketch, fewer digits, extra digits, signature, artist name, ",	
+        },
+        #"steps": (30,60),
+        "cfg": (4,8),
+        "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "honeyMixXLHighContrast_v1" : {# -
         "positive":{
             "quality":"score_9, score_8_up, source_anime, ",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
@@ -22,9 +45,108 @@
         "cfg": (4,8),
         "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
+    "copycatPVC_v20" : {        
+        "positive":{
+            #"quality":"score_9, score_8_up, score_7_up, source_anime ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            #"isXl":"source_pony, source_furry, simple background, monochrome, greyscale, lowres, low detail, blurry, bad anatomy, bad proportions, deformed, deformed anatomy, deformed fingers, , ",
+			#"style":",",
+        },
+        #"steps": (30,60),
+        #"cfg": (4,8),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "monstercoffeecelsiusMix_v10" : {        
+        "positive":{
+            "quality":"score_9, score_8_up, score_7_up, source_anime ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "isXl":"source_pony, source_furry, simple background, monochrome, greyscale, lowres, low detail, blurry, bad anatomy, bad proportions, deformed, deformed anatomy, deformed fingers, , ",
+			"style":",",
+        },
+        #"steps": (30,60),
+        #"cfg": (4,8),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "icatcherAnime_v10" : {        
+        "positive":{
+            "quality":"score_9, score_8_up, score_7_up, source_anime ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "isXl":"source_pony, source_furry, simple background, monochrome, greyscale, lowres, low detail, blurry, bad anatomy, bad proportions, deformed, deformed anatomy, deformed fingers, , ",
+			"style":",",
+        },
+        #"steps": (30,60),
+        #"cfg": (4,8),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "novaAnimeXL_ponyV40" : {        
+        "positive":{
+            "quality":"BREAK score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, BREAK ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "isXl":"score_4, score_5, 3d, jpeg artifacts, username, watermark, signature, normal quality, worst quality, large head, low quality, text, error, missing fingers, extra digits, fewer digits, bad eye,",
+        },
+        #"steps": (30,60),
+        #"cfg": (4,8),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "novaAnimeXL_ponyV20" : {        
+        "positive":{
+            "quality":"BREAK score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, BREAK ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "isXl":"score_4, score_5, 3d, jpeg artifacts, username, watermark, signature, normal quality, worst quality, large head, low quality, text, error, missing fingers, extra digits, fewer digits, bad eye,",
+        },
+        #"steps": (30,60),
+        #"cfg": (4,8),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "xermix_v10" : {        
+        "positive":{
+            #"quality":"score_9, score_8_up, score_7_up, source_anime, ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            #"isXl":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils, abs,",
+        },
+        #"steps": (30,60),
+        #"cfg": (4,8),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "4goldmixl_v111" : { #+
+        "positive":{
+            #"quality":"score_9, score_8_up, score_7_up, source_anime, ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            #"isXl":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils, abs,",
+        },
+        #"steps": (30,60),
+        #"cfg": (4,8),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "momoiropony_v14" : { # -
+        "positive":{
+            "quality":"score_9, score_8_up, score_7_up, source_anime, ",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "isXl":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils, abs,",
+        },
+        #"steps": (30,60),
+        #"cfg": (4,8),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
     "omegaPonyXLAnime_v20" : {        
         "positive":{
-            "quality":"score_9,{score_8_up, score_7_up,|} ",
+            "quality":"score_9,{score_8_up, score_7_up, ",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
         },
         "negative":{
@@ -37,7 +159,7 @@
     },
     "specterPDXL_v10" : {        
         #"positive":{
-        #    "quality":"score_9,{score_8_up, score_7_up,|} ",
+        #    "quality":"score_9,{score_8_up, score_7_up, ",
         #    #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
         #},
         #"negative":{
@@ -47,6 +169,19 @@
         "steps": (30,50),
         #"cfg": (4,8),
         "sampler_name": ["dpmpp_3m_sde",],
+    },
+    "defactaXL3_v30Animagine" : {        
+        #"positive":{
+        #    "quality":"score_9,{score_8_up, score_7_up,|} ",
+        #    #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        #},
+        #"negative":{
+        #    "isXl":"score_4, score_5, score_6, source_pony, source_furry, monochrome, 3d, photo, hyperrealistic, realstic, rough sketch, fewer digits, extra digits, signature, artist name, ",
+		#	"style":",",
+        #},
+        #"steps": 4,
+        #"cfg": (4,8),
+        #"sampler_name": ["dpmpp_3m_sde",],
     },
     "aaaautismPonyFinetune_rsLightning4steps" : {        
         #"positive":{

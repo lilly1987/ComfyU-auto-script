@@ -9,9 +9,102 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+	"bulgeallXLPony": {	
+        "positive":{
+         "bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",
+        },
+    },
+	"W-W-Chain": {	
+        "positive":{
+            "w-w-chain" :"w-w-chain, spread arms,",
+        },
+    },
+	"bulgeniceXLPony": {	
+        "positive":{
+            "bulgeniceXLPony": "stomach bulge,",        
+        },
+    },
+	"Concept_Double_penetration_from_behind": {	
+        "positive":{
+          "Concept_Double_penetration_from_behind":" dp_from_behind, double penetration,",
+			"view":" behind view,",
+        },
+    },
+    "onarmor_pony_xl" : {        
+        "positive":{
+            "onarmor" :"onarmor, girl in front, fanny packing, meat shield, cock sleeve,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "bulgeallXLPony" : {        
+        "positive":{
+            "bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "balletboots_v1" : {        
         "positive":{
             "balletboots_v1":"ballet boots,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Hanging_Legs_Sex-000017" : {        
+        "positive":{
+            "HangingLegsER, sex," :"HangingLegsER, sex,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "XL-Beheadv2-000012" : {        
+        "positive":{
+            "isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+            "hang":"{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Masturbation with dildo (pony) v1" : {        
+        "positive":{
+            "Masturbation":"female masturbation, object insertion, dildo grab,vaginal object insertion, vaginal,anal object insertion, anal,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Concept_X-ray_vision" : {        
+        "positive":{
+            "Concept_X-ray_vision":"1girl, 1boy, {xrayvision, x-ray, penis,|fellatio, irrumatio, deepthroat, oral, cum in mouth|sex, vaginal, internal cumshot, cum in vagina,},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "ladypot-anxl31-000100" : {        
+        "positive":{
+            "ladypot-anxl31-000100" :"1girl, lady pot， xxxx pot, pot handle, breasts, pussy, anus, jewelry,",
+            "pose":"",
         },
         #"negative":{
         #    "foot":"",
@@ -29,6 +122,203 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "Side-by-side_BJ" : {        
+        "positive":{
+            "Side-by-side_BJ":" fellatio, side view,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Expressive_H-000001" : {        
+        "positive":{
+            "Expressive_H-000001":"Expressiveh,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "extrem insertion_Pony_V1.0" : {        
+        "positive":{
+            "insertion_Pony_V1":" extrem insertion, vaginal, stomach bulge,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "XL-hang-board-test-000012" : {        
+        "positive":{
+		"isXl":" score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+		"hang":" {shouting,|3::} nervous, ((jumping)),((dancing)), full body,{(blush),|3::},{sad,|}{open mouth,|3::}arms behind back,from_below, [[rope on neck]],,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    " kettlebell_Pony_Rev3" : {        
+        "positive":{
+            "kettlebell" :"kettlebell, ball and chain restraint, ankle cuffs,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "extreme_insertion_ponyXL_v1.2" : {        
+        "positive":{
+            "extreme_insertion_ponyXL_v1" :"stomach bulge, extreme insertion, large insertion, x-ray,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "pussybursterXVer001" : {        
+        "positive":{
+            "pussybursterXVer001":"nsfw, pussybursterX, birthing monster, pussyburster, monster, alien, vaginal insertion,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "hug and suck-v1" : {        
+        "positive":{
+            "hug and suck-v1":"deepthroat,fellatio,",	
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Re-hang-XL-3-000008" : {        
+        "positive":{
+            "isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+            "hang":"{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "handcuffs" : {        
+        "positive":{
+            "handcuffs" :"handcuffs,bound,bound wrists,looking at viewer,bound,bondage,bdsm,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "sexmen_pony" : {        
+        "positive":{
+            "fatmenx" :"fatmenx,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "execution_hanged_pony_v2" : {        
+        "positive":{
+            "execution_hanged_pony_v2":"{1-3$$hanged, |hanging,| hanging executed,} {asphyxiation,| },arm behind back, {vibrator,|}",
+            "pose":"",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "crucifixionponyxl1-10-8dim" : {        
+        "positive":{
+            "crucifixionponyxl1":" crucifixion, ",
+            "view":"{side view,|front view,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Concept_Gigantic_stomach_bulge" : {        
+        "positive":{
+            "Concept_Gigantic_stomach_bulge":" gigantic bulge, gigantic penis, hyper stomach bulge, large insertion, 1girl, sex, breasts, testicles, barefoot, ",
+            "view":"{side view,|front view,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Extreme_tiny" : {        
+        "positive":{
+            "Extreme_tiny" :"Tiny woman,Minigirl,Extreme Size Difference,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "BBQ_pony_v1_guillotine_merge" : {        
+        "positive":{
+            "BBQ_pony_v1":"cooked,cooking,cannibalism,bondage,insertion, ",
+            "pose":"",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "monsterXgirl_alien" : {        
+        "positive":{
+            "monsterXgirl":" monsterXgirl,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "hong_doo" : {        
+        "positive":{
+            #"dildo_motion_blur":"dildo, motion blur,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "dildo_motion_blur" : {        
+        "positive":{
+            "dildo_motion_blur":"dildo, motion blur,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    
     "cowgirl_position_nonpov_xl" : {        
         "positive":{
             "cowgirl_position_nonpov_xl":"1boy, sex, cowgirl position, girl on top, straddling",

@@ -109,6 +109,85 @@
         "strength_model": (0.6,1.0),
         "strength_clip": 1,
     },
+    "Yusa_Kozue-75" : {        
+        "positive":{
+            "char":" yusa kozue, blonde hair, green eyes, twintails",
+            #"dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": 1,
+    },
+    "Hiro_Shinosawa_Pony-10" : {        
+        "positive":{
+            "char":"Shinosawa_Hiro,orange_eyes, blonde_hair, very_long_hair, asymmetrical_bangs, small_breasts, blonde_eyelashes,",
+            "dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": 1,
+    },
+    "mutsuki_blue archive_PONY_last" : {        
+        "positive":{
+             "char":"{(mutsuki-default:1.2), mutsuki \(blue archive\),purple eyes,white hair,side ponytail,halo,pointy ears,cropped jacket,short sleeves,high-waist skirt, frilled skirt,black boots,a thigh strap|(mutsuki-kimono:1.2), mutsuki \(blue archive\),purple eyes,white hair,hair bun,hair flower,halo,pointy ears,japanese clothes,white kimono,zouri,tabi,|(mutsuki-dress:1.2),mutsuki \(blue archive\),purple eyes,white hair,long hair,hairband,red dress,fishnets,high heels,|mutsuki-suit, mutsuki \(blue archive\),purple eyes,white hair,low ponytail,halo,pointy ears,red necktie,suit,shorts,white socks,black footwear|mutsuki-jantama,mutsuki \(blue archive\),purple eyes, white hair,long hair,twintails,pointy ears,halo,hair ornament,china dress,pelvic curtain,detached sleeves,thighhighs}, ",
+           
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+       #"strength_model": (0.5,1.0),
+       #"strength_clip": 1,
+    },
+    "ark_royal_XL-bf16-pony-v1" : {        
+        "positive":{
+             "char" :"ark royal \(azur lane\),",
+             "hair" :"very_long_hair, ponytail,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+       #"strength_model": (0.5,1.0),
+       #"strength_clip": 1,
+    },
+    "hare_blue archive_PONY_epoch-000020" : {        
+        "positive":{
+            "char":"hare-default,hare \(blue archive\),green eyes, white hair,ponytail,halo,hairclip,(white jacket:1.2),black hoodie,long sleeves,black footwear,",
+        #"hair":", ",
+        "dress": " ,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+       #"strength_model": (0.5,1.0),
+       #"strength_clip": 1,
+    },
+    "iori_blue archive_PONY_epoch-000020" : {        
+        "positive":{
+            "char":"iori-default, iori \(blue archive\),red eyes,grey hair,pointy ears,twintail,long hair,hair ribbon,halo,{|demon tail,white shirt,black necktie,black skirt,black boots,high heels,gloves,}",
+                #"dress":"",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+       #"strength_model": (0.5,1.0),
+       #"strength_clip": 1,
+    },
+    "elaina_majo no tabitabi_PONY_last" : {        
+        "positive":{
+             "char" :"{elaina-default,elaina \(majo no tabitabi\),purple eyes, grey hair, white hair, long hair,witch hat,collared shirt,robe,wide sleeves,pleated skirt,frilled skirt,pointy footwear,|elaina-inner,elaina \(majo no tabitabi\),purple eyes, grey hair, white hair, long hair,ahoge,sleeveless,sleeveless shirt,white shirt,pleated skirt,frilled skirt,}",
+            #"hair":"",
+            "dress":"",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+       #"strength_model": (0.5,1.0),
+       #"strength_clip": 1,
+    },
     "Sucy_Manbaravan" : {        
         "positive":{
             "char":"Sucy,",
@@ -117,12 +196,37 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": (0.5,1.0),
-        "strength_clip": 1,
+       #"strength_model": (0.5,1.0),
+       #"strength_clip": 1,
+    },
+	"shinshuumaru-09": {	
+        "positive":{
+            "char":"shinshuumaruKC, long hair,ahoge,twin braid, long sleeves, dress, ribbon, belt, {hood,|} black dress, twin braids, capelet, hood up, black capelet, {hooded capelet,|} black skirt,,",
+            "hair":", ",
+            "dress": ",",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Mutsuki_Pony-10": {	
+        "positive":{
+            "char":"Mutsuki_\(Blue_Archive\),",
+            "hair":" ",
+            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Diana": {	
+        "positive":{
+            "char":"1girl, Diana, multicolored hair, blue eyes,   ",
+            "hair":" ",
+            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+        },
+        #"strength_model": (0.5,1.0),
     },
 	"Diana_Cavendish-000006": {	
         "positive":{
-            "char":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, 1girl, Diana, multicolored hair, blue eyes,   ",
+            "quality":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, ,   ",
+            "char":"1girl, Diana, multicolored hair, blue eyes,   ",
             "hair":" ",
             "dress": "school uniform, socks, {|witch robe, witch hat,} ",
         },
@@ -152,21 +256,87 @@
 	"Edel_PONY_from_Sousou_no_Frieren": {	
         "positive":{
             "char" :"Edel , light brown hair, bob hair, splashed hair tips, center part bangs, brown eyes, slant eyes, droopy eyes,,",
-            "hair":",",
+            
             "dress":"{white one-piece, white mini skirt one-piece,  white one-piece dress, puffy sleeves, short sleeves, black thighhigh boots,},",
+        },
+    },
+	"momoi-default_blue archive_PONY_last": {	
+        "positive":{
+            "char":"momoi-default,momoi \(blue archive\),pink eyes,blonde hair,halo,animal ear headphones, tail,jacket front red bow,multicolored jacket,wide sleeves,white shirt,blue necktie, pleated skirt,black thighhighs,pink footwear ",
+            #"dress":",",
+        },
+    },
+	"momoi-maid_blue archive_PONY_epoch-000020": {	
+        "positive":{
+            "char":"momoi-maid,momoi \(blue archive\),pink eyes,two side up,blonde hair,halo,animal ear headphones, tail,headdress,black dress,frilled apron,white pantyhose,mary janes ",
+            #"dress":",",
+        },
+    },
+	"pokemon-serena-ponyxl-lora-nochekaiser": {	
+        "positive":{
+            "char":"serena, long hair, blue eyes, brown hair,  ",
+            #"dress":",",
+        },
+    },
+	"Mahouka-08": {	
+        "positive":{
+            "isXl":", score_9, source anime, , ",
+            "char" :" 1girl, saegusa mayumi, hair ribbon,",
+        },
+    },
+	"Anemone - Eureka Seven-000005": {	
+        "positive":{
+            "char":" AnemoneE7, long hair, pink hair, purple eyes, hair ornament, hairclip, collar, choker, neck ring,",
+        },
+    },
+	"sdxl-mdm-nephelia-pony": {	
+        "positive":{
+            "char":"nephelia, elf, blue eyes, pointy ears, white hair, very long hair, bangs, hair red bow, braid,  chain, metal collar, ",
+            "hair":"long hair,",
+        },
+    },
+	"Ursula_Callistis_-_Little_Witch_Academia_Commission": {	
+        "positive":{
+            "char":"{ursula, 1girl, hat, witch hat, glasses, blue hair, witch, red eyes, choker, belt, long sleeves, dress, long hair, side ponytail, wide sleeves, boots|ursula, 1girl, hat, witch hat, red hair, glasses, boots, witch, dress, belt, long hair, wide sleeves, long sleeves, side ponytail,},  ",
+        },
+    },
+	"midori-default_blue archive_PONY_last": {	
+        "positive":{
+            "char" :"midori-default,midori \(blue archive\),green eyes,blonde hair,halo,blue hair ribbon,animal ear headphones, tail,multicolored jacket,wide sleeves,white shirt, blue necktie, shorts,black thighhighs,green footwear,",
+            "hair":"{3::long hair|},",
+        },
+    },
+	"blazing_cartesia_the_virtuous_XL-bf16-pony-v1": {	
+        "positive":{
+            "char":"blazing cartesia the virtuous, sleeveless dress, veil, elbow gloves,  ",
+        },
+    },
+	"natalia_autismConfetti_v02": {	
+        "positive":{
+            "char":" natalia \(tales\), blonde hair, short hair, green eyes, bangs, hairband, ascot, orange ascot, frills, thigh boots, pantyhose, frilled collar, white gloves, wrist bow,, ",
+        },
+    },
+	"hoodAL-ponyxl-bshi-v1": {	
+        "positive":{
+            "char":"hair over shoulder, long hair, blue eyes, blonde hair, swept bangs,  ",
+            "hair":"{hoddef, union jack capelet, blue coat, white hat, tilted headwear, long sleeves, white gloves, yellow sash, blue skirt, frills, brown pantyhose, fur collar, white ascot, earrings,|hodwed, wedding dress, cleavage, collarbone, necklace, see-through, long dress, bouquet, bridal veil, bridal gauntlets|hodyuk,blue kimono, white sash, long sleeves, wide sleeves,hair flower, floral print|hodparty, gala dress, strapless white dress, white elbow gloves, cleavage, jewelry, white coat, coat on shoulders, hair ornament, hair flower, white flower, taut dress, buttons, detached collar, drill hair|__dress__},",
+			"dress":",",
+        },
+    },
+	"知更鸟pony": {	
+        "positive":{
+            "char":"robin, a girl named robin, 1girl, white dress, bare shoulders, halo, white gloves, earrings, bracelet,head wings,  ",
         },
     },
 	"mki-pony-jade-v4-000050": {	
         "positive":{
             "char" :"jade, honkai: star rail, hat,",
-            "hair":",",
-            #"dress":",",
         },
     },
 	"celia claire_PONY_epoch-000016": {	
         "positive":{
             "char":"celia-default,  ",
-            "hair":",",
+            
             "dress":"celia claire,blue eyes,grey hair,two side up,hair ribbon,white capelet,white frilled shirt,long sleeves, blue dress, black pantyhose,blue headwear,purple footwear,",
             #"dress":",",
         },
@@ -174,28 +344,153 @@
 	"Hannah_littlewitch": {	
         "positive":{
             "char":"hannah, 1girl,  brown hair,  ponytail,  grey eyes,,  ",
-            "hair":",",
+            
             "dress":"luna nova school uniform school uniform,socks, shoes,yellow ribbon, white shirt, skirt, shirt, collared shirt, long sleeves, loafers, blue vest, vest, kneehighs, blue socks,,",
         },
     },
 	"Saegusa_Mayumi": {	
         "positive":{
             "char":"saegusa mayumi, long hair,black hair,red eyes ,  ",
-            "hair":",",
+            
             #"dress":",",
         },
     },
 	"PinkHairWitchV1": {	
         "positive":{
             "char" :"1girl,gloves,hat,feathers on the hat,white hat,long hair,pink hair,brown hair,hat,hat ornament,blue eyes,leather gloves,pink necktie,long hair,halterneck,expressionless,detached collar,green dress,,thigh strap,breasts,brown hair,multicolored hair,frills,ribbon,bangs,witch,standing,belt,hair ornament,bare shoulders,,",
-            "hair":",",
+            
             "dress":",",
+        },
+    },
+	"kudelia-aina-bernstein-ponyxl-lora-nochekaiser": {	
+        "positive":{
+             "char":"kudelia aina bernstein, purple eyes, long hair, blonde hair, bangs, blunt bangs,, ponytail,",
+        "hair":", ",
+        "dress": "{gloves, dress, red dress, white gloves, capelet, gown, red gown, apricot, black apricot,|__dress__|},",   
+        },
+    },
+	"Akira NEW-000008": {	
+        "positive":{
+             "char" :"Kojikira, blonde hair, long hair, blue eyes, hairband, hairclip, red bowtie, black vest, white shirt, black skirt, long sleeves,",
+        },
+    },
+	"Kyoker DEF3-000009": {	
+        "positive":{
+            "char":"Kyoker, single side braid,  purple eyes,   ",
+            
+            "dress":"{ black gloves, purple jacket, brown necktie, white shirt, purple skirt,|__dress__},",
+        },
+    },
+	"PookyBooVTXL - by KillerUwU13_AI": {	
+        "positive":{
+            "char":"PookyBooVTXL, pink eyes, white hair, long hair, hair between eyes, ahoge, animal ears, hair ornament, black dress, bare shoulders, sleeveless, skirt, black ribbon, black ribbon on waist,",
+        },
+    },
+	"sdxl-sf-yor_briar-pony": {	
+        "positive":{
+            "char" :"yor briar, {yor forgfer| jimufuku | ibarahime},",
+        },
+    },
+	"ellen": {	
+        "positive":{
+          "char" :"ellen_baker,",
+        },
+    },
+	"OrchidXL_Anything": {	
+        "positive":{
+          #"char" :"long hair, grey hair, yellow eyes, ,",
+        },
+    },
+	"caitlin.pony": {	
+        "positive":{
+          "char":"caitlin,{ bw,| plat,|cos,},",
+        },
+    },
+	"Amor_Caren_Hortensia_XL": {	
+        "positive":{
+          "char" :"long hair, grey hair, yellow eyes, ,",
+        },
+    },
+	"iroha_blue archive_PONY_epoch-000020": {	
+        "positive":{
+           "char" :"{iroha-default|iroha-shirt|iroha-gym},iroha \(blue archive\),grey eyes,red hair,long hair,halo,",
+        },
+    },
+	"midori-maid_blue archive_PONY_epoch-000020": {	
+        "positive":{
+            "char" :"momoi-shirt,momoi \(blue archive\),pink eyes,blonde hair,halo,animal ear headphones, tail,white shirt,long sleeves,suspenders,blue necktie,pleated skirt,black thighhighs,",
+            "hair":"{3::long hair|},",
+			"hair":"long hair,",
+        },
+    },
+	"queen_elizabeth_(meta)_XL-bf16-pony-v1": {	
+        "positive":{
+            "char" :"queen_elizabeth_\(meta\)_\(azur_lane\),",
+        },
+    },
+	"cheria_autismConfetti_v03": {	
+        "positive":{
+            "char":"cheria barnes, pink hair, brown eyes, twintails, two side up, medium hair, brooch, long sleeves, puffy sleeves, purple skirt, jewelry, black thighhighs, white footwear, (wide sleeves:0.7), pleated skirt, laces,",
+        },
+    },
+	"Hoseki_BocchiTheRock_Pasan_PDXL_v2": {	
+        "positive":{
+            "char":"pasan, colored inner hair, large breasts, ear piercing, chin piercing, hime cut,  ",
+            
+            "dress":"{choker, black dress, long dress, shoulder cutout, sleeves past fingers,|__dress__},",
+        },
+    },
+	"virtuosa-arknights_pxl": {	
+        "positive":{
+            "char" :"virtuosa-arknights,",
+            "dress":"black hair, black thighhighs, black gloves, black skirt, white shirt, very long hair, mole under eye, elbow gloves, multicolored hair, garter straps, capelet, detached wings, black ascot, pleated skirt, black eyes, blunt bangs,",
+        },
+    },
+	"luna_kindred_sdxl_v2": {	
+        "positive":{
+             "char" :"luna kindred,",
+        },
+    },
+	"rwby_weissschnee_ponyXL": {	
+        "positive":{
+             "char":"weissvale, scar across eye, ponytail, hair ornament, tiara, white jacket, cropped jacket, high collar, long sleeves, short dress, white dress, earrings, necklace,",
+        },
+    },
+	"miyako-saitou-s1-ponyxl-lora-nochekaiser": {	
+        "positive":{
+             "char":"miyako saitou, long hair, brown hair, brown eyes,,",
+        },
+    },
+	"ElenaPonrV2": {	
+        "positive":{
+             "char" :"1girl,purple eyes,long hair,hair ornament,silver hair,hairband,bare shoulders,strapless,single knee pad,long sleeves,looking at viewer,bangs,sidelocks,standing,puffy sleeves,skirt,covered navel,very long hair,white boots,leotard,thigh strap,small breasts,armor,pauldrons,single earing,clothing cutout,Forehead,standing,,",
+        },
+    },
+	"kotone.pony": {	
+        "positive":{
+             "char" :"kotone,",            
+        },
+    },
+	"Majo_Elaina_XL": {	
+        "positive":{
+            "char" :"elaina, blue eyes, white hair, hair between eyes, long hair, bangs, ahoge, braid, single braid, hair bow, pink bow, jewelry,,",
+        },
+    },
+	"SanyaXL-10": {	
+        "positive":{
+            "char" :"ksanya, red eyes, grey hair, long hair, hairband, ear piercing, red nails, vampire,",
+            
+            "dress":"cleavage, black capelet, red cape, ascot, fur trim, grey shirt, long sleeves, skirt, black rose, frilled skirt,",
+        },
+    },
+	"miruca_crotze_XL-bf16-pony-v1": {	
+        "positive":{
+            "char":" miruca_crotze,  ",
         },
     },
 	"Sorasaki_Hina_Pony-10": {	
         "positive":{
-            "char" :"1girl, {purple_eyes, white_hair, very_long_hair, ahoge, parted_bangs, small_breasts, halo, black_horns, demon_girl, demon_horns, demon_wings|purple_eyes, white_hair, long_hair, ponytail, halo, demon_girl, demon_horns, demon_wings, hair_ribbon, black_ribbon, necklace, purple_dress, purple_pantyhose, sidelocks, wavy_hair, strapless_dress, elbow_gloves, purple_gloves, dangle_earrings, pearl_necklace, official_alternate_hairstyle, official_alternate_costume}, ",
-            
+            "char" :"1girl, {purple_eyes, white_hair, very_long_hair, ahoge, parted_bangs, small_breasts, halo, black_horns, demon_girl, demon_horns, demon_wings|purple_eyes, white_hair, long_hair, ponytail, halo, demon_girl, demon_horns, demon_wings, hair_ribbon, black_ribbon, necklace, purple_dress, purple_pantyhose, sidelocks, wavy_hair, strapless_dress, elbow_gloves, purple_gloves, dangle_earrings, pearl_necklace, official_alternate_hairstyle, official_alternate_costume}, ",            
         },
     },
 
