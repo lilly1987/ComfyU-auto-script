@@ -206,6 +206,6 @@ def setup_last(setup):
     #workflow_api["SaveImage1"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-1"
     #workflow_api["SaveImage2"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-2"
     
-def Setup_print():
-    print(f"{ckptCnt}/{ckptMax} ; {listCnt}/{listMax} ; {ckptFileName} ; {listFileName}")
+def Setup_print(i,max):
+    print(f"{i}/{max} ; {ckptCnt}/{ckptMax} ; {listCnt}/{listMax} ; {ckptFileName} ; {listFileName}")
     

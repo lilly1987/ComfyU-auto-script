@@ -51,7 +51,10 @@
         #"SaveImage":{
         #    "filename_prefix": "ComfyUI"
         #},
-
+        "VAELoader":{
+            "vae_name": "taesd"
+            "vae_name": "taesdxl"
+        },
     },
     "positive":{
         "quality":"masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|}",

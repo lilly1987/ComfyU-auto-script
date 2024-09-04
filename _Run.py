@@ -18,7 +18,8 @@ url="http://127.0.0.1:8188/prompt"
 
 try:
     #while True:
-    for i in range(readDic("setup.json").get("totalMax",1280)):
+    max=readDic("setup.json").get("totalMax",1280)
+    for i in range(max):
         
         
         
@@ -71,7 +72,7 @@ try:
                 time.sleep(1)
                 #pass
                 
-        Setup_print()
+        Setup_print(i,max)
         
         #==============================================
         

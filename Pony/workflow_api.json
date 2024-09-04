@@ -286,7 +286,7 @@
   },
   "VAELoader": {
     "inputs": {
-      "vae_name": "taesd"
+      "vae_name": "taesdxl"
     },
     "class_type": "VAELoader",
     "_meta": {
