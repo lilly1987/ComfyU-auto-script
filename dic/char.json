@@ -109,7 +109,40 @@
         "strength_model": (0.6,1.0),
         "strength_clip": 1,
     },
-    "Yusa_Kozue-75" : {        
+    "Uzume_Nep-03" : {        #
+        "positive":{
+            "char":" Uzume, Uzu_OrangH, orange hair, twintails, blue eyes,,",
+            #"dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": 1,
+    },
+    "Barbara_littlewitch" : {        #
+        "positive":{
+            "char":" barbara,",
+            #"dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": 1,
+    },
+    "Shinmai_Maou_No_Testament-Maria_Naruse-PDXL" : {        #
+        "positive":{
+            "char":" Maria Naruse",
+            #"dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": 1,
+    },
+    "Yusa_Kozue-75" : {        #-
         "positive":{
             "char":" yusa kozue, blonde hair, green eyes, twintails",
             #"dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
@@ -365,7 +398,7 @@
 	"kudelia-aina-bernstein-ponyxl-lora-nochekaiser": {	
         "positive":{
              "char":"kudelia aina bernstein, purple eyes, long hair, blonde hair, bangs, blunt bangs,, ponytail,",
-        "hair":", ",
+        
         "dress": "{gloves, dress, red dress, white gloves, capelet, gown, red gown, apricot, black apricot,|__dress__|},",   
         },
     },
@@ -386,9 +419,10 @@
             "char":"PookyBooVTXL, pink eyes, white hair, long hair, hair between eyes, ahoge, animal ears, hair ornament, black dress, bare shoulders, sleeveless, skirt, black ribbon, black ribbon on waist,",
         },
     },
-	"sdxl-sf-yor_briar-pony": {	
+	"sdxl-sf-yor_briar-pony": {	#-
         "positive":{
             "char" :"yor briar, {yor forgfer| jimufuku | ibarahime},",
+            "hair":"long hair, ",
         },
     },
 	"ellen": {	

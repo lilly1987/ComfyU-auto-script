@@ -13,6 +13,15 @@ def workflow_setup(workflow_api,setup):
     
     workflow=setup.pop("workflow")
     
+    d=workflow.setdefault("KSampler",{})    
+    SetSeed(d)
+    d=workflow.setdefault("FaceDetailer",{})    
+    SetSeed(d)
+    d=workflow.setdefault("positiveWildcard",{})
+    SetSeed(d)  
+    d=workflow.setdefault("negativeWildcard",{})
+    SetSeed(d)
+    
     for item in workflow: 
         if item in workflow_api:
             #print(setup[item])
@@ -65,13 +74,16 @@ def workflow_Loras(workflow_api,setup):
         name=f"LoraLoader-{k}"
         workflow_api[name]=tLoraLoader=copy.deepcopy(LoraLoader)
         inputs=tLoraLoader["inputs"]
+        del inputs["seed"]
         update(inputs,v)
         
         if "positive" in inputs:
             update(positive,inputs.pop("positive"))
         if "negative" in inputs:
             update(negative,inputs.pop("negative"))
+        #print("inputs",inputs)
         SetSeed(inputs)
+        #print("inputs",inputs)
         SetArrRnd2(setup,inputs,v,"strength_model",1)
         SetArrRnd2(setup,inputs,v,"strength_clip",1)
         SetArrRnd2(setup,inputs,v,"A",(1.0,4.0))

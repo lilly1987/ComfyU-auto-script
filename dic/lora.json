@@ -9,6 +9,16 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+	"daodiao": {	
+        "positive":{
+         #"bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",
+        },
+    },
+	"boundwristsupponyxl-10": {	
+        "positive":{
+         "boundwristsupponyxl-10":" bound wrists, arms up,",
+        },
+    },
 	"bulgeallXLPony": {	
         "positive":{
          "bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",

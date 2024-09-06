@@ -195,22 +195,22 @@ def setup_workflow(setup):
     
     
     d=workflow.setdefault("KSampler",{})    
-    SetSeed(d)
+    #SetSeed(d)
     SetArrRnd(d,"denoise")
     for k in d:
         SetArrRnd(d,k)
             
     d=workflow.setdefault("FaceDetailer",{})    
-    SetSeed(d)
+    #SetSeed(d)
     SetArrRnd(d,"denoise")
     for k in d:
         SetArrRnd(d,k)
             
     d=workflow.setdefault("positiveWildcard",{})
-    SetSeed(d)            
+    # SetSeed(d)            
         
     d=workflow.setdefault("negativeWildcard",{})
-    SetSeed(d)
+    #SetSeed(d)
     
     
     global dicFileCharKeys
@@ -247,6 +247,6 @@ def setup_workflow(setup):
     #workflow_api["SaveImage1"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-1"
     #workflow_api["SaveImage2"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-2"
     
-def Setup_print(i,max):
-    print(f"{i}/{max} ; {ckptCnt}/{ckptMax} ; {listCnt}/{listMax} ; {ckptFileName} ; {listFileName}")
+def Setup_print(i,max,j,queue_loop):
+    print(f"{i}/{max} ; {ckptCnt}/{ckptMax} ; {listCnt}/{listMax} ; {j}/{queue_loop} ; {ckptFileName} ; {listFileName}")
     
