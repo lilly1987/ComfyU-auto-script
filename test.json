@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "Pony\\raemoraXL_v10.safetensors"
+            "ckpt_name": "Pony\\novaAnimeXL_ponyV20.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,12 +10,12 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 3908223621063629371,
-            "steps": 39,
-            "cfg": 4,
-            "sampler_name": "euler_ancestral",
+            "seed": 1529886223785069000,
+            "steps": 41,
+            "cfg": 7,
+            "sampler_name": "dpmpp_2m",
             "scheduler": "karras",
-            "denoise": 0.8884623486463866,
+            "denoise": 0.8331182485449268,
             "model": [
                 "LoraLoader",
                 0
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "raemoraXL_v10/midori-default_blue archive_PONY_last/raemoraXL_v10-midori-default_blue archive_PONY_last-20240906-232525-1",
+            "filename_prefix": "novaAnimeXL_ponyV20/layla-Re-hang-XL-3-000008/novaAnimeXL_ponyV20-layla-Re-hang-XL-3-000008",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "score_9, score_8_up, source_anime, ,NSFW,uncensored,{1-3$$anime style,|2D,|anime,},{sex|},{fellatio, irrumatio, deepthroat, oral, cum in mouth|},multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion, {1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,},{asphyxiation|}, (rolling eyes:{0.25|0.5|0.75|1}),,{arms_behind_back, bound_arms, arms bound,|},,{strapless dress,|} {0-3$$China|evening|maid|Japanese|lolita|princess} dress,|},{off shoulder,|bare shoulder,|capelet,},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,breasts out,pussy, breasts exposure,  nipples exposure, pussy exposure, {breast exposed,breasts exposed,|}  {exposed breasts,|} {exposed pussy,|} {chest open,|} {exposure,|} ,skinny,anorexia,anorexic,Anorexia nervosa,garigari,thin waist, ,{3::long hair|},,midori-default,midori \\(blue archive\\),green eyes,blonde hair,halo,blue hair ribbon,animal ear headphones, tail,multicolored jacket,wide sleeves,white shirt, blue necktie, shorts,black thighhighs,green footwear,",
+            "wildcard_text": "BREAK score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, BREAK ,NSFW,uncensored,{1-3$$anime style,|2D,|anime,},{sex|},{fellatio, irrumatio, deepthroat, oral, cum in mouth|},multiple insertions, large insertion, {vaginal|anal|} object insertion, impossible object insertion, object insertion, {1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,},{asphyxiation|}, (rolling eyes:{0.25|0.5|0.75|1}),,{arms_behind_back, bound_arms, arms bound,|},,{strapless dress,|} {0-3$$China|evening|maid|Japanese|lolita|princess} dress,|},{off shoulder,|bare shoulder,|capelet,},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,breasts out,pussy, breasts exposure,  nipples exposure, pussy exposure, {breast exposed,breasts exposed,|}  {exposed breasts,|} {exposed pussy,|} {chest open,|} {exposure,|} ,skinny,anorexia,anorexic,Anorexia nervosa,garigari,thin waist, ,{long hair ,very long hair ,|} ,layla, long hair, blonde hair, dark skin, aqua eyes, dark-skinned female,{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},,{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
             "populated_text": "",
             "mode": true,
-            "seed": 4769439423106605567,
+            "seed": 435650656942741430,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -125,10 +125,10 @@
     },
     "negativeWildcard": {
         "inputs": {
-            "wildcard_text": "low quality,worstquality,,grayscale,monochrome,bad proportions,,{0-4$$embedding:FastNegativeV2.pt,|embedding:neg_grapefruit.pt,|embedding:easynegative.safetensors,|embedding:EasyNegativeV2.safetensors|embedding:ParaNegative.safetensors|embedding:SimpleNegative_AnimeV1.safetensors|embedding:SimpleNegativeV3.safetensors},logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,lower body,out of focus,",
+            "wildcard_text": "low quality,worstquality,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,lower body,out of focus,,score_4, score_5, 3d, jpeg artifacts, username, watermark, signature, normal quality, worst quality, large head, low quality, text, error, missing fingers, extra digits, fewer digits, bad eye,",
             "populated_text": "",
             "mode": true,
-            "seed": 14941415052222178538,
+            "seed": 3410985635674284511,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 720,
             "guide_size_for": true,
             "max_size": 720,
-            "seed": 11739472209651580165,
-            "steps": 40,
-            "cfg": 8,
-            "sampler_name": "dpmpp_2m_sde",
+            "seed": 9113924165635932987,
+            "steps": 45,
+            "cfg": 4,
+            "sampler_name": "dpmpp_2m",
             "scheduler": "karras",
-            "denoise": 0.31750318716878156,
+            "denoise": 0.6419073721002491,
             "feather": 5,
             "noise_mask": true,
             "force_inpaint": true,
@@ -200,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "raemoraXL_v10/midori-default_blue archive_PONY_last/raemoraXL_v10-midori-default_blue archive_PONY_last-20240906-232525-2",
+            "filename_prefix": "novaAnimeXL_ponyV20/layla-Re-hang-XL-3-000008/novaAnimeXL_ponyV20-layla-Re-hang-XL-3-000008",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\sdxl-sf-yor_briar-pony.safetensors",
+            "lora_name": "Pony\\char\\kirara_blue archive_PONY_epoch-000020.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 3.9254117973036715,
-            "B": 1.769369931407848,
+            "A": 1.3967699573738515,
+            "B": 1.4868996776122634,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-midori-default_blue archive_PONY_last",
+                "LoraLoader-Re-hang-XL-3-000008",
                 0
             ],
             "clip": [
-                "LoraLoader-midori-default_blue archive_PONY_last",
+                "LoraLoader-Re-hang-XL-3-000008",
                 1
             ]
         },
@@ -292,15 +292,15 @@
             "title": "Load VAE"
         }
     },
-    "LoraLoader-midori-default_blue archive_PONY_last": {
+    "LoraLoader-Re-hang-XL-3-000008": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\midori-default_blue archive_PONY_last.safetensors",
-            "strength_model": 0.850666342338895,
-            "strength_clip": 0.8136685804733638,
+            "lora_name": "Pony\\Re-hang-XL-3-000008.safetensors",
+            "strength_model": 0.6978781350788075,
+            "strength_clip": 0.04401684918729254,
             "inverse": false,
-            "A": 2.3906896408375466,
-            "B": 1.6104360708054641,
+            "A": 2.48379073502789,
+            "B": 1.121451909648373,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -312,7 +312,7 @@
                 "CheckpointLoaderSimple",
                 1
             ],
-            "seed": 2845024636498843933
+            "seed": 13095933492177227318
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {

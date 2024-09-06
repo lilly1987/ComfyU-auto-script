@@ -1,6 +1,6 @@
 {
     "totalMax":1280,
-    "ckptMax":32,
+    "ckptMax":16,
     "listMax":4,
     "queue_loop":2,
     "Path":"SD",
@@ -12,7 +12,7 @@
     "LoraPath":"*.safetensors",
     "LoraAdd":True,
     "LoraAddCnt":(0,2),
-    "perList":0.0,
+    "perList":0.1250,
     #"noFaceDetailer":True,
     "noFaceDetailer":False,
     "workflow":{
@@ -38,7 +38,7 @@
             "cfg": (4,10),
             "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
             "scheduler": "karras",
-            "denoise": (0.25,0.5),
+            "denoise": (0.35,0.65),
             "guide_size": 512,
             "max_size": 512,
             "guide_size": 720,
@@ -60,8 +60,8 @@
           #"height": 960,
         },
         "LoraLoader":{
-          "A": (1.0,4.0),
-          "B": (1.0,2.0),
+          "A": (0.5,4.0),
+          "B": (0.5,2.0),
         },
         #"SaveImage":{
         #    "filename_prefix": "ComfyUI"
@@ -94,10 +94,15 @@
     "negative":{
         "quality":"low quality,worstquality,",
         "black":"grayscale,monochrome,bad proportions,",
-        "lora":"{0-4$$embedding:FastNegativeV2.pt,|embedding:neg_grapefruit.pt,|embedding:easynegative.safetensors,|embedding:EasyNegativeV2.safetensors|embedding:ParaNegative.safetensors|embedding:SimpleNegative_AnimeV1.safetensors|embedding:SimpleNegativeV3.safetensors}",
+        #"lora":"{0-4$$embedding:FastNegativeV2.pt,|embedding:neg_grapefruit.pt,|embedding:easynegative.safetensors,|embedding:EasyNegativeV2.safetensors|embedding:ParaNegative.safetensors|embedding:SimpleNegative_AnimeV1.safetensors|embedding:SimpleNegativeV3.safetensors}",
         "etc":"logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,",
         "bad":"bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,",
         "shot":"lower body,out of focus,",
+    },
+    "loras":{
+        #"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002":"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002",
+        "balletboots_v1":"balletboots_v1",
+        "BalletBoots":"BalletBoots",
     },
     "charSet":{
         "strength_model": (0.75,1.0),

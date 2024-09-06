@@ -22,6 +22,83 @@
         #"cfg": (4,8),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
+    "3x3mixxltypec_v01" : {# 
+		"positive" : {
+			"isXl":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+		},
+		"negative" : {
+			"isXl":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+		},
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "arael_i" : {# 
+        "positive":{
+         #   "isXl":"score_9, score_8_up, score_7_up,score_6_up,",
+        },
+        "negative":{
+        #    "isXl":"",
+        },
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "kawaiiHeartsBLFluff_15" : {# 
+        "positive":{
+         #   "isXl":"score_9, score_8_up, score_7_up,score_6_up,",
+        },
+        "negative":{
+        #    "isXl":"",
+        },
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "mistoonXLCopper_v10Fast" : {# 
+        "positive":{
+            "isXl":"score_9, score_8_up, score_7_up,score_6_up,",
+        },
+        "negative":{
+            "isXl":"",
+        },
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "hamefkawaiimix_typelight" : {# 
+        "positive":{
+            "isXl":"score_9, score_8_up, score_7_up, ",
+        },
+        "negative":{
+            "isXl":"(score_6,score_5,score_4,score_3,score_2,score_1, low quality, low detailed, chubby, muscle:1.2),,",
+        },
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "smoothcutsSDXLClassic_v10Classic" : {# 
+        "positive":{
+            "isXl":"score_9, score_8_up, score_7_up, score_6_up, source anime, ",
+        },
+        "negative":{
+            "isXl":"score_6, score_5, score_4, cartoon, ugly face, mutated hands, lowres, blurry face, bad anatomy, bad proportions, deformed, deformed anatomy, deformed fingers, censored,",	
+        },
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "smoothcutsSDXLClassic_v10Lightning8steps" : {# 
+        "positive":{
+            "isXl":"score_9, score_8_up, score_7_up, score_6_up, source anime, ",
+        },
+        "negative":{
+            "isXl":"score_6, score_5, score_4, cartoon, ugly face, mutated hands, lowres, blurry face, bad anatomy, bad proportions, deformed, deformed anatomy, deformed fingers, censored,",	
+        },
+        "steps": 8,
+        "cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
     "0001Pony_v2" : {# -
         "positive":{
             "isXl":"score_9, score_8_up, score_7_up, score_6_up, source_anime,",

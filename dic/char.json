@@ -10,6 +10,142 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "rwby_weissschnee_ponyXL" : {        
+        "positive":{
+            "char":"weissvale, scar across eye, ponytail, hair ornament,",
+            "dress":"{tiara, white jacket, cropped jacket, high collar, long sleeves, short dress, white dress, earrings, necklace,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "fate_morganlefay_ponyXL-STAGE2" : {        
+        "positive":{
+            #"char" :"grey hair, purple eyes, two side up, blunt bangs, hair ornament, hair ribbon,",
+            #"isXl":"score_9, score_8_up, source_anime,,",
+            #"hat":"witch hat, hat,",
+            #"dress":"{luna nova school uniform,boots,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "ShinmaiMaou_NaruseMariaXL" : {        
+        "positive":{
+            "char" :"grey hair, purple eyes, two side up, blunt bangs, hair ornament, hair ribbon,",
+            #"isXl":"score_9, score_8_up, source_anime,,",
+            #"hat":"witch hat, hat,",
+            #"dress":"{luna nova school uniform,boots,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "Akko" : {        
+        "positive":{
+            "char" :"akko, 1girl,, highly detailed, brown hair,red eyes,",
+            "isXl":"score_9, score_8_up, source_anime,,",
+            "hat":"witch hat, hat,",
+            "dress":"{luna nova school uniform,boots,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": (0.25,1.0),
+        "strength_clip": (0.25,1.0),
+    },
+    "asa_shigure_pony_sobsynapse-000005" : {        
+        "positive":{
+            "char":"ohwx, 1girl, green_hair, short_hair, purple_eyes, hair_ribbon, ribbon, short_hair_with_long_locks, tress_ribbon, bow, ahoge, small_breasts, very_long_hair, asymmetrical_hair, long_hair,, ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "pa-san-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"pasan, black hair, blunt bangs, blunt ends, chin piercing, colored inner hair, ear piercing, grey eyes, hime cut, long hair, medium bangs, multicolored hair, piercing, purple hair,, ",
+            "dress":"{bare shoulders, black choker, black dress, black sleeves, choker, clothing cutout, detached sleeves, dress, gothic, shoulder cutout, sleeves past fingers, sleeves past wrists, very long sleeves,,|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Shirobako-Rinko_Ogasawara-PDXL" : {        
+        "positive":{
+            "char":"Rinko Ogasawara,   ",
+			"hair":"long hair,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Mayumi Saegusa-PonyXL-lora-Faxtron" : {        
+        "positive":{
+            "char":"mayumi saegusa, red eyes, black hair, long hair, ,  ",
+            "dress":"{ striped ribbon, cropped green jacket, long sleeves, white dress, black necktie, pantyhose,|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "animahjongv3-style" : {        
+        "positive":{
+            "char":"4n1m4hj0ngV3_style,  ",
+            #"dress":"{black business suit,jacket,collared shirt,white shirt,black pants,|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "ChamSumikaChibanaPonyXL" : {        
+        "positive":{
+            "char":"SumikaChibana, long hair, {glasses,|} ",
+            #"dress":"{black business suit,jacket,collared shirt,white shirt,black pants,|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Akizuki_Ritsuko" : {        
+        "positive":{
+            "char":"akizuki ritsuko,antenna hair,folded ponytail,glasses,brown eyes,{short hair,|}, ",
+            "dress":"{black business suit,jacket,collared shirt,white shirt,black pants,|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "amamiya-yuuko-xl-03" : {        
+        "positive":{
+            "char" :"amamiya yuuko, yuuko hair ribbon,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
     "EriIbusaki-10" : {        
         "positive":{
             "char":"EriIbusaki, 1girl, long hair, blue eyes, black hair, blue hair, blunt bangs, ",
@@ -248,22 +384,37 @@
         },
         #"strength_model": (0.5,1.0),
     },
+	"miyako-saitou-s1-ponyxl-lora-nochekaiser": {	
+        "positive":{
+            "char":"miyako saitou, long hair, brown hair, brown eyes,,",
+            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Nadja_Applefield_Pony_v1": {	
+        "positive":{
+            "char":"nadja,,   ",
+            "hair":" ",
+            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+        },
+        #"strength_model": (0.5,1.0),
+    },
 	"Diana": {	
         "positive":{
             "char":"1girl, Diana, multicolored hair, blue eyes,   ",
-            "hair":" ",
+            #"hair":" ",
             #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
         },
         #"strength_model": (0.5,1.0),
     },
 	"Diana_Cavendish-000006": {	
         "positive":{
-            "quality":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, ,   ",
+            #"quality":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, ,   ",
             "char":"1girl, Diana, multicolored hair, blue eyes,   ",
-            "hair":" ",
-            "dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"hair":" ",
+            "dress": "{school uniform, socks, {|witch robe, witch hat,}|__dress__ }",
         },
-        "strength_model": (0.5,1.0),
+        #"strength_model": (0.5,1.0),
     },
 	"mika-jougasaki-ponyxl-lora-nochekaiser": {	
         "positive":{

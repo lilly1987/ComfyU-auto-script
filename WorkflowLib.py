@@ -22,6 +22,17 @@ def workflow_setup(workflow_api,setup):
     d=workflow.setdefault("negativeWildcard",{})
     SetSeed(d)
     
+    tm=time.strftime('%Y%m%d-%H%M%S')
+    
+    d=workflow.setdefault("SaveImage1",{})    
+    v=d.get("filename_prefix","")  
+    d.setdefault("filename_prefix",f"{v}-{tm}-1")    
+    
+    d=workflow.setdefault("SaveImage2",{})    
+    v=d.get("filename_prefix","")  
+    d.setdefault("filename_prefix",f"{v}-{tm}-2")    
+    
+    
     for item in workflow: 
         if item in workflow_api:
             #print(setup[item])

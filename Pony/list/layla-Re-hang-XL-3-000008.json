@@ -1,0 +1,10 @@
+{
+    "loras":{
+        #"Diana_Cavendish-000006" : "Diana_Cavendish-000006",
+        "Re-hang-XL-3-000008" : "Re-hang-XL-3-000008",
+    },
+    "positive":{
+        "char":"layla, long hair, blonde hair, dark skin, aqua eyes, dark-skinned female",
+    },
+    #"LoraAdd":Fasle,
+}

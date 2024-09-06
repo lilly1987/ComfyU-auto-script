@@ -9,9 +9,80 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+	"_sdxl-ibalance-pony": {	
+        "positive":{
+            "ibalance" :"ibalance, standing on, one leg, leg_lift, standing_split leg, Holding leg,",
+            "pose":"",
+        },
+    },
+	"XL-luoxuan-000012": {	
+        "positive":{
+            "isXl":", score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime ",
+            "hang":" {shouting,|3::}gothic lolita,(blush),arms behind back,[[rope on neck]], ",
+		#{sad,|}{open mouth,|3::}
+        },
+    },
+	"garrote_2-000012": {	
+        "positive":{
+            "garrote_2" :"afraid,(surprised), sitting, one boy standing behind,arms behind back,",
+            #"pose":"",
+        },
+    },
+	"Dangling spitroast 3-000009": {	
+        "positive":{
+            "Dangling spitroast 3-000009":"spitroast, 1girl, 2boys, dangling arms, dangling legs, uncensored, irrumatio,",
+            #"pose":"",
+        },
+    },
+	"Tentacle_clothes": {	
+        "positive":{
+            "Tentacle_clothes":"tentacle clothes,living clothes,skindentation,",
+            #"pose":"",
+        },
+    },
+	"hypnotized_face_pony": {	
+        "positive":{
+            "empty eyes":"empty eyes,half-closed eyes,",
+            #"pose":"",
+        },
+    },
+	"sex_with_arch_back_kiss": {	
+        "positive":{
+            "hanging_preparing_pony":"kiss, arched back, sex from behind,",
+            "pose":"",
+        },
+    },
+	"hanging_preparing_pony": {	
+        "positive":{
+            "hanging_preparing_pony":"{1-3$$hanged, |hanging,| hanging executed,} {asphyxiation,|},arm behind back, {vibrator,|}",
+            "pose":"",
+        },
+    },
+	"All_the_way_down_to_stomach": {	
+        "positive":{
+            "All_the_way_down_to_stomach":"oral to stomach, side view,",
+        },
+    },
+	"human_onahole": {	
+        "positive":{
+            "human-onahole":"human-onahole, (legsless, armsless:1.2),torso grab, stomach bulge paizuri,",
+        },
+    },
+	"MS_PDX_Spitroast_Lite": {	
+        "positive":{
+            "MS_PDX_Spitroast_Lite" :"1girl, 2boys, threesome, spitroast,fellatio, sex from behind,  mmf threesome, suspended in midair,",
+            "Pose":"",
+        },
+    },
+	"Throatbulge": {	
+        "positive":{
+            #"bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",
+        },
+    },
+
 	"daodiao": {	
         "positive":{
-         #"bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",
+            #"bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",
         },
     },
 	"boundwristsupponyxl-10": {	
@@ -43,6 +114,16 @@
     "onarmor_pony_xl" : {        
         "positive":{
             "onarmor" :"onarmor, girl in front, fanny packing, meat shield, cock sleeve,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "bind_four_sdxl" : {        
+        "positive":{
+            "bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",
         },
         #"negative":{
         #    "foot":"",
@@ -173,7 +254,58 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
-    " kettlebell_Pony_Rev3" : {        
+    "anjiao-000038" : {        
+        "positive":{
+            #"superdeep" :"superdeep, deepthroat,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002" : {        
+        "positive":{
+            "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL":"Score_9, score_8_up, score_7_up,rating_explicit, uncensored, one girl, anorexic, emaciated, malnourished, slim, skinny, petite, skin and bones, (insert activity or position or whatever you want i used being aggressively fucked hard by one dominant man), anorexia,",
+        },
+        "negative":{
+            "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL":"score_1,score_2, score_3, score_4, blank background, blank setting, text, error, unfinished, unoriginal, watermark, username, blurry, typical, copy, duplicate, repetitive, grayscale, monochrome, sfw, censored, kid, (bad skin, skin spots), (mutation, deformity), (duplicate body parts), (bad anatomy), (bad), (error), (misshapen breasts, one breast higher than the other), (mutated stomach, double belly button, six pack abs,), (normal body weight, not seeing ribcage)",
+        },
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+
+    "kaitang_v1" : {        
+        "positive":{
+            #"Sex_from_behind_symmetrical_docking":" 2girls, 2boys, sex from behind, foursome, symmetrical docking, breast press, side view, looking at another,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Sex_from_behind_symmetrical_docking" : {        
+        "positive":{
+            "Sex_from_behind_symmetrical_docking":" 2girls, 2boys, sex from behind, foursome, symmetrical docking, breast press, side view, looking at another,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "superdeep" : {        
+        "positive":{
+            "superdeep" :"superdeep, deepthroat,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "kettlebell_Pony_Rev3" : {        
         "positive":{
             "kettlebell" :"kettlebell, ball and chain restraint, ankle cuffs,",
         },

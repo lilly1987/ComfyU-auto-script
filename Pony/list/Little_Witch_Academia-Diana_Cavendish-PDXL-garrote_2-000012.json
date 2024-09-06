@@ -1,0 +1,12 @@
+{
+    "loras":{
+        #"Diana_Cavendish-000006" : "Diana_Cavendish-000006",
+        #"Re-hang-XL-3-000008" : "Re-hang-XL-3-000008",
+        "garrote_2-000012" : "garrote_2-000012",
+        "Little_Witch_Academia-Diana_Cavendish-PDXL" : "Little_Witch_Academia-Diana_Cavendish-PDXL",
+    },
+    #"positive":{
+    #    "char":"layla, long hair, blonde hair, dark skin, aqua eyes, dark-skinned female",
+    #},
+    "LoraAdd":Fasle,
+}

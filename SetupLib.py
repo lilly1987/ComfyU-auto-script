@@ -235,15 +235,16 @@ def setup_workflow(setup):
     d.setdefault("ckpt_name",str(ckptPath))    
       
 #def setup_last(setup):
-    tm=time.strftime('%Y%m%d-%H%M%S')
-    n=f"{ckptFileName}/{listFileName}/{ckptFileName}-{listFileName}-{tm}"
+    #tm=time.strftime('%Y%m%d-%H%M%S')
+    #n=f"{ckptFileName}/{listFileName}/{ckptFileName}-{listFileName}-{tm}"
+    n=f"{ckptFileName}/{listFileName}/{ckptFileName}-{listFileName}"
     
     #workflow=setup["workflow"]
     
     d=workflow.setdefault("SaveImage1",{})    
-    d.setdefault("filename_prefix",f"{n}-1")    
+    d.setdefault("filename_prefix",f"{n}")    
     d=workflow.setdefault("SaveImage2",{})    
-    d.setdefault("filename_prefix",f"{n}-2")    
+    d.setdefault("filename_prefix",f"{n}")    
     #workflow_api["SaveImage1"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-1"
     #workflow_api["SaveImage2"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-2"
     
