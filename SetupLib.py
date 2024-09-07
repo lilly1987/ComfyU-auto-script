@@ -174,6 +174,7 @@ def setup_dic(setup):
             #else:
             #    print("[green]Dic Lora add[/green] : ",v)
             #    continue
+            v=d.pop("file_name",v)
             f=dicFileChar.get(v)
             if f is None:
                 #print("[yellow]Dic No Char[/yellow] : ",v)
@@ -185,6 +186,7 @@ def setup_dic(setup):
                 char=True
                 
             #print("dicFileLora",f)
+            
             d.setdefault("lora_name",str(f))
             v=Loras[k]=d
         
@@ -235,6 +237,10 @@ def setup_workflow(setup):
     #==============================================
     global Loras
     for k, v in Loras.items():
+        if isinstance(v,str):
+            print("[yellow]No Lora File[/yellow] : ",v)
+            Loras.pop(k)
+            continue
         for k in v:
             SetArrRnd(v,k)
     #print(wd)
@@ -263,5 +269,5 @@ def setup_workflow(setup):
     #workflow_api["SaveImage2"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-2"
     
 def Setup_print(i,max,j,queue_loop):
-    print(f"{i}/{max} ; {ckptCnt}/{ckptMax} ; {listCnt}/{listMax} ; {j}/{queue_loop} ; {ckptFileName} ; {listFileName}")
+    print(f"{max-i}/{max} ; {ckptCnt}/{ckptMax} ; {listCnt}/{listMax} ; {queue_loop-j}/{queue_loop} ; {ckptFileName} ; {listFileName}")
     

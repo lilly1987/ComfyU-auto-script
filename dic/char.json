@@ -677,6 +677,20 @@
             "dress":"{bonnet, red ascot, brown cloak, brown dress, long dress, gloves,|__dress__},",
         },
     },
+	"plana_blue archive_PONY_last": {	
+        "positive":{
+            "char" :"plana \(blue archive\),black eyes,long hair, white hair,braid,bow hairband,halo, ",
+            
+            "dress":"{choker,black serafuku, sailor collar,black long coat,skirt, black pantyhose,black loafers, |__dress__},",
+        },
+    },
+	"sense_sousou no frieren_PONY_last": {	
+        "positive":{
+            "char" :"sense \(sousou no frieren\),brown eyes,very long hair,absurdly long hair,hair between eyes,eyes visible through hair,   ",
+            
+            "dress":"{blue capelet,frilled dress,white long dress,|black swimsuit,(frilled bikini:1.2),bare arms ,bare legs |__dress__},",
+        },
+    },
 	"Yor_forger-000008": {	
         "positive":{
             "char" :"short hair with long locks, gold earrings, white hairband,  red eyes,  ",
@@ -689,6 +703,76 @@
             "char" :"kamisaman, ahoge, black hair, small breasts,,",
             
             "dress":"{aran sweater, cable knit, long sleeves, white sweater, sweater dress, black pantyhose, no shoes,|__dress__},",
+        },
+    },
+	"hololive_allmems_dora_v1-rosenthal": {	
+        "file_name":"hololive_allmems_dora_v1",
+        "positive":{
+            "char" :"aki rosenthal, virtual youtuber, blonde hair, headgear,  bob cut, low twintails, parted bangs, purple eyes, {short hair,|} detached hair,  blue eyes,  hair ornament, very long hair  ",
+            
+            "dress":"{ pleated dress,white dress,short dress,bare shoulders, sleeveless, |__dress__},",
+        },
+    },
+	"hololive_allmems_dora_v1-ayame": {	
+        "file_name":"hololive_allmems_dora_v1",
+        "positive":{
+            "char" :"nakiri ayame, nakiri oni horns, nakiri ayame \(1st costume\),  skin-covered horns,  hair bell, oni mask on head, double bun,    ",
+            
+            "dress":"{ japanese clothes, white thighhighs, off shoulder, black kimono,long sleeves,shimenawa, bare shoulders|__dress__},",
+        },
+    },
+	"hololive_allmems_dora_v1-haato": {	
+        "file_name":"hololive_allmems_dora_v1",
+        "positive":{
+            "char" :"akai haato, akai haato \(1st costume\), virtual youtuber, blonde hair, heart hair ornament, hair ribbon, very long hair,  ",
+            
+            "dress":"{ white shirt, red ribbon, one side up,black thighhighs|__dress__},",
+        },
+    },
+	"hololive_allmems_dora_v1-miko": {	
+        "file_name":"hololive_allmems_dora_v1",
+        "positive":{
+            "char" :"sakura miko, sakura miko \(1st costume\), virtual youtuber, green eyes, hair bell, ahoge, x hair ornament, pink hair,  hair between eyes, long hair,  medium hair  ",
+            
+            "dress":"{ detached sleeves,thigh strap, jingle bell,bridal garter, bow, cherry blossom print, japanese clothes, hairclip,|__dress__},",
+        },
+    },
+	"hololive_allmems_dora_v1-azki": {	
+        "file_name":"hololive_allmems_dora_v1",
+        "positive":{
+            "char" :"azki \(hololive\), virtual youtuber, pink hair, purple eyes, long hair,  hair ornament, colored inner hair, streaked hair,  black hair, white hair, hair intakes,  hair between eyes,  ",
+            
+            "dress":"{white dress, white ascot,brown jacket, bracelet,sleeves past elbows, half updo, long sleeves, french braid, belt, collared dress|__dress__},",
+        },
+    },
+	"hololive_allmems_dora_v1-suisei": {	
+        "file_name":"hololive_allmems_dora_v1",
+        "positive":{
+            "char" :"hoshimachi suisei, hoshimachi suisei \(1st costume\), virtual youtuber, blue hair, blue eyes,  side ponytail,  medium hair, sidelocks,  ",
+            
+            "dress":"{plaid headwear, black gloves, beret, partially fingerless gloves, grey headwear, star \(symbol\),plaid jacket, blue skirt, grey jacket,plaid skirt,|__dress__},",
+        },
+    },
+	"hololive_allmems_dora_v1-sora": {	
+        "file_name":"hololive_allmems_dora_v1",
+        "positive":{
+            "char" :"tokino sora, virtual youtuber, long hair, brown hair, star hair ornament,  hair flaps, red ribbon, diamond hair ornament,  hair ribbon,  purple eyes, hair between eyes, ",
+            
+            "dress":"{cropped shirt, blue vest, navel, sleeveless shirt,white shirt,blue skirt, midriff, cropped vest, pleated skirt, miniskirt, wrist cuffs, blue thighhighs, waist cape, collared shirt, bare shoulders, neck ribbon, crop top, hairclip,thigh ribbon,|__dress__},",
+        },
+    },
+	"hina-dress_blue archive_PONY_last": {	
+        "positive":{
+            "char" :"hina-dress, hina \(blue archive\),purple eyes, white hair,ponytail,(horns:1.2),hair ribbon,low wings,halo,",
+            
+            "dress":"{frilled dress,elbow gloves,pantyhose,purple footwear,high heels,|__dress__},",
+        },
+    },
+	"hina-nosleeves_blue archive_PONY_last": {	
+        "positive":{
+            "char" :" hina-nosleeves, hina \(blue archive\),purple eyes, long hair,black horns,halo,,",
+            
+            "dress":"{white shirt,black skirt,sleeveless,low wings,black thighhighs,|__dress__},",
         },
     },
 	"princessPrincipal_v11": {	

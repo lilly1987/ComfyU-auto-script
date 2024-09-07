@@ -33,6 +33,17 @@
         "cfg": (3.0,6.0),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
+    "malaAnimeMixNSFW_v40" : {# 
+		"positive" : {
+			"checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, anime source,",
+		},
+		"negative" : {
+			"checkpoint":"score_4, score_3, score_2, score_1  bad hands, missing fingers, (censor), monochrome, blurry  3d, source_cartoon  text, signature, watermark, username, artist name  ,",
+		},
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
     "mistnaimixPonyPDXL_v10" : {# 
 		"positive" : {
 			"checkpoint":"score_9, score_8_up, score_7_up, score_6_up,anime_screencap ,",
@@ -43,6 +54,8 @@
         #"steps": 8,
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "bemypony_Semianime2" : {# 
     },
     "bemypony_Semianime" : {# 
 		"positive" : {

@@ -26,6 +26,7 @@ def debug(txt,setup):
 try:
     #while True:
     max=readDic("setup.json").get("totalMax",1280)
+    
     for i in range(max):
     
 

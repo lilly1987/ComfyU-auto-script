@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "Pony\\bemypony_Semianime.safetensors"
+            "ckpt_name": "Pony\\aaaautismPonyFinetune_aaaReStartV2.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,12 +10,12 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 11131960924504676017,
-            "steps": 30,
-            "cfg": 8,
-            "sampler_name": "dpmpp_2m",
+            "seed": 15323080428345910306,
+            "steps": 41,
+            "cfg": 6,
+            "sampler_name": "euler_ancestral",
             "scheduler": "karras",
-            "denoise": 0.7548942811661511,
+            "denoise": 0.9219675354314841,
             "model": [
                 "LoraLoader",
                 0
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "bemypony_Semianime/Re-hang-XL-3-000008/bemypony_Semianime-Re-hang-XL-3-000008",
+            "filename_prefix": "aaaautismPonyFinetune_aaaReStartV2/serenatsukishiroponypixai/aaaautismPonyFinetune_aaaReStartV2-serenatsukishiroponypixai",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "score_9, score_8_up, source_anime, ,NSFW,uncensored,{1-3$$anime style,|2D,|anime,|anime screencap,},{sex|},{fellatio, irrumatio, deepthroat, oral, cum in mouth|},{0-3$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|}, {{1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,}::3|},{arms_behind_back, bound_arms, arms bound,|},,{strapless dress,|} {__dress__|},{off shoulder,|bare shoulder,|capelet,|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{0-5$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|} {breast exposed,breasts exposed,|}  {exposed breasts,|} {exposed pussy,|} {chest open,|} {exposure,|} ,{asphyxiation|::3}, (rolling eyes:{0.25|0.5|0.75|1}),,skinny,anorexia,anorexic,Anorexia nervosa,garigari,thin waist, emaciated,  malnourished, slim, petite, ,{from {below|above|side|front|behind},|} ,{full body,|},{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},,skinny,, fellatio, side view,,",
+            "wildcard_text": "score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} anime_screencap , source_anime, ,NSFW,uncensored,{1-3$$anime style,|2D,|anime,|anime screencap,},{sex|},{fellatio, irrumatio, deepthroat, oral, cum in mouth|},{0-3$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|}, {{1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,}::3|},{arms_behind_back, bound_arms, arms bound,|},,{strapless dress,|} {__dress__|},{off shoulder,|bare shoulder,|capelet,|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{0-5$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|} {breast exposed,breasts exposed,|}  {exposed breasts,|} {exposed pussy,|} {chest open,|} {exposure,|} ,{asphyxiation|::3}, (rolling eyes:{0.25|0.5|0.75|1}),,skinny,anorexia,anorexic,Anorexia nervosa,garigari,thin waist, emaciated,  malnourished, slim, petite, ,{from {below|above|side|front|behind},|} ,{full body,|},{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},,{shouting,|3::} blush,arms behind back,[[rope on neck]], ,heelless ballet boots, pony boots, zeroheels ballet boots, heelhidden boots\uff0c,",
             "populated_text": "",
             "mode": true,
-            "seed": 2485759070945222352,
+            "seed": 10336471818085096687,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -125,10 +125,10 @@
     },
     "negativeWildcard": {
         "inputs": {
-            "wildcard_text": "low quality,worstquality,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,lower body,out of focus,",
+            "wildcard_text": "{|{|{|{|{|{|score_6,} score_5,} score_4,} score_3,} score_2,} score_1,} source_furry, source_pony, source_cartoon,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,lower body,out of focus,",
             "populated_text": "",
             "mode": true,
-            "seed": 10397628570263846546,
+            "seed": 5342379280678200144,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 720,
             "guide_size_for": true,
             "max_size": 720,
-            "seed": 3304914379177721946,
-            "steps": 39,
-            "cfg": 10,
+            "seed": 13110721542774927179,
+            "steps": 34,
+            "cfg": 4,
             "sampler_name": "dpmpp_2m",
             "scheduler": "karras",
-            "denoise": 0.5400724916068531,
+            "denoise": 0.38059274863890274,
             "feather": 5,
             "noise_mask": true,
             "force_inpaint": true,
@@ -200,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "bemypony_Semianime/Re-hang-XL-3-000008/bemypony_Semianime-Re-hang-XL-3-000008",
+            "filename_prefix": "aaaautismPonyFinetune_aaaReStartV2/serenatsukishiroponypixai/aaaautismPonyFinetune_aaaReStartV2-serenatsukishiroponypixai",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\ellen.safetensors",
+            "lora_name": "Pony\\char\\ashiharatsumori_koito_project_KV.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 1.304110069214498,
-            "B": 1.153133952004957,
+            "A": 1.5060745798380517,
+            "B": 1.1212413080489267,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-XL_Animagine_MGCM-kamisaman-t1-000030",
+                "LoraLoader-heelless_ballet_boots",
                 0
             ],
             "clip": [
-                "LoraLoader-XL_Animagine_MGCM-kamisaman-t1-000030",
+                "LoraLoader-heelless_ballet_boots",
                 1
             ]
         },
@@ -296,11 +296,11 @@
         "inputs": {
             "category_filter": "All",
             "lora_name": "Pony\\Re-hang-XL-3-000008.safetensors",
-            "strength_model": 0.4920638652587864,
+            "strength_model": 0.6652338110888525,
             "strength_clip": 1,
             "inverse": false,
-            "A": 2.0103881440563995,
-            "B": 1.2506958929178378,
+            "A": 2.3263254550514016,
+            "B": 1.087333505031431,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -312,22 +312,22 @@
                 "CheckpointLoaderSimple",
                 1
             ],
-            "seed": 12807771879396643796
+            "seed": 8689059363268599173
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-skinny_body_LoRA_V2_for_Pony": {
+    "LoraLoader-serenatsukishiroponypixai": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\skinny_body_LoRA_V2_for_Pony.safetensors",
-            "strength_model": 0.7037066810091799,
-            "strength_clip": 1,
+            "lora_name": "Pony\\char\\serenatsukishiroponypixai.safetensors",
+            "strength_model": 0.974878717071651,
+            "strength_clip": 0.7509659895590116,
             "inverse": false,
-            "A": 1.9541788682933658,
-            "B": 1.616177984858687,
+            "A": 1.5133777234839578,
+            "B": 1.0712396811659453,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -339,61 +339,61 @@
                 "LoraLoader-Re-hang-XL-3-000008",
                 1
             ],
-            "seed": 2703329369582273850
+            "seed": 3200482301404647841
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-Side-by-side_BJ": {
+    "LoraLoader-XL-luoxuan-000012": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\Side-by-side_BJ.safetensors",
-            "strength_model": 0.5878794112819561,
+            "lora_name": "Pony\\XL-luoxuan-000012.safetensors",
+            "strength_model": 0.9325924282175203,
             "strength_clip": 1,
             "inverse": false,
-            "A": 3.3327783121180814,
-            "B": 1.2737322803490594,
+            "A": 2.0996877551263293,
+            "B": 1.9170759580622163,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-skinny_body_LoRA_V2_for_Pony",
+                "LoraLoader-serenatsukishiroponypixai",
                 0
             ],
             "clip": [
-                "LoraLoader-skinny_body_LoRA_V2_for_Pony",
+                "LoraLoader-serenatsukishiroponypixai",
                 1
             ],
-            "seed": 13042720035807016055
+            "seed": 5881112423224043136
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-XL_Animagine_MGCM-kamisaman-t1-000030": {
+    "LoraLoader-heelless_ballet_boots": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\XL_Animagine_MGCM-kamisaman-t1-000030.safetensors",
-            "strength_model": 0.13438913826198295,
+            "lora_name": "Pony\\heelless_ballet_boots.safetensors",
+            "strength_model": 0.015609987481298049,
             "strength_clip": 1,
             "inverse": false,
-            "A": 1.9952311256693809,
-            "B": 1.636387313216272,
+            "A": 1.5677633858257218,
+            "B": 1.8534192768212612,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-Side-by-side_BJ",
+                "LoraLoader-XL-luoxuan-000012",
                 0
             ],
             "clip": [
-                "LoraLoader-Side-by-side_BJ",
+                "LoraLoader-XL-luoxuan-000012",
                 1
             ],
-            "seed": 6201745156638776319
+            "seed": 993914541059227636
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
