@@ -70,7 +70,7 @@
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
-    "lizmix_v70" : {# 
+    "lizmix_v70" : {# -
 		"positive" : {
 			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
 		},

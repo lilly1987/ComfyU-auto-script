@@ -129,6 +129,32 @@
         #"strength_model": (0.25,1.0),
         #"strength_clip": (0.25,1.0),
     },
+    "fate_morganlefay_ponyXL-STAGE1" : {        
+        "positive":{
+            "char" :"m0rganst1, grey hair, ponytail, french braid, hair bow, black bow, , ",
+            #"isXl":"score_9, score_8_up, source_anime,,",
+            #"hat":"witch hat, hat,",
+            "dress":"{two-tone dress, black dress, center opening, stomach cutout, pelvic curtain, white dress, long sleeves, wide sleeves, black footwear, thigh boots, blue choker, cleavage,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "fate_morganlefay_ponyXL-FGOFES23" : {        
+        "positive":{
+            "char" :"m0rganfes2023, grey hair, ponytail, french braid, twin braids, hair bow, hair flower, blue flower, ",
+            #"isXl":"score_9, score_8_up, source_anime,,",
+            #"hat":"witch hat, hat,",
+            "dress":"{yukata, white kimono, floral print, long sleeves, wide sleeves, sash, obi,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
     "ShinmaiMaou_NaruseMariaXL" : {        
         "positive":{
             "char" :"grey hair, purple eyes, two side up, blunt bangs, hair ornament, hair ribbon,",

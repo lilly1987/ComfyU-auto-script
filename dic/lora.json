@@ -253,6 +253,37 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "XXX_GangBang_Pony_V1" : {        
+        "positive":{
+            "XXX_GangBang_Pony_V1" :"Gangbang, Group Sex, Multiple Boys, Multiple Penises, no face boys, sex, group sex, oral, fellatio, irrumatio, paizuri, double penetration, triple penetration,",
+            "from" :"{from side | from below | from above | from front}, ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "victorian_dress-XL-2.0" : {        
+        "positive":{
+            "dress":"victorian dress,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "tentaclesX" : {        
+        "positive":{
+            "tentaclesX" :"1girl and monster, uncensored, tentaclesX, sex with a huge monster,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "BadDildo" : {        
         "positive":{
             "BadDildo" :"masturbation,vaginal,dildo,sex toy,pussy,baddildo,object insertion,squatting,extra large sex toy,dildo riding,thighhighs,strap-on,holding,tail,,",

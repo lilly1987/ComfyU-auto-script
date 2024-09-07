@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "Pony\\lizmix_v70.safetensors"
+            "ckpt_name": "Pony\\ebaramfcgponymix_v11.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,12 +10,12 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 919958879556930789,
-            "steps": 34,
-            "cfg": 7,
+            "seed": 1138552710498066680,
+            "steps": 31,
+            "cfg": 10,
             "sampler_name": "dpmpp_2m_sde",
             "scheduler": "karras",
-            "denoise": 0.851101583460367,
+            "denoise": 0.9867565373814924,
             "model": [
                 "LoraLoader",
                 0
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "lizmix_v70/blazing_cartesia_the_virtuous_XL-bf16-pony-v1/lizmix_v70-blazing_cartesia_the_virtuous_XL-bf16-pony-v1",
+            "filename_prefix": "ebaramfcgponymix_v11/\u77e5\u66f4\u9e1fpony/ebaramfcgponymix_v11-\u77e5\u66f4\u9e1fpony",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} anime_screencap , source_anime, ,NSFW,uncensored,{1-3$$anime style,|2D,|anime,|anime screencap,},{sex|},face,,{idol,},{makeup,|},{fellatio, irrumatio, deepthroat, oral, cum in mouth|},{0-3$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|}, {{1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,}::3|},{arms_behind_back, bound_arms, arms bound,|},,{strapless dress,|} {__dress__|},{off shoulder,|bare shoulder,|capelet,|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{0-5$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|} {breast exposed,breasts exposed,|}  {exposed breasts,|} {exposed pussy,|} {chest open,|} {exposure,|} ,{asphyxiation|::3}, (rolling eyes:{0.25|0.5|0.75|1}),,skinny,anorexia,anorexic,Anorexia nervosa,garigari,thin waist, emaciated,  malnourished, slim, petite, ,{from {below|above|side|front|behind},|} ,{full body,|},{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},,blazing cartesia the virtuous, sleeveless dress, veil, elbow gloves,  ,anorexic, emaciated, malnourished, slim, skinny, petite, skin and bones, anorexia,",
+            "wildcard_text": "score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} anime_screencap , source_anime, ,NSFW,uncensored,{1-3$$anime style,|2D,|anime,|anime screencap,},{sex | mating press | amazon position | missionary | cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  | full nelson sex | arm held back, sex},,face,,{idol,},{makeup,|},{fellatio, irrumatio, deepthroat, oral, {cum in mouth|3::}|},{0-3$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|}, {{1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,}::3|},{arms_behind_back, bound_arms, arms bound,|},,{0-5$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|} {breast exposed,breasts exposed,|}  {exposed breasts,|} {exposed pussy,|} {chest open,|} {exposure,|} ,{asphyxiation|::3}, (rolling eyes:{0.25|0.5|0.75|1}),,{0-9$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }, {{strapless dress,|} __dress__|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},,kuwayama_chiyuki, 1girl,breasts,brown_hair,ahoge,long_hair,brown_eyes,braid,cleavage,collarbone,,,anorexic, emaciated, malnourished, slim, skinny, petite, skin and bones, anorexia,,high heels,,rope walking, knotted rope,pearl rope,rope,arms behind back, bound arms, pussy, panty, nipple rings, ,",
             "populated_text": "",
             "mode": true,
-            "seed": 10685497019852175384,
+            "seed": 8622346456143726707,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -128,7 +128,7 @@
             "wildcard_text": "{|{|{|{|{|{|score_6,} score_5,} score_4,} score_3,} score_2,} score_1,} source_furry, source_pony, source_cartoon,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,lower body,out of focus,,score_1,score_2, score_3, score_4, blank background, blank setting, text, error, unfinished, unoriginal, watermark, username, blurry, typical, copy, duplicate, repetitive, grayscale, monochrome, sfw, censored, kid, (bad skin, skin spots), (mutation, deformity), (duplicate body parts), (bad anatomy), (bad), (error), (misshapen breasts, one breast higher than the other), (mutated stomach, double belly button, six pack abs,), (normal body weight, not seeing ribcage)",
             "populated_text": "",
             "mode": true,
-            "seed": 8266705384702625376,
+            "seed": 7648242051263429569,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 720,
             "guide_size_for": true,
             "max_size": 720,
-            "seed": 462937877142013365,
-            "steps": 33,
-            "cfg": 4,
-            "sampler_name": "dpmpp_2m",
+            "seed": 5069372351569370549,
+            "steps": 48,
+            "cfg": 5,
+            "sampler_name": "dpmpp_2m_sde",
             "scheduler": "karras",
-            "denoise": 0.3841300289603067,
+            "denoise": 0.48941055586527676,
             "feather": 5,
             "noise_mask": true,
             "force_inpaint": true,
@@ -200,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "lizmix_v70/blazing_cartesia_the_virtuous_XL-bf16-pony-v1/lizmix_v70-blazing_cartesia_the_virtuous_XL-bf16-pony-v1",
+            "filename_prefix": "ebaramfcgponymix_v11/\u77e5\u66f4\u9e1fpony/ebaramfcgponymix_v11-\u77e5\u66f4\u9e1fpony",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\hood_XL_pony_bf16_v1.safetensors",
+            "lora_name": "Pony\\char\\ChamSumikaChibanaPonyXL.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 2.849649462795707,
-            "B": 1.4907968654334551,
+            "A": 2.7869114633959575,
+            "B": 1.0716340887285307,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002",
+                "LoraLoader-kuwayama_chiyuki_pony",
                 0
             ],
             "clip": [
-                "LoraLoader-Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002",
+                "LoraLoader-kuwayama_chiyuki_pony",
                 1
             ]
         },
@@ -296,11 +296,11 @@
         "inputs": {
             "category_filter": "All",
             "lora_name": "Pony\\Re-hang-XL-3-000008.safetensors",
-            "strength_model": 0.4533250285999133,
+            "strength_model": 0.2956673511996514,
             "strength_clip": 1,
             "inverse": false,
-            "A": 1.9281223760143984,
-            "B": 1.9643369719004085,
+            "A": 3.3091478109517105,
+            "B": 1.6082244624957474,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -312,22 +312,22 @@
                 "CheckpointLoaderSimple",
                 1
             ],
-            "seed": 6680704172961844164
+            "seed": 15320759321769158697
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-blazing_cartesia_the_virtuous_XL-bf16-pony-v1": {
+    "LoraLoader-\u77e5\u66f4\u9e1fpony": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\blazing_cartesia_the_virtuous_XL-bf16-pony-v1.safetensors",
-            "strength_model": 0.8726492205961007,
-            "strength_clip": 0.7536541826273406,
+            "lora_name": "Pony\\char\\\u77e5\u66f4\u9e1fpony.safetensors",
+            "strength_model": 0.9078217457260835,
+            "strength_clip": 0.8182705255589735,
             "inverse": false,
-            "A": 2.5146047832826284,
-            "B": 1.2329637998940832,
+            "A": 2.846365272144078,
+            "B": 1.0564922652924174,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -339,7 +339,7 @@
                 "LoraLoader-Re-hang-XL-3-000008",
                 1
             ],
-            "seed": 13166548746849375052
+            "seed": 6802343450703457729
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
@@ -350,23 +350,104 @@
         "inputs": {
             "category_filter": "All",
             "lora_name": "Pony\\Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002.safetensors",
-            "strength_model": 0.305057989165604,
+            "strength_model": 0.03813301674362379,
             "strength_clip": 1,
             "inverse": false,
-            "A": 1.7719634237093764,
-            "B": 1.9828517797420475,
+            "A": 1.859810017672073,
+            "B": 1.883125773370994,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-blazing_cartesia_the_virtuous_XL-bf16-pony-v1",
+                "LoraLoader-\u77e5\u66f4\u9e1fpony",
                 0
             ],
             "clip": [
-                "LoraLoader-blazing_cartesia_the_virtuous_XL-bf16-pony-v1",
+                "LoraLoader-\u77e5\u66f4\u9e1fpony",
                 1
             ],
-            "seed": 13946760891986542926
+            "seed": 922407760955575188
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-Balletboots": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "Pony\\Balletboots.safetensors",
+            "strength_model": 0.5798923573016873,
+            "strength_clip": 1,
+            "inverse": false,
+            "A": 1.5752492101257185,
+            "B": 1.44518243712012,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002",
+                0
+            ],
+            "clip": [
+                "LoraLoader-Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002",
+                1
+            ],
+            "seed": 7205605650757342358
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-rope_walking_pony": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "Pony\\rope_walking_pony.safetensors",
+            "strength_model": 0.793173020131201,
+            "strength_clip": 1,
+            "inverse": false,
+            "A": 2.6168108506778607,
+            "B": 1.3217955082403468,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-Balletboots",
+                0
+            ],
+            "clip": [
+                "LoraLoader-Balletboots",
+                1
+            ],
+            "seed": 8405646028509581465
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-kuwayama_chiyuki_pony": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "Pony\\kuwayama_chiyuki_pony.safetensors",
+            "strength_model": 0.3273229656649137,
+            "strength_clip": 1,
+            "inverse": false,
+            "A": 2.199114688446791,
+            "B": 1.5194989622310617,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-rope_walking_pony",
+                0
+            ],
+            "clip": [
+                "LoraLoader-rope_walking_pony",
+                1
+            ],
+            "seed": 11520028630400376961
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
