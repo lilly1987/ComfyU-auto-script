@@ -187,7 +187,8 @@ def setup_dic(setup):
                 
             #print("dicFileLora",f)
             
-            d.setdefault("lora_name",str(f))
+            lora_name=d.setdefault("lora_name",str(f))
+            print("[green]lora_name[/green",lora_name)
             v=Loras[k]=d
         
         if char or dicFileChar.get(k) is not None :

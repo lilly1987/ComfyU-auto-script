@@ -344,6 +344,26 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "armstr_anV31-000097" : {        
+        "positive":{
+            "armstr_anV31-000097":"1boy, 1girl, arm strangling, solo focus,{rear naked choke, |breast grab from behind, |}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "lora_dancing-000052" : {        
+        "positive":{
+            #"superdeep" :"superdeep, deepthroat,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "anjiao-000038" : {        
         "positive":{
             #"superdeep" :"superdeep, deepthroat,",
@@ -365,6 +385,37 @@
         #"strength_clip": 1,
     },
 
+    "Blowjob" : {        
+        "positive":{
+            "Blowjob":" fellatio,",
+			"pose":" {from above, kneeling|sitting,|head out of frame, squatting|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "[P]Ke-ta_v1.0" : {        
+        "positive":{
+            #"Sex_from_behind_symmetrical_docking":" 2girls, 2boys, sex from behind, foursome, symmetrical docking, breast press, side view, looking at another,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "chernyyvo" : {        
+        "positive":{
+            #"Sex_from_behind_symmetrical_docking":" 2girls, 2boys, sex from behind, foursome, symmetrical docking, breast press, side view, looking at another,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "kaitang_v1" : {        
         "positive":{
             #"Sex_from_behind_symmetrical_docking":" 2girls, 2boys, sex from behind, foursome, symmetrical docking, breast press, side view, looking at another,",
