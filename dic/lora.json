@@ -1,7 +1,27 @@
 {
+    "Balletboots" : {        
+        "positive":{
+            "Balletboots":"high heels,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "BalletBoots" : {        
         "positive":{
-            "BalletBoots":"ballet boots,",
+            "BalletBoots":"ballet boots,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "heelless_ballet_boots" : {        
+        "positive":{
+            "heelless_ballet_boots":"heelless ballet boots, pony boots, zeroheels ballet boots, heelhidden boots，,",
         },
         #"negative":{
         #    "foot":"",
@@ -17,7 +37,7 @@
     },
 	"XL-luoxuan-000012": {	
         "positive":{
-            "isXl":", score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime ",
+            #"isXl":", score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime ",
             "hang":" {shouting,|3::}gothic lolita,(blush),arms behind back,[[rope on neck]], ",
 		#{sad,|}{open mouth,|3::}
         },
@@ -131,6 +151,36 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "XL-Hilde_-_CounterSide_SDXL_Animagine_XL_3.1v1" : {        
+        "positive":{
+            #"monsterXgirl":" monsterXgirl,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "monsterXgirl_Hell" : {        
+        "positive":{
+            "monsterXgirl":" monsterXgirl,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Pov_cowgirl_amazon_1.0" : {        
+        "positive":{
+            "Pov_cowgirl_amazon_1.0-10":" Pov cowgirl amazon, leaning backwards,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "bulgeallXLPony" : {        
         "positive":{
             "bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",
@@ -163,7 +213,7 @@
     },
     "XL-Beheadv2-000012" : {        
         "positive":{
-            "isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+            #"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
             "hang":"{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
         },
         #"negative":{
@@ -245,8 +295,48 @@
     },
     "XL-hang-board-test-000012" : {        
         "positive":{
-		"isXl":" score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+		#"isXl":" score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
 		"hang":" {shouting,|3::} nervous, ((jumping)),((dancing)), full body,{(blush),|3::},{sad,|}{open mouth,|3::}arms behind back,from_below, [[rope on neck]],,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "skinny_body_LoRA_V2_for_Pony" : {        
+        "positive":{
+            "skinny" :"skinny,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "XL-luoxuan-000012" : {        
+        "positive":{
+            "luoxuan" :"{shouting,|3::} blush,arms behind back,[[rope on neck]], ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Roped_Up" : {        
+        "positive":{
+            "Roped_Up" :"suspension,bdsm,rope, ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "luoxuan_v2-000030" : {        
+        "positive":{
+            "luoxuan_v2" :"{shouting,|3::} blush,arms behind back,[[rope on neck]], ",
         },
         #"negative":{
         #    "foot":"",
@@ -266,7 +356,7 @@
     },
     "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002" : {        
         "positive":{
-            "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL":"Score_9, score_8_up, score_7_up,rating_explicit, uncensored, one girl, anorexic, emaciated, malnourished, slim, skinny, petite, skin and bones, (insert activity or position or whatever you want i used being aggressively fucked hard by one dominant man), anorexia,",
+            "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL":"anorexic, emaciated, malnourished, slim, skinny, petite, skin and bones, anorexia,",
         },
         "negative":{
             "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL":"score_1,score_2, score_3, score_4, blank background, blank setting, text, error, unfinished, unoriginal, watermark, username, blurry, typical, copy, duplicate, repetitive, grayscale, monochrome, sfw, censored, kid, (bad skin, skin spots), (mutation, deformity), (duplicate body parts), (bad anatomy), (bad), (error), (misshapen breasts, one breast higher than the other), (mutated stomach, double belly button, six pack abs,), (normal body weight, not seeing ribcage)",
@@ -325,6 +415,26 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "BBQ_pony_v1" : {        
+        "positive":{
+            #"pussybursterXVer001":"nsfw, pussybursterX, birthing monster, pussyburster, monster, alien, vaginal insertion,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "rope_walking_pony" : {        
+        "positive":{
+            "rope_walking_pony":"rope walking, knotted rope,pearl rope,rope,arms behind back, bound arms, pussy, panty, nipple rings, ,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "pussybursterXVer001" : {        
         "positive":{
             "pussybursterXVer001":"nsfw, pussybursterX, birthing monster, pussyburster, monster, alien, vaginal insertion,,",
@@ -347,8 +457,29 @@
     },
     "Re-hang-XL-3-000008" : {        
         "positive":{
-            "isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
+            #"isXl":"{BREAK,|3::}, score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
             "hang":"{BREAK,|3::}, {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], {BREAK,|3::},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": (0.25,0.750),
+        "strength_clip": 1,
+    },
+    "XL-hangV3-000012" : {        
+        "positive":{
+        #"isXl":"  score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime, {BREAK,|3::},",
+		"hang":"  {shouting,|3::}gothic lolita,(blush),{sad,|}{open mouth,|3::}arms behind back,[[rope on neck]], ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "doubledildo" : {        
+        "positive":{
+            "doubledildo" :"dildo in pussy,",
         },
         #"negative":{
         #    "foot":"",

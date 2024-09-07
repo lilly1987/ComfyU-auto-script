@@ -35,7 +35,7 @@ def setup_start(setup):
     global workflow
     workflow=setup.setdefault("workflow",{})
     global Loras
-    Loras=setup.setdefault("Loras",{})
+    Loras=setup.setdefault("Loras",setup.pop("loras",{}))
     
     global ckptMax
     global ckptCnt
@@ -122,13 +122,23 @@ def setup_list(setup):
             #listFileName=""
     setup.setdefault("list_name",listFileName)   
     update(setup,listDic)
-
+    
 def setup_lora_add(setup):
 
     global Loras
 
     v=setup.pop("LoraAdd",True)
     if v:
+        
+        r=setup.pop("loras_random",{})
+        for k, v in r.items():
+            p=v.pop("per",1.0)
+            if p>=random.random():
+                l=SetArrRnd(v,"loras")
+                #print("loras",l)
+                update(Loras,l)
+                #print("loras",Loras)
+        
         LoraAddCnt=SetArrRnd(setup,"LoraAddCnt")
         setup.pop("LoraAddCnt")
         #print("LoraAddCnt",LoraAddCnt)
@@ -166,7 +176,11 @@ def setup_dic(setup):
             #    continue
             f=dicFileChar.get(v)
             if f is None:
-                f=dicFileLora.get(v,v)
+                #print("[yellow]Dic No Char[/yellow] : ",v)
+                f=dicFileLora.get(v)
+                if f is None:
+                    print("[yellow]No Lora File[/yellow] : ",v)
+                    continue
             else:
                 char=True
                 

@@ -7,5 +7,5 @@
     "positive":{
         "char":"layla, long hair, blonde hair, dark skin, aqua eyes, dark-skinned female",
     },
-    #"LoraAdd":Fasle,
+    #"LoraAdd":False,
 }

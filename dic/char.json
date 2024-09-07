@@ -21,6 +21,101 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "Shinmai_Maou_No_Testament-Kurumi_Nonaka-PDXL" : {        
+        "positive":{
+            "char" :"Kurumi Nonaka,",
+            #"dress":"{dress, gloves,  boots, white gloves, capelet, red dress, bow, half updo, ribbon,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "sppriconneYukariponyXL-000009" : {        
+        "positive":{
+            "char" :"hat, cross earrings, yukaridef",
+            "dress":"{blue dress, orange ascot, white shirt, white gloves,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "KohakuGunvolt_Chronicles_Luminous_Avenger_iXVideo_Game_Character" : {        
+        "positive":{
+            "char" :"Kohaku,brown hair, orange eyes, ponytail, sidelocks, hair band, blue hairband,,",
+            #"dress":"{dress, gloves,  boots, white gloves, capelet, red dress, bow, half updo, ribbon,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "Kudelia_Aina_Bernstein" : {        
+        "positive":{
+            "char" :"kudelia, 1girl, blonde hair, long hair, purple eyes,",
+            "dress":"{dress, gloves,  boots, white gloves, capelet, red dress, bow, half updo, ribbon,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "ashiharatsumori_koito_project_KV" : {        
+        "positive":{
+            "char" :"halo, bandaid on cheek, ponytail, absurdly long hair, red hair, messy hair, sidelocks, red eyes, ",
+            "dress":"{school uniform, white shirt, black jacket, black skirt, white pantyhose,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "Genshin_NPC_NerminRaef_Pony_v1" : {        
+        "positive":{
+            "char" :"gnermin, brown hair, brown eyes, bangs, very long hair, (dark skin, very dark skin:1.5),,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "Kokoro_-_Darling_in_the_Franxx" : {        
+        "positive":{
+            "char" :"kokoro,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "BWshauntaltsukishiro" : {        
+        "positive":{
+            "char" :"shaunshikimital,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "kuwayama_chiyuki_pony" : {        
+        "positive":{
+            "char" :"kuwayama_chiyuki, 1girl,breasts,brown_hair,ahoge,long_hair,brown_eyes,braid,cleavage,collarbone,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
     "fate_morganlefay_ponyXL-STAGE2" : {        
         "positive":{
             #"char" :"grey hair, purple eyes, two side up, blunt bangs, hair ornament, hair ribbon,",
@@ -50,7 +145,7 @@
     "Akko" : {        
         "positive":{
             "char" :"akko, 1girl,, highly detailed, brown hair,red eyes,",
-            "isXl":"score_9, score_8_up, source_anime,,",
+            #"isXl":"score_9, score_8_up, source_anime,,",
             "hat":"witch hat, hat,",
             "dress":"{luna nova school uniform,boots,|__dress__,} ",
         },
@@ -447,25 +542,32 @@
 	"momoi-default_blue archive_PONY_last": {	
         "positive":{
             "char":"momoi-default,momoi \(blue archive\),pink eyes,blonde hair,halo,animal ear headphones, tail,jacket front red bow,multicolored jacket,wide sleeves,white shirt,blue necktie, pleated skirt,black thighhighs,pink footwear ",
-            #"dress":",",
+            #"dress":"{|__dress__},",
         },
     },
 	"momoi-maid_blue archive_PONY_epoch-000020": {	
         "positive":{
             "char":"momoi-maid,momoi \(blue archive\),pink eyes,two side up,blonde hair,halo,animal ear headphones, tail,headdress,black dress,frilled apron,white pantyhose,mary janes ",
-            #"dress":",",
+            #"dress":"{|__dress__},",
         },
     },
 	"pokemon-serena-ponyxl-lora-nochekaiser": {	
         "positive":{
             "char":"serena, long hair, blue eyes, brown hair,  ",
-            #"dress":",",
+            #"dress":"{|__dress__},",
+        },
+    },
+	"sdxl-gmas-shinohiro-pony": {	
+        "positive":{
+            #"isXl":", score_9, source anime, , ",
+            "char" :" gakushinohiro, blonde hair, long hair, parted bangs, blonde eyelashes, flat chest, orange eyes, hairclip, pale, Skinny,",
+            "dress":"{white camisole, denim shorts, belt, khaki coat|__dress__},",
         },
     },
 	"Mahouka-08": {	
         "positive":{
-            "isXl":", score_9, source anime, , ",
-            "char" :" 1girl, saegusa mayumi, hair ribbon,",
+            #"isXl":", score_9, source anime, , ",
+            "char" :"  saegusa mayumi, hair ribbon,",
         },
     },
 	"Anemone - Eureka Seven-000005": {	
@@ -522,7 +624,7 @@
             "char":"celia-default,  ",
             
             "dress":"celia claire,blue eyes,grey hair,two side up,hair ribbon,white capelet,white frilled shirt,long sleeves, blue dress, black pantyhose,blue headwear,purple footwear,",
-            #"dress":",",
+            #"dress":"{|__dress__},",
         },
     },
 	"Hannah_littlewitch": {	
@@ -531,12 +633,118 @@
             
             "dress":"luna nova school uniform school uniform,socks, shoes,yellow ribbon, white shirt, skirt, shirt, collared shirt, long sleeves, loafers, blue vest, vest, kneehighs, blue socks,,",
         },
+        "strength_model": (0.5,1.0),
+        "strength_clip": (0.5,1.0),
+    },
+	"rory_mercury-PD-1.0": {	
+        "positive":{
+            "char":"rory mercury ,  ",
+            
+            #"dress":"{|__dress__},",
+        },
+    },
+	"Leoleshea_-_Kami_wa_Game_ni_Ueteiru": {	
+        "positive":{
+            "char":"leoleshea,long hair,hair ornament,hair clip,choker,ahoge ,  ",
+            
+            #"dress":"{|__dress__},",
+        },
+    },
+	"FushikawaKokoroXL-000096": {	
+        "positive":{
+            "char":"twintails, braided bun, hair bun, double bun, sidelocks, blunt bangs ,  ",
+            "dress":"{japanese clothes, pink kimono, print kimono, floral print, white sash, white obi|__dress__}",
+        },
+    },
+	"elie-pdxl-nvwls-v1": {	
+        "positive":{
+            "char":"zeroElie, black hairband, hair ribbon, long hair,   ",
+            
+            "dress":"{ascot, uniform, long red sleeves, white dress, pencil skirt, belt, black pantyhose, white boots ,|__dress__},",
+        },
+    },
+	"ingrid-pdxl-nvwls-v1": {	
+        "positive":{
+            "char":"defIngrid, bangs, braided ponytail,   ",
+            
+            "dress":"{black jacket, black skirt, blue pantyhose,|__dress__},",
+        },
+    },
+	"plaindoll-pdxl-nvwls-v1": {	
+        "positive":{
+            "char" :"plaindoll,white hair", 
+            
+            "dress":"{bonnet, red ascot, brown cloak, brown dress, long dress, gloves,|__dress__},",
+        },
+    },
+	"Yor_forger-000008": {	
+        "positive":{
+            "char" :"short hair with long locks, gold earrings, white hairband,  red eyes,  ",
+            
+            "dress":"{red sweater, long sleeves,sweater dress,jewelry, black pantyhose, off shoulder, |__dress__},",
+        },
+    },
+	"XL_Animagine_MGCM-kamisaman-t1-000030": {	
+        "positive":{
+            "char" :"kamisaman, ahoge, black hair, small breasts,,",
+            
+            "dress":"{aran sweater, cable knit, long sleeves, white sweater, sweater dress, black pantyhose, no shoes,|__dress__},",
+        },
+    },
+	"princessPrincipal_v11": {	
+        "positive":{
+            "char" :" long hair, blonde hair, bangs, messy hair, blue eyes,",
+            
+            #"dress":"{braid,suit, skirt,|__dress__},",
+        },
+    },
+	"Saint_Cecilia": {	
+        "positive":{
+            "char" :"saint_cecilia, single sidelock, very long hair, green eyes, green hair,",
+            
+            #"dress":"{braid,suit, skirt,|__dress__},",
+        },
+    },
+	"cecilia_shiro_seijo_sdxl_locon_pony_v1": {	
+        "positive":{
+            "char" :"cecilia \(shiro seijo to kuro bokushi\), very long hair, green hair, sidelocks, green eyes, eyebrows visible through hair, hair between eyes, ",
+            
+            #"dress":"{braid,suit, skirt,|__dress__},",
+        },
+    },
+	"NayutaKaniPony": {	
+        "positive":{
+            "char" :"nayutakani, ",
+            
+            #"dress":"{braid,suit, skirt,|__dress__},",
+        },
+    },
+	"edgCosettePony": {	
+        "positive":{
+            "char":"edgCosette, blonde hair, ,  ",
+            
+            "dress":"{braid,suit, skirt,|__dress__},",
+        },
+    },
+	"Calol_pony_v1": {	
+        "positive":{
+            "char":"CarolMalusDienheim ,  ",
+            
+            #"dress":"{|__dress__},",
+        },
+    },
+	"halford_XL_pony_v1": {	
+        "positive":{
+            "char":"halford (azur lane), goth fashion ,  ",
+            
+            #"dress":"{|__dress__},",
+        },
     },
 	"Saegusa_Mayumi": {	
         "positive":{
             "char":"saegusa mayumi, long hair,black hair,red eyes ,  ",
             
-            #"dress":",",
+            #"dress":"{|__dress__},",
         },
     },
 	"PinkHairWitchV1": {	

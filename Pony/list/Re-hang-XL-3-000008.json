@@ -3,5 +3,5 @@
         #"Diana_Cavendish-000006" : "Diana_Cavendish-000006",
         "Re-hang-XL-3-000008" : "Re-hang-XL-3-000008",
     },
-    #"LoraAdd":Fasle,
+    #"LoraAdd":False,
 }
