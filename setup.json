@@ -12,7 +12,7 @@
     "LoraPath":"*.safetensors",
     "LoraAdd":True,
     "LoraAddCnt":(0,2),
-    "perList":0.250,
+    "perList":0.1250,
     #"noFaceDetailer":True,
     "noFaceDetailer":False,
     "workflow":{
@@ -81,6 +81,7 @@
         "idol":"{idol,}",
         "makeup":"{makeup,|}",
         "fellatio":"{fellatio, irrumatio, deepthroat, oral, {cum in mouth|3::}|}",
+        "dildo":"{dildo|}",
         "insertions":"{0-3$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|}",
         "chest":" {{1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,}::3|}",
         "bound":"{arms_behind_back, bound_arms, arms bound,|},",
@@ -102,11 +103,12 @@
         #"lora":"{0-4$$embedding:FastNegativeV2.pt,|embedding:neg_grapefruit.pt,|embedding:easynegative.safetensors,|embedding:EasyNegativeV2.safetensors|embedding:ParaNegative.safetensors|embedding:SimpleNegative_AnimeV1.safetensors|embedding:SimpleNegativeV3.safetensors}",
         "etc":"logo,text,sketches,watermark,signature,username,cropped,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,",
         "bad":"bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,",
+        "pose":"Head back,",
         "shot":"lower body,out of focus,",
     },
     "loras_random":{
         "body":{
-            "per":0.750,
+            "per":0.50,
             "loras":[
                 {"skinny_body_LoRA_V2_for_Pony" : "skinny_body_LoRA_V2_for_Pony"},
                 {"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002" : "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002"},
@@ -122,6 +124,12 @@
                 #{"Roped_Up" : "Roped_Up"},
             ],
         },
+        "sex":{
+            "per":0.50,
+            "loras":[
+                {"All the way through" : "All the way through"},
+            ],
+        },
         "boots":{
             "per":0.50,
             "loras":[
@@ -132,7 +140,7 @@
     },
     "loras":{
         #"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002":"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002",
-        "Re-hang-XL-3-000008" : "Re-hang-XL-3-000008",
+        #"Re-hang-XL-3-000008" : "Re-hang-XL-3-000008",
         #"balletboots_v1":"balletboots_v1",
         #"BalletBoots":"BalletBoots",
     },

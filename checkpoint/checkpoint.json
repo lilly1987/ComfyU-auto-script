@@ -55,11 +55,46 @@
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
+    "aaaautismPonyFinetune_aaaReStartV2" : {# -
+    },
     "hassakuXLHentai_v13" : {# 
     },
     "bemypony_Semianime2" : {# 
     },
+    "3x3mixxltypef_v01" : {# 
+		"positive" : {
+			"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,",
+		},
+		"negative" : {
+			"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,",
+		},
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "4thTailAnimeHentai_v045" : {# 
+		"positive" : {
+			#"quality":"smasterpiece, best quality, ",
+		},
+		"negative" : {
+			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+		},
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
     "bemypony_Semianime" : {# 
+		"positive" : {
+			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+		},
+		"negative" : {
+			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+		},
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "ebaramfcgponymix_v11" : {# 
 		"positive" : {
 			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
 		},

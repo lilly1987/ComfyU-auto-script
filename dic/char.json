@@ -155,6 +155,45 @@
         #"strength_model": (0.25,1.0),
         #"strength_clip": (0.25,1.0),
     },
+    "Irisviel von Einzbern pony" : {        
+        "positive":{
+            "char" :"irisviel von einzbern, long hair, red eyes, white hair, ,,",
+            #"isXl":"score_9, score_8_up, source_anime,,",
+            #"hat":"witch hat, hat,",
+            "dress":"{thigh boots, pantyhose, thighhighs, skirt, boots, white skirt, red shirt,|thigh boots, boots, hat, thighhighs, fur hat, white footwear, pantyhose, coat,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "Nadja_Applefield_Pony_v1" : {        
+        "positive":{
+            "char" :"nadja,,",
+            #"isXl":"score_9, score_8_up, source_anime,,",
+            #"hat":"witch hat, hat,",
+            #"dress":"{luna nova school uniform,boots,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "kuwayama_chiyuki_pony" : {        
+        "positive":{
+            "char" :"kuwayama_chiyuki, breasts,brown_hair,ahoge,long_hair,brown_eyes,braid,cleavage,collarbone,,",
+            #"isXl":"score_9, score_8_up, source_anime,,",
+            #"hat":"witch hat, hat,",
+            #"dress":"{luna nova school uniform,boots,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
     "ShinmaiMaou_NaruseMariaXL" : {        
         "positive":{
             "char" :"grey hair, purple eyes, two side up, blunt bangs, hair ornament, hair ribbon,",
@@ -481,10 +520,65 @@
         #"strength_model": (0.5,1.0),
         #"strength_clip": (0.5,1.0),
     },
+    "leen-pony3-005" : {        
+        "positive":{
+            "char":"iswleen, twintails, white hair,   ",
+			"dress":"{bikini, choker,|lolita hairband, gothic lolita|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "leen_isekai_smartphone-v2_pdv6" : {        
+        "positive":{
+            "char":"leen \(isekai wa smartphone to tomo ni.\), yellow eyes, white hair, long hair, twintails, small breasts, colored eyelashes, ,   ",
+			#"dress":"{black thighhighs, white dress, puffy short sleeves, puffy sleeves|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Kazairo_Kotone_from_RPG_Real_Estate_Pony" : {        
+        "positive":{
+            "char":"kazairokotone,   ",
+			#"dress":"{black thighhighs, white dress, puffy short sleeves, puffy sleeves|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "acetrainerXYtsukishiro" : {        
+        "positive":{
+            "char":"acexy,   ",
+			#"dress":"{black thighhighs, white dress, puffy short sleeves, puffy sleeves|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
     "raimon_pony_v1-000060" : {        
         "positive":{
             "char":"raimon_natsumi,   ",
 			#"dress":"{black thighhighs, white dress, puffy short sleeves, puffy sleeves|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Kurumi Nonaka-PonyXL-lora-Faxtron" : {        
+        "positive":{
+            "char":"kurumi nonaka, yellow eyes, blue hair, high ponytail, white hair ribbon, ",
+			"dress":"{school uniform, black jacket, yellow vest, dress shirt, red neck ribbon, blue pleated skirt,|__dress__}",
         },
         #"negative":{
         #    "foot":"",
@@ -536,10 +630,32 @@
         #"strength_model": (0.5,1.0),
         #"strength_clip": (0.5,1.0),
     },
+    "fate_morganlefay_ponyXL-CHALDEA" : {        
+        "positive":{
+            "char":"m0rganchaldea, grey hair, ponytail, french braid, hair bow, black bow,",
+            "dress":"{white shirt, collared shirt, dress shirt, long sleeves, black skirt, pencil skirt, white belt, black pantyhose,|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
     "animahjongv3-style" : {        
         "positive":{
             "char":"4n1m4hj0ngV3_style,  ",
             #"dress":"{black business suit,jacket,collared shirt,white shirt,black pants,|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "kirara_blue archive_PONY_epoch-000020" : {        
+        "positive":{
+            "char" :"kirara-default,kirara \(blue archive\),red eyes,pink hair,hair bun,long hair,horn,halo,choker,nail polish,jewelry,",
+            "dress":"{white shirt,red neckerchief,high-waist skirt, black skirt,white socks,black footwear,|__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -985,7 +1101,7 @@
         "positive":{
             #"quality":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, ,   ",
             "char":" Diana, multicolored hair, blue eyes,   ",
-            #"hair":" ",
+            "hair":"long hair,",
             "dress": "{school uniform, socks, {|witch robe, witch hat,}|__dress__ }",
         },
         #"strength_model": (0.5,1.0),
@@ -1075,6 +1191,16 @@
             "char":"blazing cartesia the virtuous, sleeveless dress, veil, elbow gloves,  ",
         },
     },
+	"kuwayama_chiyuki_pony": {	
+        "positive":{
+            "char" :"kuwayama_chiyuki, breasts,brown_hair,ahoge,long_hair,brown_eyes,braid,cleavage,collarbone,,",
+        },
+    },
+	"miruca_crotze_XL-bf16-pony-v1": {	
+        "positive":{
+            "char":" miruca_crotze,  ",
+        },
+    },
 	"natalia_autismConfetti_v02": {	
         "positive":{
             "char":" natalia \(tales\), blonde hair, short hair, green eyes, bangs, hairband, ascot, orange ascot, frills, thigh boots, pantyhose, frilled collar, white gloves, wrist bow,, ",
@@ -1146,6 +1272,18 @@
         "positive":{
             "char" :"plaindoll,white hair", 
             "dress":"{bonnet, red ascot, brown cloak, brown dress, long dress, gloves,|__dress__},",
+        },
+    },
+	"sdxl-py-raffina": {	
+        "positive":{
+            "char":"raffina,,  ",
+            #"dress":"{dress, long sleeves, frilled sleeves, earring, white gloves, blue ribbon, hand up, pelvic curtain, short skirt, white pantyhose,|__dress__},",
+        },
+    },
+	"Teresa_Lineres_pony_ct": {	
+        "positive":{
+            "char":"ctiant3r3sa,,  ",
+            "dress":"{dress, long sleeves, frilled sleeves, earring, white gloves, blue ribbon, hand up, pelvic curtain, short skirt, white pantyhose,|__dress__},",
         },
     },
 	"plana_blue archive_PONY_last": {	
