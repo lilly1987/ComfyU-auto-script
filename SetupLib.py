@@ -3,6 +3,7 @@ from DicLib import *
 from SetLib import *
 from FileLib import *
 from pathlib import *
+import re
 
 wd=Path.cwd()
 dcheckpoints=Path(wd,"../ComfyUI/models/checkpoints")
@@ -102,15 +103,19 @@ def setup_list(setup):
     if listCnt<=0:
         listCnt=listMax
         listFiles=GetFileList(str(Path(sPath,"list/*.json")))
-        if len(listFiles)>0 and setup.pop("perList",1) >random.random() :
-            listFile=random.choice(listFiles)
-            listFileName=listFile.stem
-            listDic=readDic(listFile)
-            #setup["list_name"]=listFile.stem
-            #list_name=listFile.stem
-            if "loras" in listDic:
-                listDic["Loras"]=listDic.pop("loras")
-        else:            
+        isNo=True
+        if len(listFiles)>0:
+            if setup.pop("perListCard",1) >random.random() :
+                ListCard=setup.pop("ListCard",1)
+                card=random.choice(ListCard) #str
+                list=[ f for f in listFiles if re.search(card,  f.stem)]
+                #print("list",list)
+                if len(list)>0:
+                    isNo=False
+            if isNo and setup.pop("perList",1) >random.random() :
+                list=listFiles
+                isNo=False
+        if isNo:
             global dicFileCharKeys
             listFileName=random.choice(dicFileCharKeys)
             listDic={
@@ -118,8 +123,15 @@ def setup_list(setup):
                     listFileName : listFileName,
                 },
             }
-            #listFile=None
-            #listFileName=""
+        else:
+            listFile=random.choice(list)
+            listFileName=listFile.stem
+            listDic=readDic(listFile)
+            #setup["list_name"]=listFile.stem
+            #list_name=listFile.stem
+            if "loras" in listDic:
+                listDic["Loras"]=listDic.pop("loras")
+                
     setup.setdefault("list_name",listFileName)   
     update(setup,listDic)
     

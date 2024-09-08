@@ -158,6 +158,127 @@
         #"strength_model": (0.25,1.0),
         #"strength_clip": (0.25,1.0),
     },
+    "ellen-baker-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"ellen baker, blonde hair, green eyes, long hair, ponytail, scrunchie,",
+            #"dress":"{  jacket, sweater, blue ribbon, plaid skirt, socks|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "winda-priestess-of-gusto-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"winda priestess of gusto, green eyes, green hair, long hair, ponytail,,",
+            #"dress":"{  jacket, sweater, blue ribbon, plaid skirt, socks|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "wynn-the-wind-charmer-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"wynn the wind charmer, eyes visible through hair, green eyes, green hair, ponytail, ribbon, hair ribbon,",
+            #"dress":"{  jacket, sweater, blue ribbon, plaid skirt, socks|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "yuzu-hiiragi-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"yuzu hiiragi, blue eyes, hair ornament, medium hair, multicolored hair, pink hair, red hair, streaked hair, twintails,",
+            "dress":"{ bare arms, bracelet, collared shirt, jewelry, necktie, pleated skirt, red necktie, red skirt, shirt, skirt, sleeveless, sleeveless shirt, wing collar, two-tone shirt,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "sky-striker-ace-raye-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"sky striker ace raye, blonde hair, green eyes, long hair, one side up,,",
+            "dress":"{ black thighhighs, collared dress, dress, gloves, long sleeves, short dress, thighhighs, zettai ryouiki,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "acetrainerXYtsukishiro" : {        
+        "positive":{
+            "char":"acexy,",
+            #"dress":"{  jacket, sweater, blue ribbon, plaid skirt, socks|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "lora_cosChihhi_xl_v1_pony" : {        
+        "positive":{
+            "char":"{cosChihhi,|senkawa chihiro, orange eyes, brown hair, side braid, red scrunchie,}",
+            #"dress":"{  jacket, sweater, blue ribbon, plaid skirt, socks|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "ange" : {        
+        "positive":{
+            "char":"ange, purple hair, purple eyes, long hair, hair ornament, hairclip,forehead,",
+            #"dress":"{  jacket, sweater, blue ribbon, plaid skirt, socks|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "zs_TokiXL" : {        
+        "positive":{
+            "char":"tokismtiva, long hair, black hair, blunt bangs, red eyes, ,,",
+            #"dress":"{  jacket, sweater, blue ribbon, plaid skirt, socks|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "zs_HikaruXL" : {        
+        "positive":{
+            "char":"hikarusmtiv, brown hair, long hair,,",
+            "dress":"{  jacket, sweater, blue ribbon, plaid skirt, socks|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "HiguchiMadoka_pony_v1" : {        
+        "positive":{
+            "char":"hgcmdk, short hair, brown hair, swept bangs, hairclip, purple eyes, mole under eye, small breasts,,",
+            #"dress":"{ dress, ribbon, bow, black skirt, sailor collar, white thighhighs, pink jacket,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
     "batogaerika_pony" : {        
         "positive":{
             "char":"batogaerika,",

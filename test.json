@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "Pony\\malaAnimeMixNSFW_v40.safetensors"
+            "ckpt_name": "Pony\\anyhentai_19.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,12 +10,12 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 12106460191924848754,
+            "seed": 15959888838248375156,
             "steps": 30,
             "cfg": 9,
-            "sampler_name": "euler_ancestral",
+            "sampler_name": "dpmpp_2m_sde",
             "scheduler": "karras",
-            "denoise": 0.8851700322722554,
+            "denoise": 0.9853681860179406,
             "model": [
                 "LoraLoader",
                 0
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "malaAnimeMixNSFW_v40/fate_morganlefay_ponyXL-STAGE2/malaAnimeMixNSFW_v40-fate_morganlefay_ponyXL-STAGE2",
+            "filename_prefix": "anyhentai_19/momoi-default_blue archive_PONY_last/anyhentai_19-momoi-default_blue archive_PONY_last-20240909-032231-1",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, anime source,,NSFW,uncensored,{1-3$$anime style,|2D,|anime,|anime screencap,},{sex | mating press | amazon position | missionary | cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  | full nelson sex | arm held back, sex},,face,,{idol,},{makeup,|},{fellatio, irrumatio, deepthroat, oral, {cum in mouth|3::}|},{dildo|},{0-3$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|}, {{1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,}::3|},{arms_behind_back, bound_arms, arms bound,|},,{0-5$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|} {breast exposed,breasts exposed,|}  {exposed breasts,|} {exposed pussy,|} {chest open,|} {exposure,|} ,{asphyxiation|::3}, (rolling eyes:{0.25|0.5|0.75|1}),,{0-9$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }, {{strapless dress,|} __dress__|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},bbcdeepthroat,,high heels,",
+            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} anime_screencap , source_anime, ,NSFW,uncensored,{1-3$$anime style,|2D,|anime,|anime screencap,},{sex | mating press | amazon position | missionary | cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  | full nelson sex | arm held back, sex},,face,,{idol,},{makeup,|},{fellatio, irrumatio, deepthroat, oral, {cum in mouth|3::}|},{dildo|},{0-3$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|}, {{1-2$$flat chest,|small chest,},{1-2$$flat breasts,|small breasts,}::3|},{arms_behind_back, bound_arms, arms bound,|},,{0-5$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|} {breast exposed,breasts exposed,|}  {exposed breasts,|} {exposed pussy,|} {chest open,|} {exposure,|} ,{asphyxiation|::3}, (rolling eyes:{0.25|0.5|0.75|1}),,{0-9$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }, {{strapless dress,|} __dress__|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},momoi-default,momoi \\(blue archive\\),pink eyes,blonde hair,halo,animal ear headphones, tail,jacket front red bow,multicolored jacket,wide sleeves,white shirt,blue necktie, pleated skirt,black thighhighs,pink footwear ,skinny,,empty eyes,half-closed eyes,, gigantic bulge, gigantic penis, hyper stomach bulge, large insertion, 1girl, sex, breasts, testicles, barefoot, ,{side view,|front view,} ",
             "populated_text": "",
             "mode": true,
-            "seed": 7371329064320857272,
+            "seed": 12843694449716616080,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -125,10 +125,10 @@
     },
     "negativeWildcard": {
         "inputs": {
-            "wildcard_text": "low quality,worstquality,,score_4, score_3, score_2, score_1  bad hands, missing fingers, (censor), monochrome, blurry  3d, source_cartoon  text, signature, watermark, username, artist name  ,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,{nude|},,Head back,,lower body,out of focus,,(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  facial,,{realistic,|}",
+            "wildcard_text": "low quality,worstquality,,{|{|{|{|{|{|score_6,} score_5,} score_4,} score_3,} score_2,} score_1,} source_furry, source_pony, source_cartoon,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,{nude|},,Head back,,lower body,out of focus,,(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  facial,,{realistic,|}",
             "populated_text": "",
             "mode": true,
-            "seed": 101844582161298257,
+            "seed": 9797709599962025024,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 720,
             "guide_size_for": true,
             "max_size": 720,
-            "seed": 13738714159908419860,
+            "seed": 13534644110481913583,
             "steps": 30,
             "cfg": 10,
-            "sampler_name": "dpmpp_2m",
+            "sampler_name": "dpmpp_2m_sde",
             "scheduler": "karras",
-            "denoise": 0.47460959602876496,
+            "denoise": 0.46683903074365635,
             "feather": 5,
             "noise_mask": true,
             "force_inpaint": true,
@@ -200,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "malaAnimeMixNSFW_v40/fate_morganlefay_ponyXL-STAGE2/malaAnimeMixNSFW_v40-fate_morganlefay_ponyXL-STAGE2",
+            "filename_prefix": "anyhentai_19/momoi-default_blue archive_PONY_last/anyhentai_19-momoi-default_blue archive_PONY_last-20240909-032231-2",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\Yusa_Kozue-75.safetensors",
+            "lora_name": "Pony\\char\\bugbugXL-step00001000.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 3.9374500900556724,
-            "B": 1.4943083078619197,
+            "A": 1.7758889917854206,
+            "B": 1.4412642785553684,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-Balletboots",
+                "LoraLoader-Concept_Gigantic_stomach_bulge",
                 0
             ],
             "clip": [
-                "LoraLoader-Balletboots",
+                "LoraLoader-Concept_Gigantic_stomach_bulge",
                 1
             ]
         },
@@ -292,15 +292,15 @@
             "title": "Load VAE"
         }
     },
-    "LoraLoader-fate_morganlefay_ponyXL-STAGE2": {
+    "LoraLoader-momoi-default_blue archive_PONY_last": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\fate_morganlefay_ponyXL-STAGE2.safetensors",
-            "strength_model": 0.928897359788441,
-            "strength_clip": 0.9285062073448458,
+            "lora_name": "Pony\\char\\momoi-default_blue archive_PONY_last.safetensors",
+            "strength_model": 0.7742592391396588,
+            "strength_clip": 0.8360557590987872,
             "inverse": false,
-            "A": 2.613210667769858,
-            "B": 1.785673945247868,
+            "A": 3.607294845599229,
+            "B": 1.4790665451423974,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -312,61 +312,88 @@
                 "CheckpointLoaderSimple",
                 1
             ],
-            "seed": 16116112585581750471
+            "seed": 18029429977221171127
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-BBCDeepthroat": {
+    "LoraLoader-skinny_body_LoRA_V2_for_Pony": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\BBCDeepthroat.safetensors",
-            "strength_model": 0.11572244756773986,
-            "strength_clip": 0.7329095116236896,
+            "lora_name": "Pony\\skinny_body_LoRA_V2_for_Pony.safetensors",
+            "strength_model": 0.6102296379240661,
+            "strength_clip": 0.7163983004567371,
             "inverse": false,
-            "A": 3.267898860501614,
-            "B": 1.5749448587097783,
+            "A": 3.730695508586919,
+            "B": 1.8558852780842687,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-fate_morganlefay_ponyXL-STAGE2",
+                "LoraLoader-momoi-default_blue archive_PONY_last",
                 0
             ],
             "clip": [
-                "LoraLoader-fate_morganlefay_ponyXL-STAGE2",
+                "LoraLoader-momoi-default_blue archive_PONY_last",
                 1
             ],
-            "seed": 2593021970098980695
+            "seed": 4635030595957298905
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-Balletboots": {
+    "LoraLoader-hypnotized_face_pony": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\Balletboots.safetensors",
-            "strength_model": 0.9587229391650823,
+            "lora_name": "Pony\\hypnotized_face_pony.safetensors",
+            "strength_model": 0.7766431255153777,
             "strength_clip": 1,
             "inverse": false,
-            "A": 2.771413188518062,
-            "B": 1.4402418012542468,
+            "A": 1.3228068751967903,
+            "B": 1.176300674916631,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-BBCDeepthroat",
+                "LoraLoader-skinny_body_LoRA_V2_for_Pony",
                 0
             ],
             "clip": [
-                "LoraLoader-BBCDeepthroat",
+                "LoraLoader-skinny_body_LoRA_V2_for_Pony",
                 1
             ],
-            "seed": 6100103192988186573
+            "seed": 11132330006184959640
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-Concept_Gigantic_stomach_bulge": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "Pony\\Concept_Gigantic_stomach_bulge.safetensors",
+            "strength_model": 0.936366438915282,
+            "strength_clip": 1,
+            "inverse": false,
+            "A": 2.4549964590395907,
+            "B": 1.7893986375001667,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-hypnotized_face_pony",
+                0
+            ],
+            "clip": [
+                "LoraLoader-hypnotized_face_pony",
+                1
+            ],
+            "seed": 15494434617522177580
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {

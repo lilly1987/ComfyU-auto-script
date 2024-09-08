@@ -9,10 +9,16 @@
     "CheckpointPath":"*.safetensors",
     "CharPath":"char/Diana_Cavendish-000006.safetensors",
     "CharPath":"char/*.safetensors",
+    #"CharPath":"char/daidouji_tomoyo_ponxl_v1.safetensors",
     "LoraPath":"*.safetensors",
     "LoraAdd":True,
     "LoraAddCnt":(0,2),
-    "perList":0.1250,
+    "perListCard":0.25,
+    "ListCard":[
+        ".*daidouji_tomoyo_ponxl_v1.*"
+        "daidouji_tomoyo_ponxl_v1"
+    ],
+    "perList":0.250,
     #"noFaceDetailer":True,
     "noFaceDetailer":False,
     "workflow":{
