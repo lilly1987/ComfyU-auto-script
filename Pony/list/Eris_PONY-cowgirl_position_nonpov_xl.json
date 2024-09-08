@@ -1,0 +1,13 @@
+{
+    "loras":{
+        "1" : "Eris_PONY",
+        #"2" : "Re-hang-XL-3-000008",
+        "2" : "cowgirl_position_nonpov_xl",
+        #"garrote_2-000012" : "garrote_2-000012",
+        #"Little_Witch_Academia-Diana_Cavendish-PDXL" : "Little_Witch_Academia-Diana_Cavendish-PDXL",
+    },
+    #"positive":{
+    #    "char":"layla, long hair, blonde hair, dark skin, aqua eyes, dark-skinned female",
+    #},
+    "LoraAdd":False,
+}

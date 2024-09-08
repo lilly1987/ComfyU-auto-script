@@ -106,16 +106,6 @@
         #"strength_model": (0.25,1.0),
         #"strength_clip": (0.25,1.0),
     },
-    "kuwayama_chiyuki_pony" : {        
-        "positive":{
-            "char" :"kuwayama_chiyuki, 1girl,breasts,brown_hair,ahoge,long_hair,brown_eyes,braid,cleavage,collarbone,,",
-        },
-        #"negative":{
-        #    "foot":"",
-        #},
-        #"strength_model": (0.25,1.0),
-        #"strength_clip": (0.25,1.0),
-    },
     "fate_morganlefay_ponyXL-STAGE2" : {        
         "positive":{
             #"char" :"grey hair, purple eyes, two side up, blunt bangs, hair ornament, hair ribbon,",
@@ -168,6 +158,28 @@
         #"strength_model": (0.25,1.0),
         #"strength_clip": (0.25,1.0),
     },
+    "batogaerika_pony" : {        
+        "positive":{
+            "char":"batogaerika,",
+            #"dress":"{ dress, ribbon, bow, black skirt, sailor collar, white thighhighs, pink jacket,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "patricia_abelheim_PONY_v1" : {        
+        "positive":{
+            "char" :"patricia_abelheim, multicolored hair, twintails,,",
+            "dress":"{ dress, ribbon, bow, black skirt, sailor collar, white thighhighs, pink jacket,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
     "Nadja_Applefield_Pony_v1" : {        
         "positive":{
             "char" :"nadja,,",
@@ -181,18 +193,10 @@
         #"strength_model": (0.25,1.0),
         #"strength_clip": (0.25,1.0),
     },
-    "kuwayama_chiyuki_pony" : {        
+	"kuwayama_chiyuki_pony": {	
         "positive":{
             "char" :"kuwayama_chiyuki, breasts,brown_hair,ahoge,long_hair,brown_eyes,braid,cleavage,collarbone,,",
-            #"isXl":"score_9, score_8_up, source_anime,,",
-            #"hat":"witch hat, hat,",
-            #"dress":"{luna nova school uniform,boots,|__dress__,} ",
         },
-        #"negative":{
-        #    "foot":"",
-        #},
-        #"strength_model": (0.25,1.0),
-        #"strength_clip": (0.25,1.0),
     },
     "ShinmaiMaou_NaruseMariaXL" : {        
         "positive":{
@@ -1191,11 +1195,6 @@
             "char":"blazing cartesia the virtuous, sleeveless dress, veil, elbow gloves,  ",
         },
     },
-	"kuwayama_chiyuki_pony": {	
-        "positive":{
-            "char" :"kuwayama_chiyuki, breasts,brown_hair,ahoge,long_hair,brown_eyes,braid,cleavage,collarbone,,",
-        },
-    },
 	"miruca_crotze_XL-bf16-pony-v1": {	
         "positive":{
             "char":" miruca_crotze,  ",
@@ -1211,6 +1210,11 @@
             "char":"hair over shoulder, long hair, blue eyes, blonde hair, swept bangs,  ",
             "hair":"{hoddef, union jack capelet, blue coat, white hat, tilted headwear, long sleeves, white gloves, yellow sash, blue skirt, frills, brown pantyhose, fur collar, white ascot, earrings,|hodwed, wedding dress, cleavage, collarbone, necklace, see-through, long dress, bouquet, bridal veil, bridal gauntlets|hodyuk,blue kimono, white sash, long sleeves, wide sleeves,hair flower, floral print|hodparty, gala dress, strapless white dress, white elbow gloves, cleavage, jewelry, white coat, coat on shoulders, hair ornament, hair flower, white flower, taut dress, buttons, detached collar, drill hair|__dress__},",
 			"dress":",",
+        },
+    },
+	"Little_Witch_Academia-Diana_Cavendish-PDXL": {	
+        "positive":{
+            "char":"Diana Cavendish,  ",
         },
     },
 	"知更鸟pony": {	

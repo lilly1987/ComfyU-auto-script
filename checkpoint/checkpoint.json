@@ -83,11 +83,46 @@
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
+    "raemoraXL_v10" : {# 
+		"positive" : {
+			"checkpoint":"score_9, score_8_up, score_7_up, intricate details,",
+		},
+		"negative" : {
+			"checkpoint":"score_4_up, score_5_up, score_6_up, lowres, messy drawing, amateur drawing, ugly face, bad face, bad teeth, (interlocked fingers, badly drawn hands and fingers, anatomically incorrect hands, bad anatomy), watermark,",
+		},
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
     "bemypony_Semianime" : {# 
 		"positive" : {
 			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
 		},
 		"negative" : {
+			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+		},
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "incursiosMemeDiffusion_v27PDXL" : {# 
+		"positive" : {
+			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+		},
+		"negative" : {
+			"realistic":"realistic,",
+		},
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "xlE4pMix_xlE4pMix" : {# 
+		"positive" : {
+			"quality":"(masterpiece:0.7), (best quality:1.1),,",
+			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+		},
+		"negative" : {
+			"quality":"(worst quality:0.8), (low quality:1.1), simple background, bad anatomy, error, (mangled fingers:1.05), (bad hands:0.9), (2.5D:0.6), (light particles:0.7), narrow waist, (muscular:0.7), (ribs:0.9), symbol-shaped pupils,",
 			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
 		},
         #"steps": 8,
