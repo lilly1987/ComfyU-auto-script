@@ -213,6 +213,83 @@
         #"strength_model": (0.25,1.0),
         #"strength_clip": (0.25,1.0),
     },
+    "konosuba-luna-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"luna, blonde hair, brown eyes, folded ponytail,",
+            #"dress":"{  NSSakiDress,black dress, choker,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "konosuba-eris-s1s2-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"eris, white hair, purple eyes, long hair, very long hair,",
+            "dress":"{   long sleeves, dress, jewelry, necklace, habit,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "Shiba_Miyuki-000006" : {        
+        "positive":{
+            "char":"shiba miyuki, black hair,long hair, blunt bangs, eyebrows visible through hair, blue eyes, snowflake hair ornament, yellow x hair ornament,",
+            #"dress":"{  NSSakiDress,black dress, choker,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "PonyXL Cyan Hijirikawa V5" : {        
+        "positive":{
+            "char":"cyanh,",
+            "dress":"{cat ears, rabbit hoodie, hood up, pajama shorts, sleepwear, cat tail, pajamas, slippers|cyanh, navel, chest bow, swimsuit, white hairband, cat ears, cat tail, frilled bikini, blue hair bow,|   base_outfit, pink bowtie, dress, white trim skirt, headdress, cat ears, cat tail, chest bell, striped thighhighs, mary janes,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "Sui_PD6XL" : {        
+        "positive":{
+            "char":"Sui,",
+            #"dress":"{  NSSakiDress,black dress, choker,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "NSSakiBasket" : {        
+        "positive":{
+            "char":"NSSakiBase, black hair, {braid, hair over shoulder,|} purple eyes,",
+            "dress":"{  NSSakiDress,black dress, choker,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "Iris_Pokemon_P1" : {        
+        "positive":{
+            "char":"iris \(pokemon\), purple hair, long hair, red eyes, dark skin, big hair,,",
+            #"dress":"{  jacket, sweater, blue ribbon, plaid skirt, socks|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
     "acetrainerXYtsukishiro" : {        
         "positive":{
             "char":"acexy,",

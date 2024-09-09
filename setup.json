@@ -1,6 +1,6 @@
 {
     "totalMax":1280,
-    "ckptMax":16,
+    "ckptMax":10,
     "listMax":2,
     "queue_loop":4,
     "Path":"SD",
@@ -13,12 +13,7 @@
     "LoraPath":"*.safetensors",
     "LoraAdd":True,
     "LoraAddCnt":(0,2),
-    "perListCard":0.25,
-    "ListCard":[
-        ".*daidouji_tomoyo_ponxl_v1.*"
-        "daidouji_tomoyo_ponxl_v1"
-    ],
-    "perList":0.250,
+
     #"noFaceDetailer":True,
     "noFaceDetailer":False,
     "workflow":{
@@ -31,16 +26,16 @@
         #    "ddpm", "lcm", "ddim", "uni_pc", "uni_pc_bh2"
         #],
         "KSampler":{
-            "steps": (30,50),
             "steps": 30,
+            "steps": (30,50),
             "cfg": (4,10),
             "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
             "scheduler": "karras",
             "denoise": (0.75,01.0),
         },
         "FaceDetailer":{
-            "steps": (30,50),
             "steps": 30,
+            "steps": (30,50),
             "cfg": (4,10),
             "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
             "scheduler": "karras",
@@ -117,18 +112,42 @@
         "pose":"Head back,",
         "shot":"lower body,out of focus,",
         "view":"(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  facial,",
-        "realistic":"{realistic,|}",
+        #"realistic":"{realistic,|}",
+        "realistic":"realistic,",
     },
+    "perListCard":0.5,
+    "ListCard":[
+        ".*hoodAL-ponyxl-bshi-v1.*",
+        ".*daidouji_tomoyo_ponxl_v.*",
+        ".*Diana_Cavendish-000006.*",
+        ".*Edel_PDXL_resized.*",
+        ".*Little_Witch_Academia-Diana_Cavendish-PDXL.*",
+        ".*Mayumi Saegusa-PonyXL-lora-Faxtron.*",
+        ".*Saegusa_Mayumi.*",
+        ".*Shiba_Miyuki-000006.*",
+        ".*TomoyoDaidoujiXL.*",
+        "TomoyoDaidoujiXL",
+        "Shiba_Miyuki-000006",
+        "Saegusa_Mayumi",
+        "Mayumi Saegusa-PonyXL-lora-Faxtron",
+        "Edel_PDXL_resized",
+        "Little_Witch_Academia-Diana_Cavendish-PDXL",
+        "Diana_Cavendish-000006",
+        "hoodAL-ponyxl-bshi-v1",
+        "daidouji_tomoyo_ponxl_v1",
+        #"Edel_PONY_from_Sousou_no_Frieren",
+    ],
+    "perList":0.250,
     "loras_random":{
         "body":{
-            "per":0.50,
+            "per":0.750,
             "loras":[
                 {"skinny_body_LoRA_V2_for_Pony" : "skinny_body_LoRA_V2_for_Pony"},
                 {"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002" : "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002"},
             ],
         },
         "hang":{
-            "per":0.250,
+            "per":0.50,
             "loras":[
                 {"Re-hang-XL-3-000008" : "Re-hang-XL-3-000008"},
                 {"XL-luoxuan-000012" : "XL-luoxuan-000012"},
@@ -139,19 +158,21 @@
             ],
         },
         "sex":{
-            "per":0.250,
+            "per":0.50,
             "loras":[
                 {"All the way through" : "All the way through"},
                 {"cowgirl_position_nonpov_xl" : "cowgirl_position_nonpov_xl"},
+                {"sex_with_arch_back_kiss" : "sex_with_arch_back_kiss"},
                 {"Throatbulge" : "Throatbulge"},
                 {"tentaclesX" : "tentaclesX"},
+                {"bulgeniceXLPony" : "bulgeniceXLPony"},
                 {"Roped_Up" : "Roped_Up"},
                 {"bulgesuperXLPony" : "bulgesuperXLPony"},
                 {"Sex_from_behind_symmetrical_docking" : "Sex_from_behind_symmetrical_docking"},
             ],
         },
         "fellatio":{
-            "per":0.250,
+            "per":0.50,
             "loras":[
                 {"Side-by-side_BJ" : "Side-by-side_BJ"},
                 {"hug and suck-v1" : "hug and suck-v1"},
@@ -162,7 +183,7 @@
             ],
         },
         "boots":{
-            "per":0.50,
+            "per":0.750,
             "loras":[
                 {"heelless_ballet_boots":"heelless_ballet_boots"},
                 {"Balletboots":"Balletboots"},

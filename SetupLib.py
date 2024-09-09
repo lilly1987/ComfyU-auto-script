@@ -100,24 +100,32 @@ def setup_list(setup):
     global listFileName
     global listDic
     global sPath
+    global dicFileChar
+    global dicFileCharKeys
+    
     if listCnt<=0:
         listCnt=listMax
         listFiles=GetFileList(str(Path(sPath,"list/*.json")))
         isNo=True
+        listFileName=random.choice(dicFileCharKeys)
         if len(listFiles)>0:
             if setup.pop("perListCard",1) >random.random() :
-                ListCard=setup.pop("ListCard",1)
+                ListCard=setup.pop("ListCard",[])
                 card=random.choice(ListCard) #str
                 list=[ f for f in listFiles if re.search(card,  f.stem)]
-                #print("list",list)
                 if len(list)>0:
                     isNo=False
+                else:
+                    list=[ dicFileChar.get(f) for f in dicFileCharKeys if re.search(card,  f)] 
+                    if len(list)>0:
+                        listFile=random.choice(list)
+                        listFileName=listFile.stem
+                print("list",list)
             if isNo and setup.pop("perList",1) >random.random() :
                 list=listFiles
                 isNo=False
+        #else:
         if isNo:
-            global dicFileCharKeys
-            listFileName=random.choice(dicFileCharKeys)
             listDic={
                 "Loras":{
                     listFileName : listFileName,
@@ -127,8 +135,6 @@ def setup_list(setup):
             listFile=random.choice(list)
             listFileName=listFile.stem
             listDic=readDic(listFile)
-            #setup["list_name"]=listFile.stem
-            #list_name=listFile.stem
             if "loras" in listDic:
                 listDic["Loras"]=listDic.pop("loras")
                 
@@ -278,8 +284,6 @@ def setup_workflow(setup):
     d.setdefault("filename_prefix",f"{n}")    
     d=workflow.setdefault("SaveImage2",{})    
     d.setdefault("filename_prefix",f"{n}")    
-    #workflow_api["SaveImage1"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-1"
-    #workflow_api["SaveImage2"]["inputs"]['filename_prefix']=f"{ckptPath.stem}-{listFile.stem}-{tm}-2"
     
 def Setup_print(i,max,j,queue_loop):
     print(f"{max-i}/{max} ; {ckptCnt}/{ckptMax} ; {listCnt}/{listMax} ; {queue_loop-j}/{queue_loop} ; {ckptFileName} ; {listFileName}")

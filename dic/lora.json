@@ -834,6 +834,16 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "Double vaginal from behind-000009" : {        
+        "positive":{
+            "Double vaginal from behind-000009":" double vaginal, from behind,  1girl,  2boys,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "bulgesuperXLPony" : {        
         "positive":{
             "bulgesuperXLPony":" absurd stomach bulge, stomach bulge,",

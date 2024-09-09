@@ -195,7 +195,7 @@
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
-    "arael_i" : {# 
+    "arael_i" : {# -
         "positive":{
          #   "checkpoint":"score_9, score_8_up, score_7_up,score_6_up,",
         },
