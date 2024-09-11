@@ -10,6 +10,72 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "Anna_Clement_Pony" : {        
+        "positive":{
+            "char":"anna clement, purple hair, green eyes, long hair, wavy hair,,",
+            #"dress":"{military uniform, blue uniform, necktie, armband,,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Sakurai_Minami" : {        
+        "positive":{
+            "char":"minami, yellow eyes,purple hair, short hair,single braid,eyebrows visible through hair, bang,,",
+            "dress":"{minamidress,maid,choker,black ribbon, neck ribbon,collarbone,puffy short sleeves,ribbon,white apron, waist apron, white bow, black dress,wrist cuffs,,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Saegusa_Izumi" : {        
+        "positive":{
+            "char":"izumi, brown hair, eyebrows visible through hair,bangs, short hair,green eyes, hair ribbon,,",
+            "dress":"{school uniform,  sleeveless white dress, black necktie, green jacket,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Saegusa_Kasumi" : {        
+        "positive":{
+            "char":"kasumi,bangs, brown hair,short hair with long locks, hair bow, green eyes,,",
+            "dress":"{school uniform,  sleeveless white dress, black necktie, green jacket,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Kitayama_Shizuku" : {        
+        "positive":{
+            "char":"kitayama shizuku, short hair, bangs, black hair, grey eyes,,",
+            "dress":"{school uniform,  sleeveless white dress, black necktie, green jacket,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "WhiskeyProjectXL" : {        
+        "positive":{
+            "char":"whiskey project,",
+            #"dress":"{tiara, white jacket, cropped jacket, high collar, long sleeves, short dress, white dress, earrings, necklace,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "rwby_weissschnee_ponyXL" : {        
         "positive":{
             "char":"weissvale, scar across eye, ponytail, hair ornament,",
@@ -56,7 +122,7 @@
     },
     "Kudelia_Aina_Bernstein" : {        
         "positive":{
-            "char" :"kudelia, 1girl, blonde hair, long hair, purple eyes,",
+            "char" :"kudelia, blonde hair, long hair, purple eyes,",
             "dress":"{dress, gloves,  boots, white gloves, capelet, red dress, bow, half updo, ribbon,|__dress__}",
         },
         #"negative":{
@@ -250,6 +316,17 @@
         "positive":{
             "char":"cyanh,",
             "dress":"{cat ears, rabbit hoodie, hood up, pajama shorts, sleepwear, cat tail, pajamas, slippers|cyanh, navel, chest bow, swimsuit, white hairband, cat ears, cat tail, frilled bikini, blue hair bow,|   base_outfit, pink bowtie, dress, white trim skirt, headdress, cat ears, cat tail, chest bell, striped thighhighs, mary janes,|__dress__,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "eleanora_v1" : {        
+        "positive":{
+            "char":"eleanora,blonde hair,very long hair, drill hair,parted bangs,red eyes, ,",
+            "dress":"{  collared dress,longs sleeves,brown skirt,parted dress,red skirt,frilled skirt, white shirt,|__dress__,} ",
         },
         #"negative":{
         #    "foot":"",
@@ -1194,11 +1271,26 @@
         },
         #"strength_model": (0.5,1.0),
     },
+	"witch_Pony_V1.0": {	
+        "positive":{
+            "dress":"jyojifuku, witch, dress, pantyhose,hat, ",
+            #"dress":",",
+        },
+        "strength_model": (0.5,0.7),
+    },
 	"TomoyoDaidoujiXL": {	
         "positive":{
             "char":"daidouji tomoyo, black hair, long hair, blunt bangs, hairband, long hair, purple eyes,    ",
             #"hair":" ",
             "dress": "{black shirt, long sleeves, neckerchief, sailor collar, school uniform, serafuku, white skirt, tomoeda elementary school uniform,|white shirt, short sleeves, red neckerchief, sailor collar, school uniform, black skirt |__dress__} ",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"syuen-nikke-richy-v1_pdxl": {	
+        "positive":{
+            "char":"syuen, purple eyes, black hair, streaked hair, short hair, bangs, hair ribbon, earrings,  mole under eye",
+            #"hair":" ",
+            "dress": "{purple jacket, necktie, detached sleeves, sleeveless, crop top, navel, midriff, skirt, belt, leg tattoo,,|__dress__} ",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1523,6 +1615,8 @@
             "char" :"tachibana kimika, brown hair, short hair, green eyes,,  ",
             #"dress":"{red sweater, long sleeves,sweater dress,jewelry, black pantyhose, off shoulder, |__dress__},",
         },
+        "strength_model": (0.5,1.0),
+        "strength_clip": (0.5,1.0),
     },
 	"steinsgate_makise_ponyXL": {	
         "positive":{

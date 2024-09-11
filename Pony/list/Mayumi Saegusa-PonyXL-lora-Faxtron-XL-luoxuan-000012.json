@@ -1,17 +1,13 @@
 {
     "loras":{
-        "1" : "daidouji_tomoyo_ponxl_v1",
-        #"2" : "XL-luoxuan-000012",
-        "2" : "BBCDeepthroat",
+        "1" : "Mayumi Saegusa-PonyXL-lora-Faxtron",
+        #"2" : "Re-hang-XL-3-000008",
+        "2" : "XL-luoxuan-000012",
         #"garrote_2-000012" : "garrote_2-000012",
         #"Little_Witch_Academia-Diana_Cavendish-PDXL" : "Little_Witch_Academia-Diana_Cavendish-PDXL",
     },
     #"positive":{
     #    "char":"layla, long hair, blonde hair, dark skin, aqua eyes, dark-skinned female",
     #},
-    "loraSet":{
-        "strength_model": (0.250,1.0),
-        "strength_clip": (0.750,1.0),
-    },
-    "LoraAdd":False,
+    #"LoraAdd":False,
 }

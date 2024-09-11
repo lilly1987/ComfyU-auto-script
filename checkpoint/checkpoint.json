@@ -59,6 +59,8 @@
     },
     "hassakuXLHentai_v13" : {# 
     },
+    "urangdiffusionBase_v11Pretrained" : {# ---
+    },
     "bemypony_Semianime2" : {# 
     },
     "3x3mixxltypef_v01" : {# 
@@ -184,9 +186,9 @@
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
-    "mklanNSFWANIMEHentai_mklan223hentai" : {# 
+    "mklanNSFWANIMEHentai_mklan223hentai" : {#  -
         "positive":{
-            "checkpoint":"score_9,score_8_up,score_7_up,score_6_up,",
+            "checkpoint":"score_9,score_8_up,score_7_up,score_6_up, source_anime,",
         },
         "negative":{
             "checkpoint":"(watermark:1.5), (text:1.5),",
@@ -284,7 +286,7 @@
         "cfg": (4,8),
         "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
-    "copycatPVC_v20" : {        
+    "copycatPVC_v20" : { #+
         "positive":{
             #"quality":"score_9, score_8_up, score_7_up, source_anime ",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
@@ -299,7 +301,7 @@
     },
     "monstercoffeecelsiusMix_v10" : {        
         "positive":{
-            "quality":"score_9, score_8_up, score_7_up, source_anime ",
+            "checkpoint":"score_9, score_8_up, score_7_up, source_anime ",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
         },
         "negative":{
@@ -323,7 +325,7 @@
         #"cfg": (4,8),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
-    "novaAnimeXL_ponyV40" : {        
+    "novaAnimeXL_ponyV40" : { # -
         "positive":{
             "quality":"BREAK score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, BREAK ",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",

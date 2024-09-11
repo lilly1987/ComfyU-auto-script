@@ -9,5 +9,9 @@
     #"positive":{
     #    "char":"layla, long hair, blonde hair, dark skin, aqua eyes, dark-skinned female",
     #},
+    "loraSet":{
+        "strength_model": (0.250,1.0),
+        "strength_clip": (0.750,1.0),
+    },
     "LoraAdd":False,
 }

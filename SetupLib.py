@@ -120,11 +120,14 @@ def setup_list(setup):
                     if len(list)>0:
                         listFile=random.choice(list)
                         listFileName=listFile.stem
-                print("list",list)
+                #print("list",list)
             if isNo and setup.pop("perList",1) >random.random() :
                 list=listFiles
                 isNo=False
-        #else:
+        else:
+            setup.pop("perList",1)
+            setup.pop("perListCard",1)
+            setup.pop("ListCard",[])
         if isNo:
             listDic={
                 "Loras":{
@@ -171,6 +174,16 @@ def setup_lora_add(setup):
             #print("name : ",name)
             listLora.remove(name)
 
+def setup_lora_max(setup):
+    #Loras=setup.get("Loras")
+    global Loras
+    #print("Loras",Loras)
+    n=SetArrRnd(setup,"LoraMaxCnt")
+    Loras={k:v for i, (k, v) in enumerate(Loras.items()) if i < n}
+    # print("Loras",Loras)
+    setup["Loras"]=Loras
+        
+    
 def setup_dic(setup):
     
     #==============================================
