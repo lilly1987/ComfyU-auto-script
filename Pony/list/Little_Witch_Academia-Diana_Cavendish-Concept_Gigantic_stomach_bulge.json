@@ -1,0 +1,16 @@
+{
+    "loras":{
+        #"Diana_Cavendish-000006" : "Diana_Cavendish-000006",
+        #"Re-hang-XL-3-000008" : "Re-hang-XL-3-000008",
+        "2" : "Concept_Gigantic_stomach_bulge",
+        "Little_Witch_Academia-Diana_Cavendish-PDXL" : "Little_Witch_Academia-Diana_Cavendish-PDXL",
+    },
+    #"positive":{
+    #    "char":"layla, long hair, blonde hair, dark skin, aqua eyes, dark-skinned female",
+    #},
+    "loraSet":{
+        "strength_model": (0.250,0.75),
+        "strength_clip": (0.750,1.0),
+    },
+    "LoraAdd":False,
+}

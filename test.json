@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "Pony\\dengPVCXLMix2_v10.safetensors"
+            "ckpt_name": "Pony\\4thTailAnimeHentai_v045.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,12 +10,12 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 5403651371602104305,
-            "steps": 43,
-            "cfg": 8,
+            "seed": 15781819772280925069,
+            "steps": 34,
+            "cfg": 9,
             "sampler_name": "euler_ancestral",
             "scheduler": "karras",
-            "denoise": 0.8705699053724073,
+            "denoise": 0.7505736657211471,
             "model": [
                 "LoraLoader",
                 0
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "dengPVCXLMix2_v10/argus_XL_pony_bf16_v1/dengPVCXLMix2_v10-argus_XL_pony_bf16_v1-20240911-110212-1",
+            "filename_prefix": "4thTailAnimeHentai_v045/satou_sasara_XL_pony_bf16_v1/4thTailAnimeHentai_v045-satou_sasara_XL_pony_bf16_v1-20240911-114004-1",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} source_anime,  {anime_screencap,|},NSFW,{uncensored,|},{1-3$$anime style,|2D,|anime,|anime screencap,},{|  arm held back, sex},,{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},,face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),,{idol,|},{long hair,|},{fellatio, irrumatio, deepthroat, oral, {cum in mouth|3::}|},{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}, {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|},{arms_behind_back, bound_arms, arms bound,|},,{0-2$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|} {breast exposed,breasts exposed,|}  {exposed breasts,|} {exposed pussy,|} {chest open,|} {exposure,|} ,{0-2$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }, {{strapless dress,|} __dress__|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},argus \\(azur lane\\),   ,bbcdeepthroat,, monsterXgirl,, 2girls, 2boys, sex from behind, foursome, symmetrical docking, breast press, side view, looking at another,",
+            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} source_anime,  {anime_screencap,|},NSFW,{uncensored,|},{1-3$$anime style,|2D,|anime,|anime screencap,},{|sex},,{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},,face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),,{idol,|},{long hair,|},{fellatio, irrumatio, deepthroat, oral, {cum in mouth|3::}|},{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}, {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|},{arms behind back, bound arms, arms bound, arm held back,|},,{{1-3$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ,{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }}, {{strapless dress,|} __dress__|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},satou sasara,   ,afraid,(surprised), sitting, one boy standing behind,arms behind back,",
             "populated_text": "",
             "mode": true,
-            "seed": 16004010463852188454,
+            "seed": 14515821401493795710,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -128,7 +128,7 @@
             "wildcard_text": "low quality,worstquality,,{|{|{|{|{|{|score_6,} score_5,} score_4,} score_3,} score_2,} score_1,} source_furry, source_pony, source_cartoon,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,{nude|},,Western,,Head back,,lower body,out of focus,,(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  facial,,realistic,",
             "populated_text": "",
             "mode": true,
-            "seed": 13855184608925530047,
+            "seed": 823100332243162807,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 720,
             "guide_size_for": true,
             "max_size": 720,
-            "seed": 15780971661041640840,
-            "steps": 49,
-            "cfg": 10,
-            "sampler_name": "euler_ancestral",
+            "seed": 5896053860522087790,
+            "steps": 34,
+            "cfg": 6,
+            "sampler_name": "dpmpp_2m_sde",
             "scheduler": "karras",
-            "denoise": 0.617092089267971,
+            "denoise": 0.437914305310194,
             "feather": 5,
             "noise_mask": true,
             "force_inpaint": true,
@@ -200,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "dengPVCXLMix2_v10/argus_XL_pony_bf16_v1/dengPVCXLMix2_v10-argus_XL_pony_bf16_v1-20240911-110212-2",
+            "filename_prefix": "4thTailAnimeHentai_v045/satou_sasara_XL_pony_bf16_v1/4thTailAnimeHentai_v045-satou_sasara_XL_pony_bf16_v1-20240911-114004-2",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\elie-pdxl-nvwls-v1.safetensors",
+            "lora_name": "Pony\\char\\Little_Witch_Academia-Diana_Cavendish-PDXL.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 2.7302606431483603,
-            "B": 1.9576322466636709,
+            "A": 1.0927220793946184,
+            "B": 1.6156251182798451,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-Sex_from_behind_symmetrical_docking",
+                "LoraLoader-uiXL_LoRA-C3Lier_AdamW_Dim16_Alpha16_UN-3e-4_TE-1.5e-4_10batch_ponyDiffusionV6XL_v6StartWithThisOne",
                 0
             ],
             "clip": [
-                "LoraLoader-Sex_from_behind_symmetrical_docking",
+                "LoraLoader-uiXL_LoRA-C3Lier_AdamW_Dim16_Alpha16_UN-3e-4_TE-1.5e-4_10batch_ponyDiffusionV6XL_v6StartWithThisOne",
                 1
             ]
         },
@@ -292,15 +292,15 @@
             "title": "Load VAE"
         }
     },
-    "LoraLoader-argus_XL_pony_bf16_v1": {
+    "LoraLoader-satou_sasara_XL_pony_bf16_v1": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\argus_XL_pony_bf16_v1.safetensors",
-            "strength_model": 0.880005893098804,
-            "strength_clip": 0.9071287902849064,
+            "lora_name": "Pony\\char\\satou_sasara_XL_pony_bf16_v1.safetensors",
+            "strength_model": 0.9896501557215452,
+            "strength_clip": 0.8853274393635344,
             "inverse": false,
-            "A": 3.660781053260651,
-            "B": 1.2230115611580017,
+            "A": 2.2226935236637777,
+            "B": 1.6564248680462779,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -312,115 +312,61 @@
                 "CheckpointLoaderSimple",
                 1
             ],
-            "seed": 13824587905136742960
+            "seed": 17363590069448882568
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-BBCDeepthroat": {
+    "LoraLoader-garrote_2-000012": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\BBCDeepthroat.safetensors",
-            "strength_model": 0.6634806296642859,
-            "strength_clip": 0.6322120657470462,
+            "lora_name": "Pony\\garrote_2-000012.safetensors",
+            "strength_model": 0.19560337852066995,
+            "strength_clip": 0.7471319821354182,
             "inverse": false,
-            "A": 3.8380156576013875,
-            "B": 1.7599838253533686,
+            "A": 2.3329118167447875,
+            "B": 1.926221609122063,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-argus_XL_pony_bf16_v1",
+                "LoraLoader-satou_sasara_XL_pony_bf16_v1",
                 0
             ],
             "clip": [
-                "LoraLoader-argus_XL_pony_bf16_v1",
+                "LoraLoader-satou_sasara_XL_pony_bf16_v1",
                 1
             ],
-            "seed": 2205996810590517789
+            "seed": 9679078642965294736
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-Throatbulge": {
+    "LoraLoader-uiXL_LoRA-C3Lier_AdamW_Dim16_Alpha16_UN-3e-4_TE-1.5e-4_10batch_ponyDiffusionV6XL_v6StartWithThisOne": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\Throatbulge.safetensors",
-            "strength_model": 0.5503053568845576,
+            "lora_name": "Pony\\uiXL_LoRA-C3Lier_AdamW_Dim16_Alpha16_UN-3e-4_TE-1.5e-4_10batch_ponyDiffusionV6XL_v6StartWithThisOne.safetensors",
+            "strength_model": 0.9903920903780817,
             "strength_clip": 1,
             "inverse": false,
-            "A": 1.594853214176673,
-            "B": 1.8537741698687307,
+            "A": 1.8608592015106105,
+            "B": 1.9960033908723527,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-BBCDeepthroat",
+                "LoraLoader-garrote_2-000012",
                 0
             ],
             "clip": [
-                "LoraLoader-BBCDeepthroat",
+                "LoraLoader-garrote_2-000012",
                 1
             ],
-            "seed": 10028983361065490115
-        },
-        "class_type": "LoraLoaderBlockWeight //Inspire",
-        "_meta": {
-            "title": "Lora Loader (Block Weight)"
-        }
-    },
-    "LoraLoader-monsterXgirl_Hell": {
-        "inputs": {
-            "category_filter": "All",
-            "lora_name": "Pony\\monsterXgirl_Hell.safetensors",
-            "strength_model": 0.6795700076690527,
-            "strength_clip": 1,
-            "inverse": false,
-            "A": 3.673771556290069,
-            "B": 1.4812872738289913,
-            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "bypass": false,
-            "model": [
-                "LoraLoader-Throatbulge",
-                0
-            ],
-            "clip": [
-                "LoraLoader-Throatbulge",
-                1
-            ],
-            "seed": 2979036143188953417
-        },
-        "class_type": "LoraLoaderBlockWeight //Inspire",
-        "_meta": {
-            "title": "Lora Loader (Block Weight)"
-        }
-    },
-    "LoraLoader-Sex_from_behind_symmetrical_docking": {
-        "inputs": {
-            "category_filter": "All",
-            "lora_name": "Pony\\Sex_from_behind_symmetrical_docking.safetensors",
-            "strength_model": 0.47461621640463914,
-            "strength_clip": 1,
-            "inverse": false,
-            "A": 2.224973475937988,
-            "B": 1.4385712613425512,
-            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "bypass": false,
-            "model": [
-                "LoraLoader-monsterXgirl_Hell",
-                0
-            ],
-            "clip": [
-                "LoraLoader-monsterXgirl_Hell",
-                1
-            ],
-            "seed": 7874390942368045742
+            "seed": 16526325139058556279
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
