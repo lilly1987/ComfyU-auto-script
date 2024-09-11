@@ -19,6 +19,36 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "PR0N3-000010" : {        
+        "positive":{
+            "PR0N3-000010":"PR0N3,Prone Bone,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": (0.4,0.6),
+        #"strength_clip": 1,
+    },
+    "bulgepecXLPony" : {        
+        "positive":{
+            "bulgepecXLPony":"pectoral bulge, stomach bulge,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.7,0.9),
+        #"strength_clip": 1,
+    },
+    "X bound_pony_V1.1" : {        
+        "positive":{
+            "bound_pony_V1":"x bound, bdsm, bondage, restrained, bound wrists, bound ankles,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": (0.7,0.9),
+        #"strength_clip": 1,
+    },
     "heelless_ballet_boots" : {        
         "positive":{
             "heelless_ballet_boots":"heelless ballet boots, pony boots, zeroheels ballet boots, heelhidden boots，,",
@@ -28,6 +58,12 @@
         #},
         #"strength_model": 0.75,
         #"strength_clip": 1,
+    },
+	"Clit_Leash-000018": {	
+        "positive":{
+            "ibalance" :"clitleash,",
+            #"pose":"",
+        },
     },
 	"_sdxl-ibalance-pony": {	
         "positive":{
@@ -611,7 +647,7 @@
     },
     "extreme_insertion_ponyXL_v1.2" : {        
         "positive":{
-            "extreme_insertion_ponyXL_v1" :"stomach bulge, extreme insertion, large insertion, x-ray,",
+            "extreme_insertion_ponyXL_v1" :"stomach bulge, extreme insertion, large insertion,",# x-ray,
         },
         #"negative":{
         #    "foot":"",

@@ -144,34 +144,89 @@ def setup_list(setup):
     setup.setdefault("list_name",listFileName)   
     update(setup,listDic)
     
-def setup_lora_add(setup):
-
+    
+def lora_dic(dicLora,l,loraSet,charSet):
     global Loras
-
+    #print("l",l)
+    for k, v in l.items():
+        
+        if isinstance(v,str):
+            name=v
+            d=dicLora.get(v)
+            if d is None:
+                print("[yellow]Dic Lora No[/yellow] : ",v)
+                d={}
+        else:
+            d=v
+            name=k
+        #print("d",d) # {'positive': {'char': 'mayumi saegusa, red eyes, black hair, long hair, ,
+        
+        n=d.pop("file_name",name)
+        f=dicFileChar.get(n)                
+        if f is not None:
+            dset=charSet
+        else:
+            f=dicFileLora.get(n)
+            if f is None:
+                print("[yellow]No Lora File[/yellow] : ",n)
+                continue
+            else:
+                dset=loraSet
+                
+        lora_name=d.setdefault("lora_name",str(f))
+        updaten(d,dset)
+        Loras[k]=l[k]=d
+        #print("l",l)
+        print("[green]lora_name[/green]",name)
+        
+    return l
+    
+def setup_lora_add(setup):
+    #==============================================
+    dicLora={}
+    dicFiles=GetFileList("dic/*.json")
+    for f in dicFiles:
+        update(dicLora,readDic(f))
+    #==============================================    
+    global Loras
+    charSet=setup.pop("charSet",{})
+    loraSet=setup.pop("randSet",{})
+    
+    max=SetArrRnd(setup,"LoraMaxCnt")
+    #==============================================
+    for k, v in Loras.items():
+        l=lora_dic(dicLora,{k:v},loraSet,charSet)
+    now=len(Loras)
+    if now>=max:
+        #setup_lora_max(setup)
+        return
+    #==============================================
     v=setup.pop("LoraAdd",True)
     if v:
         
+        #==============================================
         r=setup.pop("loras_random",{})
         for k, v in r.items():
             p=v.pop("per",1.0)
             if p>=random.random():
                 l=SetArrRnd(v,"loras")
-                #print("loras",l)
-                update(Loras,l)
-                #print("loras",Loras)
-        
+                l=lora_dic(dicLora,l,loraSet,charSet)
+                now+=1
+                if now>=max:
+                    return
+        ##==============================================
         LoraAddCnt=SetArrRnd(setup,"LoraAddCnt")
         setup.pop("LoraAddCnt")
-        #print("LoraAddCnt",LoraAddCnt)
+        loraSet=setup.pop("loraSet",{})
         listLora=list(dicFileLora.keys())
         for i in range(LoraAddCnt):
-            #print(len(listLora1))
             if len(listLora)==0 :
                 break
             name=random.choice(listLora)
-            #name=loraFile.stem
-            Loras[name]=name
-            #print("name : ",name)
+            l=lora_dic(dicLora,{name:name},loraSet,charSet)
+            now+=1
+            if now>=max:
+                return
             listLora.remove(name)
 
 def setup_lora_max(setup):

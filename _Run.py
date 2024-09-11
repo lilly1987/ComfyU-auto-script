@@ -55,11 +55,11 @@ try:
         setup_lora_add(setup)
         debug("setup_lora_add",setup)
         
-        setup_lora_max(setup)
-        debug("setup_lora_max",setup)        
+        #setup_lora_max(setup)
+        #debug("setup_lora_max",setup)        
         
-        setup_dic(setup)
-        debug("setup_dic",setup)
+        #setup_dic(setup)
+        #debug("setup_dic",setup)
         
         setup_workflow(setup)
         debug("setup_workflow",setup)

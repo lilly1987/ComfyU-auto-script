@@ -539,8 +539,8 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.5,1.0),
-        #"strength_clip": (0.5,1.0),
+        "strength_model": (0.0,1.0),
+        "strength_clip": (0.0,1.0),
     },
     "IPhonechan_PDXL" : {        
         "positive":{
@@ -586,7 +586,7 @@
         #"strength_model": (0.5,1.0),
         #"strength_clip": (0.5,1.0),
     },
-    "TrailsThroughDaybreak-Playable" : {        
+    "TrailsThroughDaybreak-Playable" : { # -
         "file_name":"TrailsThroughDaybreak-Playable",
         "positive":{
             #"char":" Elaine Auclair, aqua eyes, blonde hair, long hair, braid, hair ornament, ,   ",
@@ -741,7 +741,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.5,1.0),
+        "strength_model": (0.5,1.0),
         #"strength_clip": (0.5,1.0),
     },
     "metan_pony_v1" : {        
@@ -1617,6 +1617,67 @@
         },
         "strength_model": (0.5,1.0),
         "strength_clip": (0.5,1.0),
+    },
+	"Little_Witch_Academia-Sucy_Manbavaran-PDXL": {	
+        "positive":{
+            "char" :"Sucy Manbavaran, witch,  ",
+            #"dress":"{red sweater, long sleeves,sweater dress,jewelry, black pantyhose, off shoulder, |__dress__},",
+        },
+    },
+	"Little_Witch_Academia-Ursula_Callistis-PDXL": {	
+        "positive":{
+            "char" :"Ursula Callistis,  ",
+            #"dress":"{red sweater, long sleeves,sweater dress,jewelry, black pantyhose, off shoulder, |__dress__},",
+        },
+    },
+	"seia_blue archive_PONY_last": {	
+        #"file_name":"WanderingWitch",
+        "positive":{
+            "char" :"seia \(blue archive\),multicolored eyes, blonde hair,long hair,animal ears,halo,",
+            "dress":"{white dress,sleeves past fingers,pantyhose,tail,high heels , |__dress__},",
+        },
+    },
+	"Genshin_NPC_XiaoYu_Pony_v1": {	
+        #"file_name":"WanderingWitch",
+        "positive":{
+            "char" :"blunt bangs, brown hair, brown eyes, ponytail, ,  ",
+            "dress":"{ long sleeves, wide sleeves,dark jade dress, dark jade footwear, chinese clothes,, |__dress__},",
+        },
+    },
+	"shiina_anzu_V1": {	
+        #"file_name":"WanderingWitch",
+        "positive":{
+            "char" :"shiina_anzu, blonde hair, long hair, blue eyes, flat chest,  ",
+            "dress":"{school uniform, serafuku, black serafuku, long sleeves,pleated skirt,socks,shoes, |__dress__},",
+        },
+    },
+	"Sucy_Manbavaran_Little_Witch_Academia__-_Pony": {	
+        #"file_name":"WanderingWitch",
+        "positive":{
+            "char" :"sucymanbavaran,  ",
+            #"dress":"{red sweater, long sleeves,sweater dress,jewelry, black pantyhose, off shoulder, |__dress__},",
+        },
+    },
+	"Sucy_Pony-10": {	
+        #"file_name":"WanderingWitch",
+        "positive":{
+            "char" :"Sucy_Manbavaran, red_eyes, pink_hair, long_hair, hair_over_one_eye, small_breasts, ",
+            "dress":"{ luna_nova_school_uniform, witch, witch_hat, wide_sleeves, red_belt, |__dress__},",
+        },
+    },
+	"Witch2": {	
+        #"file_name":"WanderingWitch",
+        "positive":{
+            "char" :"sucy,  ",
+            #"dress":"{red sweater, long sleeves,sweater dress,jewelry, black pantyhose, off shoulder, |__dress__},",
+        },
+    },
+	"WanderingWitch_Fran": {	
+        "file_name":"WanderingWitch",
+        "positive":{
+            "char" :"Fran, long hair, blue eyes, black hair, hair over one eye, witch hat,,  ",
+            #"dress":"{red sweater, long sleeves,sweater dress,jewelry, black pantyhose, off shoulder, |__dress__},",
+        },
     },
 	"steinsgate_makise_ponyXL": {	
         "positive":{

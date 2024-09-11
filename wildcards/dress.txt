@@ -1,1 +1,1 @@
-{0-3$$ $$China|evening|maid|Japanese|lolita|princess|wedding|sweater|bride|collared|victorian|witch|gothic} {dress|bikini},
+{0-3$$ $$China|evening|maid|Japanese|lolita|princess|wedding|sweater|bride|collared|victorian|witch|gothic|bikini} dress,
