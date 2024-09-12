@@ -570,10 +570,32 @@
         "negative":{
             "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL":"score_1,score_2, score_3, score_4, blank background, blank setting, text, error, unfinished, unoriginal, watermark, username, blurry, typical, copy, duplicate, repetitive, grayscale, monochrome, sfw, censored, kid, (bad skin, skin spots), (mutation, deformity), (duplicate body parts), (bad anatomy), (bad), (error), (misshapen breasts, one breast higher than the other), (mutated stomach, double belly button, six pack abs,), (normal body weight, not seeing ribcage)",
         },
-        #"strength_model": 0.75,
+        "strength_model": (0.0,0.5,)
         #"strength_clip": 1,
     },
 
+    "Huge Insertion Bulge pony-v1.0" : {        
+        "positive":{
+            "Huge Insertion Bulge pony-v1.0":" stomach bulge,dildo,vaginal object insertion,,",
+			#"pose":" {from above, kneeling|sitting,|head out of frame, squatting|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "stomach_bulge_all_the_way_up_entire_torso-000006" : {        
+        "positive":{
+            "stomach_bulge_all_the_way_up_entire_torso-000006":" stomach bulge, hyper penetration,",
+			#"pose":" {from above, kneeling|sitting,|head out of frame, squatting|},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "Blowjob" : {        
         "positive":{
             "Blowjob":" fellatio,",
@@ -655,9 +677,39 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "hentai_anime_style_pony_v2" : {        
+        "positive":{
+            #"pussybursterXVer001":"nsfw, pussybursterX, birthing monster, pussyburster, monster, alien, vaginal insertion,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "BBQ_pony_v1" : {        
         "positive":{
             #"pussybursterXVer001":"nsfw, pussybursterX, birthing monster, pussyburster, monster, alien, vaginal insertion,,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "leheng_re" : {        
+        "positive":{
+            "leheng_re":"empty eyes, {|tongue out,}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "chikan_pony_V1.0" : {        
+        "positive":{
+            "chikan_pony_V1.0":"chikan, 1boy, train interior, skirt, groping, ass grab,",
         },
         #"negative":{
         #    "foot":"",

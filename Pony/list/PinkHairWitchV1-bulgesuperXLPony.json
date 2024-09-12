@@ -1,0 +1,15 @@
+{
+    "loras":{
+        #"Little_Witch_Academia-Diana_Cavendish-PDXL" : "Little_Witch_Academia-Diana_Cavendish-PDXL",
+        #"Diana_Cavendish-000006" : "Diana_Cavendish-000006",
+        #"pokemon-serena-ponyxl-lora-nochekaiser" : "pokemon-serena-ponyxl-lora-nochekaiser",
+        #"Hiro_Shinosawa_Pony-10" : "Hiro_Shinosawa_Pony-10",
+        "1" : "PinkHairWitchV1",
+        "2" : "bulgesuperXLPony",
+        #"garrote_2-000012" : "garrote_2-000012",
+    },
+    #"positive":{
+    #    "char":"layla, long hair, blonde hair, dark skin, aqua eyes, dark-skinned female",
+    #},
+    "LoraAdd":False, 
+}

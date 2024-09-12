@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "Pony\\nachaPonyCheckpoint_v05.safetensors"
+            "ckpt_name": "Pony\\baseAnimeStylePony_v3.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,12 +10,12 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 3891832111362341989,
-            "steps": 34,
-            "cfg": 10,
+            "seed": 14008054669625488862,
+            "steps": 36,
+            "cfg": 7,
             "sampler_name": "euler_ancestral",
             "scheduler": "karras",
-            "denoise": 0.8810142998399344,
+            "denoise": 0.7784089402342371,
             "model": [
                 "LoraLoader",
                 0
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "nachaPonyCheckpoint_v05/Kurumi Nonaka-PonyXL-lora-Faxtron/nachaPonyCheckpoint_v05-Kurumi Nonaka-PonyXL-lora-Faxtron-20240912-011117-1",
+            "filename_prefix": "baseAnimeStylePony_v3/Arknights_Podenco_Standart_outfit__Wake_Up_from_a_Nap/baseAnimeStylePony_v3-Arknights_Podenco_Standart_outfit__Wake_Up_from_a_Nap-20240912-225023-1",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} source_anime,  {anime_screencap,|},NSFW,{uncensored,|},{1-3$$anime style,|2D,|anime,|anime screencap,},{|sex},,{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},,face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),,{idol,|},{long hair,|},{fellatio, irrumatio, deepthroat, oral, {cum in mouth|3::}|},{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}, {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|},{arms behind back, bound arms, arms bound, arm held back, bdsm,|},,{{1-3$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ,{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }},{school uniform, black jacket, yellow vest, dress shirt, red neck ribbon, blue pleated skirt,|__dress__},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},kurumi nonaka, yellow eyes, blue hair, high ponytail, white hair ribbon, , Pov cowgirl amazon, leaning backwards,,,  nervous, ((jumping)),((dancing)), full body,{(blush),|3::},{sad,|}{open mouth,|3::}arms behind back,from_below, [[rope on neck]],,",
+            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, ,source_anime,  {anime_screencap,|},NSFW,{uncensored,|},{1-3$$anime style,|2D,|anime,|anime screencap,},{|sex},,{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},,face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),,{empty eyes,|},{idol,|},{long hair,|},{fellatio,| irrumatio,| deepthroat, oral,|cum in mouth,|},{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}, {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|},{arms behind back, bound arms, arms bound, arm held back, bdsm,|},,{{1-3$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ,{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }},{__dress__, {strapless dress,|}|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},high heels,,anal object insertion, tail ,",
             "populated_text": "",
             "mode": true,
-            "seed": 6509267756004197810,
+            "seed": 7350382536956019684,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -128,7 +128,7 @@
             "wildcard_text": "low quality,worstquality,,{|{|{|{|{|{|score_6,} score_5,} score_4,} score_3,} score_2,} score_1,} source_furry, source_pony, source_cartoon,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,{nude|},,Western,,Head back,,lower body,out of focus,,(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  facial,,realistic,",
             "populated_text": "",
             "mode": true,
-            "seed": 212149463796257850,
+            "seed": 5745364195902053438,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 720,
             "guide_size_for": true,
             "max_size": 720,
-            "seed": 14457561423715857294,
-            "steps": 31,
+            "seed": 14460995702127166666,
+            "steps": 30,
             "cfg": 5,
-            "sampler_name": "dpmpp_2m_sde",
+            "sampler_name": "euler_ancestral",
             "scheduler": "karras",
-            "denoise": 0.3833847378219821,
+            "denoise": 0.6181135312106737,
             "feather": 5,
             "noise_mask": true,
             "force_inpaint": true,
@@ -200,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "nachaPonyCheckpoint_v05/Kurumi Nonaka-PonyXL-lora-Faxtron/nachaPonyCheckpoint_v05-Kurumi Nonaka-PonyXL-lora-Faxtron-20240912-011117-2",
+            "filename_prefix": "baseAnimeStylePony_v3/Arknights_Podenco_Standart_outfit__Wake_Up_from_a_Nap/baseAnimeStylePony_v3-Arknights_Podenco_Standart_outfit__Wake_Up_from_a_Nap-20240912-225023-2",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\Kitayama_Shizuku.safetensors",
+            "lora_name": "Pony\\char\\Little_Witch_Academia-Sucy_Manbavaran-PDXL.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 1.3006651341647886,
-            "B": 1.7403737617524753,
+            "A": 2.268661676885542,
+            "B": 1.8004296304426939,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-XL-hang-board-test-000012",
+                "LoraLoader-Tail plug 2-000009",
                 0
             ],
             "clip": [
-                "LoraLoader-XL-hang-board-test-000012",
+                "LoraLoader-Tail plug 2-000009",
                 1
             ]
         },
@@ -292,15 +292,15 @@
             "title": "Load VAE"
         }
     },
-    "LoraLoader-Kurumi Nonaka-PonyXL-lora-Faxtron": {
+    "LoraLoader-Arknights_Podenco_Standart_outfit__Wake_Up_from_a_Nap": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\Kurumi Nonaka-PonyXL-lora-Faxtron.safetensors",
-            "strength_model": 0.8876932663477509,
-            "strength_clip": 0.9661625538656798,
+            "lora_name": "Pony\\char\\Arknights_Podenco_Standart_outfit__Wake_Up_from_a_Nap.safetensors",
+            "strength_model": 0.9148197144092307,
+            "strength_clip": 0.9007894061851974,
             "inverse": false,
-            "A": 2.457902960620192,
-            "B": 1.0559406830515465,
+            "A": 3.7465831294822083,
+            "B": 1.372350075115267,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -312,61 +312,61 @@
                 "CheckpointLoaderSimple",
                 1
             ],
-            "seed": 990951624653036479
+            "seed": 13776281462194560581
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-Pov_cowgirl_amazon_1.0": {
+    "LoraLoader-Balletboots": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\Pov_cowgirl_amazon_1.0.safetensors",
-            "strength_model": 0.9391337170083605,
-            "strength_clip": 0.4047537441997424,
+            "lora_name": "Pony\\Balletboots.safetensors",
+            "strength_model": 0.5593507462400801,
+            "strength_clip": 0.7971845599145659,
             "inverse": false,
-            "A": 1.3604825551916238,
-            "B": 1.404154129735531,
+            "A": 2.242542932598462,
+            "B": 1.7359786828744022,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-Kurumi Nonaka-PonyXL-lora-Faxtron",
+                "LoraLoader-Arknights_Podenco_Standart_outfit__Wake_Up_from_a_Nap",
                 0
             ],
             "clip": [
-                "LoraLoader-Kurumi Nonaka-PonyXL-lora-Faxtron",
+                "LoraLoader-Arknights_Podenco_Standart_outfit__Wake_Up_from_a_Nap",
                 1
             ],
-            "seed": 12405188171828454550
+            "seed": 17057758706671481166
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-XL-hang-board-test-000012": {
+    "LoraLoader-Tail plug 2-000009": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\XL-hang-board-test-000012.safetensors",
-            "strength_model": 0.9092170612454866,
-            "strength_clip": 0.1886499959701059,
+            "lora_name": "Pony\\Tail plug 2-000009.safetensors",
+            "strength_model": 0.018909635102921207,
+            "strength_clip": 0.6174573397183373,
             "inverse": false,
-            "A": 3.756185265240491,
-            "B": 1.7921320389746018,
+            "A": 2.231828092076704,
+            "B": 1.1981763796715095,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-Pov_cowgirl_amazon_1.0",
+                "LoraLoader-Balletboots",
                 0
             ],
             "clip": [
-                "LoraLoader-Pov_cowgirl_amazon_1.0",
+                "LoraLoader-Balletboots",
                 1
             ],
-            "seed": 15514210135404178634
+            "seed": 17423606737323839348
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {

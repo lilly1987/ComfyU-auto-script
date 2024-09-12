@@ -76,6 +76,105 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "mari-iochi-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"mari iochi, long hair, blue eyes, animal ears, orange hair, halo, yellow halo,",
+            "dress":"{braid, single braid, animal ear headwear, armband, blue neckerchief, bow, collarbone, flower, frilled sleeves, frills, habit, hair flower, hair ornament, long skirt, long sleeves, neckerchief, nun, puffy long sleeves, puffy sleeves, sailor collar, skirt, turtleneck, veil, white flower, white sailor collar, yellow bow,,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "andrea_doria_XL_pony_bf16_v1" : {        
+        "positive":{
+            #"char":"andrea doria \(azur_lane\), ",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "kaede-akamatsu-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"kaede akamatsu, ahoge, blonde hair, hair ornament, long hair, musical note, musical note hair ornament, pink eyes,, ",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "HisakawaTwins_pony_v1-hskwhyt" : {        
+        "positive":{
+            "char":"hskwhyt, very long hair,  grey hair, braided bangs, hair between eyes, blue eyes, grey eyes, medium breasts, ,",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "HisakawaTwins_pony_v1-hskwng" : {        
+        "positive":{
+            "char":"hskwng, very long hair, grey hair, braided bangs, low twintails, hair ribbon,  brown eyes, braid, flat chest, ,",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Anastasia_pony_v1" : {        
+        "positive":{
+            "char":"anstsa, short hair, grey hair,  bangs, hair between eyes,  blue eyes,  ,",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "PONY_Lysithea" : {        
+        "positive":{
+            "char":"lysithea,",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "zs_TaoXL" : {        
+        "positive":{
+            "char":"taosmtv, long hair, black hair, blunt bangs, grey eyes, ",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Towa" : {        
+        "positive":{
+            "char":"towa, long hair, white hair, blue eyes, sidelocks,",
+            "dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "rwby_weissschnee_ponyXL" : {        
         "positive":{
             "char":"weissvale, scar across eye, ponytail, hair ornament,",
@@ -128,7 +227,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.25,1.0),
+        "strength_model": (0.75,1.0),
         #"strength_clip": (0.25,1.0),
     },
     "ashiharatsumori_koito_project_KV" : {        
@@ -568,6 +667,28 @@
         "positive":{
             "char":"howe \(azur lane),   ",
 			#"dress":"{dress, frills, long sleeves, white bow, capelet|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "TalesWeaver_TichielJuspian_Pony_v1" : {        
+        "positive":{
+            "char":"blonde hair, ahoge, twin braids, (very long hair),  (blunt bangs:0.75), ,",
+			"dress":"{(white dress, long dress:1.5), (blue hem, blue petticoat:1.3), blue sleeves, white cuffs, long sleeves, short over long sleeves, blue bow,kneehighs, white socks, black footwear, mary janes,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "weiss_v2" : {        
+        "positive":{
+            "char":"WeissSchnee, 1girl, white hair, blue eyes, long hair, side ponytail, scar across eye,",
+			"dress":"{WeissVol1Huntress, jewelry, necklace, white dress, white boots|WeissSchoolUniform, black jacket, school uniform, plaid skirt, shoes, socks|SnowpeaOutfit, thighhighs, thigh boots, zettai ryouiki, white dress, white footwear, dress, white jacket|WeissDanceDress, white dress, sleeveless, bare shoulders, see-through, shoes|__dress__}",
         },
         #"negative":{
         #    "foot":"",
@@ -1586,15 +1707,51 @@
             "dress":"{choker,black serafuku, sailor collar,black long coat,skirt, black pantyhose,black loafers, |__dress__},",
         },
     },
-	"Eris_PONY ": {	
+	"demon-linnie-s1-ponyxl-lora-nochekaiser": {	
+        "positive":{
+            "char":"linnie, bangs, purple eyes, twintails, hair ribbon, pink hair, horns, black ribbon, demon horns,, ",
+            "dress":"{long sleeves, dress, ribbon, frills, puffy sleeves, black ribbon, juliet sleeves,,|__dress__},",
+        },
+    },
+	"Eris_PONY": {	
         "positive":{
             "char":"eris,blue eyes,white hair,hair between eyes, very long hair,Ahoge, , ",
             "dress":"{collarbone, frills, nun,long sleeves,dress,|__dress__},",
         },
     },
+	"Takagaki_Kaede-63": {	
+        "positive":{
+            "char":" takagaki kaede, {short hair,|}  brown hair, mole under eye, green eyes, blue eyes, heterochromia, ",
+            #"dress":"{ ,|__dress__},",
+        },
+    },
+	"gushing_over_magical_girls_-_kiwi_araga": {	
+        "positive":{
+            "char":"kiwi, long_hair,  grey_hair, hair_bun, mole_under_eye,  purple_eyes,",
+            "dress":"{school_uniform,sailor_collar, sleeves_past_wrists, white_shirt, pleated skirt, green_skirt, black_thighhighs,,|__dress__},",
+        },
+    },
+	"dido_azurlanePDXL_scarxzys": {	
+        "positive":{
+            "char":"dido, pink eyes, gray hair, long hair, blunt bangs, hairband, earrings,",
+            "dress":"{anchor choker, metal wrist cuffs, sleeveless shirt, underboob cutout, waist apron, frilled apron, black skirt, frilled skirt, white thighhighs, shoes,|__dress__},",
+        },
+    },
+	"unSB69": {	
+        "positive":{
+            "char":"un_\(show_by_rock!!\), pink hair,animal ears,blue eyes,mouse ears,twintails,tail,mouse tail,hair ornament,hair bow,",
+            "dress":"{japanese clothes,detached sleeves,skirt,kimono,obi,wide sleeves,sleeveless kimonos, ,|__dress__},",
+        },
+    },
+	"KaedeTakagaki": {	
+        "positive":{
+            "char":"takagaki kaede,{short hair,|} heterochromia, blue eyes, green eyes, brown hair, mole under eye, ",
+            #"dress":"{ ,|__dress__},",
+        },
+    },
 	"TakagakiKaede_pony_v1": {	
         "positive":{
-            "char":"idolked, short hair, brown hair, bangs,green eyes,mole under eye, ",
+            "char":"idolked, {short hair,|} brown hair, bangs,green eyes,mole under eye, ",
             #"dress":"{ ,|__dress__},",
         },
     },
@@ -1623,6 +1780,7 @@
             "char" :"Sucy Manbavaran, witch,  ",
             #"dress":"{red sweater, long sleeves,sweater dress,jewelry, black pantyhose, off shoulder, |__dress__},",
         },
+        "strength_model": (0.5,0.75),
     },
 	"Little_Witch_Academia-Ursula_Callistis-PDXL": {	
         "positive":{
@@ -1863,6 +2021,8 @@
             "char" :"yor briar, {yor forgfer| jimufuku | ibarahime},",
             "hair":"long hair, ",
         },
+        "strength_model": (0.0,0.75,)
+        #"strength_clip": 1,
     },
 	"ellen": {	
         "positive":{
@@ -1921,11 +2081,6 @@
 	"luna_kindred_sdxl_v2": {	
         "positive":{
              "char" :"luna kindred,",
-        },
-    },
-	"rwby_weissschnee_ponyXL": {	
-        "positive":{
-             "char":"weissvale, scar across eye, ponytail, hair ornament, tiara, white jacket, cropped jacket, high collar, long sleeves, short dress, white dress, earrings, necklace,",
         },
     },
 	"miyako-saitou-s1-ponyxl-lora-nochekaiser": {	

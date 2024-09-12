@@ -9,6 +9,7 @@ wd=Path.cwd()
 dcheckpoints=Path(wd,"../ComfyUI/models/checkpoints")
 dLora=Path(wd,"../ComfyUI/models/Loras")
 dicFileCheckpoint={}
+dicFileLoraAll={}
 dicFileLora={}
 dicFileChar={}
 dicFileCharKeys=[]
@@ -51,10 +52,13 @@ def setup_start(setup):
     global dicFileLora
     global dicFileChar
     global dicFileCharKeys
+    global dicFileLoraAll
 
     dicFileCheckpoint=GetFileDic(str(Path(sPath,setup.pop("CheckpointPath"))),dcheckpoints)
     dicFileLora=GetFileDic(str(Path(sPath,setup.pop("LoraPath"))),dLora)    
     dicFileChar=GetFileDic(str(Path(sPath,setup.pop("CharPath"))),dLora)    
+    dicFileLoraAll=GetFileDic(str(Path("**/*.safetensors")),dLora)  
+    #print("dicFileLoraAll",dicFileLoraAll)    
     dicFileCharKeys=list(dicFileChar.keys())
 
     global ckptPath
@@ -168,10 +172,17 @@ def lora_dic(dicLora,l,loraSet,charSet):
         else:
             f=dicFileLora.get(n)
             if f is None:
-                print("[yellow]No Lora File[/yellow] : ",n)
-                continue
-            else:
-                dset=loraSet
+                #print("[yellow]No Lora File[/yellow] : ",n)
+                #continue 
+                f=dicFileLoraAll.get(n)
+                if f is None:
+                    print("[yellow]No Lora File[/yellow] : ",n)
+                    continue
+            #    else:
+            #        dset=loraSet
+            #else:
+            #    dset=loraSet
+            dset=loraSet
                 
         lora_name=d.setdefault("lora_name",str(f))
         updaten(d,dset)
@@ -266,8 +277,12 @@ def setup_dic(setup):
                 #print("[yellow]Dic No Char[/yellow] : ",v)
                 f=dicFileLora.get(v)
                 if f is None:
-                    print("[yellow]No Lora File[/yellow] : ",v)
-                    continue
+                    #print("[yellow]No Lora File[/yellow] : ",v)
+                    #continue
+                    f=dicFileLoraAll.get(v)
+                    if f is None:
+                        print("[yellow]No Lora File[/yellow] : ",v)
+                        continue
             else:
                 char=True
                 

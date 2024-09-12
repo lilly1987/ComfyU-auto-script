@@ -1,0 +1,17 @@
+{
+    "loras":{
+        "1" : "elaina_majo no tabitabi_PONY_last",
+        #"2" : "XL-luoxuan-000012",
+        "2" : "luoxuan_v2-000030",
+        #"garrote_2-000012" : "garrote_2-000012",
+        #"Little_Witch_Academia-Diana_Cavendish-PDXL" : "Little_Witch_Academia-Diana_Cavendish-PDXL",
+    },
+    #"positive":{
+    #    "char":"layla, long hair, blonde hair, dark skin, aqua eyes, dark-skinned female",
+    #},
+    "loraSet":{
+        "strength_model": (0.250,1.0),
+        "strength_clip": (0.750,1.0),
+    },
+    "LoraAdd":False,
+}

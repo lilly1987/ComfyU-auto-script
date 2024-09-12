@@ -10,9 +10,9 @@
         #"steps": (30,30),
         #"cfg": (4,10),
     },
-    "baseAnimeStylePony_v3" : {# 
+    "baseAnimeStylePony_v3" : {# -
         "positive":{
-            "quality":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, ",
+            "checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, ",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
         },
         "negative":{
@@ -56,6 +56,11 @@
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
     "aaaautismPonyFinetune_aaaReStartV2" : {# -
+    },
+    "savant_v104" : {# 
+		"negative" : {
+			"savant_v104":"five-fingers, sticky fingers, worst quality, low quality,,",
+		},
     },
     "hassakuXLHentai_v13" : {# 
     },
