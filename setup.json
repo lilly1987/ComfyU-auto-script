@@ -171,6 +171,47 @@
     ],
     "perList":0.1250,
     "loras_random":{        
+        "my":{
+            "per":01.250,
+            "loras":[
+                {"XL-hang-board-test-000012" : "XL-hang-board-test-000012"},
+                {"earfuck" : "earfuck"},
+                {"Concept_in_wall" : "Concept_in_wall"},
+                {"impalement_civ" : "impalement_civ"},
+                {"HangingPonyV2-000005" : "HangingPonyV2-000005"},
+                {"HangingPonyV2-000010" : "HangingPonyV2-000010"},
+                {"HangingPonyV2-000015" : "HangingPonyV2-000015"},
+                {"HangingPonyV2-000020" : "HangingPonyV2-000020"},
+                {"HangingPonyV2-000025" : "HangingPonyV2-000025"},
+                {"HangingPonyV2-000030" : "HangingPonyV2-000030"},
+                {"CorpsePonyV1-000010" : "CorpsePonyV1-000010"},
+                {"CorpsePonyV1-000020" : "CorpsePonyV1-000020"},
+                {"CorpsePonyV1-000030" : "CorpsePonyV1-000030"},
+                {"CorpsePonyV1-000040" : "CorpsePonyV1-000040"},
+                {"CorpsePonyV1-000050" : "CorpsePonyV1-000050"},
+            ],
+        },
+        #"earfuck":{
+        #    "per":01.250,
+        #    "loras":[
+        #    ],
+        #},
+        "bind":{
+            "per":0.250,
+            "loras":[
+                {"Re-hang-XL-3-000008" : "Re-hang-XL-3-000008"},
+                {"XL-luoxuan-000012" : "XL-luoxuan-000012"},
+                {"garrote_2-000012" : "garrote_2-000012"},
+                {"luoxuan_v2-000030" : "luoxuan_v2-000030"},
+                {"lora_dancing-000052" : "lora_dancing-000052"},
+                {"sprawled_pony_V1.0" : "sprawled_pony_V1.0"},
+                {"All the way through" : "All the way through"},
+                {"XL-hang-board-test-000012" : "XL-hang-board-test-000012"},
+                {"rope_walking_pony" : "rope_walking_pony"},
+                {"X bound_pony_V1.1" : "X bound_pony_V1.1"},
+                #{"Roped_Up" : "Roped_Up"},
+            ],
+        },
         "boots":{
             "per":0.50,
             "loras":[
@@ -183,21 +224,6 @@
             "loras":[
                 {"skinny_body_LoRA_V2_for_Pony" : "skinny_body_LoRA_V2_for_Pony"},
                 {"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002" : "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002"},
-            ],
-        },
-        "bind":{
-            "per":0.250,
-            "loras":[
-                {"Re-hang-XL-3-000008" : "Re-hang-XL-3-000008"},
-                {"XL-luoxuan-000012" : "XL-luoxuan-000012"},
-                {"garrote_2-000012" : "garrote_2-000012"},
-                {"luoxuan_v2-000030" : "luoxuan_v2-000030"},
-                {"lora_dancing-000052" : "lora_dancing-000052"},
-                {"sprawled_pony_V1.0" : "sprawled_pony_V1.0"},
-                {"All the way through" : "All the way through"},
-                {"rope_walking_pony" : "rope_walking_pony"},
-                {"X bound_pony_V1.1" : "X bound_pony_V1.1"},
-                #{"Roped_Up" : "Roped_Up"},
             ],
         },
         "fellatio":{
@@ -253,16 +279,16 @@
         #"BalletBoots":"BalletBoots",
     },
     "charSet":{
-        "strength_model": (0.875,1.0),
-        "strength_clip": (0.875,1.0),
+        "strength_model": (0.75,1.0),
+        "strength_clip": (0.75,1.0),
     },
     "randSet":{
         "strength_model": (0.50,1.0),
         "strength_clip": (0.50,1.0),
     },
     "loraSet":{
-        "strength_model": (0.0,1.0),
-        "strength_clip": (0.0,1.0),
+        "strength_model": (0.50,1.0),
+        "strength_clip": (0.50,1.0),
     },
     "shuffle":False,    
     

@@ -492,10 +492,191 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    
     "XL-hang-board-test-000012" : {        
         "positive":{
 		#"isXl":" score_9, score_8_up, score_7_up, best quality, masterpiece, 4k, uncensored, prefect lighting, rating_explicit, very aesthetic, anime {BREAK,|3::},",
-		"hang":"  nervous, ((jumping)),((dancing)), full body,{(blush),|3::},{sad,|}{open mouth,|3::}arms behind back,from_below, [[rope on neck]],,",#{shouting,|3::}
+		"hang":"  nervous, ((jumping)),{((dancing)),|} full body,{(blush),|3::},{sad,|}{open mouth,|3::}arms behind back,from_below, [[rope on neck]],,",#{shouting,|3::}
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Concept_in_wall" : {        
+        "positive":{
+            "Concept_in_wall" :"The grand entrance gate is adorned with intricate carvings of mythical creatures and divine beings.",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "hang_v2-000022" : {        
+        "positive":{
+            "hang_v2-000022" :"hang, hanging, noose, hemp rope around neck, apshyxia, (drool), {open mouth,|} strangle,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "HangingPonyV2-000005" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"entropy_hang, rope on neck, rope around neck, corpse, arms_behind_back,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "HangingPonyV2-000010" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"entropy_hang, rope on neck, rope around neck, corpse, arms_behind_back,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "HangingPonyV2-000015" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"entropy_hang, rope on neck, rope around neck, corpse, arms_behind_back,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "HangingPonyV2-000020" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"entropy_hang, rope on neck, rope around neck, corpse, arms_behind_back,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "HangingPonyV2-000025" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"entropy_hang, rope on neck, rope around neck, corpse, arms_behind_back,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "HangingPonyV2-000030" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"entropy_hang, rope on neck, rope around neck, corpse, arms_behind_back,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "CorpsePonyV1-000010" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"corpse, guro, blood, empty eyes, pale_skin, grey_skin,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "CorpsePonyV1-000020" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"corpse, guro, blood, empty eyes, pale_skin, grey_skin,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "CorpsePonyV1-000030" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"corpse, guro, blood, empty eyes, pale_skin, grey_skin,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "CorpsePonyV1-000040" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"corpse, guro, blood, empty eyes, pale_skin, grey_skin,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "CorpsePonyV1-000050" : {        
+        "positive":{
+            "HangingPonyV2-000010" :"corpse, guro, blood, empty eyes, pale_skin, grey_skin,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "Mind_Freak" : {        
+        "positive":{
+            "Mind_Freak" :"ear sex, ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "amputee_XL_pony" : {        
+        "positive":{
+            "amputee_XL_pony" :"amputee, ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "hunged_girl" : {        
+        "positive":{
+            "hunged_girl" :"(hunged_girl:1.4), (noose), rope, (hanged:1.2), (asphyxiation), (bad_end:1.1 ) ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "impalement_civ" : {        
+        "positive":{
+            "impalement_civ" :"impaled, impalement, execution , impalement, execution,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "earfuck" : {        
+        "positive":{
+            "earfuck" :"earfuck,ear penetration,",
         },
         #"negative":{
         #    "foot":"",
