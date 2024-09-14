@@ -230,6 +230,61 @@
         "strength_model": (0.5,1.0),
         #"strength_clip": (0.25,1.0),
     },
+    "Mansui(rthltlmd)-Pony" : {        
+        "positive":{
+            "char" :"Mansui, long hair,single hair bun,black hair,hair ornament,hair flower,white flower,mole under eye,sidelocks,blunt bangs,grey eyes, ",
+            #"dress":"{school uniform, white shirt, black jacket, black skirt, white pantyhose,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "pony_char_higuchi_kaede-000014" : {        
+        "positive":{
+            "char" :"higuchi kaede,",
+            #"dress":"{school uniform, white shirt, black jacket, black skirt, white pantyhose,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "shiKurumiV1-000014" : {        
+        "positive":{
+            "char" :"{kurdress, hair over one eye, purple flower,|kurschool, hair over one eye, yellow eyes, heterochromia, symbol-shaped pupils, |kurng, yellow eyes, heterochromia,} low twintails, twintails, long hair, black hair, red eyes, bow,",
+            "dress":"{ puffy sleeves, black dress, gothic lolita, lolita fashion, frills, black footwear, pantyhose, knee boots, thigh boots, cross-laced footwear,|bare shoulders, detached sleeves, choker, red dress,  lolita hairband, gothic lolita, lolita fashion, black thighhighs, knee boots, cross-laced footwear,| long sleeves, ribbon, white shirt, school uniform, pleated skirt, blue skirt, black jacket, black pantyhose, neck ribbon, blazer,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "PONY_RF3_Collette" : {        
+        "positive":{
+            "char" :"collete, double bun, blonde hair, brown eyes, ",
+            "dress":"{yellow headdress, yellow hat, food-themed clothes, detached sleeves, bare shoulders, pale yellow dress, orange thighhighs, green shorts,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
+    "PONY_Shamal" : {        
+        "positive":{
+            "char" :"shamal, short hair, blonde hair, purple eyes, earings, ",
+            #"dress":"{school uniform, white shirt, black jacket, black skirt, white pantyhose,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,1.0),
+        #"strength_clip": (0.25,1.0),
+    },
     "ashiharatsumori_koito_project_KV" : {        
         "positive":{
             "char" :"halo, bandaid on cheek, ponytail, absurdly long hair, red hair, messy hair, sidelocks, red eyes, ",

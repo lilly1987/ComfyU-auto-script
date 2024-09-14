@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "Pony\\featureless25DMix_v10.safetensors"
+            "ckpt_name": "Pony\\waiANINSFWPONYXL_v70.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,12 +10,12 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 3377396133603872648,
-            "steps": 42,
+            "seed": 16184422713040131916,
+            "steps": 39,
             "cfg": 5,
             "sampler_name": "dpmpp_2m_sde",
             "scheduler": "karras",
-            "denoise": 0.9540340075076136,
+            "denoise": 0.8872051390138602,
             "model": [
                 "LoraLoader",
                 0
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "featureless25DMix_v10/Witch2/featureless25DMix_v10-Witch2-20240914-102216-1",
+            "filename_prefix": "waiANINSFWPONYXL_v70/Little_Witch_Academia-Sucy_Manbavaran-PDXL/waiANINSFWPONYXL_v70-Little_Witch_Academia-Sucy_Manbavaran-PDXL-20240914-110932-1",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} ,source_anime,  {anime_screencap,|},NSFW,{uncensored,|},{1-3$$anime style,|2D,|anime,|anime screencap,},{|sex},,{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},,face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),,{empty eyes,|},{idol,|},{long hair,|},{fellatio,| irrumatio,| deepthroat, oral,|cum in mouth,|},{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}, {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|},{arms behind back, bound arms, arms bound, arm held back, bdsm,|},,{{1-3$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ,{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }},{__dress__, {strapless dress,|}|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},sucy,  ,entropy_hang, rope on neck, rope around neck, corpse, arms_behind_back,,heelless ballet boots, pony boots, zeroheels ballet boots, heelhidden boots\uff0c,",
+            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} ,source_anime,  {anime_screencap,|},NSFW,{uncensored,|},{1-3$$anime style,|2D,|anime,|anime screencap,},{|sex},,{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},,face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),,{empty eyes,|},{idol,|},{long hair,|},{fellatio,| irrumatio,| deepthroat, oral,|cum in mouth,|},{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}, {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|},{arms behind back, bound arms, arms bound, arm held back, bdsm,|},,{{1-3$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ,{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }},{__dress__, {strapless dress,|}|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},{high heels,|},Sucy Manbavaran, witch,  ,rope walking, knotted rope,pearl rope,rope,arms behind back, bound arms, pussy, panty, nipple rings, ,,1boy, sex, cowgirl position, girl on top, straddling,corpse, guro, empty eyes, pale_skin, grey_skin,",
             "populated_text": "",
             "mode": true,
-            "seed": 1605639755970587530,
+            "seed": 9546329238237911421,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -128,7 +128,7 @@
             "wildcard_text": "low quality,worstquality,,{|{|{|{|{|{|score_6,} score_5,} score_4,} score_3,} score_2,} score_1,} source_furry, source_pony, source_cartoon,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,{nude|},,Western,,Head back,,lower body,out of focus,,(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  facial,,realistic,",
             "populated_text": "",
             "mode": true,
-            "seed": 721355010757549718,
+            "seed": 237581674626517379,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 720,
             "guide_size_for": true,
             "max_size": 720,
-            "seed": 5134279939865133117,
-            "steps": 43,
-            "cfg": 6,
-            "sampler_name": "euler_ancestral",
+            "seed": 5946950090884772907,
+            "steps": 44,
+            "cfg": 10,
+            "sampler_name": "dpmpp_2m",
             "scheduler": "karras",
-            "denoise": 0.4336970229239423,
+            "denoise": 0.4854518270934413,
             "feather": 5,
             "noise_mask": true,
             "force_inpaint": true,
@@ -200,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "featureless25DMix_v10/Witch2/featureless25DMix_v10-Witch2-20240914-102216-2",
+            "filename_prefix": "waiANINSFWPONYXL_v70/Little_Witch_Academia-Sucy_Manbavaran-PDXL/waiANINSFWPONYXL_v70-Little_Witch_Academia-Sucy_Manbavaran-PDXL-20240914-110932-2",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\yuzu-hiiragi-ponyxl-lora-nochekaiser.safetensors",
+            "lora_name": "Pony\\char\\Diana.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 1.9587633753586768,
-            "B": 1.862005660097528,
+            "A": 3.551956834276339,
+            "B": 1.2790198576054412,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-heelless_ballet_boots",
+                "LoraLoader-CorpsePonyV1-000020",
                 0
             ],
             "clip": [
-                "LoraLoader-heelless_ballet_boots",
+                "LoraLoader-CorpsePonyV1-000020",
                 1
             ]
         },
@@ -292,15 +292,15 @@
             "title": "Load VAE"
         }
     },
-    "LoraLoader-Witch2": {
+    "LoraLoader-Little_Witch_Academia-Sucy_Manbavaran-PDXL": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\Witch2.safetensors",
-            "strength_model": 0.9742744816340585,
-            "strength_clip": 0.9352561997364405,
+            "lora_name": "Pony\\char\\Little_Witch_Academia-Sucy_Manbavaran-PDXL.safetensors",
+            "strength_model": 0.6399599226461914,
+            "strength_clip": 0.9944409026058474,
             "inverse": false,
-            "A": 1.23943366792932,
-            "B": 1.0986548050985017,
+            "A": 1.8988446086343318,
+            "B": 1.3156952641407096,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -312,61 +312,88 @@
                 "CheckpointLoaderSimple",
                 1
             ],
-            "seed": 16337456120623691173
+            "seed": 16350110866103666998
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-HangingPonyV2-000005": {
+    "LoraLoader-rope_walking_pony": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\HangingPonyV2-000005.safetensors",
-            "strength_model": 0.5338910169428381,
-            "strength_clip": 0.6187951937894476,
+            "lora_name": "Pony\\rope_walking_pony.safetensors",
+            "strength_model": 0.7091717189267769,
+            "strength_clip": 0.6110221593133178,
             "inverse": false,
-            "A": 1.2520308861686607,
-            "B": 1.3806146582933905,
+            "A": 2.7495506492952826,
+            "B": 1.528398994599618,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-Witch2",
+                "LoraLoader-Little_Witch_Academia-Sucy_Manbavaran-PDXL",
                 0
             ],
             "clip": [
-                "LoraLoader-Witch2",
+                "LoraLoader-Little_Witch_Academia-Sucy_Manbavaran-PDXL",
                 1
             ],
-            "seed": 2440178564658005483
+            "seed": 13386873364534469930
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-heelless_ballet_boots": {
+    "LoraLoader-cowgirl_position_nonpov_xl": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\heelless_ballet_boots.safetensors",
-            "strength_model": 0.8446819123738403,
-            "strength_clip": 0.8022562476526405,
+            "lora_name": "Pony\\cowgirl_position_nonpov_xl.safetensors",
+            "strength_model": 0.8008897540309343,
+            "strength_clip": 0.563500564467682,
             "inverse": false,
-            "A": 1.9347760194110937,
-            "B": 1.3978123498072985,
+            "A": 1.2606333983344555,
+            "B": 1.087272227498897,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-HangingPonyV2-000005",
+                "LoraLoader-rope_walking_pony",
                 0
             ],
             "clip": [
-                "LoraLoader-HangingPonyV2-000005",
+                "LoraLoader-rope_walking_pony",
                 1
             ],
-            "seed": 15373586361356037649
+            "seed": 14949662403908563034
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-CorpsePonyV1-000020": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "Pony\\CorpsePonyV1-000020.safetensors",
+            "strength_model": 0.6313625882573453,
+            "strength_clip": 0.9927054217528145,
+            "inverse": false,
+            "A": 1.6018748423910205,
+            "B": 1.6979626012500275,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-cowgirl_position_nonpov_xl",
+                0
+            ],
+            "clip": [
+                "LoraLoader-cowgirl_position_nonpov_xl",
+                1
+            ],
+            "seed": 6715972805247754389
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {

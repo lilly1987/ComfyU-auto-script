@@ -11,9 +11,7 @@
     "CharPath":"char/*.safetensors",
     #"CharPath":"char/daidouji_tomoyo_ponxl_v1.safetensors",
     "LoraPath":"*.safetensors",
-    "LoraAdd":True,
-    "LoraAddCnt":(0,2),
-    "LoraMaxCnt":(3,5),
+
 
     #"noFaceDetailer":True,
     "noFaceDetailer":False,
@@ -40,7 +38,7 @@
             "cfg": (4,10),
             "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
             "scheduler": "karras",
-            "denoise": (0.375,0.625),
+            "denoise": (0.375,0.5),
             "guide_size": 512,
             "max_size": 512,
             "guide_size": 720,
@@ -102,6 +100,7 @@
         "shoulder":"{off shoulder,|bare shoulder,|capelet,|}",
         "from":"{from {below|above|side|front|behind},|} ",
         "shot":"{full body,|}",
+        "heels":"{high heels,|}",
         #"view":"full body, ",
         
     },
@@ -124,6 +123,7 @@
         "nachaPonyCheckpoint_v05",
     ],
     "perListCard":0.125,
+    "perList":0.1250,
     "ListCard":[
         ".*hoodAL-ponyxl-bshi-v1.*",
         ".*WanderingWitch_Fran.*",
@@ -168,11 +168,19 @@
         #".*Edel_PDXL_resized.*",
         #"Edel_PDXL_resized",
         #"Edel_PONY_from_Sousou_no_Frieren",
-    ],
-    "perList":0.1250,
+    ],    
+    "LoraAdd":True,
+    "LoraAddCnt":(0,2),
+    "LoraMaxCnt":(4,6),
     "loras_random":{        
-        "my":{
-            "per":01.250,
+        "through":{
+            "per":0.250,
+            "loras":[
+                {"All the way through" : "All the way through"},
+            ],
+        },
+        "hang":{
+            "per":0.250,
             "loras":[
                 {"XL-hang-board-test-000012" : "XL-hang-board-test-000012"},
                 {"earfuck" : "earfuck"},
@@ -189,6 +197,12 @@
                 {"CorpsePonyV1-000030" : "CorpsePonyV1-000030"},
                 {"CorpsePonyV1-000040" : "CorpsePonyV1-000040"},
                 {"CorpsePonyV1-000050" : "CorpsePonyV1-000050"},
+                {"Re-hang-XL-3-000008" : "Re-hang-XL-3-000008"},
+                {"XL-hang-board-test-000012" : "XL-hang-board-test-000012"},
+                {"lora_dancing-000052" : "lora_dancing-000052"},
+                {"XL-luoxuan-000012" : "XL-luoxuan-000012"},
+                {"garrote_2-000012" : "garrote_2-000012"},
+                {"luoxuan_v2-000030" : "luoxuan_v2-000030"},
             ],
         },
         #"earfuck":{
@@ -196,38 +210,33 @@
         #    "loras":[
         #    ],
         #},
+        "boots":{
+            "per":0.250,
+            "loras":[
+                #{"heelless_ballet_boots":"heelless_ballet_boots"},
+                {"Balletboots":"Balletboots"},
+                {"balletboots_v1":"balletboots_v1"},
+            ],
+        },
         "bind":{
             "per":0.250,
             "loras":[
-                {"Re-hang-XL-3-000008" : "Re-hang-XL-3-000008"},
-                {"XL-luoxuan-000012" : "XL-luoxuan-000012"},
-                {"garrote_2-000012" : "garrote_2-000012"},
-                {"luoxuan_v2-000030" : "luoxuan_v2-000030"},
-                {"lora_dancing-000052" : "lora_dancing-000052"},
-                {"sprawled_pony_V1.0" : "sprawled_pony_V1.0"},
-                {"All the way through" : "All the way through"},
-                {"XL-hang-board-test-000012" : "XL-hang-board-test-000012"},
+                {"sprawled_pony_V1.0" : "sprawled_pony_V1.0"},                
                 {"rope_walking_pony" : "rope_walking_pony"},
                 {"X bound_pony_V1.1" : "X bound_pony_V1.1"},
                 #{"Roped_Up" : "Roped_Up"},
             ],
         },
-        "boots":{
-            "per":0.50,
-            "loras":[
-                {"heelless_ballet_boots":"heelless_ballet_boots"},
-                {"Balletboots":"Balletboots"},
-            ],
-        },
         "body":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
+                {"amputee_XL_pony" : "amputee_XL_pony"},
                 {"skinny_body_LoRA_V2_for_Pony" : "skinny_body_LoRA_V2_for_Pony"},
                 {"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002" : "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002"},
             ],
         },
         "fellatio":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 {"Side-by-side_BJ" : "Side-by-side_BJ"},
                 {"hug and suck-v1" : "hug and suck-v1"},
@@ -240,9 +249,8 @@
             ],
         },
         "sex":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
-                {"All the way through" : "All the way through"},
                 {"PR0N3-000010" : "PR0N3-000010"},
                 {"cowgirl_position_nonpov_xl" : "cowgirl_position_nonpov_xl"},
                 {"sex_with_arch_back_kiss" : "sex_with_arch_back_kiss"},
@@ -260,7 +268,7 @@
             ],
         },
         "acc":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 {"Clit_Leash-000018" : "Clit_Leash-000018"},
             ],
