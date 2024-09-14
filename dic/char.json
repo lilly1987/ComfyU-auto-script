@@ -227,7 +227,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": (0.75,1.0),
+        "strength_model": (0.5,1.0),
         #"strength_clip": (0.25,1.0),
     },
     "ashiharatsumori_koito_project_KV" : {        
