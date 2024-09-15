@@ -106,7 +106,8 @@ try:
         
 except KeyboardInterrupt:
     print('Interrupted')
-    console.save_html(logFile)
+    tm=time.strftime('%Y%m%d-%H%M%S')
+    console.save_html(f"log/{tm}.html")
     try:
         sys.exit(130)
     except SystemExit:

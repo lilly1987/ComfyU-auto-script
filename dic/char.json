@@ -977,10 +977,76 @@
         #"strength_model": (0.5,1.0),
         #"strength_clip": (0.5,1.0),
     },
+    "Kazuki FF 5-000008" : {        
+        "positive":{
+            "char":"kzk, silver hair, long hair, red eyes,   ",
+			"dress":"{shirt, white sailor collar,  blue pinafore dress,  black bowtie,|sundress|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "kazuki kazami-sdxl-lora-Faxtron" : {        
+        "positive":{
+            "char":"BREAK score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, BREAK source_anime, kazuki kazami, red eyes, white hair, very long hair,,   ",
+			"dress":"{ school dress, black bow, socks, shoes, forest,,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Kazuki fin 3-000009" : {        
+        "positive":{
+            "char":"kzk, silver hair, long hair, red eyes, ,   ",
+			"dress":"{shirt, white sailor collar,  blue pinafore dress, short sleeves, black bowtie,|sundress|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Kazuki Lorer 2-000009" : {        
+        "positive":{
+            "char":"Kazuki, silver hair, long hair, red eyes,   ",
+			"dress":"{white shirt, blue dress, black bow, short sleeves,|white sundress|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Kazuki Lora-000009" : {        
+        "positive":{
+            "char":"Kazuki, silver hair, long hair, red eyes,   ",
+			"dress":"{white shirt, blue dress, black bow,|white sundress|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "i-168PDXL_scarxzys" : {        
+        "positive":{
+            "char":"i-168, red eyes, red hair, ahoge, very long hair, ponytail, x hair ornament, hair ribbon, white ribbon,   ",
+			#"dress":"{puffy sleeves, blue dress, dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
     "zs_AliceXL" : {        
         "positive":{
-            "char":"alicesmt, dress, long hair, blonde hair, hairband, blunt bangs,  yellow eyes,   ",
-			"dress":"{puffy sleeves, blue dress,|__dress__}",
+            "char":"alicesmt, long hair, blonde hair, hairband, blunt bangs,  yellow eyes,   ",
+			"dress":"{puffy sleeves, blue dress, dress,|__dress__}",
         },
         #"negative":{
         #    "foot":"",
@@ -1722,6 +1788,30 @@
         "positive":{
             "char":"k_tsukioka,brown hair, long hair, bangs, brown eyes, red eyes,",
             #"pose":"",
+        },
+        #"strength_model": (0.0,0.75),
+        #"strength_clip": (0.50,01.0),
+    },
+	"haibara_ai_ponyxl_v1": {	
+        "positive":{
+            "char":"aaai, short hair, brown hair, blue eyes, ",
+            #"dress":"{rhea_default|rhea_summer|rhea_chic|rhea_princess|__dress__}",
+        },
+        #"strength_model": (0.0,0.75),
+        #"strength_clip": (0.50,01.0),
+    },
+	"umineko_natsuhiushiromiya_ponyXL": {	
+        "positive":{
+            "char":" ushiromiya natsuhi, ponytail,",
+            "dress":"{purple dress, brooch, ascot, corset, juliet sleeves|__dress__}",
+        },
+        #"strength_model": (0.0,0.75),
+        #"strength_clip": (0.50,01.0),
+    },
+	"rhea_pony": {	
+        "positive":{
+            "char":" ,",
+            "dress":"{rhea_default|rhea_summer|rhea_chic|rhea_princess|__dress__}",
         },
         #"strength_model": (0.0,0.75),
         #"strength_clip": (0.50,01.0),

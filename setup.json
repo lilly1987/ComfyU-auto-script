@@ -94,6 +94,7 @@
         "bound":"{arms behind back, bound arms, arms bound, arm held back, bdsm,|},",
         "exposure":"{{1-3$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ",
         "anorexia":"{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }}",        
+        "masturbation":"{masturbation,|}",
         "dress":"{__dress__, {strapless dress,|}|}",
         "frills":"{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ",
         "shoulder":"{off shoulder,|bare shoulder,|capelet,|}",
@@ -185,6 +186,7 @@
             "per":0.250,
             "loras":[
                 {"XL-hang-board-test-000012" : "XL-hang-board-test-000012"},
+                {"strangling_pony_V1.0" : "strangling_pony_V1.0"},
                 {"earfuck" : "earfuck"},
                 {"Concept_in_wall" : "Concept_in_wall"},
                 {"impalement_civ" : "impalement_civ"},
@@ -224,6 +226,7 @@
             "per":0.250,
             "loras":[
                 {"sprawled_pony_V1.0" : "sprawled_pony_V1.0"},                
+                {"ImpaledPonyV1-000002" : "ImpaledPonyV1-000002"},
                 {"rope_walking_pony" : "rope_walking_pony"},
                 {"X bound_pony_V1.1" : "X bound_pony_V1.1"},
                 {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
@@ -261,19 +264,22 @@
                 {"stomach_bulge_all_the_way_up_entire_torso-000006" : "stomach_bulge_all_the_way_up_entire_torso-000006"},
                 {"bulgesuperXLPony" : "bulgesuperXLPony"},
                 {"chikan_pony_V1.0" : "chikan_pony_V1.0"},
+                {"ikebana_pony_V1.0" : "ikebana_pony_V1.0"},
                 {"tentaclesX" : "tentaclesX"},
+                {"cowgirl_position_nonpov_pony-000010" : "cowgirl_position_nonpov_pony-000010"},
                 {"Huge Insertion Bulge pony-v1.0" : "Huge Insertion Bulge pony-v1.0"},
                 {"bulgeniceXLPony" : "bulgeniceXLPony"},
                 {"Navel_penetration_Pony" : "Navel_penetration_Pony"},
                 {"Concept_Gigantic_stomach_bulge" : "Concept_Gigantic_stomach_bulge"},
                 {"Roped_Up" : "Roped_Up"},
                 {"bulgesuperXLPony" : "bulgesuperXLPony"},
-                {"Sex_from_behind_symmetrical_docking" : "Sex_from_behind_symmetrical_docking"},
+                {"Sex_from_behind_symmetrical_docking" : "Sex_from_behind_symmetrical_docking"}, # +
             ],
         },
         "acc":{
             "per":0.1250,
             "loras":[
+                {"HDA_AnalBeadsXL" : "HDA_AnalBeadsXL"},
                 {"Clit_Leash-000018" : "Clit_Leash-000018"},
                 {"vagina weightlifting_pony_V1.0" : "vagina weightlifting_pony_V1.0"},
             ],

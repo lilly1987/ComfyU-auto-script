@@ -6,12 +6,13 @@ from pathlib import *
 import re
 
 wd=Path.cwd()
-dcheckpoints=Path(wd,"../ComfyUI/models/checkpoints")
-dLora=Path(wd,"../ComfyUI/models/Loras")
+pathCheckpointsDir=Path(wd,"../ComfyUI/models/checkpoints")
+pathLoraDir=Path(wd,"../ComfyUI/models/Loras")
 dicFileCheckpoint={}
 dicFileLoraAll={}
 dicFileLora={}
 dicFileChar={}
+loraFileNameToDicName={}
 dicFileCharKeys=[]
 dicCheckpoint={} # Checkpoint 사전
 listDic={} #  사전
@@ -54,10 +55,10 @@ def setup_start(setup):
     global dicFileCharKeys
     global dicFileLoraAll
 
-    dicFileCheckpoint=GetFileDic(str(Path(sPath,setup.pop("CheckpointPath"))),dcheckpoints)
-    dicFileLora=GetFileDic(str(Path(sPath,setup.pop("LoraPath"))),dLora)    
-    dicFileChar=GetFileDic(str(Path(sPath,setup.pop("CharPath"))),dLora)    
-    dicFileLoraAll=GetFileDic(str(Path("**/*.safetensors")),dLora)  
+    dicFileCheckpoint=GetFileDic(str(Path(sPath,setup.pop("CheckpointPath"))),pathCheckpointsDir)
+    dicFileLora=GetFileDic(str(Path(sPath,setup.pop("LoraPath"))),pathLoraDir)    
+    dicFileChar=GetFileDic(str(Path(sPath,setup.pop("CharPath"))),pathLoraDir)    
+    dicFileLoraAll=GetFileDic(str(Path("**/*.safetensors")),pathLoraDir)  
     #print("dicFileLoraAll",dicFileLoraAll)    
     dicFileCharKeys=list(dicFileChar.keys())
 
@@ -77,8 +78,8 @@ def setup_checkpoint(setup):
     global workflow
     global dicCheckpoint
     dicCheckpoint={}
-    dicFiles=GetFileList("checkpoint/*.json")
-    for f in dicFiles:
+    dicTagLoraFiles=GetFileList("checkpoint/*.json")
+    for f in dicTagLoraFiles:
         update(dicCheckpoint,readDic(f))
     
     name=setup.get("ckpt_name")
@@ -149,23 +150,29 @@ def setup_list(setup):
     update(setup,listDic)
     
     
-def lora_dic(dicLora,l,loraSet,charSet,txt=""):
+def lora_dic(dicTagLora,dicLoraFileNameToTag,l,loraSet,charSet,txt=""):
     global Loras
     #print("l",l)
     for k, v in l.items():
         
         if isinstance(v,str):
-            name=v
-            d=dicLora.get(v)
+            tag=dicLoraFileNameToTag.get(v)
+            if tag is None:
+                tag=v
+            #else:
+            #    name=v
+            d=dicTagLora.get(tag)
             if d is None:
-                print(f"[yellow]Dic Lora No -{txt}[/yellow] : ",v)
+                print(f"[yellow]Dic Lora No -{txt}[/yellow] : ",tag)
                 d={}
+            name=v
         else:
             d=v
             name=k
         #print("d",d) # {'positive': {'char': 'mayumi saegusa, red eyes, black hair, long hair, ,
         
         n=d.pop("file_name",name)
+        n=SetArrRndV(n)
         f=dicFileChar.get(n)                
         if f is not None:
             dset=charSet
@@ -192,10 +199,26 @@ def lora_dic(dicLora,l,loraSet,charSet,txt=""):
     
 def setup_lora_add(setup):
     #==============================================
-    dicLora={}
-    dicFiles=GetFileList("dic/*.json")
-    for f in dicFiles:
-        update(dicLora,readDic(f))
+    dicTagLora={}
+    dicTagLoraFiles=GetFileList("dic/*.json")
+    for f in dicTagLoraFiles:
+        update(dicTagLora,readDic(f))
+    
+    dicLoraFileNameToTag={}
+    for k, v in dicTagLora.copy().items():
+        a=v.pop("file_name")
+        if a is None:
+            dicLoraFileNameToTag[k]=k
+        else:
+            if isinstance(a,str):
+                dicLoraFileNameToTag[a]=k
+            else if isinstance(a,list):
+                for p in a:
+                    dicLoraFileNameToTag[p]=k
+            else:
+                print(f"[yellow]err lora dic[/yellow] : ",k,a)
+                dicTagLora.pop(k)
+                
     #==============================================    
     global Loras
     charSet=setup.pop("charSet",{})
@@ -204,7 +227,7 @@ def setup_lora_add(setup):
     max=SetArrRnd(setup,"LoraMaxCnt")
     #==============================================
     for k, v in Loras.items():
-        l=lora_dic(dicLora,{k:v},loraSet,charSet,"Loras")
+        l=lora_dic(dicTagLora,dicLoraFileNameToTag,{k:v},loraSet,charSet,"Loras")
     now=len(Loras)
     if now>=max:
         #setup_lora_max(setup)
@@ -220,7 +243,7 @@ def setup_lora_add(setup):
             p=v.pop("per",1.0)
             if p>=random.random():
                 l=SetArrRnd(v,"loras")
-                l=lora_dic(dicLora,l,loraSet,charSet,f"random {k}")
+                l=lora_dic(dicTagLora,dicLoraFileNameToTag,l,loraSet,charSet,f"random {k}")
                 now+=1
                 if now>=max:
                     print("now>=max loras_random",now,max)
@@ -234,7 +257,7 @@ def setup_lora_add(setup):
             if len(listLora)==0 :
                 break
             name=random.choice(listLora)
-            l=lora_dic(dicLora,{name:name},loraSet,charSet,"add")
+            l=lora_dic(dicTagLora,dicLoraFileNameToTag,{name:name},loraSet,charSet,"add")
             now+=1
             if now>=max:
                 print("now>=max LoraAddCnt",now,max,i+1, LoraAddCnt)
@@ -281,34 +304,16 @@ def setup_workflow(setup):
     n=random.choice(dicFileCharKeys)
     d=workflow.setdefault("LoraLoader",{})
     d.setdefault("lora_name",str(dicFileChar[n]))
-    
-    #==============================================
-    #global Loras
-    #for k, v in Loras.items():
-    #    if isinstance(v,str):
-    #        print("[yellow]No Lora File -setup[/yellow] : ",v)
-    #        Loras.pop(k)
-    #        continue
-    #    for k in v:
-    #        SetArrRnd(v,k)
-    #print(wd)
-    #print(dcheckpoints)
 
-    
     global ckptMax
     global ckptCnt
     global ckptPath
     
     d=workflow.setdefault("CheckpointLoaderSimple",{})    
     d.setdefault("ckpt_name",str(ckptPath))    
-      
-#def setup_last(setup):
-    #tm=time.strftime('%Y%m%d-%H%M%S')
-    #n=f"{ckptFileName}/{listFileName}/{ckptFileName}-{listFileName}-{tm}"
+
     n=f"{ckptFileName}/{listFileName}/{ckptFileName}-{listFileName}"
-    
-    #workflow=setup["workflow"]
-    
+
     d=workflow.setdefault("SaveImage1",{})    
     d.setdefault("filename_prefix",f"{n}")    
     d=workflow.setdefault("SaveImage2",{})    

@@ -267,6 +267,11 @@
             #"bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",
         },
     },
+	"RE-Large Insertion XL V0.2": {	
+        "positive":{
+         "RE-Large Insertion XL V0.2":" large insertion, large penis, thick penis,",
+        },
+    },
 	"boundwristsupponyxl-10": {	
         "positive":{
          "boundwristsupponyxl-10":" bound wrists, arms up,",
@@ -429,6 +434,67 @@
     "All the way through" : {        
         "positive":{
             "All the way through":"all the way through, tentacles, oral, anal,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "ImpaledPonyV1-000002" : {        
+        "positive":{
+            "ImpaledPonyV1-000002":"Impaled,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "cowgirl_position_nonpov_pony-000010" : {        
+        "positive":{
+            "cowgirl_position_nonpov_pony-000010":"1boy, sex, cowgirl position, girl on top, straddling,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "ikebana_pony_V1.0" : {        
+        "positive":{
+            "ikebana_pony_V1.0":"ikebana, object insertion, flowers,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "strangling_pony_V1.0" : {        
+        "positive":{
+            "strangling_pony_V1.0":"strangling, asphyxiation,hand on another's neck, heavy breathing,saliva ,drooling, empty eyes,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "suspension" : {        
+        "positive":{
+            "suspension":"suspension,{arms behind back, bound, shibari, |}",
+            "pose":"{ leg down, |leg up,}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "HDA_AnalBeadsXL" : {        
+        "positive":{
+            "HDA_AnalBeadsXL":"HDA_AnalBeadsXL,",
         },
         #"negative":{
         #    "foot":"",
@@ -688,7 +754,39 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "BellyPunchPonyV1" : {
+        "file_name":[
+            "BellyPunchPonyV1-000001",
+            "BellyPunchPonyV1-000002",
+            "BellyPunchPonyV1-000003",
+            "BellyPunchPonyV1-000004",
+            "BellyPunchPonyV1-000005",
+            "BellyPunchPonyV1-000006",
+            "BellyPunchPonyV1-000007",
+            "BellyPunchPonyV1-000008",
+            "BellyPunchPonyV1-000009",
+            "BellyPunchPonyV1-000010",
+        ],
+        "positive":{
+            "BellyPunchPonyV1" :"harapan, (2boys:1.4) , (naked:0.5) tears (begging:1.1)",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "hunged_girl" : {        
+        "positive":{
+            "hunged_girl" :"(hunged_girl:1.4), (noose), rope, (hanged:1.2), (asphyxiation), (bad_end:1.1 ) ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "hunged_girl (1)" : {        
         "positive":{
             "hunged_girl" :"(hunged_girl:1.4), (noose), rope, (hanged:1.2), (asphyxiation), (bad_end:1.1 ) ",
         },
