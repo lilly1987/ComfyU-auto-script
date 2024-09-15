@@ -113,9 +113,11 @@ def setup_list(setup):
         listFiles=GetFileList(str(Path(sPath,"list/*.json")))
         isNo=True
         listFileName=random.choice(dicFileCharKeys)
+        ListCard=setup.pop("ListCard",[])
+        perListCard=setup.pop("perListCard",1)
+        perList=setup.pop("perList",1)
         if len(listFiles)>0:
-            if setup.pop("perListCard",1) >random.random() :
-                ListCard=setup.pop("ListCard",[])
+            if perListCard >random.random() :
                 card=random.choice(ListCard) #str
                 list=[ f for f in listFiles if re.search(card,  f.stem)]
                 if len(list)>0:
@@ -126,13 +128,10 @@ def setup_list(setup):
                         listFile=random.choice(list)
                         listFileName=listFile.stem
                 #print("list",list)
-            if isNo and setup.pop("perList",1) >random.random() :
+            if isNo and perList >random.random() :
                 list=listFiles
                 isNo=False
-        else:
-            setup.pop("perList",1)
-            setup.pop("perListCard",1)
-            setup.pop("ListCard",[])
+                
         if isNo:
             listDic={
                 "Loras":{
@@ -153,9 +152,10 @@ def setup_list(setup):
 def lora_dic(dicTagLora,dicLoraFileNameToTag,l,loraSet,charSet,txt=""):
     global Loras
     #print("l",l)
-    for k, v in l.items():
-        
+    for k, v in l.copy().items():
+        l.pop(k)
         if isinstance(v,str):
+            file_name=v
             tag=dicLoraFileNameToTag.get(v)
             if tag is None:
                 tag=v
@@ -165,13 +165,13 @@ def lora_dic(dicTagLora,dicLoraFileNameToTag,l,loraSet,charSet,txt=""):
             if d is None:
                 print(f"[yellow]Dic Lora No -{txt}[/yellow] : ",tag)
                 d={}
-            name=v
         else:
+            file_name=k
+            tag=k
             d=v
-            name=k
         #print("d",d) # {'positive': {'char': 'mayumi saegusa, red eyes, black hair, long hair, ,
         
-        n=d.pop("file_name",name)
+        n=d.pop("file_name",file_name)
         n=SetArrRndV(n)
         f=dicFileChar.get(n)                
         if f is not None:
@@ -191,9 +191,9 @@ def lora_dic(dicTagLora,dicLoraFileNameToTag,l,loraSet,charSet,txt=""):
                 
         lora_name=d.setdefault("lora_name",str(f))
         updaten(d,dset)
-        Loras[k]=l[k]=d
+        Loras[tag]=l[tag]=d
         #print("l",l)
-        print(f"[green]lora_name -{txt}[/green]",name)
+        print(f"[green]lora_name -{txt}[/green]",file_name)
         
     return l
     
@@ -206,13 +206,14 @@ def setup_lora_add(setup):
     
     dicLoraFileNameToTag={}
     for k, v in dicTagLora.copy().items():
-        a=v.pop("file_name")
+        #print("dicTagLora",k, v)
+        a=v.pop("file_name",None)
         if a is None:
             dicLoraFileNameToTag[k]=k
         else:
             if isinstance(a,str):
                 dicLoraFileNameToTag[a]=k
-            else if isinstance(a,list):
+            elif isinstance(a,list):
                 for p in a:
                     dicLoraFileNameToTag[p]=k
             else:
@@ -225,8 +226,10 @@ def setup_lora_add(setup):
     loraSet=setup.pop("randSet",{})
     
     max=SetArrRnd(setup,"LoraMaxCnt")
+    setup.pop("LoraMaxCnt")
     #==============================================
-    for k, v in Loras.items():
+    for k, v in Loras.copy().items():
+        Loras.pop(k)
         l=lora_dic(dicTagLora,dicLoraFileNameToTag,{k:v},loraSet,charSet,"Loras")
     now=len(Loras)
     if now>=max:
@@ -250,7 +253,6 @@ def setup_lora_add(setup):
                     return
         ##==============================================
         LoraAddCnt=SetArrRnd(setup,"LoraAddCnt")
-        setup.pop("LoraAddCnt")
         loraSet=setup.pop("loraSet",{})
         listLora=list(dicFileLora.keys())
         for i in range(LoraAddCnt):
@@ -265,16 +267,9 @@ def setup_lora_add(setup):
             listLora.remove(name)
     else:
         print("LoraAdd no")
+    setup.pop("LoraAddCnt")
     print("now>=max all",now,max)
 
-def setup_lora_max(setup):
-    #Loras=setup.get("Loras")
-    global Loras
-    #print("Loras",Loras)
-    n=SetArrRnd(setup,"LoraMaxCnt")
-    Loras={k:v for i, (k, v) in enumerate(Loras.items()) if i < n}
-    # print("Loras",Loras)
-    setup["Loras"]=Loras
 
 def setup_workflow(setup):
     
@@ -284,7 +279,7 @@ def setup_workflow(setup):
     
     d=workflow.setdefault("KSampler",{})    
     #SetSeed(d)
-    SetArrRnd(d,"denoise")
+    #SetArrRnd(d,"denoise")
     #for k in d:
     #    SetArrRnd(d,k)
             

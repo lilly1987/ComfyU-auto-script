@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "Pony\\justSoftMix_v10.safetensors"
+            "ckpt_name": "Pony\\hybridmixSDXL_mod7Jruv1025.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,12 +10,12 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 8553069765845938846,
-            "steps": 46,
-            "cfg": 8,
-            "sampler_name": "euler_ancestral",
+            "seed": 12525348428102259318,
+            "steps": 36,
+            "cfg": 4,
+            "sampler_name": "dpmpp_2m",
             "scheduler": "karras",
-            "denoise": 0.9165381990477262,
+            "denoise": 0.8996153030243386,
             "model": [
                 "LoraLoader",
                 0
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "justSoftMix_v10/ikoma_mio_ponyxl_v1/justSoftMix_v10-ikoma_mio_ponyxl_v1-20240916-003216-1",
+            "filename_prefix": "hybridmixSDXL_mod7Jruv1025/Witch2/hybridmixSDXL_mod7Jruv1025-Witch2-20240916-005731-1",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} ,source_anime,  {anime_screencap,|},NSFW,{uncensored,|},{1-3$$anime style,|2D,|anime,|anime screencap,},{|sex},,{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},,face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),,{empty eyes,|},{idol,|},{long hair,|},{fellatio,| irrumatio,| deepthroat, oral,|cum in mouth,|},{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}, {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|},{arms behind back, bound arms, arms bound, arm held back, bdsm,|},,{{1-3$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ,{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }},{masturbation,|},{__dress__, {strapless dress,|}|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},{high heels,|},Impaled,",
+            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} ,source_anime,  {anime_screencap,|},NSFW,{uncensored,|},{1-3$$anime style,|2D,|anime,|anime screencap,},{|sex},,{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},,face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),,{empty eyes,|},{idol,|},{long hair,|},{fellatio,| irrumatio,| deepthroat, oral,|cum in mouth,|},{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}, {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|},{arms behind back, bound arms, arms bound, arm held back, bdsm,|},,{{1-3$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ,{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }},{masturbation,|},{__dress__, {strapless dress,|}|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},{high heels,|},sucy,  ,harapan, (2boys:1.4) , (naked:0.5) tears (begging:1.1),high heels,,1girl and monster, uncensored, tentaclesX, sex with a huge monster,",
             "populated_text": "",
             "mode": true,
-            "seed": 15376986309421193483,
+            "seed": 17472141719582471191,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -128,7 +128,7 @@
             "wildcard_text": "low quality,worstquality,,{|{|{|{|{|{|score_6,} score_5,} score_4,} score_3,} score_2,} score_1,} source_furry, source_pony, source_cartoon,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,{nude|},,Western,,Head back,,lower body,out of focus,,(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  facial,,realistic,",
             "populated_text": "",
             "mode": true,
-            "seed": 658489093301615013,
+            "seed": 527254161036960630,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,12 +141,12 @@
             "guide_size": 720,
             "guide_size_for": true,
             "max_size": 720,
-            "seed": 15755781390110641414,
-            "steps": 44,
-            "cfg": 10,
-            "sampler_name": "dpmpp_2m",
+            "seed": 12772634475654050128,
+            "steps": 50,
+            "cfg": 6,
+            "sampler_name": "euler_ancestral",
             "scheduler": "karras",
-            "denoise": 0.45487702748176745,
+            "denoise": 0.38767418437339557,
             "feather": 9,
             "noise_mask": true,
             "force_inpaint": true,
@@ -200,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "justSoftMix_v10/ikoma_mio_ponyxl_v1/justSoftMix_v10-ikoma_mio_ponyxl_v1-20240916-003216-2",
+            "filename_prefix": "hybridmixSDXL_mod7Jruv1025/Witch2/hybridmixSDXL_mod7Jruv1025-Witch2-20240916-005731-2",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\irie-miyuki-xl-04.safetensors",
+            "lora_name": "Pony\\char\\telestia_terra_esfort_ponyxl_v1.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 3.511441926453939,
-            "B": 1.9539420036171329,
+            "A": 1.2260186667765427,
+            "B": 1.5408801658445235,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-ImpaledPonyV1-000002",
+                "LoraLoader-FComic_HardCore_Pony_V1",
                 0
             ],
             "clip": [
-                "LoraLoader-ImpaledPonyV1-000002",
+                "LoraLoader-FComic_HardCore_Pony_V1",
                 1
             ]
         },
@@ -292,15 +292,15 @@
             "title": "Load VAE"
         }
     },
-    "LoraLoader-ikoma_mio_ponyxl_v1": {
+    "LoraLoader-Witch2": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\ikoma_mio_ponyxl_v1.safetensors",
-            "strength_model": 0.8425975197812838,
-            "strength_clip": 0.937225155178576,
+            "lora_name": "Pony\\char\\Witch2.safetensors",
+            "strength_model": 0.9009339452709497,
+            "strength_clip": 0.9631553038256022,
             "inverse": false,
-            "A": 2.7096981312581936,
-            "B": 1.1653480650710657,
+            "A": 3.527321216904058,
+            "B": 1.0839806150153715,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -312,34 +312,115 @@
                 "CheckpointLoaderSimple",
                 1
             ],
-            "seed": 10869591265704323011
+            "seed": 9772681787447904724
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
             "title": "Lora Loader (Block Weight)"
         }
     },
-    "LoraLoader-ImpaledPonyV1-000002": {
+    "LoraLoader-BellyPunchPonyV1": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\ImpaledPonyV1-000002.safetensors",
-            "strength_model": 0.40552460504541704,
-            "strength_clip": 0.33303697890818146,
+            "lora_name": "Pony\\BellyPunchPonyV1-000007.safetensors",
+            "strength_model": 0.5655427393446831,
+            "strength_clip": 0.4154055757363121,
             "inverse": false,
-            "A": 2.9231278172517063,
-            "B": 1.231283411778883,
+            "A": 2.797740634409378,
+            "B": 1.2367935887453423,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-ikoma_mio_ponyxl_v1",
+                "LoraLoader-Witch2",
                 0
             ],
             "clip": [
-                "LoraLoader-ikoma_mio_ponyxl_v1",
+                "LoraLoader-Witch2",
                 1
             ],
-            "seed": 18164771228781549571
+            "seed": 2137669262545633238
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-Balletboots": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "Pony\\Balletboots.safetensors",
+            "strength_model": 0.5948828023337411,
+            "strength_clip": 0.512572454626457,
+            "inverse": false,
+            "A": 2.334439542197461,
+            "B": 1.9451614762945533,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-BellyPunchPonyV1",
+                0
+            ],
+            "clip": [
+                "LoraLoader-BellyPunchPonyV1",
+                1
+            ],
+            "seed": 14599610022639420407
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-tentaclesX": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "Pony\\tentaclesX.safetensors",
+            "strength_model": 0.4715099063685887,
+            "strength_clip": 0.4740292195054475,
+            "inverse": false,
+            "A": 1.0446040058512278,
+            "B": 1.3011834269868414,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-Balletboots",
+                0
+            ],
+            "clip": [
+                "LoraLoader-Balletboots",
+                1
+            ],
+            "seed": 14457804828234907397
+        },
+        "class_type": "LoraLoaderBlockWeight //Inspire",
+        "_meta": {
+            "title": "Lora Loader (Block Weight)"
+        }
+    },
+    "LoraLoader-FComic_HardCore_Pony_V1": {
+        "inputs": {
+            "category_filter": "All",
+            "lora_name": "Pony\\FComic_HardCore_Pony_V1.safetensors",
+            "strength_model": 0.5065751651632646,
+            "strength_clip": 0.33908605645815537,
+            "inverse": false,
+            "A": 3.13452748381232,
+            "B": 1.7581988567737152,
+            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+            "bypass": false,
+            "model": [
+                "LoraLoader-tentaclesX",
+                0
+            ],
+            "clip": [
+                "LoraLoader-tentaclesX",
+                1
+            ],
+            "seed": 15434458172201660544
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {

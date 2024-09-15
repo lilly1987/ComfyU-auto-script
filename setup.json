@@ -182,6 +182,21 @@
                 {"All the way through" : "All the way through"},
             ],
         },
+        "Punch":{
+            "per":01.250,
+            "loras":[
+                {"BellyPunchPonyV1-000001" : "BellyPunchPonyV1-000001"},
+                {"BellyPunchPonyV1-000002" : "BellyPunchPonyV1-000002"},
+                {"BellyPunchPonyV1-000003" : "BellyPunchPonyV1-000003"},
+                {"BellyPunchPonyV1-000004" : "BellyPunchPonyV1-000004"},
+                {"BellyPunchPonyV1-000005" : "BellyPunchPonyV1-000005"},
+                {"BellyPunchPonyV1-000006" : "BellyPunchPonyV1-000006"},
+                {"BellyPunchPonyV1-000007" : "BellyPunchPonyV1-000007"},
+                {"BellyPunchPonyV1-000008" : "BellyPunchPonyV1-000008"},
+                {"BellyPunchPonyV1-000009" : "BellyPunchPonyV1-000009"},
+                {"BellyPunchPonyV1-000010" : "BellyPunchPonyV1-000010"},
+            ],
+        },
         "hang":{
             "per":0.250,
             "loras":[

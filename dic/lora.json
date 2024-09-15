@@ -744,6 +744,16 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
+    "FComic_HardCore" : {        
+        "positive":{
+            "FComic_HardCore" :"{missionary | cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex},, ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
     "amputee_XL_pony" : {        
         "positive":{
             "amputee_XL_pony" :"amputee, ",
