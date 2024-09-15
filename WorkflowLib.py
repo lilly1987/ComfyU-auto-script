@@ -29,7 +29,7 @@ def workflow_setup(workflow_api,setup):
     SetSeed(d)
     
     Loras=setup.get("Loras",{})
-    for k, v in Loras.items():
+    for k, v in Loras.copy().items():
         if isinstance(v,str):
             print("[yellow]No Lora File -setup[/yellow] : ",v)
             Loras.pop(k)

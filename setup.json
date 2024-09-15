@@ -11,8 +11,6 @@
     "CharPath":"char/*.safetensors",
     #"CharPath":"char/daidouji_tomoyo_ponxl_v1.safetensors",
     "LoraPath":"*.safetensors",
-
-
     #"noFaceDetailer":True,
     "noFaceDetailer":False,
     "workflow":{
@@ -123,8 +121,6 @@
     "Checkpoint":[
         "nachaPonyCheckpoint_v05",
     ],
-    "perList":0.06250,
-    "perListCard":0.0625,
     "ListCard":[
         ".*hoodAL-ponyxl-bshi-v1.*",
         ".*WanderingWitch_Fran.*",
@@ -178,9 +174,6 @@
         #"Edel_PDXL_resized",
         #"Edel_PONY_from_Sousou_no_Frieren",
     ],    
-    "LoraAdd":True,
-    "LoraAddCnt":(0,2),
-    "LoraMaxCnt":(4,6),
     "loras_random":{        
         "through":{
             "per":0.250,
@@ -312,7 +305,13 @@
         "strength_clip": (0.250,0.75),
     },
     "shuffle":False,    
-    
+    "perList":0.06250,
+    "perList":0.0,
+    "perListCard":0.0625,
+    "perListCard":0.0,
+    "LoraAdd":True,
+    "LoraAddCnt":(0,2),
+    "LoraMaxCnt":(4,6),
     #"queue_prompt_wait":False,    
     #"queue_prompt":False,    
     #"print_setup":True,
