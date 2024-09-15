@@ -223,7 +223,8 @@ def setup_lora_add(setup):
     #==============================================    
     global Loras
     charSet=setup.pop("charSet",{})
-    loraSet=setup.pop("randSet",{})
+    randSet=setup.pop("randSet",{})
+    loraSet=setup.pop("loraSet",{})
     
     max=SetArrRnd(setup,"LoraMaxCnt")
     setup.pop("LoraMaxCnt")
@@ -238,22 +239,20 @@ def setup_lora_add(setup):
         return
     #==============================================
     v=setup.pop("LoraAdd",True)
+    r=setup.pop("loras_random",{})
     if v:
-        
         #==============================================
-        r=setup.pop("loras_random",{})
         for k, v in r.items():
             p=v.pop("per",1.0)
             if p>=random.random():
                 l=SetArrRnd(v,"loras")
-                l=lora_dic(dicTagLora,dicLoraFileNameToTag,l,loraSet,charSet,f"random {k}")
+                l=lora_dic(dicTagLora,dicLoraFileNameToTag,l,randSet,charSet,f"random {k}")
                 now+=1
                 if now>=max:
                     print("now>=max loras_random",now,max)
                     return
         ##==============================================
         LoraAddCnt=SetArrRnd(setup,"LoraAddCnt")
-        loraSet=setup.pop("loraSet",{})
         listLora=list(dicFileLora.keys())
         for i in range(LoraAddCnt):
             if len(listLora)==0 :

@@ -25,6 +25,7 @@
         "KSampler":{
             "steps": 30,
             "steps": (30,50),
+            "steps": (30,45),
             "cfg": (4,10),
             "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
             "scheduler": "karras",
@@ -32,7 +33,7 @@
         },
         "FaceDetailer":{
             "steps": 30,
-            "steps": (30,50),
+            "steps": (30,45),
             "cfg": (4,10),
             "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
             "scheduler": "karras",
@@ -92,7 +93,7 @@
         "insertions":"{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}",
         "chest":" {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|}",
         "bound":"{arms behind back, bound arms, arms bound, arm held back, bdsm,|},",
-        "exposure":"{{1-3$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ",
+        "exposure":"{{1-9$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ",
         "anorexia":"{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }}",        
         "masturbation":"{masturbation,|}",
         "dress":"{__dress__, {strapless dress,|}|}",
@@ -128,6 +129,8 @@
         ".*Sucy_Pony-10.*",
         ".*Sucy_Manbavaran_Little_Witch_Academia__-_Pony.*",
         ".*Witch2.*",
+        ".*weiss_v2.*",
+        ".*sdxl-gmas-shinohiro-pony.*",
         ".*Sucy_Manbaravan.*",
         ".*seia_blue archive_PONY_last.*",
         ".*daidouji_tomoyo_ponxl_v.*",
@@ -177,7 +180,7 @@
     ],    
     "loras_random":{        
         "my":{
-            "per":01.50,
+            "per":0.750,
             "loras":[
                 {"All the way through" : "All the way through"},
                 {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
@@ -220,8 +223,8 @@
                 {"Re-hang-XL-3-000008" : "Re-hang-XL-3-000008"},
                 {"XL-hang-board-test-000012" : "XL-hang-board-test-000012"},
                 {"lora_dancing-000052" : "lora_dancing-000052"},
-                {"XL-luoxuan-000012" : "XL-luoxuan-000012"},
                 {"garrote_2-000012" : "garrote_2-000012"},
+                #{"XL-luoxuan-000012" : "XL-luoxuan-000012"},
                 #{"luoxuan_v2-000030" : "luoxuan_v2-000030"},
             ],
         },
@@ -335,6 +338,7 @@
     "LoraAdd":True,
     "LoraAddCnt":(0,2),
     "LoraMaxCnt":(4,6),
+    "LoraMaxCnt":(2,4),
     #"queue_prompt_wait":False,    
     #"queue_prompt":False,    
     #"print_setup":True,

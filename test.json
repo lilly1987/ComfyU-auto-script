@@ -1,7 +1,7 @@
 {
     "CheckpointLoaderSimple": {
         "inputs": {
-            "ckpt_name": "Pony\\justCute_v10.safetensors"
+            "ckpt_name": "Pony\\justSoftMix_v10.safetensors"
         },
         "class_type": "CheckpointLoaderSimple",
         "_meta": {
@@ -10,12 +10,12 @@
     },
     "KSampler": {
         "inputs": {
-            "seed": 17918978037634460883,
-            "steps": 31,
-            "cfg": 7,
+            "seed": 17234787511272489605,
+            "steps": 32,
+            "cfg": 8,
             "sampler_name": "dpmpp_2m",
             "scheduler": "karras",
-            "denoise": 0.9114536558478518,
+            "denoise": 0.9933231263660462,
             "model": [
                 "LoraLoader",
                 0
@@ -99,7 +99,7 @@
     },
     "SaveImage1": {
         "inputs": {
-            "filename_prefix": "justCute_v10/rhea-fighter-s2-ponyxl-lora-nochekaiser_r1/justCute_v10-rhea-fighter-s2-ponyxl-lora-nochekaiser_r1-20240916-081152-1",
+            "filename_prefix": "justSoftMix_v10/lora_cosChihhi_xl_v1_pony/justSoftMix_v10-lora_cosChihhi_xl_v1_pony-20240916-085943-1",
             "images": [
                 "VAEDecode",
                 0
@@ -112,10 +112,10 @@
     },
     "positiveWildcard": {
         "inputs": {
-            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} ,source_anime,  {anime_screencap,|},NSFW,{uncensored,|},{1-3$$anime style,|2D,|anime,|anime screencap,},{|sex},,{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},,face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),,{empty eyes,|},{idol,|},{long hair,|},{fellatio,| irrumatio,| deepthroat, oral,|cum in mouth,|},{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}, {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|},{arms behind back, bound arms, arms bound, arm held back, bdsm,|},,{{1-3$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ,{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }},{masturbation,|},{__dress__, {strapless dress,|}|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},{high heels,|},all the way through, tentacles, oral, anal,,entropy_hang, rope on neck, rope around neck, corpse, arms_behind_back,,x bound, bdsm, bondage, restrained, bound wrists, bound ankles,",
+            "wildcard_text": "masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|},score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} ,source_anime,  {anime_screencap,|},NSFW,{uncensored,|},{1-3$$anime style,|2D,|anime,|anime screencap,},{|sex},,{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},,face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),,{empty eyes,|},{idol,|},{long hair,|},{fellatio,| irrumatio,| deepthroat, oral,|cum in mouth,|},{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}, {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|},{arms behind back, bound arms, arms bound, arm held back, bdsm,|},,{{1-9$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ,{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }},{masturbation,|},{__dress__, {strapless dress,|}|},{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ,{off shoulder,|bare shoulder,|capelet,|},{from {below|above|side|front|behind},|} ,{full body,|},{high heels,|},{cosChihhi,|senkawa chihiro, orange eyes, brown hair, side braid, red scrunchie,},all the way through, tentacles, oral, anal,",
             "populated_text": "",
             "mode": true,
-            "seed": 17915393526705591553,
+            "seed": 14220150548826157675,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -128,7 +128,7 @@
             "wildcard_text": "low quality,worstquality,,{|{|{|{|{|{|score_6,} score_5,} score_4,} score_3,} score_2,} score_1,} source_furry, source_pony, source_cartoon,,grayscale,monochrome,bad proportions,,logo,text,sketches,watermark,signature,username,extra limb,disconnected limbs,floating limbs,malformed limbs,missing limb,mutation,mutated,deformed,,bad anatomy,poorly drawn hands,extra arms,malformed hands,mutated hands and fingers,bad hands,missing fingers,fused fingers,too many fingers,extra legs,bad feet,poorly drawn face,mutated hands,disfigured,ugly,bad body,,{nude|},,Western,,Head back,,lower body,out of focus,,(multiple views:1.25), (multiple viewer:1.25),  (cropped:1.25), face only,  facial,,realistic,",
             "populated_text": "",
             "mode": true,
-            "seed": 11965695275239400370,
+            "seed": 4682444898556039904,
             "Select to add Wildcard": "Select the Wildcard to add to the text"
         },
         "class_type": "ImpactWildcardProcessor",
@@ -141,13 +141,13 @@
             "guide_size": 720,
             "guide_size_for": true,
             "max_size": 720,
-            "seed": 12440822821330888156,
-            "steps": 43,
-            "cfg": 7,
+            "seed": 13564996769271504814,
+            "steps": 34,
+            "cfg": 5,
             "sampler_name": "euler_ancestral",
             "scheduler": "karras",
-            "denoise": 0.4278224386548009,
-            "feather": 11,
+            "denoise": 0.4157119186956443,
+            "feather": 9,
             "noise_mask": true,
             "force_inpaint": true,
             "bbox_threshold": 0.5,
@@ -200,7 +200,7 @@
     },
     "SaveImage2": {
         "inputs": {
-            "filename_prefix": "justCute_v10/rhea-fighter-s2-ponyxl-lora-nochekaiser_r1/justCute_v10-rhea-fighter-s2-ponyxl-lora-nochekaiser_r1-20240916-081152-2",
+            "filename_prefix": "justSoftMix_v10/lora_cosChihhi_xl_v1_pony/justSoftMix_v10-lora_cosChihhi_xl_v1_pony-20240916-085943-2",
             "images": [
                 "FaceDetailer",
                 0
@@ -259,22 +259,22 @@
     "LoraLoader": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\zs_AliceXL.safetensors",
+            "lora_name": "Pony\\char\\Saegusa_Mayumi.safetensors",
             "strength_model": 0,
             "strength_clip": 0,
             "inverse": false,
             "seed": 0,
-            "A": 2.7878494436514782,
-            "B": 1.3940167432278465,
+            "A": 2.924723416877498,
+            "B": 1.2030277442722725,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-X bound_pony_V1.1",
+                "LoraLoader-All the way through",
                 0
             ],
             "clip": [
-                "LoraLoader-X bound_pony_V1.1",
+                "LoraLoader-All the way through",
                 1
             ]
         },
@@ -292,15 +292,15 @@
             "title": "Load VAE"
         }
     },
-    "LoraLoader-rhea-fighter-s2-ponyxl-lora-nochekaiser_r1": {
+    "LoraLoader-lora_cosChihhi_xl_v1_pony": {
         "inputs": {
             "category_filter": "All",
-            "lora_name": "Pony\\char\\rhea-fighter-s2-ponyxl-lora-nochekaiser_r1.safetensors",
-            "strength_model": 0.7977996974715483,
-            "strength_clip": 0.7612565667523915,
+            "lora_name": "Pony\\char\\lora_cosChihhi_xl_v1_pony.safetensors",
+            "strength_model": 0.8560253314028942,
+            "strength_clip": 0.8096220202531051,
             "inverse": false,
-            "A": 3.387652623803662,
-            "B": 1.0280683400239758,
+            "A": 2.49933695650855,
+            "B": 1.4506929402531465,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
@@ -312,7 +312,7 @@
                 "CheckpointLoaderSimple",
                 1
             ],
-            "seed": 3324576551182565141
+            "seed": 16647554635335205656
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {
@@ -323,77 +323,23 @@
         "inputs": {
             "category_filter": "All",
             "lora_name": "Pony\\All the way through.safetensors",
-            "strength_model": 0.4085121542089083,
-            "strength_clip": 0.5041718460497989,
+            "strength_model": 0.6129916356734526,
+            "strength_clip": 0.5093010518727148,
             "inverse": false,
-            "A": 3.986242501504792,
-            "B": 1.4552877787155607,
+            "A": 1.2722343407744174,
+            "B": 1.5433817490164148,
             "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
             "bypass": false,
             "model": [
-                "LoraLoader-rhea-fighter-s2-ponyxl-lora-nochekaiser_r1",
+                "LoraLoader-lora_cosChihhi_xl_v1_pony",
                 0
             ],
             "clip": [
-                "LoraLoader-rhea-fighter-s2-ponyxl-lora-nochekaiser_r1",
+                "LoraLoader-lora_cosChihhi_xl_v1_pony",
                 1
             ],
-            "seed": 8548658332018339363
-        },
-        "class_type": "LoraLoaderBlockWeight //Inspire",
-        "_meta": {
-            "title": "Lora Loader (Block Weight)"
-        }
-    },
-    "LoraLoader-HangingPonyV2-000010": {
-        "inputs": {
-            "category_filter": "All",
-            "lora_name": "Pony\\HangingPonyV2-000010.safetensors",
-            "strength_model": 0.7043866033590117,
-            "strength_clip": 0.732809407054197,
-            "inverse": false,
-            "A": 2.559019725327069,
-            "B": 1.9981748972267495,
-            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "bypass": false,
-            "model": [
-                "LoraLoader-All the way through",
-                0
-            ],
-            "clip": [
-                "LoraLoader-All the way through",
-                1
-            ],
-            "seed": 17130731650561845297
-        },
-        "class_type": "LoraLoaderBlockWeight //Inspire",
-        "_meta": {
-            "title": "Lora Loader (Block Weight)"
-        }
-    },
-    "LoraLoader-X bound_pony_V1.1": {
-        "inputs": {
-            "category_filter": "All",
-            "lora_name": "Pony\\X bound_pony_V1.1.safetensors",
-            "strength_model": 0.434524974341444,
-            "strength_clip": 0.4838467965659916,
-            "inverse": false,
-            "A": 2.495461970186894,
-            "B": 1.2649059865368,
-            "preset": "FLUX-ALL:1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "block_vector": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-            "bypass": false,
-            "model": [
-                "LoraLoader-HangingPonyV2-000010",
-                0
-            ],
-            "clip": [
-                "LoraLoader-HangingPonyV2-000010",
-                1
-            ],
-            "seed": 15276142463289785013
+            "seed": 9828825550436704200
         },
         "class_type": "LoraLoaderBlockWeight //Inspire",
         "_meta": {

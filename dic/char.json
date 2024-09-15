@@ -1955,6 +1955,22 @@
         },
         #"strength_model": (0.5,1.0),
     },
+	"TsubameKoyasuXL-08": {	#-
+        "positive":{
+            "char":"TsubameKoyasuXL-08,   ",
+            #"hair":" ",
+            #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"rhea-fighter-s2-ponyxl-lora-nochekaiser_r1": {	
+        "positive":{
+            "char":"rhea fighter, green eyes, hair ribbon, ponytail, red hair, pointy ears, elf, white bow, white ribbon, ribbon,,   ",
+            #"hair":" ",
+            "dress":"{gloves, bow, pantyhose, shorts, belt, black pantyhose, fur trim, short shorts, brown gloves, toeless legwear, legwear under shorts, brown shorts,,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
 	"DK_BUNNY": {	
         "positive":{
             "char":"DK_BUNNY,   ",
