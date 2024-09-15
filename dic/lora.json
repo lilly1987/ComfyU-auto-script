@@ -6,7 +6,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        "strength_model": (0.25,0.75),
         #"strength_clip": 1,
     },
     "BalletBoots" : {        
@@ -56,7 +56,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        "strength_model": (0.7,0.9),
+        "strength_model": (0.25,0.75),
         #"strength_clip": 1,
     },
     "heelless_ballet_boots" : {        
@@ -66,7 +66,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        "strength_model": (0.0,0.75),
         #"strength_clip": 1,
     },
 	"Clit_Leash-000018": {	
@@ -88,7 +88,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        "strength_model": (0.0,0.75),
         #"strength_clip": 1,
     },
 	"garrote_2-000012": {	
@@ -126,7 +126,7 @@
             "sprawled_pony_V1.0":"sprawled, bound, bdsm, restrained, cuffs, spread legs,spread arms,,",
             #"pose":"",
         },
-        #"strength_model": (0.0,0.8),
+        "strength_model": (0.0,0.75),
         #"strength_clip": (0.50,01.0),
     },
 	"deepthroat_pony_V1.0": {	
@@ -135,6 +135,30 @@
             #"pose":"",
         },
         "strength_model": (0.0,0.75),
+        #"strength_clip": (0.50,01.0),
+    },
+	"vagina weightlifting_pony_V1.0": {	
+        "positive":{
+            "Ghostoast_LoRA":"vagina weightlifting,",
+            #"pose":"",
+        },
+        #"strength_model": (0.0,0.75),
+        #"strength_clip": (0.50,01.0),
+    },
+	"hand under skirt_pony_V1.0": {	
+        "positive":{
+            "hand under skirt_pony_V1.0":"hand under skirt, skirt, groping, blush, hand under clothes,1boy,",
+            #"pose":"",
+        },
+        #"strength_model": (0.0,0.75),
+        #"strength_clip": (0.50,01.0),
+    },
+	"Ghostoast_LoRA": {	
+        "positive":{
+            "Ghostoast_LoRA":"bdsm,",
+            #"pose":"",
+        },
+        #"strength_model": (0.0,0.75),
         #"strength_clip": (0.50,01.0),
     },
 	"Navel_penetration_Pony": {	
@@ -399,7 +423,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        "strength_model": (0.25,0.75),
         #"strength_clip": 1,
     },
     "All the way through" : {        

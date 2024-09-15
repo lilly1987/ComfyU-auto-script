@@ -15,12 +15,27 @@ def workflow_setup(workflow_api,setup):
     
     d=workflow.setdefault("KSampler",{})    
     SetSeed(d)
+    SetArrRnd(d,"denoise")
+    for k in d:
+        SetArrRnd(d,k)
     d=workflow.setdefault("FaceDetailer",{})    
     SetSeed(d)
+    SetArrRnd(d,"denoise")
+    for k in d:
+        SetArrRnd(d,k)
     d=workflow.setdefault("positiveWildcard",{})
     SetSeed(d)  
     d=workflow.setdefault("negativeWildcard",{})
     SetSeed(d)
+    
+    Loras=setup.get("Loras",{})
+    for k, v in Loras.items():
+        if isinstance(v,str):
+            print("[yellow]No Lora File -setup[/yellow] : ",v)
+            Loras.pop(k)
+            continue
+        for k in v:
+            SetArrRnd(v,k)
     
     tm=time.strftime('%Y%m%d-%H%M%S')
     

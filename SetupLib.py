@@ -149,7 +149,7 @@ def setup_list(setup):
     update(setup,listDic)
     
     
-def lora_dic(dicLora,l,loraSet,charSet):
+def lora_dic(dicLora,l,loraSet,charSet,txt=""):
     global Loras
     #print("l",l)
     for k, v in l.items():
@@ -158,7 +158,7 @@ def lora_dic(dicLora,l,loraSet,charSet):
             name=v
             d=dicLora.get(v)
             if d is None:
-                print("[yellow]Dic Lora No[/yellow] : ",v)
+                print(f"[yellow]Dic Lora No -{txt}[/yellow] : ",v)
                 d={}
         else:
             d=v
@@ -176,7 +176,7 @@ def lora_dic(dicLora,l,loraSet,charSet):
                 #continue 
                 f=dicFileLoraAll.get(n)
                 if f is None:
-                    print("[yellow]No Lora File[/yellow] : ",n)
+                    print(f"[yellow]No Lora File -{txt}[/yellow] : ",n)
                     continue
             #    else:
             #        dset=loraSet
@@ -188,7 +188,7 @@ def lora_dic(dicLora,l,loraSet,charSet):
         updaten(d,dset)
         Loras[k]=l[k]=d
         #print("l",l)
-        print("[green]lora_name[/green]",name)
+        print(f"[green]lora_name -{txt}[/green]",name)
         
     return l
     
@@ -206,10 +206,11 @@ def setup_lora_add(setup):
     max=SetArrRnd(setup,"LoraMaxCnt")
     #==============================================
     for k, v in Loras.items():
-        l=lora_dic(dicLora,{k:v},loraSet,charSet)
+        l=lora_dic(dicLora,{k:v},loraSet,charSet,"Loras")
     now=len(Loras)
     if now>=max:
         #setup_lora_max(setup)
+        print("now>=max Loras",now,max)
         return
     #==============================================
     v=setup.pop("LoraAdd",True)
@@ -221,9 +222,10 @@ def setup_lora_add(setup):
             p=v.pop("per",1.0)
             if p>=random.random():
                 l=SetArrRnd(v,"loras")
-                l=lora_dic(dicLora,l,loraSet,charSet)
+                l=lora_dic(dicLora,l,loraSet,charSet,f"random {k}")
                 now+=1
                 if now>=max:
+                    print("now>=max loras_random",now,max)
                     return
         ##==============================================
         LoraAddCnt=SetArrRnd(setup,"LoraAddCnt")
@@ -234,11 +236,15 @@ def setup_lora_add(setup):
             if len(listLora)==0 :
                 break
             name=random.choice(listLora)
-            l=lora_dic(dicLora,{name:name},loraSet,charSet)
+            l=lora_dic(dicLora,{name:name},loraSet,charSet,"add")
             now+=1
             if now>=max:
+                print("now>=max LoraAddCnt",now,max,i+1, LoraAddCnt)
                 return
             listLora.remove(name)
+    else:
+        print("LoraAdd no")
+    print("now>=max all",now,max)
 
 def setup_lora_max(setup):
     #Loras=setup.get("Loras")
@@ -281,7 +287,7 @@ def setup_dic(setup):
                     #continue
                     f=dicFileLoraAll.get(v)
                     if f is None:
-                        print("[yellow]No Lora File[/yellow] : ",v)
+                        print("[yellow]No Lora File -dic[/yellow] : ",v)
                         continue
             else:
                 char=True
@@ -315,14 +321,14 @@ def setup_workflow(setup):
     d=workflow.setdefault("KSampler",{})    
     #SetSeed(d)
     SetArrRnd(d,"denoise")
-    for k in d:
-        SetArrRnd(d,k)
+    #for k in d:
+    #    SetArrRnd(d,k)
             
     d=workflow.setdefault("FaceDetailer",{})    
     #SetSeed(d)
-    SetArrRnd(d,"denoise")
-    for k in d:
-        SetArrRnd(d,k)
+    #SetArrRnd(d,"denoise")
+    #for k in d:
+    #    SetArrRnd(d,k)
             
     d=workflow.setdefault("positiveWildcard",{})
     # SetSeed(d)            
@@ -330,21 +336,20 @@ def setup_workflow(setup):
     d=workflow.setdefault("negativeWildcard",{})
     #SetSeed(d)
     
-    
     global dicFileCharKeys
     n=random.choice(dicFileCharKeys)
     d=workflow.setdefault("LoraLoader",{})
     d.setdefault("lora_name",str(dicFileChar[n]))
     
     #==============================================
-    global Loras
-    for k, v in Loras.items():
-        if isinstance(v,str):
-            print("[yellow]No Lora File[/yellow] : ",v)
-            Loras.pop(k)
-            continue
-        for k in v:
-            SetArrRnd(v,k)
+    #global Loras
+    #for k, v in Loras.items():
+    #    if isinstance(v,str):
+    #        print("[yellow]No Lora File -setup[/yellow] : ",v)
+    #        Loras.pop(k)
+    #        continue
+    #    for k in v:
+    #        SetArrRnd(v,k)
     #print(wd)
     #print(dcheckpoints)
 

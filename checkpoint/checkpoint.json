@@ -64,6 +64,8 @@
     },
     "hassakuXLHentai_v13" : {# 
     },
+    "copaxMelodiesXL_v4" : {# --
+    },
     "orangeFlavoredXL_bate5C" : {# ---
     },
     "flowermixberryxl_v2" : {# ---
@@ -183,6 +185,8 @@
         #"steps": 8,
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "stuffyMixXL_v10" : {# -
     },
     "kaywaiiXL_v11" : {# -
         "positive":{
