@@ -186,7 +186,20 @@
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
+    "silvermoonmix01xl_v11" : {# ---
+    },
     "stuffyMixXL_v10" : {# -
+    },
+    "xlE4pMix_xlE4pMix" : {# -
+        "positive":{
+            "quality":"(masterpiece:0.7), (best quality:1.1),",
+        },
+        "negative":{
+            "quality":"(worst quality:0.8), (low quality:1.1), simple background, bad anatomy, error, (mangled fingers:1.05), (bad hands:0.9), (2.5D:0.6), (light particles:0.7), narrow waist, (muscular:0.7), (ribs:0.9), symbol-shaped pupils,",
+        },
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
     "kaywaiiXL_v11" : {# -
         "positive":{

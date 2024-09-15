@@ -7,7 +7,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "Anna_Clement_Pony" : {        
@@ -18,7 +18,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "Sakurai_Minami" : {        
@@ -29,7 +29,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "Saegusa_Izumi" : {        
@@ -40,7 +40,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "Saegusa_Kasumi" : {        
@@ -51,7 +51,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "Kitayama_Shizuku" : {        
@@ -62,7 +62,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "WhiskeyProjectXL" : {        
@@ -73,7 +73,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "mari-iochi-ponyxl-lora-nochekaiser" : {        
@@ -84,7 +84,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "andrea_doria_XL_pony_bf16_v1" : {        
@@ -95,7 +95,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "kaede-akamatsu-ponyxl-lora-nochekaiser" : {        
@@ -106,7 +106,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "HisakawaTwins_pony_v1" : {        
@@ -117,7 +117,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "HisakawaTwins_pony_v1-hskwhyt" : {
@@ -129,7 +129,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "HisakawaTwins_pony_v1-hskwng" : {        
@@ -141,7 +141,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "Anastasia_pony_v1" : {        
@@ -152,7 +152,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "PONY_Lysithea" : {        
@@ -163,7 +163,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "zs_TaoXL" : {        
@@ -174,10 +174,10 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "Towa" : {        
+    "Towa" : {#-
         "positive":{
             "char":"towa, long hair, white hair, blue eyes, sidelocks,",
             "dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
@@ -185,7 +185,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "rwby_weissschnee_ponyXL" : {        
@@ -196,7 +196,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "Shinmai_Maou_No_Testament-Kurumi_Nonaka-PDXL" : {        
@@ -1259,7 +1259,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": 0.75,
+        #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "mayumi-mahouka-01" : {        
@@ -1788,6 +1788,14 @@
         "positive":{
             "char":"k_tsukioka,brown hair, long hair, bangs, brown eyes, red eyes,",
             #"pose":"",
+        },
+        #"strength_model": (0.0,0.75),
+        #"strength_clip": (0.50,01.0),
+    },
+	"nagamori-mizuka-xl-02": {	
+        "positive":{
+            "char":"nagamori, brown school uniform, red skirt, ",
+            #"dress":"{rhea_default|rhea_summer|rhea_chic|rhea_princess|__dress__}",
         },
         #"strength_model": (0.0,0.75),
         #"strength_clip": (0.50,01.0),

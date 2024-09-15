@@ -176,14 +176,15 @@
         #"Edel_PONY_from_Sousou_no_Frieren",
     ],    
     "loras_random":{        
-        "through":{
-            "per":0.250,
+        "my":{
+            "per":01.50,
             "loras":[
                 {"All the way through" : "All the way through"},
+                {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
             ],
         },
         "Punch":{
-            "per":01.250,
+            "per":0.250,
             "loras":[
                 {"BellyPunchPonyV1-000001" : "BellyPunchPonyV1-000001"},
                 {"BellyPunchPonyV1-000002" : "BellyPunchPonyV1-000002"},
@@ -221,7 +222,7 @@
                 {"lora_dancing-000052" : "lora_dancing-000052"},
                 {"XL-luoxuan-000012" : "XL-luoxuan-000012"},
                 {"garrote_2-000012" : "garrote_2-000012"},
-                {"luoxuan_v2-000030" : "luoxuan_v2-000030"},
+                #{"luoxuan_v2-000030" : "luoxuan_v2-000030"},
             ],
         },
         #"earfuck":{
@@ -278,6 +279,7 @@
                 {"sex_with_arch_back_kiss" : "sex_with_arch_back_kiss"},
                 {"stomach_bulge_all_the_way_up_entire_torso-000006" : "stomach_bulge_all_the_way_up_entire_torso-000006"},
                 {"bulgesuperXLPony" : "bulgesuperXLPony"},
+                {"human_onahole" : "human_onahole"},
                 {"chikan_pony_V1.0" : "chikan_pony_V1.0"},
                 {"ikebana_pony_V1.0" : "ikebana_pony_V1.0"},
                 {"tentaclesX" : "tentaclesX"},
