@@ -31,7 +31,7 @@ def workflow_setup(workflow_api,setup):
     Loras=setup.get("Loras",{})
     for k, v in Loras.copy().items():
         if isinstance(v,str):
-            print("[yellow]No Lora File -setup[/yellow] : ",v)
+            print("[magenta]No Lora File -setup[/magenta] : ",v)
             Loras.pop(k)
             continue
         for k in v:

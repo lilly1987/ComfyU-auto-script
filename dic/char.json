@@ -109,7 +109,19 @@
         #"strength_model": 0.75,
         #"strength_clip": 1,
     },
-    "HisakawaTwins_pony_v1-hskwhyt" : {        
+    "HisakawaTwins_pony_v1" : {        
+        "positive":{
+            "char":"{hskwhyt, very long hair,  grey hair, braided bangs, hair between eyes, blue eyes, grey eyes, medium breasts,|hskwng, very long hair, grey hair, braided bangs, low twintails, hair ribbon,  brown eyes, braid, flat chest,} ,",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": 0.75,
+        #"strength_clip": 1,
+    },
+    "HisakawaTwins_pony_v1-hskwhyt" : {
+        "file_name":"HisakawaTwins_pony_v1",
         "positive":{
             "char":"hskwhyt, very long hair,  grey hair, braided bangs, hair between eyes, blue eyes, grey eyes, medium breasts, ,",
             #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
@@ -121,6 +133,7 @@
         #"strength_clip": 1,
     },
     "HisakawaTwins_pony_v1-hskwng" : {        
+        "file_name":"HisakawaTwins_pony_v1",
         "positive":{
             "char":"hskwng, very long hair, grey hair, braided bangs, low twintails, hair ribbon,  brown eyes, braid, flat chest, ,",
             #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
@@ -695,6 +708,17 @@
         #},
         "strength_model": (0.0,1.0),
         "strength_clip": (0.0,1.0),
+    },
+    "HizukiYui_V1.0" : {        
+        "positive":{
+        "char":"{HizukiYui,black hair, multicolored hair,red hair,long hair, blunt bangs, green eyes,|hizukiyui,black hair, multicolored hair,red hair,side ponytail, blunt bangs, green eyes, }   ",
+			"dress":"{HizukiGal, jewelry, earrings,suit,black coat,hoodie,white hoodie,collarbone,long sleeves,upper arm cutout,wide cuffs,high waist skirt,red skirt,belt,breast pocket,black socks,boots,|HizukiJacket,jewelry, earrings,suit,black suit,peak lapel ,white lapel,turtleneck,red vest,cropped vest,cropped coat,shirt,medium breasts,long sleeves,belt,black skirt,black thighhighs, |__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
     },
     "IPhonechan_PDXL" : {        
         "positive":{
@@ -1383,14 +1407,14 @@
         "positive":{
             "char":"Mutsuki_\(Blue_Archive\),",
             "hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
 	"miyako-saitou-s1-ponyxl-lora-nochekaiser": {	
         "positive":{
             "char":"miyako saitou, long hair, brown hair, brown eyes,,",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1404,14 +1428,14 @@
 	"argus_XL_pony_bf16_v1": {	
         "positive":{
             "char":"argus \(azur lane\),   ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
 	"Nadja_Applefield_Pony_v1": {	
         "positive":{
             "char":"nadja,,   ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1482,7 +1506,7 @@
         "positive":{
             "char":"kinomoto sakura, antenna hair, brown hair, short hair, twintails, green eyes, hair bobbles,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1494,11 +1518,19 @@
         },
         #"strength_model": (0.5,1.0),
     },
+	"Hoseki_Roshidere_Alisa_Mikhailovna_Kujou_PDXL_v1": {	
+        "positive":{
+            "char":"amkkj, large breasts, long hair, silver hair, crossed bangs, blue eyes, ahoge, hair ribbon,   ",
+            #"hair":" ",
+            #"dress": "{__dress__|grey jacket, open jacket, notched lapels, black vest, white collared shirt, red bowtie, black pleated skirt, white thighhighs, brown footwear,} ",
+        },
+        #"strength_model": (0.5,1.0),
+    },
 	"Hoseki_WWY_HinaAmano_PDXL_v1": {	
         "positive":{
             "char":" hina amano, long hair, low twintails, choker,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1506,7 +1538,7 @@
         "positive":{
             "char":"satou sasara,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1514,7 +1546,7 @@
         "positive":{
             "char":"QUON TAMA, ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.25,0.75),
     },
@@ -1522,7 +1554,7 @@
         "positive":{
             "char":"uzuki kagura,  idol,makeup, ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         "strength_model": (0.25,0.75),
     },
@@ -1786,7 +1818,7 @@
         "positive":{
             "char":"Dianette, dark elf,,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1794,7 +1826,7 @@
         "positive":{
             "char":"Luna,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1803,7 +1835,7 @@
         "positive":{
             "char":" Yulia, long hair, blonde hair, yellow eyes, demon girl, demon horns, pointy ears,    ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1812,7 +1844,7 @@
         "positive":{
             "char":"Ilvia, twintails, very long hair, pink hair, pink eyes,    ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1821,7 +1853,7 @@
         "positive":{
             "char":"Fal, long hair, blonde hair, hair between eyes, purple eyes,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1829,7 +1861,7 @@
         "positive":{
             "char":"DK_BUNNY,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1837,7 +1869,7 @@
         "positive":{
             "char":"BETE NOIRE,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1845,7 +1877,7 @@
         "positive":{
             "char":"mrnrnz, short hair, black hair, blue hair, single hair bun, bangs, hair between eyes, hair ornament, hair flower, red eyes, flat chest, small breasts,,,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1862,7 +1894,7 @@
             "char":"kseris, white hair,  ",
            "dress": " {__dress__|habit, blue dress, frilled dress, long sleeves, necklace,}",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1870,7 +1902,7 @@
         "positive":{
             "char":"kinomoto_sakura,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         "strength_model": (0.5,0.75),
     },
@@ -1878,7 +1910,7 @@
         "positive":{
             "char":" harukawa maki, long hair, bangs, brown hair, black hair, hair ornament, red eyes, twintails, very long hair, hairclip, blunt bangs, mole under eye, low twintails, scrunchie, hair scrunchie, red scrunchie,,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -1886,7 +1918,7 @@
         "positive":{
             "char":" Diana, multicolored hair, blue eyes,   ",
             #"hair":" ",
-            #"dress": "school uniform, socks, {|witch robe, witch hat,} ",
+            #"dress":"{,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -2445,6 +2477,12 @@
 	"cheria_autismConfetti_v03": {	
         "positive":{
             "char":"cheria barnes, pink hair, brown eyes, twintails, two side up, medium hair, brooch, long sleeves, puffy sleeves, purple skirt, jewelry, black thighhighs, white footwear, (wide sleeves:0.7), pleated skirt, laces,",
+        },
+    },
+	"Hoseki_AzurLane_Formidable_PDXL_v1": {	
+        "positive":{
+            "char":"yghmm, single hair bun,  ",
+            "dress":"{turtleneck sweater, jeans,|__dress__},",
         },
     },
 	"Hoseki_BocchiTheRock_Pasan_PDXL_v2": {	

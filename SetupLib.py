@@ -172,11 +172,9 @@ def lora_dic(dicLora,l,loraSet,charSet,txt=""):
         else:
             f=dicFileLora.get(n)
             if f is None:
-                #print("[yellow]No Lora File[/yellow] : ",n)
-                #continue 
                 f=dicFileLoraAll.get(n)
                 if f is None:
-                    print(f"[yellow]No Lora File -{txt}[/yellow] : ",n)
+                    print(f"[magenta]No Lora File -{txt}[/magenta] : ",n)
                     continue
             #    else:
             #        dset=loraSet
@@ -254,63 +252,6 @@ def setup_lora_max(setup):
     Loras={k:v for i, (k, v) in enumerate(Loras.items()) if i < n}
     # print("Loras",Loras)
     setup["Loras"]=Loras
-        
-    
-def setup_dic(setup):
-    
-    #==============================================
-    dicLora={}
-    dicFiles=GetFileList("dic/*.json")
-    for f in dicFiles:
-        update(dicLora,readDic(f))
-    
-    global Loras
-    
-    #print("Loras : ",Loras)    
-    for k, v in Loras.items():
-        char=False
-        if isinstance(v,str):
-            d=dicLora.get(v)            
-            if d is None:
-                print("[yellow]Dic Lora No[/yellow] : ",v)
-                d={}
-            #else:
-            #    print("[green]Dic Lora add[/green] : ",v)
-            #    continue
-            v=d.pop("file_name",v)
-            f=dicFileChar.get(v)
-            if f is None:
-                #print("[yellow]Dic No Char[/yellow] : ",v)
-                f=dicFileLora.get(v)
-                if f is None:
-                    #print("[yellow]No Lora File[/yellow] : ",v)
-                    #continue
-                    f=dicFileLoraAll.get(v)
-                    if f is None:
-                        print("[yellow]No Lora File -dic[/yellow] : ",v)
-                        continue
-            else:
-                char=True
-                
-            #print("dicFileLora",f)
-            
-            lora_name=d.setdefault("lora_name",str(f))
-            print("[green]lora_name[/green]",lora_name)
-            v=Loras[k]=d
-        
-        if char or dicFileChar.get(k) is not None :
-            dset=setup.pop("charSet",{
-            "strength_model": (0.75,1.0),
-            "strength_clip": 1,
-        })
-        else:
-            dset=setup.pop("loraSet",{
-            "strength_model": (0.0,1.0),
-            "strength_clip": 1,
-        })
-        updaten(v,dset)
-
-
 
 def setup_workflow(setup):
     
