@@ -184,6 +184,7 @@
             "loras":[
                 {"All the way through" : "All the way through"},
                 {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
+                {"groping_pony_V1.0" : "groping_pony_V1.0"},
             ],
         },
         "Punch":{
@@ -248,6 +249,7 @@
                 {"ImpaledPonyV1-000002" : "ImpaledPonyV1-000002"},
                 {"rope_walking_pony" : "rope_walking_pony"},
                 {"X bound_pony_V1.1" : "X bound_pony_V1.1"},
+                {"groping_pony_V1.0" : "groping_pony_V1.0"},
                 {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
                 #{"Roped_Up" : "Roped_Up"},
             ],
@@ -255,7 +257,7 @@
         "body":{
             "per":0.1250,
             "loras":[
-                {"Concept_Gigantic_stomach_bulge" : "Concept_Gigantic_stomach_bulge"},
+                #{"Concept_Gigantic_stomach_bulge" : "Concept_Gigantic_stomach_bulge"},
                 {"amputee_XL_pony" : "amputee_XL_pony"},
                 {"skinny_body_LoRA_V2_for_Pony" : "skinny_body_LoRA_V2_for_Pony"},
                 {"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002" : "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002"},
@@ -290,7 +292,7 @@
                 {"Huge Insertion Bulge pony-v1.0" : "Huge Insertion Bulge pony-v1.0"},
                 {"bulgeniceXLPony" : "bulgeniceXLPony"},
                 {"Navel_penetration_Pony" : "Navel_penetration_Pony"},
-                {"Concept_Gigantic_stomach_bulge" : "Concept_Gigantic_stomach_bulge"},
+                #{"Concept_Gigantic_stomach_bulge" : "Concept_Gigantic_stomach_bulge"},
                 {"Roped_Up" : "Roped_Up"},
                 {"bulgesuperXLPony" : "bulgesuperXLPony"},
                 {"Sex_from_behind_symmetrical_docking" : "Sex_from_behind_symmetrical_docking"}, # +
