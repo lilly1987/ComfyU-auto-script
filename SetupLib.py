@@ -273,26 +273,15 @@ def setup_lora_add(setup):
 def setup_workflow(setup):
     
     #==============================================
-    global workflow
-    
+    global workflow    
     
     d=workflow.setdefault("KSampler",{})    
-    #SetSeed(d)
-    #SetArrRnd(d,"denoise")
-    #for k in d:
-    #    SetArrRnd(d,k)
-            
+
     d=workflow.setdefault("FaceDetailer",{})    
-    #SetSeed(d)
-    #SetArrRnd(d,"denoise")
-    #for k in d:
-    #    SetArrRnd(d,k)
-            
+
     d=workflow.setdefault("positiveWildcard",{})
-    # SetSeed(d)            
         
     d=workflow.setdefault("negativeWildcard",{})
-    #SetSeed(d)
     
     global dicFileCharKeys
     n=random.choice(dicFileCharKeys)
