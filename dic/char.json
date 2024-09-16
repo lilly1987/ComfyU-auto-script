@@ -1971,6 +1971,14 @@
         },
         #"strength_model": (0.5,1.0),
     },
+	"Betty": {	
+        "positive":{
+            "char":"Betty,   ",
+            #"hair":" ",
+            #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
 	"DK_BUNNY": {	
         "positive":{
             "char":"DK_BUNNY,   ",
