@@ -1824,6 +1824,14 @@
         #"strength_model": (0.0,0.75),
         #"strength_clip": (0.50,01.0),
     },
+	"WitchXL-D10": {	
+        "positive":{
+            "char":"Witch, long pink hair, pointy ears, red eyes , frills,",
+            #"dress":"{dress, hairband, hair ornament, frills, puffy long sleeves, bow, white pantyhose, lolita fashion|__dress__}",
+        },
+        "strength_model": (0.50,0.75),
+        #"strength_clip": (0.50,01.0),
+    },
 	"Fredrika_PonyXL": {	
         "positive":{
             "char":"Fredrika, blonde hair, red eyes, blunt bangs, antenna hair, drill hair, long hair,",

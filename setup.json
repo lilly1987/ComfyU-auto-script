@@ -1,6 +1,6 @@
 {
     "totalMax":1280,
-    "ckptMax":12,
+    "ckptMax":10,
     "listMax":2,
     "queue_loop":4,
     "Path":"SD",
@@ -26,6 +26,8 @@
             "steps": 30,
             "steps": (30,50),
             "steps": (30,45),
+            "steps": (25,35),
+            "steps": (35,45),
             "cfg": (4,10),
             "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
             "scheduler": "karras",
@@ -34,6 +36,7 @@
         "FaceDetailer":{
             "steps": 30,
             "steps": (30,45),
+            "steps": (35,45),
             "cfg": (4,10),
             "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
             "scheduler": "karras",
@@ -183,8 +186,14 @@
             "per":0.750,
             "loras":[
                 {"All the way through" : "All the way through"},
-                {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
                 {"groping_pony_V1.0" : "groping_pony_V1.0"},
+                {"strangling_pony_V1.0" : "strangling_pony_V1.0"},
+            ],
+        },
+        "hand under skirt":{
+            "per":0.750,
+            "loras":[
+                {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
             ],
         },
         "Punch":{
@@ -327,10 +336,12 @@
     "randSet":{
         "strength_model": (0.250,0.75),
         "strength_clip": (0.250,0.75),
+        "strength_clip": (0.50,1.0),
     },
     "loraSet":{
         "strength_model": (0.250,0.75),
         "strength_clip": (0.250,0.75),
+        "strength_clip": (0.50,1.0),
     },
     "shuffle":False,    
     "perList":0.06250,

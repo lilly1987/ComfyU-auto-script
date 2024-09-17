@@ -10,6 +10,15 @@
         #"steps": (30,30),
         #"cfg": (4,10),
     },
+    "perfectnai_v10" : {# -
+        "positive":{
+            "checkpoint":"score_9, score_8_up, score_7_up, depth of field, natural light, light rays, raytracing, rating: explicit, nsfw,",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "checkpoint":"score_4, score_5, score_6 score_4, score_3, score_2, score_1, bad feet, bad hands, ugly, deformed, bad quality, amateur drawing, beginner drawing, deformed, bad anatomy, deformed, white background, deformed hands, deformed feet, ugly eyes, ugly tits, watermark, fat, plump, realistic,,",
+        },
+    },
     "baseAnimeStylePony_v3" : {# -
         "positive":{
             "checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, ",
