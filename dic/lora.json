@@ -19,6 +19,17 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
+    "Chloroform v1" : {        
+        "positive":{
+            "Chloroform v1":"chloroform, covering another's mouth, grabbing from behind,",
+            #"pose":"chloroform, covering another's mouth, grabbing from behind,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
     "BalletBoots" : {        
         "positive":{
             "BalletBoots":"ballet boots,,",

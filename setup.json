@@ -196,6 +196,12 @@
                 {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
             ],
         },
+        "Chloroform v1":{
+            "per":0.750,
+            "loras":[
+                {"Chloroform v1" : "Chloroform v1"},
+            ],
+        },
         "Punch":{
             "per":0.250,
             "loras":[
