@@ -14,9 +14,9 @@ def queue_prompt_wait(url="http://127.0.0.1:8188/prompt", max=1):
                     task = progress.add_task("waiting", total=60)
                     
                 
+                req =  request.Request(url)        
                 while True:
                     try:
-                        req =  request.Request(url)        
                         response=request.urlopen(req) 
                     except HTTPError as e: 
                         progress.stop()
@@ -49,10 +49,19 @@ def queue_prompt_wait(url="http://127.0.0.1:8188/prompt", max=1):
 def queue_prompt(prompt,url="http://127.0.0.1:8188/prompt"):
     try:
         p = {"prompt": prompt}
-        data = json.dumps(p).encode('utf-8')
-        req =  request.Request(url, data=data)
+        data = json.dumps(p).encode('utf-8')        
 
-        request.urlopen(req)
+        req =  request.Request(url, data=data)
+        while True:
+            try:
+                request.urlopen(req)
+            except HTTPError as e: 
+                print('Error code: ', e.code)
+            except URLError as e:
+                print('Reason: ', e.reason)
+            else:
+                break                
+                        
         print(f"send" )
         
     except Exception as e:     
