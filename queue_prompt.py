@@ -2,8 +2,9 @@ import os, sys, glob, json, random, time, copy, string, re
 sys.path.append(os.getcwd())
 from ConsoleColor import print, console
 from rich.progress import Progress
-from urllib import request
-
+from urllib import request , error
+from urllib.error import URLError, HTTPError
+        
 def queue_prompt_wait(url="http://127.0.0.1:8188/prompt", max=1):
     try:
         with Progress() as progress:
@@ -12,8 +13,20 @@ def queue_prompt_wait(url="http://127.0.0.1:8188/prompt", max=1):
                 if progress.finished:
                     task = progress.add_task("waiting", total=60)
                     
-                req =  request.Request(url)        
-                response=request.urlopen(req) 
+                
+                while True:
+                    try:
+                        req =  request.Request(url)        
+                        response=request.urlopen(req) 
+                    except HTTPError as e: 
+                        progress.stop()
+                        print('Error code: ', e.code)
+                    except URLError as e:
+                        progress.stop()
+                        print('Reason: ', e.reason)
+                    else:
+                        break
+                    
                 html = response.read().decode("utf-8")
                 ld=json.loads(html)
                 
