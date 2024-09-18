@@ -99,6 +99,7 @@
         "exposure":"{{1-9$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ",
         "anorexia":"{|{1-3$$skinny,|anorexia,|anorexic,|Anorexia nervosa,|garigari,|thin waist,| emaciated,|  malnourished,| slim,| petite, }}",        
         "masturbation":"{masturbation,|}",
+        "choke":"{choke ,choking,strangle,strangling,|}",
         "dress":"{__dress__, {strapless dress,|}|}",
         "frills":"{frills,|}{0-2$$frilled skirt,|frilled sleeves,|} ",
         "shoulder":"{off shoulder,|bare shoulder,|capelet,|}",
@@ -131,6 +132,10 @@
         ".*WanderingWitch_Fran.*",
         ".*Sucy_Pony-10.*",
         ".*Sucy_Manbavaran_Little_Witch_Academia__-_Pony.*",
+        ".*luna_kindred_pony_v10.*",
+        ".*NayutaKaniPony.*",
+        ".*tokisakikurumi-10.*",
+        ".*rory_mercury-PD-1.0.*",
         ".*Witch2.*",
         ".*weiss_v2.*",
         ".*sdxl-gmas-shinohiro-pony.*",
@@ -183,40 +188,49 @@
     ],    
     "loras_random":{        
         "my":{
-            "per":0.750,
+            "per":0.250,
             "loras":[
                 {"All the way through" : "All the way through"},
+                {"Choke_-_Rough_Sex-000008" : "Choke_-_Rough_Sex-000008"},
+                {"choke_hold_sex" : "choke_hold_sex"},
                 {"groping_pony_V1.0" : "groping_pony_V1.0"},
                 {"strangling_pony_V1.0" : "strangling_pony_V1.0"},
+                {"Sex_from_behind_symmetrical_docking" : "Sex_from_behind_symmetrical_docking"},
+                {"MS_PDX_Spitroast_Lite" : "MS_PDX_Spitroast_Lite"},
+            ],
+        },
+        "Choke":{
+            "per":0.250,
+            "loras":[
+                {"Choke_-_Rough_Sex-000008" : "Choke_-_Rough_Sex-000008"},
+                {"CH0K1N6" : "CH0K1N6"},
+                {"choke_hold_sex" : "choke_hold_sex"},
+                {"groping_pony_V1.0" : "groping_pony_V1.0"},
+                {"strangling_pony_V1.0" : "strangling_pony_V1.0"},
+                {"Chloroform v1" : "Chloroform v1"},
             ],
         },
         "hand under skirt":{
-            "per":0.750,
+            "per":0.250,
             "loras":[
                 {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
             ],
         },
-        "Chloroform v1":{
-            "per":0.750,
-            "loras":[
-                {"Chloroform v1" : "Chloroform v1"},
-            ],
-        },
-        "Punch":{
+        "mini":{
             "per":0.250,
             "loras":[
-                {"BellyPunchPonyV1-000001" : "BellyPunchPonyV1-000001"},
-                {"BellyPunchPonyV1-000002" : "BellyPunchPonyV1-000002"},
-                {"BellyPunchPonyV1-000003" : "BellyPunchPonyV1-000003"},
-                {"BellyPunchPonyV1-000004" : "BellyPunchPonyV1-000004"},
-                {"BellyPunchPonyV1-000005" : "BellyPunchPonyV1-000005"},
-                {"BellyPunchPonyV1-000006" : "BellyPunchPonyV1-000006"},
-                {"BellyPunchPonyV1-000007" : "BellyPunchPonyV1-000007"},
-                {"BellyPunchPonyV1-000008" : "BellyPunchPonyV1-000008"},
-                {"BellyPunchPonyV1-000009" : "BellyPunchPonyV1-000009"},
-                {"BellyPunchPonyV1-000010" : "BellyPunchPonyV1-000010"},
+                {"Holding minigirl" : "Holding minigirl"},
+                {"minig_full_neslon-000009" : "minig_full_neslon-000009"},
+                {"minigirl-pony-sdxl" : "minigirl-pony-sdxl"},
+                {"Extreme_tiny" : "Extreme_tiny"},
             ],
         },
+        #"Chloroform v1":{
+        #    "per":0.250,
+        #    "loras":[
+        #        {"Chloroform v1" : "Chloroform v1"},
+        #    ],
+        #},
         "hang":{
             "per":0.250,
             "loras":[
@@ -262,6 +276,7 @@
             "loras":[
                 {"sprawled_pony_V1.0" : "sprawled_pony_V1.0"},                
                 {"ImpaledPonyV1-000002" : "ImpaledPonyV1-000002"},
+                {"fourarmedmale" : "fourarmedmale"},
                 {"rope_walking_pony" : "rope_walking_pony"},
                 {"X bound_pony_V1.1" : "X bound_pony_V1.1"},
                 {"groping_pony_V1.0" : "groping_pony_V1.0"},
@@ -283,17 +298,17 @@
             "loras":[
                 {"Side-by-side_BJ" : "Side-by-side_BJ"},
                 {"hug and suck-v1" : "hug and suck-v1"},
-                {"BBCDeepthroat" : "BBCDeepthroat"},
+                #{"BBCDeepthroat" : "BBCDeepthroat"},
                 {"Blowjob" : "Blowjob"},
                 #{"All_the_way_down_to_stomach" : "All_the_way_down_to_stomach"},
                 #{"Throatbulge" : "Throatbulge"},
                 {"deepthroat_pony_V1.0" : "deepthroat_pony_V1.0"},
-                {"MS_PDX_Spitroast_Lite" : "MS_PDX_Spitroast_Lite"},
             ],
         },
         "sex":{
             "per":0.1250,
             "loras":[
+                {"MS_PDX_Spitroast_Lite" : "MS_PDX_Spitroast_Lite"},
                 {"PR0N3-000010" : "PR0N3-000010"},
                 {"cowgirl_position_nonpov_xl" : "cowgirl_position_nonpov_xl"},
                 {"sex_with_arch_back_kiss" : "sex_with_arch_back_kiss"},
@@ -328,6 +343,21 @@
                 {"Ogami2160_Style" : "Ogami2160_Style"},
             ],
         },
+        "Punch":{
+            "per":0.1250,
+            "loras":[
+                {"BellyPunchPonyV1-000001" : "BellyPunchPonyV1-000001"},
+                {"BellyPunchPonyV1-000002" : "BellyPunchPonyV1-000002"},
+                {"BellyPunchPonyV1-000003" : "BellyPunchPonyV1-000003"},
+                {"BellyPunchPonyV1-000004" : "BellyPunchPonyV1-000004"},
+                {"BellyPunchPonyV1-000005" : "BellyPunchPonyV1-000005"},
+                {"BellyPunchPonyV1-000006" : "BellyPunchPonyV1-000006"},
+                {"BellyPunchPonyV1-000007" : "BellyPunchPonyV1-000007"},
+                {"BellyPunchPonyV1-000008" : "BellyPunchPonyV1-000008"},
+                {"BellyPunchPonyV1-000009" : "BellyPunchPonyV1-000009"},
+                {"BellyPunchPonyV1-000010" : "BellyPunchPonyV1-000010"},
+            ],
+        },
     },
     "loras":{
         #"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002":"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002",
@@ -341,13 +371,11 @@
     },
     "randSet":{
         "strength_model": (0.250,0.75),
-        "strength_clip": (0.250,0.75),
         "strength_clip": (0.50,1.0),
     },
     "loraSet":{
-        "strength_model": (0.250,0.75),
-        "strength_clip": (0.250,0.75),
-        "strength_clip": (0.50,1.0),
+        "strength_model": (0.0,0.5),
+        "strength_clip": (0.250,1.0),
     },
     "shuffle":False,    
     "perList":0.06250,

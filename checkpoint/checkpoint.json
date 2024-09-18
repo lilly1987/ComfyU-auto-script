@@ -10,6 +10,20 @@
         #"steps": (30,30),
         #"cfg": (4,10),
     },
+    "ponycolors_00001" : {# -0917
+        "sampler_name": ["euler_ancestral"],
+    },
+    "hybridmixSDXL_mod6Mod7Merge050" : {# -
+    },
+    "mizuiropony_v10" : {# -
+        "positive":{
+            "checkpoint":"score_9, score_8_up, score_7_up, source_anime,",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
+        },
+    },
     "perfectnai_v10" : {# -
         "positive":{
             "checkpoint":"score_9, score_8_up, score_7_up, depth of field, natural light, light rays, raytracing, rating: explicit, nsfw,",

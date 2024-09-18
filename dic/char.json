@@ -144,6 +144,72 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
+    "Tearlaments Shaylen ponyXL v1.1" : {        
+        "positive":{
+            "char":"tearlaments shaylen,  ,",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Tearlaments Havnis ponyXL v1" : {        
+        "positive":{
+            "char":"Tearlaments Havnis ,",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Tearlaments Kitkallos PonyXL v5" : {        
+        "positive":{
+            "char":"tearlaments kitkallos ,",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "AgnesClaudel" : {        
+        "positive":{
+            "char":"Agnes Claudel, blonde hair, long hair, blue eyes, hair ribbon,  ,",
+            "dress":"{beret, white coat, turtleneck dress, necklace, belt, pink skirt, pantyhose, brown boots, thigh boots,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "AgnesClaudelKai" : {        
+        "positive":{
+            "char":"Agnes Claudel, blonde hair, long hair, white ribbon, red ribbon, hair ribbon, blue eyes, skinny,    ,",
+            "dress":"{red beret, white shirt, long sleeves, pendant, cleavage cutout, brown corset, belt, blue pouch, bracelet, pink skirt, thigh boots,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "PONY_Tearlaments_Scheiren" : {        
+        "positive":{
+            "char":"scheiren, grey hair, two side up, streaked blue hair, purple eyes, ear fins, tiara, head fins ,",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
     "Anastasia_pony_v1" : {        
         "positive":{
             "char":"anstsa, short hair, grey hair,  bangs, hair between eyes,  blue eyes,  ,",
@@ -155,6 +221,116 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
+    "MiorineV2-Aesthetic" : {        
+        "positive":{
+            "char":"miorine rembran,  grey hair, long hair, ahoge, grey eyes, ,",
+            "dress":"{asticassia school uniform,green jacket, jacket, long sleeves, shoulder boards, green shorts, seamed legwear, pantyhose, ,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Tearlaments Merrli ponyXL v1.1" : {        
+        "positive":{
+            "char":"Tearlaments Merrli,",
+            #"dress":"{strapless dress, black gloves, black thighhighs,garter straps,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "luna_kindred_pony_v10" : {        
+        "positive":{
+            "char":"luna kindred, rose, black choker",
+            "dress":"{strapless dress, black gloves, black thighhighs,garter straps,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Harada_Miyo-59" : {        
+        "positive":{
+            "char":"harada miyo, green eyes, black hair,  {long hair,|}",
+            #"dress":"{strapless dress, black gloves, black thighhighs,garter straps,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "zs_TaoXL" : {        
+        "positive":{
+            "char":"taosmtv, long hair, black hair, blunt bangs, grey eyes,",
+            #"dress":"{strapless dress, black gloves, black thighhighs,garter straps,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "tokisakikurumi-10" : {        
+        "positive":{
+            "char":"tokisakikurumiSDXL,long hair,skirt,black hair,red eyes,yellow eyes,ribbon,twintails,hair over one eye,red ribbon,tokisaki kurumi, ",
+            "dress":"{long sleeves,school uniform,jacket,pantyhose,pleated skirt,heterochromia,blue skirt,black jacket,black pantyhose,neck ribbon,blazer,|dress,ribbon,cleavage,bare shoulders,detached sleeves,collarbone,symbol-shaped pupils,heterochromia,fashion,gothic,hairband,frilled dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "shinano_azur_lane_pdxl_goofy" : {        
+        "positive":{
+            "char":"shinanoal,white hair,blue eyes,very long hair,animal ear fluff,kitsune, ",
+            #"dress":"{strapless dress, black gloves, black thighhighs,garter straps,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "NayutaKaniPony" : {        
+        "positive":{
+            "char":"nayutakani, ",
+            #"dress":"{strapless dress, black gloves, black thighhighs,garter straps,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "kagari-xl-13" : {        
+        "positive":{
+            "char":"kagari, ",
+            "dress":"{black dress, black leggings,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Ichika_Amasawa___天沢_一夏__Classroom_of_the_Elite-000009" : {        
+        "positive":{
+            "char":" sexy petite chika amasawa, Ichika has straight magenta hair, Long hair tied in two ponytails, very long hair, thick hair, hair tied with red ribbons, smug eyes, dark purple hair, dark red gradient eyes, Yellow eyes, high ponytails, pale skin, very white skin, twintail,,",
+            #"dress":"{bare shoulders, frilled dress, frilled sleeves, long sleeves, jewelry, white dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0,)
+        #"strength_clip": 1,
+    },
     "PONY_Lysithea" : {        
         "positive":{
             "char":"lysithea,",
@@ -163,7 +339,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,1.0,)
         #"strength_clip": 1,
     },
     "zs_TaoXL" : {        
@@ -664,7 +840,18 @@
         #    "foot":"",
         #},
         "strength_model": (0.25,0.75),
+        "strength_clip": (0.25,0.75),
         #"strength_clip": (0.25,1.0),
+    },
+    "sdxl-dbin-cham-pony" : {        
+        "positive":{
+            "char":"cham fau, ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
     },
     "asa_shigure_pony_sobsynapse-000005" : {        
         "positive":{
@@ -955,6 +1142,28 @@
         #"strength_model": (0.5,1.0),
         #"strength_clip": (0.5,1.0),
     },
+    "Channel_Caststation_Style" : {        
+        "positive":{
+            "Style":"channel,,   ",
+			#"dress":"{puffy sleeves, blue dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "priscilla-barielle-s3-leak-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"priscilla barielle, long hair, blonde hair, red eyes, braid, single braid, braided bangs, one side up, large breasts, bright pupils, white pupils,,,   ",
+			"dress":"{hair ornament, gloves, dress, bare shoulders, jewelry, pantyhose, earrings, black gloves, necklace, red dress, bridal gauntlets,,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
     "ShioyamaSuzune_pony_v1" : {        
         "positive":{
             "char":"soymszn,,   ",
@@ -966,10 +1175,43 @@
         #"strength_model": (0.5,1.0),
         #"strength_clip": (0.5,1.0),
     },
+    "Liko_Pokemon_P1" : {        
+        "positive":{
+            "char":"liko \(pokemon\), blue hair, hair clip,,,   ",
+			"dress":"{white shirt, hooded jacket, open jacket, denim shorts,,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "SpyxFamilyYorXL-v1-07" : {        
+        "positive":{
+            "char":"ChopioYor, black hair, red eyes, gold earrings,{long hair, straight hair, white hairband,|short hair with long locks, sidelocks, white hairband, hair ribbon,|short hair with long locks, sidelocks, hair ornament, gold hairband,}",
+			"dress":"{outfit_1, office lady, collared shirt, white shirt, green vest, breast pocket, green skirt, pencil skirt,::3|bare shoulders, collarbone, red sweater, sweater dress, long sleeves, sleeves past wrists, off-shoulder sweater, black leggings, high heel boots, ankle boots,::3|necklace, bare shoulders, black dress, rose print, two-sided dress, two-sides fabric, black fingerless gloves, black thigh boots,|__dress__::3}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "priscilla_barielle_rezero_Pony_XL" : {        
+        "positive":{
+            "char":"Priscilla Barielle, orange hair, red eyes, braided bangs, braid, hair bow,,   ",
+			"dress":"{red dress, bridal gauntlets, black flower, black rose, choker, bare shoulders, cleavage|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
     "montpelier_XL_pony_v1" : {        
         "positive":{
             "char":"montpelier \(azur lane\),   ",
-			#"dress":"{puffy sleeves, blue dress,|__dress__}",
+			#"dress":"{puffy sleeves, blue dress,|__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -1776,13 +2018,15 @@
         #"strength_model": (0.0,0.75),
         #"strength_clip": (0.50,01.0),
     },
-	"ehaloa": {	
+	"ehaloa": {	#-
         "positive":{
             "char":"ehaloa, black hair, long hair, ",
             "dress": " {__dress__|blue kimono, detached sleeves, thighhighs, kimono, bare shoulders, choker, garter straps, black hair bow, off shoulder, black panties, high heels, },",
         },
-        #"strength_model": (0.0,0.75),
+        "strength_model": (0.0,0.5),
         #"strength_clip": (0.50,01.0),
+    },
+	"includePONYXLPCaulkinumAnimelineFor2DAnime_bnd": {	#+
     },
 	"k_tsukiokaXL_pony": {	
         "positive":{
@@ -1830,6 +2074,14 @@
             #"dress":"{dress, hairband, hair ornament, frills, puffy long sleeves, bow, white pantyhose, lolita fashion|__dress__}",
         },
         "strength_model": (0.50,0.75),
+        #"strength_clip": (0.50,01.0),
+    },
+	"XL_PONY_NekoTete_MiiChan_catform_humanform": {	
+        "positive":{
+            "char":"humanform_mii, twintails,{catform_mii, cat_ears, cat_tail|}",
+            #"dress":"{dress, hairband, hair ornament, frills, puffy long sleeves, bow, white pantyhose, lolita fashion|__dress__}",
+        },
+        #"strength_model": (0.0,0.75),
         #"strength_clip": (0.50,01.0),
     },
 	"Fredrika_PonyXL": {	

@@ -9,6 +9,36 @@
         "strength_model": (0.25,0.75),
         #"strength_clip": 1,
     },
+    "Choke_-_Rough_Sex-000008" : {        
+        "positive":{
+            "Choke_-_Rough_Sex-000008":"choke ,choking,strangle,strangling,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,0.75),
+        #"strength_clip": 1,
+    },
+    "CH0K1N6" : {        
+        "positive":{
+            "CH0K1N6":"choke ,choking,strangle,strangling,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,0.75),
+        #"strength_clip": 1,
+    },
+    "choke_hold_sex" : {        
+        "positive":{
+            "choke_hold_sex":"strangling ,choke hold,{doggystyle|prone bone,|girl on top, on back|reverse upright straddle},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.25,0.75),
+        #"strength_clip": 1,
+    },
     "groping_pony_V1.0" : {        
         "positive":{
             "groping_pony_V1.0":"groping,",
@@ -27,7 +57,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.0,0.75,)
         #"strength_clip": 1,
     },
     "BalletBoots" : {        
@@ -144,11 +174,11 @@
     },
 	"sprawled_pony_V1.0": {	
         "positive":{
-            "sprawled_pony_V1.0":"sprawled, bound, bdsm, restrained, cuffs, spread legs,spread arms,,",
+            "sprawled_pony_V1.0":"sprawled, bound, bdsm, restrained, cuffs, {spread legs,|}{spread arms,|},",
             #"pose":"",
         },
-        "strength_model": (0.0,0.75),
-        #"strength_clip": (0.50,01.0),
+        "strength_model": (0.0,0.5),
+        "strength_clip": (0.50,01.0),
     },
 	"deepthroat_pony_V1.0": {	
         "positive":{
@@ -1176,6 +1206,46 @@
         "positive":{
             "Concept_Gigantic_stomach_bulge":" gigantic bulge, gigantic penis, hyper stomach bulge, large insertion, 1girl, sex, breasts, testicles, barefoot, ",
             "view":"{side view,|front view,} ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "minig_full_neslon-000009" : {        
+        "positive":{
+            "minig_full_neslon-000009" :"MGFNelson,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Holding minigirl" : {        
+        "positive":{
+            "Holding minigirl" :"hldm1n1, minigirl,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "minigirl-pony-sdxl" : {        
+        "positive":{
+            "minigirl-pony-sdxl" :"minigirl,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "fourarmedmale" : {        
+        "positive":{
+            "fourarmedmale" :"x4armx, extra arms,",
         },
         #"negative":{
         #    "foot":"",
