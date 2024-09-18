@@ -36,7 +36,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.25,0.75),
+        "strength_model": (0.25,0.75),
         #"strength_clip": 1,
     },
     "groping_pony_V1.0" : {        

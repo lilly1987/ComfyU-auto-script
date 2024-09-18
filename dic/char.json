@@ -309,6 +309,17 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
+    "Kagari" : {        
+        "positive":{
+            "char":"fuyukawa_kagari, ",
+            #"dress":"{strapless dress, black gloves, black thighhighs,garter straps,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
     "kagari-xl-13" : {        
         "positive":{
             "char":"kagari, ",
@@ -1164,10 +1175,76 @@
         #"strength_model": (0.5,1.0),
         #"strength_clip": (0.5,1.0),
     },
+    "kotobukiminami-pdxl-nvwls-v1" : {        
+        "positive":{
+            "char":"mkoto, pink hair, long hair,,   ",
+			"dress":"{hairclip, white shirt, collared shirt, long sleeves, red bowtie, red ribbon, grey skirt,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Minami_Kotobuki_Oshi_No_Ko_V1" : {        
+        "positive":{
+            "char":"KJOminami, long hair, pink hair, pink eyes, hair between eyes, hair pin,,,   ",
+			#"dress":"{puffy sleeves, blue dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "MiriaBaccanoXL-08" : {        
+        "positive":{
+            "char":"MiriaBaccanoXL,,   ",
+			#"dress":"{puffy sleeves, blue dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
     "ShioyamaSuzune_pony_v1" : {        
         "positive":{
             "char":"soymszn,,   ",
 			#"dress":"{puffy sleeves, blue dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Minami_Shimada" : {        
+        "positive":{
+            "char":"minami,,   ",
+			#"dress":"{puffy sleeves, blue dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "minami_chihiro_pony_ver1" : {        
+        "positive":{
+            "char":"minami_chihiro, orange eyes, orange hair, long hair, ,,   ",
+			"dress":"{school uniform, red bowtie, white shirt, short sleeves, blue skirt, suspender skirt,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "minami-shimada-s2-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"minami shimada, short hair, bow, green eyes, hair bow, red hair, yellow bow,,,   ",
+			"dress":"{skirt, school uniform, necktie, red skirt, blazer, black blazer, long sleeves, red necktie,,|__dress__}",
         },
         #"negative":{
         #    "foot":"",
@@ -2231,6 +2308,103 @@
         },
         #"strength_model": (0.5,1.0),
     },
+	"EmiliaV2": {	
+        "positive":{
+            "char":"Emilia,   ",
+            #"hair":" ",
+            #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Emilia": {	
+        "positive":{
+            "char":"Emilia,   ",
+            #"hair":" ",
+            #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"rezero_princessconnect_bikini-emilia": {
+        "file_name":"rezero_princessconnect_bikini",
+        "positive":{
+            "char":"pricone_emilia ,emilia \(re:zero\), hair ornament, long hair, hair flower, purple eyes, bangs, crown braid,  hair ribbon, pointy ears, jewelry, braid, ribbon, very long hair,  grey hair,  white hair, x hair ornament,  ,   ",
+            #"hair":" ",
+            "dress":"{,swimsuit, see-through,one-piece swimsuit,bracelet,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"i-58_scarxzys": {	
+        "positive":{
+            "char":"I-58, pink hair, short hair, ahoge, hair ornament,   ",
+            #"hair":" ",
+            #"dress":"{hat, flower, dress, white dress,white colored eyelashes,bare shoulders, hat flower,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"rezero_princessconnect_bikini": {	
+        "positive":{
+            "char":"pricone_Echidna ,echidna (re:zero), long hair, white hair, butterfly hair ornament, hair ornament, braid, hair between eyes,   ",
+            #"hair":" ",
+            "dress":"{hat, flower, dress, white dress,white colored eyelashes,bare shoulders, hat flower,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Emilie-pony-Tanger": {	
+        "positive":{
+            "char":"Emilie, blonde hair, purple eyes, multicolored hair, ,   ",
+            #"hair":" ",
+            "dress":"{default clothes, green dress,hat,  black gloves, glasses, green headwear, Split skirt side, detached sleeves,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Iori_Minase_The_iDOLMSTER_2011_anime_style": {	
+        "positive":{
+            "char":"brown hair, brown eyes, long hair,   ",
+            #"hair":" ",
+            #"dress":"{hat, flower, dress, white dress,white colored eyelashes,bare shoulders, hat flower,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"FarashaAl-QittaXL(kamidan)": {	
+        "positive":{
+            "char":"mature, long hair, twintails, black hair, blue eyes, blunt bangs, makeup, circlet, animal ears,   ",
+            #"hair":" ",
+            #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Sasaki_Chie-111": {	
+        "positive":{
+            "char":"sasaki chie, short hair, black hair, black eyes,  ",
+            #"hair":" ",
+            #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Sasaki_Chie-112": {	
+        "positive":{
+            "char":"sasaki chie, short hair, black hair, black eyes,  ",
+            #"hair":" ",
+            #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Leoleshea_-_Kami_wa_Game_ni_Ueteiru": {	
+        "positive":{
+            "char":"leoleshea,long hair,hair ornament,hair clip,choker,breasts,ahoge,  ",
+            #"hair":" ",
+            #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"jane_doe_pdxl_goofy_v2": {	
+        "positive":{
+            "char":"janedoe-zzz, aqua eyes,long hair,black hair,red hair,animal ears,  ",
+            #"hair":" ",
+            #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
 	"Betty": {	
         "positive":{
             "char":"Betty,   ",
@@ -2244,6 +2418,14 @@
             "char":"DK_BUNNY,   ",
             #"hair":" ",
             #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"hud_dk_mdressXLP": {	
+        "positive":{
+            #"char":"DK_BUNNY,   ",
+            #"hair":" ",
+            "dress":"hud_dk_mdress, see-through white loose fit lace mod dress, short dress, baggy clothes, long sleeves, white hairband, earrings,",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -2398,14 +2580,25 @@
             "char":"blazing cartesia the virtuous, sleeveless dress, veil, elbow gloves,  ",
         },
     },
-	"miruca_crotze_XL-bf16-pony-v1": {	
+	"Moroboshi_Kirari-58": {	
         "positive":{
-            "char":" miruca_crotze,  ",
+            "char":"moroboshi kirari, brown hair, brown eyes, long hair, ",
         },
     },
 	"natalia_autismConfetti_v02": {	
         "positive":{
             "char":" natalia \(tales\), blonde hair, short hair, green eyes, bangs, hairband, ascot, orange ascot, frills, thigh boots, pantyhose, frilled collar, white gloves, wrist bow,, ",
+        },
+    },
+	"MoroboshiKirari_pony_v1": {	
+        "positive":{
+            "char":" mrbskrr, tall female, long hair, brown hair, wavy hair, twintails, hair ribbon,  brown eyes,, ",
+        },
+    },
+	"Minami_Kotobuki_-_Oshi_No_Ko": {	
+        "positive":{
+            "char":" minami kotobuki,1girl,solo,bow,hair ornament, ",
+            "dress":"{shirt, uniform,white shirt,collared shirt,red bow,|__dress__}",
         },
     },
 	"hoodAL-ponyxl-bshi-v1": {	
