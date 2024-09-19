@@ -7,10 +7,14 @@
         "negative":{
             "quality":"monochrome, greyscale",
         },
+        "sampler_name": ["euler_ancestral"],
         #"steps": (30,30),
         #"cfg": (4,10),
     },
     "ponycolors_00001" : {# -0917
+        "sampler_name": ["euler_ancestral"],
+    },
+    "nachaPonyCheckpoint_v05" : { 
         "sampler_name": ["euler_ancestral"],
     },
     "hybridmixSDXL_mod6Mod7Merge050" : {# -

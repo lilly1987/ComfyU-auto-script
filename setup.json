@@ -1,8 +1,8 @@
 {
     "totalMax":1280,
-    "ckptMax":8,
+    "ckptMax":10,
     "listMax":2,
-    "queue_loop":4,
+    "queue_loop":3,
     "Path":"SD",
     "Path":"Pony",
     "CheckpointPath":"hosekiLustrousmixPony_v20.safetensors",
@@ -138,7 +138,9 @@
         ".*tokisakikurumi-10.*",
         ".*rory_mercury-PD-1.0.*",
         ".*miruca_crotze_XL-bf16-pony-v1.*",
-        ".*Witch2.*",
+        ".*TohsakaRinXL-v1-04.*",
+        ".*sppriconneYukariponyXL-000009.*",
+        ".*ShalltearXL.*",
         ".*shiKurumiV2.*",
         ".*weiss_v2.*",
         ".*sdxl-gmas-shinohiro-pony.*",
@@ -220,6 +222,12 @@
                 {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
             ],
         },
+        "Sex_from_behind_symmetrical_docking":{
+            "per":0.250,
+            "loras":[
+                {"Sex_from_behind_symmetrical_docking" : "Sex_from_behind_symmetrical_docking"}, # +
+            ],
+        },
         "mini":{
             "per":0.250,
             "loras":[
@@ -256,8 +264,8 @@
                 {"CorpsePonyV1-000050" : "CorpsePonyV1-000050"},
                 {"Re-hang-XL-3-000008" : "Re-hang-XL-3-000008"},
                 {"XL-hang-board-test-000012" : "XL-hang-board-test-000012"},
-                {"lora_dancing-000052" : "lora_dancing-000052"},
                 {"garrote_2-000012" : "garrote_2-000012"},
+                #{"lora_dancing-000052" : "lora_dancing-000052"},
                 #{"XL-luoxuan-000012" : "XL-luoxuan-000012"},
                 #{"luoxuan_v2-000030" : "luoxuan_v2-000030"},
             ],
@@ -272,6 +280,7 @@
             "loras":[
                 #{"heelless_ballet_boots":"heelless_ballet_boots"},
                 {"Balletboots":"Balletboots"},
+                {"Caged_Heels-000005":"Caged_Heels-000005"},
                 #{"balletboots_v1":"balletboots_v1"},
             ],
         },
@@ -394,8 +403,8 @@
     "perListCard":0.0625,
     "LoraAdd":True,
     "LoraAddCnt":(0,2),
-    "LoraMaxCnt":(2,4),
     "LoraMaxCnt":(4,6),
+    "LoraMaxCnt":(2,4),
     #"queue_prompt_wait":False,    
     #"queue_prompt":False,    
     #"print_setup":True,
