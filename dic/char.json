@@ -2951,6 +2951,18 @@
             #"dress":"{bow, skindentation, thighhighs, white thighhighs, bare shoulders, skirt, bowtie, left bow black, right bow green,|__dress__ } ",
         },
     },
+	"MIANNE": {	
+        "positive":{
+            "char":"miannepr, yellow eyes, red hair, long hair, animal ears,  ",
+            "dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
+        },
+    },
+	"chihaya_anon_fullclothes_ver": {	
+        "positive":{
+            "char":"chihaya anon, pink hair,grey eyes, ",
+            "dress":"{blue jacket, white skirt, long skirt, see-through skirt, cropped jacket, denim jacket, black choker, necklace, earrings, zipper,frillst,|sleeveless dress, heart necklace, changfu, plaid dress, white shirt, grey dress,grey belt| summer school uniform, green necktie, brown sweater vest, white shirt, short sleeves,plaid skirt,green skirt, pleated skirt|winter school uniform, green necktie, white shirt, grey jacket, plaid skirt, green skirt,pleated skirt|__dress__ } ",
+        },
+    },
 	"Character_Waguri Kaoruko": {	
         "positive":{
             "char":"waguri kaoruko, {long hair,|braided ponytail|single braid,|twin braids,} ",
