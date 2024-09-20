@@ -1453,6 +1453,61 @@
     "leen_isekai_smartphone-v2_pdv6" : {        
         "positive":{
             "char":"leen \(isekai wa smartphone to tomo ni.\), yellow eyes, white hair, long hair, twintails, small breasts, colored eyelashes, ,   ",
+			"dress":"{black thighhighs, white dress, puffy short sleeves, puffy sleeves|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "mia-xl-04" : {        
+        "positive":{
+            "char":"loopers mia,   ",
+			"dress":"{{black fox hood,|} sailor uniform, long skirt|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Yoshino_Himekawa_Pony_ct_ver3" : {        
+        "positive":{
+            "char":"ct_y0shin0, blue hair,,,   ",
+			"dress":"{green coat, rabbit hood, detached sleeves, cross-laced dress,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "PONY_Mia_Ashley" : {        
+        "positive":{
+            "char":"mia_ashley,,   ",
+			#"dress":"{black thighhighs, white dress, puffy short sleeves, puffy sleeves|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "rika-saionji-s1-ponyxl-lora-nochekaiser" : {        
+        "positive":{
+            "char":"rika saionji, blue eyes, orange hair, freckles,,,   ",
+			"dress":"{skirt, gloves, bow, school uniform, jacket, plaid, plaid skirt, blazer,|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
+    "Saionji_Sarasa-73" : {        
+        "positive":{
+            "char":"saionji sarasa, red hair, red eyes, long hair,,   ",
 			#"dress":"{black thighhighs, white dress, puffy short sleeves, puffy sleeves|__dress__}",
         },
         #"negative":{
