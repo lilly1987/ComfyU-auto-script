@@ -86,14 +86,14 @@
         "style":"{1-3$$anime style,|2D,|anime,|anime screencap,}",
         "sex":"{|sex},",
         # missionary | full nelson sex        
-        "pose":"{0-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},",
+        "pose":"{|{1-3$$ amazon position |cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex  |},}",
         "face":"face, {orgasm face,|} {asphyxiation:{0.25|0.5|0.75|1}|}, (rolling eyes:{0.25|0.5|0.75|1}),",
         #{makeup:{0.25|0.5|0.75|1},|::3}
         "empty eyes":"{empty eyes,|}",
         "idol":"{idol,|}",
         "hair":"{long hair,|}",
-        "fellatio":"{fellatio,| irrumatio,| deepthroat, oral,|cum in mouth,|}",
-        "insertions":"{0-2$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}",
+        "fellatio":"{{1-3$$fellatio,| irrumatio,| deepthroat, oral,|cum in mouth,|}|}",
+        "insertions":"{|{1-3$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}}",
         "chest":" {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|}",
         "bound":"{arms behind back, bound arms, arms bound, arm held back, bdsm,|},",
         "exposure":"{{1-9$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ",
@@ -127,6 +127,7 @@
     },
     "Checkpoint":[
         "nachaPonyCheckpoint_v05",
+        "mikoshiPony_v11",
     ],
     "ListCard":[
         ".*hoodAL-ponyxl-bshi-v1.*",
@@ -140,6 +141,7 @@
         ".*miruca_crotze_XL-bf16-pony-v1.*",
         ".*TohsakaRinXL-v1-04.*",
         ".*sppriconneYukariponyXL-000009.*",
+        ".*rory_mercury-PD-1.0-cowgirl_position_nonpov_xl.*",
         ".*ShalltearXL.*",
         ".*Hoseki_BocchiTheRock_Pasan_PDXL_v2.*",
         ".*leen_isekai_smartphone-v2_pdv6.*",
@@ -162,6 +164,9 @@
         ".*kiryu_shino_pony_ver1.*",
         ".*FushikawaKokoroXL-000096.*",
         ".*DK_BUNNY.*",
+        ".*sense_sousou no frieren_PONY_last.*",
+        ".*mari-iochi-ponyxl-lora-nochekaiser.*",
+        ".*Emilia-XL-V7-000002.*",
         ".*hood.*",
         ".*Sense_PDXL_resized.*",
         ".*mika-jougasaki-ponyxl-lora-nochekaiser.*",
@@ -374,12 +379,12 @@
                 {"BellyPunchPonyV1-000010" : "BellyPunchPonyV1-000010"},
             ],
         },
-        "etc":{
-            "per":0.1250,
-            "loras":[
-                {"Chloroform v1" : "Chloroform v1"},
-            ],
-        },
+        #"etc":{
+        #    "per":0.1250,
+        #    "loras":[
+        #        #{"Chloroform v1" : "Chloroform v1"},
+        #    ],
+        #},
     },
     "loras":{
         #"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002":"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002",
@@ -402,8 +407,8 @@
     "shuffle":False,    
     "perList":0.06250,
     "perList":0.0,
-    "perListCard":0.0,
     "perListCard":0.0625,
+    "perListCard":0.0,
     "LoraAdd":True,
     "LoraAddCnt":(0,2),
     "LoraMaxCnt":(4,6),

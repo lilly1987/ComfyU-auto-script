@@ -142,7 +142,7 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "gsbarbara.pony" : {        
+    "gsbarbara.pony" : {        #-
         "positive":{
             "char":"gsbarbara,  ,",
             "dress":"{def,|__dress__}",
@@ -150,7 +150,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,1.0,)
         #"strength_clip": 1,
     },
     "HisakawaTwins_pony_v1" : {        
@@ -2957,6 +2957,54 @@
             "dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
         },
     },
+	"Cornelia_li_Britannia": {	
+        "positive":{
+            "char":"Cornelia,purple hair,purple eyes,long hair,purple lips,,  ",
+            #"dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
+        },
+    },
+	"FRLGLeafTsukishiro": {	
+        "positive":{
+            "char":"frlgleaf,  ",
+            #"dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
+        },
+    },
+	"Tokkishiko Dana": {	
+        "positive":{
+            "char":"tokkishiko dana, black hair, thick eyebrows, blue eyes, twintails, long hair,,  ",
+            "dress":"{purple capelet, orange bowtie,bowtie, shirt,hair bobbles,|purple capelet, orange bowtie, thick eyebrows, bowtie, shirt,black pantyhose, staff, belt, holding staff, skull, skirt, frills, |long sleeves, white dress, pink bow, frills, hair ornament, ribbon, skull |__dress__ } ",
+        },
+    },
+	"Tokishikko_Pony-10": {	
+        "positive":{
+            "char":"Tokishikko_Dana, blue_eyes, black_hair, long_hair, twintails, parted_bangs, ",
+            "dress":"{hair bobbles, purple_capelet, black_dress, frills, black_pantyhose, belt, long_sleeves, orange_bow,|__dress__ } ",
+        },
+    },
+	"Futoku_no_Guild-Toxico_Dannar-PDXL": {	
+        "positive":{
+            "char":"Toxico Dannar,  ",
+            #"dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
+        },
+    },
+	"umamusume_biwahayahide_ponyXL": {	
+        "positive":{
+            "char":"biwa hayahide, horse tail, ahoge, hair ornament, animal ears, ear ornament,  ",
+            "dress":"{glasses, semi-rimless eyewear, purple jacket, long sleeves, puffy sleeves, black shirt, collared shirt, neck ribbon, red ribbon, purple skirt, hip vent,|__dress__ } ",
+        },
+    },
+	"BWH-ponyXL": {	
+        "positive":{
+            "char":"biwah, long hair, horse ears, horse tail, glasses, yellow eyes, ahoge, semi-rimless eyewear, bangs, wavy hair, white hair,  ",
+            "dress":"{skirt, thighhighs, long sleeves, boots, glasses, garter straps,,|__dress__ } ",
+        },
+    },
+	"cornellia-li-britannia-s1-ponyxl-lora-nochekaiser": {	
+        "positive":{
+            "char":"cornelia li britannia, purple eyes, purple hair,,  ",
+            #"dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
+        },
+    },
 	"chihaya_anon_fullclothes_ver": {	
         "positive":{
             "char":"chihaya anon, pink hair,grey eyes, ",
@@ -3066,15 +3114,23 @@
 	"Hannah_littlewitch": {	
         "positive":{
             "char":"hannah, 1girl,  brown hair,  ponytail,  grey eyes,,  ",
-            "dress":"luna nova school uniform school uniform,socks, shoes,yellow ribbon, white shirt, skirt, shirt, collared shirt, long sleeves, loafers, blue vest, vest, kneehighs, blue socks,,",
+            "dress":"{luna nova school uniform school uniform,socks, shoes,yellow ribbon, white shirt, skirt, shirt, collared shirt, long sleeves, loafers, blue vest, vest, kneehighs, blue socks,,|__dress__}",
         },
         "strength_model": (0.5,1.0),
         "strength_clip": (0.5,1.0),
     },
+	"rory-mercury-s1s2-ponyxl-lora-nochekaiser": {	
+        "positive":{
+            "char":"rory mercury, long hair, black hair, red eyes, bangs, blunt bangs, hime cut,  ",
+            "dress":"{thighhighs, bow, ribbon, hair ribbon, garter straps, dress, black dress, puffy sleeves, frills, detached sleeves, necktie, red necktie, lipstick, purple lipstick, |__dress__},",
+        },
+        #"strength_model": (0.5,1.0),
+        #"strength_clip": (0.5,1.0),
+    },
 	"rory_mercury-PD-1.0": {	
         "positive":{
             "char":"rory mercury ,  ",
-            #"dress":"{|__dress__},",
+            "dress":"{dress, hair ribbon, puffy sleeves, necktie, thighhighs, garter straps, |pink floral kimono,  |__dress__},",
         },
     },
 	"Leoleshea_-_Kami_wa_Game_ni_Ueteiru": {	
@@ -3086,7 +3142,31 @@
 	"FushikawaKokoroXL-000096": {	
         "positive":{
             "char":"twintails, braided bun, hair bun, double bun, sidelocks, blunt bangs ,  ",
-            "dress":"{japanese clothes, pink kimono, print kimono, floral print, white sash, white obi|__dress__}",
+            "dress":"{japanese clothes, pink kimono, print kimono, floral print, white sash, white obi|__dress__},",
+        },
+    },
+	"RoryMercury_Pony": {	
+        "positive":{
+            "char":"rurin, long hair, black hair, aqua eyes, slit pupils, hair between eyes, bangs, sidelocks, collarbone,",
+            "dress":"{bare shoulders, off shoulders, dress, green jacket, short sleeves, black dress, black tank top, |cleavage, navel, midriff, black camisole, pink jacket, open jacket, white skirt,|__dress__},",
+        },
+    },
+	"Rurin_r1": {	
+        "positive":{
+            "char":"rory mercury , purple lips, lipstick, lips, long hair, black hair, red eyes, very long hair, blunt bangs,ribbon, hair ribbon, hair bow, necktie ",
+            "dress":"{dress, thighhighs, bow, short sleeves, frills, puffy sleeves, black thighhighs, puffy short sleeves, lolita fashion, gothic lolita|__dress__},",
+        },
+    },
+	"GATE_RoryMercuryXL": {	
+        "positive":{
+            "char":"RoryMercury,long hair, black hair, red eyes, hime cut, blunt bangs, lipstick, hair bow,",
+            "dress":"{multicolored dress, black dress, red dress, puffy short sleeves, red necktie, black thighhighs, arm warmers|__dress__},",
+        },
+    },
+	"rory.pony": {	
+        "positive":{
+            "char":"rory,  ",
+            "dress":"{def,| other,|__dress__},",
         },
     },
 	"elie-pdxl-nvwls-v1": {	
@@ -3178,6 +3258,12 @@
         "positive":{
             "char":"inori, mo8, hairclip,  very long black hair, ",
             "dress":"{black sweater, pink shawl, plaid pencil skirt, purple pantyhose, boots, necklace,|black pantyhose, plaid skirt,|vest, white turtleneck, necklace, white sleeves, plaid,|white skirt, ribbon, sleeveless, ponytail,| detached sleeves, bare shoulders,|swimsuit, ponytail, ribbon, navel,| black pantyhose, buttons, plaid skirt,| yellow scarf, plaid,|white long skirt, ponytail, ribbon,|obi,|__dress__},",
+        },
+    },
+	"Igarashi_Kyoko-83": {	
+        "positive":{
+            "char":"igarashi kyoko, brown hair, brown eyes, side ponytail, ",
+            #"dress":"{black sweater, pink shawl, plaid pencil skirt, purple pantyhose, boots, necklace,|black pantyhose, plaid skirt,|vest, white turtleneck, necklace, white sleeves, plaid,|white skirt, ribbon, sleeveless, ponytail,| detached sleeves, bare shoulders,|swimsuit, ponytail, ribbon, navel,| black pantyhose, buttons, plaid skirt,| yellow scarf, plaid,|white long skirt, ponytail, ribbon,|obi,|__dress__},",
         },
     },
 	"sense_sousou no frieren_PONY_last": {	

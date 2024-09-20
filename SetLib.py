@@ -12,7 +12,10 @@ def SetArrRndV(v):
         #print(d[k])
     elif isinstance(v,list):
         #print(v)
-        v=random.choice(v)
+        if len(v)>0:
+            v=random.choice(v)
+        else:
+            v=None
     return v
 
 
