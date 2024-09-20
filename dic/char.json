@@ -2909,6 +2909,11 @@
             "char":"blazing cartesia the virtuous, sleeveless dress, veil, elbow gloves,  ",
         },
     },
+	"MakimaPonyXL-10": {	
+        "positive":{
+            "char":"makima, ",
+        },
+    },
 	"Moroboshi_Kirari-58": {	
         "positive":{
             "char":"moroboshi kirari, brown hair, brown eyes, long hair, ",
@@ -2917,6 +2922,93 @@
 	"natalia_autismConfetti_v02": {	
         "positive":{
             "char":" natalia \(tales\), blonde hair, short hair, green eyes, bangs, hairband, ascot, orange ascot, frills, thigh boots, pantyhose, frilled collar, white gloves, wrist bow,, ",
+        },
+    },
+	"Hoseki_OmamoriHimari_HimariNoihara_PDXL_v1": {	
+        "positive":{
+            "char":"hmrnhr, black hair, purple eyes, very long hair, ponytail, hair bow, ",
+            "dress":"{school uniform, sailor collar, red jacket, yellow bow, pleated skirt, black thighhighs,|__dress__ }",
+        },
+    },
+	"mia-taylor-s2-ponyxl-lora-nochekaiser": {	
+        "positive":{
+            "char":" mia taylor, blonde hair, purple eyes, hair over one eye,, ",
+        },
+    },
+	"PONY_Kagurazaka_Sayaka": {	
+        "positive":{
+            "char":"kagurazaka saya, ",
+        },
+    },
+	"joi_void_pony": {	
+        "positive":{
+            "char":"joi_void_pony, ",
+        },
+    },
+	"GTK": {	
+        "positive":{
+            "char":"GTKKaedeIchisugi, blonde hair, hair scrunchie, ponytail, sidelocks, grey eyes, makeup,, ",
+            #"dress":"{bow, skindentation, thighhighs, white thighhighs, bare shoulders, skirt, bowtie, left bow black, right bow green,|__dress__ } ",
+        },
+    },
+	"Character_Waguri Kaoruko": {	
+        "positive":{
+            "char":"waguri kaoruko, {long hair,|braided ponytail|single braid,|twin braids,} ",
+            #"dress":"{bow, skindentation, thighhighs, white thighhighs, bare shoulders, skirt, bowtie, left bow black, right bow green,|__dress__ } ",
+        },
+    },
+	"tony taka pony": {	
+        "positive":{
+            #"char":"GTKKaedeIchisugi, blonde hair, hair scrunchie, ponytail, sidelocks, grey eyes, makeup,, ",
+            #"dress":"{bow, skindentation, thighhighs, white thighhighs, bare shoulders, skirt, bowtie, left bow black, right bow green,|__dress__ } ",
+        },
+    },
+	"Tsuchiya_Ako-98": {	
+        "positive":{
+            "char":"tsuchiya ako, short hair, brown hair, glasses, green eyes, ",
+            #"dress":"{bow, skindentation, thighhighs, white thighhighs, bare shoulders, skirt, bowtie, left bow black, right bow green,|__dress__ } ",
+        },
+    },
+	"Zaizen_Tokiko-93": {	
+        "positive":{
+            "char":"zaizen tokiko, long hair, brown hair, brown eyes, ",
+            #"dress":"{bow, skindentation, thighhighs, white thighhighs, bare shoulders, skirt, bowtie, left bow black, right bow green,|__dress__ } ",
+        },
+    },
+	"ShoukakuPDCAMEq3+1v1 AL": {	
+        "positive":{
+            "char":"aqua eyes, red eyeshadow, mole under eye, grey hair, one side up, ",
+            "dress":"{red hair flower, white kimono, tassels, wide sleeves, black wristband, fingerless gloves, obi, black pleated skirt under curtain, black skirt, white pelvic curtain, long pelvic curtains,  ribbon-trimmed thighhighs, okobo,| hair red scrunchie, strapless, white chemise, lace white dress, see-through dress, detached lace sleeves, shawl, bridal lace gauntlets| black hair tie, black choker, criss-cross halter, race queen, center opening, black armband, black gloves,  navel cutout, garter strap, white thighhighs, black footwear| black hair tie, rabbit ears, detached collar, playboy bunny, purple leotard, white gloves, black thighhighs, black stiletto heels|__dress__ } ",
+        },
+    },
+	"ZuikakuPDCAMEq3v1 AL": {	
+        "positive":{
+            "char":"{brown eyes, red eyeshadow, brown hair, side ponytail,|brown eyes, red eyeshadow, brown hair, long hair, one side up} ",
+            "dress":"{red hair flower, ribbon-trimmed choker, white open kimono, red halter dress, pleated dress, grey sash, wide sleeves, thigh straps, black socks, red okobo|__dress__ } ",
+        },
+    },
+	"Einkk Nikke": {	
+        "positive":{
+            "char":"imtdeinkk, green hair, green eyes, twintails, pointy ears, long hair, ",
+            "dress":"{bow, skindentation, thighhighs, white thighhighs, bare shoulders, skirt, bowtie, left bow black, right bow green,|__dress__ } ",
+        },
+    },
+	"halloween miaPonyXL": {	
+        "positive":{
+            "char":"halloween mia,",
+            "dress":"{witch hat,white hairband,detached sleeves,fingerless gloves,dress,belt,navel cutout,garter straps,thighhighs,boots,|__dress__ } ",
+        },
+    },
+	"yukata miaPonyXL": {	
+        "positive":{
+            "char":"yukata mia,hairband,mask on head,hair ornament,",
+            "dress":"{orange kimono,detached sleeves,sash,pouch,sandals, |__dress__ }",
+        },
+    },
+	"Hoseki_AzurLane_Dido_PDXL_v1": {	
+        "positive":{
+            "char":"d1do, large breasts, long hair, ",
+            "dress":"{black lace-trimmed hairband, frilled choker, anchor choker, heart earrings, white sleeveless shirt, center frills, clothing cutout, underboob cutout, sideboob, black skirt, white apron, bracelet, white thighhighs, black footwear|purple hairband, purple halter dress, long dress, cleavage, ribbon between breasts, pelvic curtain, dress straps, purple high heels|side ponytail, drill hair, frilled hairband, headphones, collared dress, layered dress, plaid, puffy short sleeves, center frills, sideboob, underboob cutout, framed breasts, dress bow, wrist cuffs, white gloves, white thighhighs, white foorwear}, ",
         },
     },
 	"MoroboshiKirari_pony_v1": {	

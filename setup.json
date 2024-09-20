@@ -198,7 +198,7 @@
     ],    
     "loras_random":{        
         "my":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 {"All the way through" : "All the way through"},
                 {"Choke_-_Rough_Sex-000008" : "Choke_-_Rough_Sex-000008"},
@@ -210,7 +210,7 @@
             ],
         },
         "Choke":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 {"Choke_-_Rough_Sex-000008" : "Choke_-_Rough_Sex-000008"},
                 {"CH0K1N6" : "CH0K1N6"},
@@ -220,19 +220,19 @@
             ],
         },
         "hand under skirt":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
             ],
         },
         "Sex_from_behind_symmetrical_docking":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 {"Sex_from_behind_symmetrical_docking" : "Sex_from_behind_symmetrical_docking"}, # +
             ],
         },
         "mini":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 {"Holding minigirl" : "Holding minigirl"},
                 {"minig_full_neslon-000009" : "minig_full_neslon-000009"},
@@ -247,7 +247,7 @@
         #    ],
         #},
         "hang":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 {"XL-hang-board-test-000012" : "XL-hang-board-test-000012"},
                 {"strangling_pony_V1.0" : "strangling_pony_V1.0"},
@@ -279,7 +279,7 @@
         #    ],
         #},
         "boots":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 #{"heelless_ballet_boots":"heelless_ballet_boots"},
                 {"Balletboots":"Balletboots"},
@@ -288,7 +288,7 @@
             ],
         },
         "bind":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 {"sprawled_pony_V1.0" : "sprawled_pony_V1.0"},                
                 {"ImpaledPonyV1-000002" : "ImpaledPonyV1-000002"},
@@ -301,7 +301,7 @@
             ],
         },
         "body":{
-            "per":0.250,
+            "per":0.1250,
             "loras":[
                 #{"Concept_Gigantic_stomach_bulge" : "Concept_Gigantic_stomach_bulge"},
                 {"amputee_XL_pony" : "amputee_XL_pony"},
