@@ -7,7 +7,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "Lesbian_piledriver" : {
@@ -18,7 +18,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "loose socks_pony_V2.0" : {
@@ -30,7 +30,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "mozo" : {
@@ -41,7 +41,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "uterus_prolapse_V7" : {
@@ -52,7 +52,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "stomach_bulge_above_the_chest-000016" : {
@@ -63,8 +63,8 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
+        "strength_model": (0.0,1.0,),
+        "strength_clip": 1,
     },
     "permanent_metal_framebent_over_v3-000010" : {
         #"file_name":"",
@@ -74,7 +74,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "Balletboots" : {        
@@ -930,6 +930,16 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
+    "Lesbian_pussy_licking" : {        
+        "positive":{
+            "Lesbian_pussy_licking" :"lepuli1, 2girls, yuri, cunnilingus, lying, on bed, tongue out,, ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
     "FComic_HardCore" : {        
         "positive":{
             "FComic_HardCore" :"{missionary | cowgirl position | sex from behind | doggystyle | prone bone sex | standing sex},, ",
@@ -1495,6 +1505,16 @@
     "pussybursterX" : {        
         "positive":{
             "pussybursterX":" pussybursterX,",	
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "FutaComic_TK1_Pony_V2" : {        
+        "positive":{
+            "FutaComic_TK1_Pony_V2":"FutaComic, (comic:1.25),(3+koma:1.25),(Multi view, Frame), (Text, speech bubble, frame, heart, trembling, focus line, vibrating line, comic expression, Sound effect) (2+girls:1.1),(2+penises:1.1), futanari, futa, (futa with futa:1.1), yuri, Homosexual female, looking at Partners, nude, bouncing breasts, breasts, nipples, pussy, clitoris, anal, anus, cum, precum, ejaculating while penetrated, ejaculation, projectile cum, fellatio, licking, open mouth, oral, threesome, tongue out, kiss, group sex, fff threesome, urethral insertion, vaginal, anal insertion, Double penetration, triple penetration, spitroast, irrumatio, sweat, gangbang, double penetration, bangs, folded, thick thighs,,",		
         },
         #"negative":{
         #    "foot":"",

@@ -11,6 +11,10 @@
         #"steps": (30,30),
         #"cfg": (4,10),
     },
+    "getphatPonyAnime_221" : {# -0921
+        "sampler_name": ["euler_ancestral"],
+        "cfg": (4.5,7),
+    },
     "ponycolors_00001" : {# -0917
         "sampler_name": ["euler_ancestral"],
     },
@@ -26,6 +30,38 @@
         },
         "negative":{
             "checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
+        },
+    },
+    "icatsSarponyx_v10" : {# -
+        "positive":{
+            "checkpoint":"score_9, score_8_up, score_7_up BREAK ict style,,",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            "3d":"3d, monochrome, watermark,",
+        },
+        "cfg": (5.0,7),
+    },
+    "peganaMERGE_v50" : {# 
+        "positive":{
+            "checkpoint":"score_9,score_8_up,score_7_up,score_6_up,score_5_up,score_4_up,",
+            "source_anime":"",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
+        },
+    },
+    "anyponyTest_v10" : {# 
+    },
+    "peganaMERGE_v40" : {# 
+        "positive":{
+            "checkpoint":"score_9,score_8_up,score_7_up,score_6_up,score_5_up,score_4_up,",
+            "source_anime":"",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
         },
     },
     "perfectnai_v10" : {# -
