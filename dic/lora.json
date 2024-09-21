@@ -1,4 +1,82 @@
 {
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "":" , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Lesbian_piledriver" : {
+        #"file_name":"",
+        "positive":{
+            "Lesbian_piledriver":"lepi_1, yuri, vaginal, on bed, strap-on, piledriver \(sex\) , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "loose socks_pony_V2.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "socks":"loose socks,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "mozo" : {
+        #"file_name":"",
+        "positive":{
+            "mozo":" tentacles,tentacle sex, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "uterus_prolapse_V7" : {
+        #"file_name":"",
+        "positive":{
+            "uterus_prolapse_V7":"uterus prolapse, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "stomach_bulge_above_the_chest-000016" : {
+        #"file_name":"",
+        "positive":{
+            "stomach_bulge_above_the_chest-000016":" stomach bulge,stomach bulge ends above the chest,breast apparts, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "permanent_metal_framebent_over_v3-000010" : {
+        #"file_name":"",
+        "positive":{
+            "permanent_metal_framebent_over_v3-000010":" PFMB,bent over, gold metal frame, metal around the pussy and anus, metal on face, ring gag, mouth open, palm to palm, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
     "Balletboots" : {        
         "positive":{
             "Balletboots":"high heels,",
