@@ -1068,6 +1068,870 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
+    "Tenkubashi_Tomoka-113" : {
+        #"file_name":"",
+        "positive":{
+            "char":" tenkubashi tomoka, brown hair, brown eyes, ",
+           # "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Arch_Mage_IceLightning_MapleStory" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Arch Mage, Main Dress, Long Blue Hair, Black Bunny Ears Headband , ",
+            "dress":"{ice magic , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ioroi_renzu" : {
+        #"file_name":"",
+        "positive":{
+            "char":"ioroi_renzu,  grey eyes, green eyes, black hair, short hair, bob cut, bangs, hair between eyes, ",
+            "dress":"{  japanese clothes, kimono, red kimono, obi, green obi, sandals ,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Stelle_v1-10" : {
+        #"file_name":"",
+        "positive":{
+            "char":"{ stelledef, yellow eyes, grey hair, long hair, hair between eyes,|stellernd, yellow eyes, grey hair, long hair, hair between eyes,}, ",
+            "dress":"{white shirt, black jacket, open clothes, open jacket, long sleeves, black gloves, black skirt, miniskirt, thigh strap, high heel boots, black footwear, , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Hiori_Nayuki-000009" : {
+        #"file_name":"",
+        "positive":{
+            "char":" nayuki hiori, red eyes, light blue hair, long hair, , ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "quelplan-xl-pony-v1-000010" : {
+        #"file_name":"",
+        "positive":{
+            "char":"{quelplan, green eyes, long hair, pink hair, jewelry, earrings, hairband, very long hair, pointy ears, circlet, forehead mark, hair ornament. |quelplan, long hair, green eyes, pink hair, hairband, hair ornament. } , ",
+            "dress":"{  dress, bare shoulders, detached sleeves, white thighhighs, red ribbon, necklace, shawl, boots,,| cape, brown pleated skirt, frilled skirt, blue shirt, belt, cloak, black bow, white thighhighs |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "morganLF_WaterPrincessPDXL_scarxzys" : {
+        #"file_name":"",
+        "positive":{
+            "char":"morgan, blue eyes, white hair, very long hair, bangs, french braid, hair ornament, ponytail, twin braids , ",
+            "dress":"{hair flower, hair bow, detached sleeves, puffy sleeves, dress, swimsuit, white bikini, stomach tattoo, tighlet, gold trim, yellow ribbon, blue nails , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Saimin_Enbu_Kaguya-000009" : {
+        #"file_name":"",
+        "positive":{
+            "char":" kaguya katsura, long hair, blue hair, green eyes, empty eyes, nipples, ",
+            "dress":"{ school uniform, collarbone, medium breasts, skirt, blush, , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "FireflyV1-Aesthetic" : {
+        #"file_name":"",
+        "positive":{
+            "char":"firefly \(honkai: star rail\), grey hair, long hair,  multicolored eyes, blue eyes, blue pupils, firefly def, hair band, hair ornament, , ",
+            "dress":"{  long sleeves, white shirt, white dress, black jacket, orange neckerchief, pleated skirt, aqua skirt, gradient thighhighs, black thighhighs,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "PonyxlSekibankiDora_charSekibankiPony" : {
+        #"file_name":"",
+        "positive":{
+            "char":"  sekibanki, red hair, red eyes, blue bow, ",
+            "dress":"{  black shirt, long sleeves, red skirt, two-tone cape,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Muller" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Mull3r, very long hair, twin side braids, sidelocks, short ponytail, half updo, parted bangs, blonde hair, blue eyes, pointy ears, small breasts, circlet,, ",
+            "dress":"{ short dress, green dress, bare shoulders, detached sleeves, puffy sleeves, belt, black legwear, stirrup legwear, toeless footwear, platform footwear, green sandals,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Sarah-10" : {
+        #"file_name":"",
+        "positive":{
+            "char":" sarah,blonde hair,green eyes,short hair,braid, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Platinum_Arknights-booru" : {
+        #"file_name":"",
+        "positive":{
+            "char":" platinum, white hair, brown eyes, long hair, sidelocks, animal ears, horse ears, very long hair, animal ear fluff, horse girl, tail, horse tail,, ",
+            "dress":"{thighhighs, gloves, long sleeves, navel, jacket, shorts, black gloves, midriff, black thighhighs, black footwear, short shorts, thigh boots, white jacket, zipper, white shorts , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "allmind_XL_pony_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":"allmind \(armored core 6\) , ",
+            "dress":"{skirt suit , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "shbeatrix-pdxl-nvwls-v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" shbtrx, light blonde hair, white hair, long hair, pointy ears, purple eyes, ",
+            "dress":"{hair ornament, circlet, choker, black cloak, black cape, criss-cross halter, white tube top, black shorts, black gloves, single thighhigh , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "baimongfa2_prefectPonyXL3" : {
+        #"file_name":"",
+        "positive":{
+            "char":" baimongfa2, double bun, long hair, baimteac2 hair ribbon, , ",
+            "dress":"{ baimteac2 dress, baimteac2 fingerless gloves, baimteac2 thighhighs, baimteac2 high heels,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Kanata(pony)" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Kanata,blue eyes,pink hair,two side up,hairclip,blue bow,star hair ornament,, ",
+            "dress":"{ high-school uniform,,Sapphire necklace,white skirt, black thighhighs,boots,|__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "monaim-000010" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "PONY_RF3_Raven" : {
+        #"file_name":"",
+        "positive":{
+            "char":"toona, red hair, blue eyes, long hair, pointy ears, earring , ",
+            "dress":"{ black crop top, orange scarf, fur-trimmed jacket, open pink jacket, belt, orange skirt, thighs, green gloves, black pantyhose, boots, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Minase_Iori-103" : {
+        #"file_name":"",
+        "positive":{
+            "char":" minase iori, long hair, brown hair, brown eyes, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Inui_Pony-10" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Inui_Sajuna, pink_eyes, pink_hair, long_hair, crossed_bangs, two_side_up, small_breasts",
+            "dress":"{pleated_skirt, miniskirt, red_skirt, red_sailor_collar, yellow_bowtie, black_sweater_vest, short_sleeves, white_sleeves, black_thighhighs , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "urza_pranaice-xl-pony-v1-000008" : {
+        #"file_name":"",
+        "positive":{
+            "char":" urza pranaice, purple eyes, blonde hair, short hair, beret, hair ribbon, ribbon,  twintails,, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ChamNayamiPeachfoxPonyXL" : {
+        #"file_name":"",
+        "positive":{
+            "char":" NayamiPF, animal ears, blue eyes, pink hair, multicolored hair, long hair, hair between eyes, ahoge, tail, ",
+            "dress":"{red choker, white neckerchief, pink shirt, short sleeves, crop top, single bare shoulder, black undershirt, shoulder cutout, midriff, navel, highleg panties, black skirt, black pantyhose, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Honkai3 vita2_pony" : {
+        #"file_name":"",
+        "positive":{
+            "char":" vt_d, grey hair, long hair, ahoge, bangs, hair between eyes, magenta eyes, yellow pupils, hair ornament,, ",
+            "dress":"{  dress, pants, black footwear, high heels, jewelry, gloves, single glove, single thighhigh, cleavage,|white robe, earrings, short sleeves, boots, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "yanzhen_pony2" : {
+        #"file_name":"",
+        "positive":{
+            "char":" glcyanzhen,hair ornament,long hair,bangs,jewelry,pink eyes,black hair,, ",
+            "dress":"{ jacket,necklace,, long sleeves,hood,skirt,black skirt,|__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "GBC_JQLY_pony-000030" : {
+        #"file_name":"",
+        "positive":{
+            "char":"GBC_JQLY ,parted bangs,long hair,brown hair,grey eyes, ",
+            "dress":"{ jewelry,white shirt,long skirt,black skirt,pleated skirt,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "alya-pony" : {
+        #"file_name":"",
+        "positive":{
+            "char":" alisa mikhailovna kujou, tokidoki bosotto roshia-go de dereru tonari no alya-san,, ",
+           # "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Tateno_Mai" : {
+        #"file_name":"",
+        "positive":{
+            "char":" tateno, blonde hair, short hair, high ponytail, hair up, single bang, brown hairclip, light blue eyes, earpiece, ",
+            "dress":"{black dress, black necktie, {black shirt ,|} |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "charalora" : {
+        #"file_name":"",
+        "positive":{
+            "char":" green shirt, yellow striped, brown hair, red eyes,, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
     "" : {
         #"file_name":"",
         "positive":{

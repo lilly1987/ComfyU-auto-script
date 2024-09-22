@@ -82,7 +82,8 @@
         "quality":"masterpiece , best quality , detailed face, {0-3$$detailed eyes,|perfect eyes,|perfect face,|}",
         "checkpoint":"score_9, {score_8_up, {score_7_up, {score_6_up,|}|}|} ",
         "source_anime":"source_anime,  {anime_screencap,|}",
-        "NSFW":"NSFW,{uncensored,|}",
+        "nsfw":"nsfw,{uncensored,|}",
+        "nsfw":"nsfw,uncensored,",
         "style":"{1-3$$anime style,|2D,|anime,|anime screencap,}",
         "sex":"{|sex},",
         # missionary | full nelson sex        
@@ -94,7 +95,7 @@
         "yuri":"{yuri,|}",
         "hair":"{long hair,|}",
         "fellatio":"{{1-3$$fellatio,| irrumatio,| deepthroat, oral,|cum in mouth,|}|}",
-        "insertions":"{|{1-3$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|} {dildo,|}}",
+        "insertions":"{|{1-3$$multiple insertions|large insertion|{vaginal|anal|} object insertion|impossible object insertion| object insertion|double penetration,} {dildo,|}}",
         "chest":" {{1-4$$flat chest,|small chest,|flat breasts,|small breasts,}|}",
         "bound":"{arms behind back, bound arms, arms bound, arm held back, bdsm,|},",
         "exposure":"{{1-9$$breasts out,|pussy, |breasts exposure,  |nipples exposure, |pussy exposure,|breast exposed,breasts exposed,|exposed breasts,|exposed pussy,|chest open,} exposure,|} ",
