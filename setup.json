@@ -154,6 +154,7 @@
         ".*ShalltearXL.*",
         ".*Hoseki_BocchiTheRock_Pasan_PDXL_v2.*",
         ".*leen_isekai_smartphone-v2_pdv6.*",
+        ".*MeilingLiXL.*",
         ".*shiKurumiV2.*",
         ".*mia-xl-04.*",
         ".*Akizuki_Ritsuko.*",
@@ -214,12 +215,6 @@
         #"Edel_PONY_from_Sousou_no_Frieren",
     ],    
     "loras_random":{        
-        "stomach_bulge_above_the_chest":{
-            "per":01.1250,
-            "loras":[
-                {"stomach_bulge_above_the_chest-000016" : "stomach_bulge_above_the_chest-000016"},
-            ],
-        },
         "my":{
             "per":0.1250,
             "loras":[
@@ -248,6 +243,12 @@
             "per":0.1250,
             "loras":[
                 {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
+            ],
+        },
+        "stomach_bulge_above_the_chest":{
+            "per":0.1250,
+            "loras":[
+                {"stomach_bulge_above_the_chest-000016" : "stomach_bulge_above_the_chest-000016"},
             ],
         },
         "Sex_from_behind_symmetrical_docking":{

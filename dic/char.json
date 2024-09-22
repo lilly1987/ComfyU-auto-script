@@ -12,6 +12,2154 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "shirley_autismConfetti_v02" : {
+        #"file_name":"",
+        "positive":{
+            "char":"shirleyBase, aqua eyes, blonde hair, braids, long hair, blunt bangs, wavy hair, , ",
+            "dress":"{ brown vest, pink puffy sleeves, long white sleeves, pink shirt, white waist cape, brown skirt, brown boots,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "hina-amano-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":"hina amano, black hair, twintails, blue eyes, , ",
+            "dress":"{ skirt, jacket, sleeveless, choker, hood, bag, hoodie, white jacket, backpack, hood down, hooded jacket, pink skirt, sleeveless jacket, sleeveless hoodie,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Hoseki_WWY_HinaAmano_PDXL_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" hina amano, long hair, low twintails, choker, ",
+            "dress":"{ sleeveless hoodie, sleeveless shirt, denim shorts, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "watase_mayumi_pony_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":"watase mayumi, , ",
+           # "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "mayumi_thyme_pony_sobsynapse-000005" : {
+        #"file_name":"",
+        "positive":{
+            "char":" ohwx, purple_eyes, green_hair, short_hair_with_long_locks, sidelocks, , ",
+            "dress":"{ school_uniform, bow, thighhighs, puffy_sleeves, short_sleeves, puffy_short_sleeves, yellow_bow, white_skirt,|thighhighs, waitress, maid_headdress, white_thighhighs, maid, bare_shoulders, zettai_ryouiki, ribbon,|bare_shoulders, dress, sweater, off_shoulder,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "CodeGeass_VillettaNuXL" : {
+        #"file_name":"",
+        "positive":{
+            "char":"dark skin, dark-skinned female, long hair, grey hair, side ponytail, swept bangs, yellow eyes, purple lips , ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Villetta_Nu" : {
+        #"file_name":"",
+        "positive":{
+            "char":" VillettaNu,dark skin,dark-skinned female,grey hair,long hair,yellow eyes,lips,, ",
+            "dress":"{ necktie,purple elbow gloves,ponytail,purple uniform,black pencil skirt,black thighhighs,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "koshimizu_toru_ponyxl_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":"{ aatoru, short hair, blue hair, hair ornament, purple eyes, diamond-shaped pupils, mole under eye, headphones around neck, |aatoru, medium hair, multicolored hair, blue hair, purple hair, ahoge, braid, earrings, purple eyes, diamond-shaped pupils, mole under eye,} , ",
+            "dress":"{ black choker, necklace, cleavage, black shirt, {hooded jacket, white jacket,| }long sleeves, midriff, long skirt, black skirt|,bare shoulders, lace trim, black dress, negligee, off shoulder, white jacket, long sleeves, sleeves past wrists |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "BBFGOP1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" zzBB, long hair, purple hair, purple eyes, bangs, very long hair,, ",
+            "dress":"{  black jacket, black skirt, collared shirt, hair ribbon, high-waist skirt, jacket, long sleeves, neck ribbon, open clothes, open jacket, pleated skirt, red ribbon, ribbon, shirt, skirt, sleeves past wrists, white shirt, wide sleeves,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ciel_summer_fgo-space_ciel" : {
+        "file_name":"ciel_summer_fgo",
+        "positive":{
+            "char":"space_ciel, blue eyes, short hair, light blue hair, hair ornament, chest mark,, ",
+            "dress":"{ long sleeves, jacket, upper body,  black jacket, open jacket, see-through,|black jacket, black skirt, white shirt, collared shirt, pantyhose, jacket on shoulders, black necktie, black gloves, black boots, high heels, knee boots, glasses, black-framed eyewear,|halo, blue dress, gloves, black gloves, pantyhose, bare shoulders, bow, ribbon choker, chest laser, flames,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ciel_summer_fgo-ciel_sensei" : {
+        "file_name":"ciel_summer_fgo",
+        "positive":{
+            "char":"ciel_sensei, blue eyes, blue hair, short hair, , ",
+            "dress":"{ long sleeves, jacket, upper body,  black jacket, open jacket, see-through,|black jacket, black skirt, white shirt, collared shirt, pantyhose, jacket on shoulders, black necktie, black gloves, black boots, high heels, knee boots, glasses, black-framed eyewear,|halo, blue dress, gloves, black gloves, pantyhose, bare shoulders, bow, ribbon choker, chest laser, flames,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ciel_summer_fgo-ciel" : {
+        "file_name":"ciel_summer_fgo",
+        "positive":{
+            "char":"ciel, blue hair, blue eyes, ahoge, short hair , ",
+            "dress":"{ long sleeves, jacket, upper body,  black jacket, open jacket, see-through,|black jacket, black skirt, white shirt, collared shirt, pantyhose, jacket on shoulders, black necktie, black gloves, black boots, high heels, knee boots, glasses, black-framed eyewear,|halo, blue dress, gloves, black gloves, pantyhose, bare shoulders, bow, ribbon choker, chest laser, flames,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "mahoushoujoprismshirleyponyB" : {
+        #"file_name":"",
+        "positive":{
+            "char":" saoriprismshirley, blonde hair, short hair, hair ornament, blue eyes, ",
+            "dress":"{ magical girl, choker, vest, white shirt, white short sleeves, elbow gloves, collarbone, blue skirt, white thigh boots, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "cheshirebs2cat" : {
+        #"file_name":"",
+        "positive":{
+            "char":"cheshirecatbs2, animal ears, tail, solo, cat ears, yellow eyes, curly hair, cat tail, cat girl, pink hair, purple hair, bangs, breasts, ringed eyes, , ",
+            "dress":"{socks, animal ear fluff, cleavage, fur trim, kneehighs, sleeveless, no shoes,  dress, black dress, , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "cheshire(clothes)XLPony-000010" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"{ cheshire\(magic hat\),1girl,multicolored hair, animal ears,green eyes,|cheshire\(magic hat\),reverse outfit,white bodysuit, see-through,puffy sleeves,pantyhose,|chemagi,reverse outfit,white bodysuit, see-through,puffy sleeves,pantyhose,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "CheshirePDCAMEq5v1 AL" : {
+        #"file_name":"",
+        "positive":{
+            "char":"chesd, aqua eyes, medium hair, multicolored hair , ",
+            "dress":"{ aqua eyes, medium hair, multicolored hair, fake animal ears, maid headdress, detached collar, frills, maid, frilled dress, detached sleeves, wrist cuffs, overskirt, garter strap, white thighhighs, black anklets, black high heels|aqua eyes, medium hair, multicolored hair, fake animal ears, eyewear on head, purple choker, neck ribbon, strap between breasts, transparent white sarong, strapless bikini, side-tie bikini bottom, frilled thigh strap|aqua eyes, medium hair, multicolored hair, fake animal ears, black hat, hat black bow, fishnet veil, detached purple collar, halterneck, sleeveless bodystocking, purple cheongsam, fur tim, purple elbow gloves, pelvic curtain, black garter straps, brown thighhighs, black high heels|aqua eyes, medium hair, multicolored hair, fake animal ears, white sun hat, hat blue ribbon, hair ornaments, detached blue collar, strapless, white bustier, detached sleeves, frilled long white dress|aqua eyes, medium hair, multicolored hair, fake animal ears, top hat, hat ribbon, neck purple ribbon, shrug \(clothing\), breast curtains, reverse bunnysuit, see-through leotard, white wrist cuffs, thigh purple strap, purple anklet, purple stiletto heels, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "komurochinami_ponyXLV6" : {
+        #"file_name":"",
+        "positive":{
+            "char":"cgkcn ,brown hair,long hair,brown eyes ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "[Pony] Akane Aikawa _ Mahou Tsukai Tai! (Magic User's Club)_epoch_16" : {
+        #"file_name":"",
+        "positive":{
+            "char":" aikawa_akane, 1girl, solo, long hair, streaked hair, multicolored hair, white hair, red hair, brown eyes, breasts, ",
+            "dress":"{ akane_witch, witch hat, hat, blue dress, choker, cape, jewelry, earrings, gloves, pantyhose,|akane_dream, strapless, bare shoulders, red ribbon, red bow,  strapless dress, barefoot, bell,|akane_casual, sleeveless, sailor dress, black dress, sailor collar,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Hoseki_Idolmaster_KakoTakafuji_PDXL_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":"kktkfj, black hair, medium hair , {ponytail|}",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "yor-briar-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":" yor briar, black hair, red eyes, earrings, white hairband, hairband, long hair, sidelocks,, ",
+            "dress":"{bare shoulders, collarbone, dress, long sleeves, off shoulder, off-shoulder dress, off-shoulder sweater, pantyhose, red sweater, sweater, sweater dress, thighs,|skirt, shirt, long sleeves, white shirt, earrings, collared shirt, vest, green skirt, pencil skirt, office lady, green vest,|coat, trench coat,|dress, cleavage, bare shoulders, jewelry, collarbone, sleeveless, black dress, halterneck, headband, white headband, , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "luna.pony" : {
+        #"file_name":"",
+        "positive":{
+            "char":" luna, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ChamHimemoriLunaPonyXL" : {
+        #"file_name":"",
+        "positive":{
+            "char":" HimemoriLuna, heterochromia, long hair, single hair ring, candy hair ornament, ",
+            "dress":"{LunaBase, heterochromia, long hair, single hair ring, candy hair ornament, crown, earrings, detached collar, pink dress, bare shoulders, short sleeves, bracelet, striped thighhighs|LunaNewYear, heterochromia, twin braids, hair flower, pink kimono, fur scarf, sash, hakama skirt, black pantyhose|LunaSailor, heterochromia, medium hair, mini crown, earrings, necklace, white sailor collar, blue dress, off-shoulder dress, star print, bracelet|LunaFormal, heterochromia, very long hair, twintails, hair ribbon, earrings, white dress, strapless dress, bare shoulders, cleavage, bow, white gloves, white thighhighs|LunaStreetwear, short hair, hair over one eye, sleeveless shirt, crop top, red necktie, arm strap, black shorts, highleg, black gloves, garter straps, torn thighhighs, jacket , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "kurashinaasuka-pdxl-nvwls-v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" kurashinaasuka, pink hair, long hair, one side up, antenna hair, blue eyes, ",
+            "dress":"{hair ornament, white shirt, white jacket, short sleeves, red neckerchief, blue sailor collar, blue skirt, pleated skirt|hair ornament, red sailor collar, red neckerchief, elbow gloves, red and white gloves, white thighhighs , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "aikawa_himeno_pony_ver2" : {
+        #"file_name":"",
+        "positive":{
+            "char":" aikawa_himeno, blue eyes, blonde hair, long hair, hair ornament, hair flower, , ",
+            "dress":"{ pink jacket, neck ribbon, red skirt, pleated skirt,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Ellen_Artorius" : {
+        #"file_name":"",
+        "positive":{
+            "char":"Ellen_Artorius, black hair, black eyes, long hair, webtoon, manhwa , ",
+            "dress":"{ white blazer, black shirt, collared blazer, yellow bowtie, academy school uniform, white skirt,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "TachibanaGE-pdxl-bsinky-v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":"stGE, black hair, bob cut, blunt bangs, red eyes, ",
+            "dress":"{ cleavage, crop top, black shirt, bare shoulders, criss-cross halter, arm ribbon, green ribbon, bracelet, green gloves, asymmetrical gloves, midriff, belt, pouch, black skirt, long skirt, frilled skirt, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "37_from_Reverse_1999_Pony" : {
+        #"file_name":"",
+        "positive":{
+            "char":" tsrnnn, ",
+            "dress":"{ ancient greek clothes, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "love_is_war_sdxl_pony-kaguya" : {
+        "file_name":"love_is_war_sdxl_pony",
+        "positive":{
+            "char":"shinomiya kaguya, red eyes, black hair, hair ribbon, ",
+            "dress":"{ black dress, white sailor collar, neck ribbon, red ribbon  ,|__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "love_is_war_sdxl_pony-miko" : {
+        "file_name":"love_is_war_sdxl_pony",
+        "positive":{
+            "char":"iino miko, brown eyes, brown hair, low twintails, ",
+            "dress":"{ black dress, white sailor collar, neck ribbon, red ribbon, armband,  ,|__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "love_is_war_sdxl_pony-kei" : {
+        "file_name":"love_is_war_sdxl_pony",
+        "positive":{
+            "char":"shirogane kei, blue eyes, grey hair, black hairband,  ",
+            "dress":"{ white dress, black sailor collar, neck ribbon, black ribbon, ,|__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "love_is_war_sdxl_pony-hysk" : {
+        "file_name":"love_is_war_sdxl_pony",
+        "positive":{
+            "char":"hysk, blue eyes, blonde hair, side ponytail,  ",
+            "dress":"{  blue scrunchie, black vest, black skirt, white shirt, cardigan around waist,|__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "love_is_war_sdxl_pony-chika" : {
+        "file_name":"love_is_war_sdxl_pony",
+        "positive":{
+            "char":"chika, blue eyes, pink hair, hair bow, black bow,  ",
+            "dress":"{ black dress, white sailor collar, neck ribbon, red ribbon, short sleeves, white shirt ,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "KeiShiroganePonyXL" : {
+        #"file_name":"",
+        "positive":{
+            "char":" kei, ",
+            "dress":"{ white dress, sailor collar, long sleeve, black pantyhose,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Kei_Shirogane_Kaguya-sama_Love_Is_War_V1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" KJOkei, white hair, blue eyes, long hair, headband,, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "kei" : {
+        #"file_name":"",
+        "positive":{
+            "char":" kei_v2, blue eyes, long hair,  ",
+            "dress":"{ school uniform, shuuchiin academy school uniform, pantyhose, white dress,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Shirogane Noel" : {
+        #"file_name":"",
+        "positive":{
+            "char":" shirogane noel,, ",
+            "dress":"{ shirogane noel, shirogane noel \(1st costume\), hololive,  bangs, large breasts, thighhighs, gloves, cleavage, hair between eyes, green eyes, braid, grey hair, boots, black gloves, belt, black thighhighs, fingerless gloves, medium hair, armor, mole, wavy hair, shoulder armor, pelvic curtain, mole on breast, chest belt, |shirogane noel, shirogane noel \(casual\), hololive, 1girl, breasts, short hair, bangs, skirt, large breasts, ribbon, cleavage, green eyes, collarbone, hair ribbon, braid, grey hair, glasses, choker, off shoulder, sweater, plaid, wavy hair, black choker, plaid skirt, french braid, black-framed eyewear, white sweater, off-shoulder sweater, sleeves past elbows|shirogane noel, shirogane noel \(dirndl\), hololive, 1girl, long hair, breasts, bangs, skirt, hair ornament, thighhighs, gloves, bow, holding, cleavage, very long hair, green eyes, short sleeves, grey hair, frills, detached sleeves, apron, white thighhighs, puffy short sleeves, black bow, thigh strap, frilled skirt, waist apron, white apron, frilled apron, black bowtie,|shirogane noel, shirogane noel \(school uniform\), hololive, 1girl, breasts, short hair, bangs, skirt, large breasts, shirt, hair ornament, bow, school uniform, green eyes, white shirt, braid, grey hair, pleated skirt, collared shirt, bowtie, plaid, blue bow, plaid skirt, x hair ornament, blue bowtie|shirogane noel, shirogane noel \(summer 2020\), hololive, 1girl, breasts, short hair, bangs, skirt, large breasts, navel, cleavage, hair between eyes, bare shoulders, green eyes, collarbone, swimsuit, grey hair, bikini, stomach, blue skirt, wet, wrist cuffs, thigh strap, wavy hair, sunglasses, front-tie top, eyewear on head, front-tie bikini top, arm strap, two-tone bikini, chest belt| shirogane noel \(casual\), hololive, 1girl, breasts, bangs, thighhighs, animal ears, cleavage, green eyes, tail, swimsuit, braid, grey hair, bikini, horns, huge breasts, bell, side-tie bikini bottom, animal print, cow print, cow ears, cow horns, toeless legwear, cowbell, cow girl, cow tail|__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ChamShiroganeNoelPonyXL" : {
+        #"file_name":"",
+        "positive":{
+            "char":" ShiroganeNoel, medium hair, braid, ",
+            "dress":"{NoelBase, medium hair, braid, tiara, armored dress, single pauldron, chest guard, chest strap, cleavage cutout, puffy sleeves, pelvic curtain, waist cape, leather belt, belt pouch, vambraces, fingerless gloves, black thighhighs, greaves|NoelNewYears, short hair, braid, hair flower, hair ornament, blue kimono, print kimono, floral print, sash|NoelCasual, medium hair, french braids, glasses, blue hair ribbons, black choker, white sweater, ribbed sweater, off-shoulder, plaid skirt, high-waist skirt|NoelCasual, medium hair, french braids, glasses, blue hair ribbons, black choker, black tank top, plaid skirt, high-waist skirt|NoelDirndl, long hair, hair flowers, detached collar, black bowtie, dirndl, detached sleeves, black corset, cleavage, bare shoulders, waist apron, white thighhighs|NoelDirndl, cow horns, cow ears, twin braids, hair flowers, necklace, dirndl, detached sleeves, black corset, cleavage, bare shoulders, waist apron, white thighhighs|NoelFifth, long hair, ponytail, blue hair ribbon, white shirt, off-shoulder shirt, see-through cleavage, short blue necktie, detached sleeves, juliet sleeves, black shorts, belt, white overskirt, thigh strap|NoelSchool, medium hair, braid, white shirt, collared shirt, blue bowtie, sleeves rolled up, shirt tucked in, blue skirt, plaid skirt|NoelBikini, short hair, braid, sunglasses on head, blue star choker, two-tone bikini, front-tie bikini top, chest belt, sleeveless, bare shoulders, highleg bikini, bikini skirt, thigh strap, wrist cuffs , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "noel-shirogane-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":" shirogane noel, braid, french braid, green eyes, grey hair, hair ribbon, ribbon, short hair, snowflake choker, wavy hair, ",
+            "dress":"{ casual, collarbone, high-waist skirt, official alternate costume, official alternate hairstyle, sweater,|armor, black gloves, black thighhighs, cleavage, fingerless gloves, gloves, headband, long sleeves, thighhighs, zettai ryouiki,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ellen_baker_pony_ver2" : {
+        #"file_name":"",
+        "positive":{
+            "char":" ellen_baker, green eyes, blonde hair, long hair, hair scrunchie, , ",
+            "dress":"{ blue jacket, white shirt, blown skirt,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "sdxl-lyco-mew_ichigo-original-animagine_xl_3_1-v2" : {
+        #"file_name":"",
+        "positive":{
+            "char":" mew_ichigo, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ImoutoToSonoYuujin_MiuXL" : {
+        #"file_name":"",
+        "positive":{
+            "char":"long hair, black hair, purple eyes, blunt bangs , ",
+            "dress":"{ MiuISY, brown sweater, white shirt, red necktie, pleated skirt, black skirt, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "fgo_179_a1" : {
+        #"file_name":"",
+        "positive":{
+            "char":"__fgo_179_a1__ , ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Mita" : {
+        #"file_name":"",
+        "positive":{
+            "char":" <lora:Mita:0.75>, dark blue eyes, dark blue hair, braids hair,  , ",
+            "dress":"{red hairband, choker, red sweater, blue skirt, hair ornament, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "kohinata_poem_pony_ver1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" kohinata_poem, brown eyes, brown hair, short hair, hair between eyes, , ",
+            "dress":"{ school uniform, red bowtie, pink jacket, hood, blue skirt, plaid skirt, white thighhighs, zettai ryouiki,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "OutfitThavernarXLPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"{ bandeau, dancer,cross-laced legwear,detached sleeves, circlet,jewelry,pelvic curtain,,hair ornments,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "MoonfireXLPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"{moonfire swimsuit, front-tie bikini top, side-tie bikini bottom, open clothes, , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "DancerXLPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"{ bandeau, harem outfit,detached sleeves, bridal gauntlets,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "_risa_matoba-elesico-pony" : {
+        #"file_name":"",
+        "positive":{
+            "char":"risamasbase, black hair, twintails, , ",
+            "dress":"{ risamasbase, black hair, twintails, loveldyblosdress, drill hair, hair bow, red headwear, mini hat, flower, choker, striped, red dress, short sleeves, detached sleeves, wrist cuffs, puffy sleeves, frilled dress, black footwear, high heels,|risamasbase, black hair, twintails, gaznsldyidol, earrings, hair bow, red bow, animal print, jewelry, pink striped crop top, bare shoulders, bracelet, asymmetrical gloves, elbow gloves, fingerless gloves, midriff, belt, miniskirt, pencil skirt, pink skirt, thigh strap, back bow, black footwear, platform footwear,|risamasbase, black hair, twintails, ambteeuniform, school uniform, beret, red sailor collar, red ribbon, hair ribbon, red ribbon, short sleeves, necktie, pleated skirt, red skirt, suspenders, suspender skirt, white socks, mary janes, black footwear,|risamasbase, black hair, twintails, risaanidefclothes, leopard print, yellow ribbon, hair ribbon, heart necklace, pink crop top, frilled crop top, sleeveless, bare shoulders, belt, midriff, miniskirt, white skirt, sandals,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "sweetdevilXLPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"sweetdevil, off shoulder, frilled skirt,layered skirt, garter straps, black thighhighs,butterfly hair ornament,navel,bra,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "kitakami_kancolle_ponyXL_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" kitakami \(kancolle\), black hair, long hair, single braid, blunt bangs, sidelocks, purple eyes,, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "reikakitakamiimaspony" : {
+        #"file_name":"",
+        "positive":{
+            "char":" reikimas, blue hair, low twintails, blunt bangs, brown eyes, ",
+           # "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "PONY_Chloe_Auber" : {
+        #"file_name":"",
+        "positive":{
+            "char":" chloe, black hair, blue eyes, ",
+            "dress":"{ pink dress, red belt, black cape, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "pony_char_koshimizu_toru-000018" : {
+        #"file_name":"",
+        "positive":{
+            "char":" koshimizu toru, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "sptoruKochimizuXLPony" : {
+        #"file_name":"",
+        "positive":{
+            "char":"kochimizu1st, mole under eye, diamong-shaped pupils, triangle hair ornament, purple nails,  , ",
+            "dress":"{ black choker, black camisole, black shirt, crop top,{ white jacket, open jacket,|} headphones around neck, black skirt, wristband, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "LoraPonyXLV60_cosTsumugi_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" ayasaki tsumugi,pink hair, hair accessory, red eyes,  ",
+            "dress":"{ school uniform, coat | swimsuit, inner tube, | kimono, white fur, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "mayumi-saegusa-s2-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":"mayumi saegusa, long hair, black hair, red eyes, ribbon, hair ribbon, , ",
+            "dress":"{ long sleeves, dress, school uniform, pantyhose, necktie, white dress, black necktie,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "hina.pony" : {
+        #"file_name":"",
+        "positive":{
+            "char":" hina, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Sorasaki_Hina_Pony-10" : {
+        #"file_name":"",
+        "positive":{
+            "char":" hina, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "JanusUniformXLPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"school uniform,white serafuku,double-breasted,white pantyhose,hat,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "eunie xl 065" : {
+        #"file_name":"",
+        "positive":{
+            "char":"eunie, medium hair, blue eyes, head wings , ",
+            "dress":"{ casual, leather jacket, black bodysuit, belt, sneakers, open hoodie, black choker, jacket buttons|swimwear, sarong, blue bikini bottom, halterneck top, sandals, thigh strap, white choker, power frame, flower ornament|cosplay, thigh boots, suspender skirt, ribbed shirt, elbow gloves, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "sakamata_chloe_ponyxl_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" aachloe, {medium|long } hair, streaked hair, grey hair, x hair ornament, braided bangs, red eyes,, ",
+            "dress":"{ black collar, harness, cleavage, belt bra, white camisole, black jacket, off shoulder, long sleeves, fingerless gloves, black gloves, black belt, plaid skirt, red skirt, garter straps, torn thighhighs, black thighhighs | black collar, collabone, cleavage, white camisole, arm strap, black belt, plaid skirt, red skirt, garter straps, torn thighhighs, black thighhighs,|black choker, off shoulder, cleavage, bandages, print kimono, white kimono, frilled sleeves, wide sleeves, thigh strap|cat tail, detached collar, red bowtie, harness, dress, underbust, detached sleeves, wrist cuffs, white apron, black skirt|school uniform, black choker, red bowtie, collared shirt, white shirt, shirt tucked in, off shoulder, sweater, pink cardigan, long sleeves, loose belt, pleated skirt, red skirt|bare shoulders, black bowtie, see-through, cleavage cutout, frilled shirt, grey shirt, sleeveless, off shoulder, red jacket, long sleeves, black belt, black skirt, garter straps, fishnet thighhighs, black thighhighs|bare shoulders, black bowtie, see-through, cleavage cutout, frilled shirt, grey shirt, sleeveless, bare arms, black belt, black skirt, garter straps, fishnet thighhighs, black thighhighs|cosplay, black collar, blue sailor collar, black neckerchief, cleavage, white shirt, underboob, sleeveless, elbow gloves, white gloves, midriff, microskirt, blue skirt, highleg panties, striped thighhighs |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "suou_momoko_sdxl_locon_pony_v2" : {
+        #"file_name":"",
+        "positive":{
+            "char":" suou momoko, ahoge, short hair, blue eyes, eyebrows visible through hair, wavy hair, blunt bangs, ",
+            "dress":"{ suou momoko, casual, ahoge, short hair, blue eyes, eyebrows visible through hair, wavy hair, blunt bangs, yellow dress, print dress, floral print, yellow shirt, short over long sleeves, layered sleeves, hair ornament, hair flower, white flower, black pants, pants under dress, capri pants, pants rolled up|suou momoko, fancy alamode, ahoge, short hair, blue eyes, eyebrows visible through hair, wavy hair, blunt bangs, white dress, frilled dress, sailor dress, orange sailor collar, puffy short sleeves, frilled sleeves, buttons, yellow sleeves, hair bow, star hair ornament, heart hair ornament, polka dot bow, orange bow, blue bow, bear ornament, jewelry, star ornament, heart ornament, blue bowtie, waist bow, bracelet, bead bracelet, print legwear, thighhighs, orange footwear, mary janes|suou momoko, active-chrng, ahoge, short hair, blue eyes, eyebrows visible through hair, wavy hair, blunt bangs, gym uniform, white shirt, gym shirt, puffy short sleeves, blue buruma, hair flower, hair ornament, white flower, blue hairband, socks, white legwear, shoes|suou momoko, going charmy, ahoge, short hair, blue eyes, eyebrows visible through hair, wavy hair, blunt bangs, blue vest, open vest, hooded vest, sleeveless shirt, hood, hood down, drawstring, crop top, clothes writing, white skirt, pleated skirt, miniskirt, frilled skirt, two-tone skirt, red bow, striped bow, striped ribbon, hair bow, hair ribbon, multicolored bow, star hair ornament, armband, arm ribbon, thigh ribbon, back bow, midriff, bare shoulders, collarbone, pom pom \(cheerleading\), white legwear, sneakers|suou momoko, gatto-marciale, ahoge, short hair, blue eyes, eyebrows visible through hair, wavy hair, blunt bangs, cat girl, cat ears, animal ear fluff, frilled dress, blue dress, layered dress, vest, frilled sleeves, puffy short sleeves, puff and slash sleeves, fur-trimmed collar, black skirt, frilled skirt, paw print skirt, red sash, epaulettes, gold trim, blue bow, striped bow, neck bell, white neckerchief, blue bowtie, striped bowtie, mini crown, tilted headwear, black gloves, frilled gloves, fur-trimmed gloves, high heel boots, black footwear, fur-trimmed boots, cat tail, striped tail, red waist ribbon|suou momoko, made-on-alice, short twintails, low twintails, medium hair, braid, alice \(alice in wonderland\) \(cosplay\), short twintails, low twintails, blue shirt, collared shirt, white collar, frilled dress, puffy short sleeves, frilled sleeves, blue skirt, frilled skirt, white apron, maid apron, frilled apron, striped, apron bow, back bow, center frills, black neckwear, black bow, blue bow, black ribbon, blue ribbon, hair bow, hair ribbon, wrist cuffs, striped legwear, white legwear, frilled legwear|suou momoko, i-can-do-it, ahoge, short hair, blue eyes, eyebrows visible through hair, wavy hair, blunt bangs, white shirt, collared shirt, puffy short sleeves, sailor collar, polka dot collar, black collar, pink skirt, frilled skirt, print skirt, black bow, skirt bow, pink bow, pink hairband, bow hairband, pink choker, black necktie, polka dot necktie, white gloves, black belt, heart shaped buckle|suou momoko, priv-dress, ahoge, blunt bangs, low twintails, short twintails, braid, blue shirt, blue blouse, collared shirt, frilled shirt, center frills, frilled shirt collar, puffy short sleeves, hair ornament, blue bow, hair flower, white flower, hairclip, brown skirt, frilled skirt, plaid skirt, pleated skirt, skirt bow, bowtie, blue neckwear, brown belt|suou momoko, diamond chronicle, ahoge, short hair, blue eyes, eyebrows visible through hair, wavy hair, blunt bangs, diamond chronicle, crop top, sleeveless, bare shoulders, aiguillette, white skirt, yellow skirt, frilled skirt, plaid skirt, pleated skirt, two-tone skirt, miniskirt, layered skirt, mini hat, yellow headwear, tilted headwear, hat ornament, detached collar, orange collar, orange necktie, orange belt, wrist cuffs, white gloves, frilled gloves, garter straps, black thighhighs, armband, frills, midriff, navel, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Manhattan Cafe-ponyXL_locon" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ tracen_unifrom|shobufuku|casual_clothes|the_bubbles_that_i_see_with_you|tobasuze_hot_summer!its_on_the_house|verdant_night|, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "umamusume_manhattancafe_ponyXL" : {
+        #"file_name":"",
+        "positive":{
+            "char":" manhattancafe, , ",
+            "dress":"{ black jacket, shirt, necktie, black gloves, skirt, pantyhose, single earring, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "kitakami_futaba_pony_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":"kitakami_futaba, twintails,long hair, hair ornament, pink hair, pink eyes, , ",
+            "dress":"{ pink_ribbon, see-through, detached_sleeves, pink_sailor_dress, underwear, denim_short_shorts_under_dress, zettai_ryouiki, vertical-striped thighhighs, thigh strap,pink_footwear, white_elbow_gloves, fingerless_gloves,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "brj-sayo-ponyXL-v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" minakami sayo, green hair, long hair, red eyes,, ",
+            "dress":"{ magia azul, hair bow, elbow gloves, thigh boots, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "haruka-hanabishi-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":"haruka hanabishi, twintails, green eyes, pink hair, , ",
+            "dress":"{ skirt, shirt, long sleeves, school uniform, white shirt, pleated skirt, serafuku, sailor collar, neckerchief, green skirt, green sailor collar,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "kaoruko-tenkawa-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":" kaoruko tenkawa, long hair, blue eyes, blonde hair, bow, hair bow, yellow bow,, ",
+            "dress":"{ gloves, dress, heart, elbow gloves, magical girl, yellow gloves,|skirt, shirt, long sleeves, school uniform, white shirt, pleated skirt, serafuku, sailor collar, neckerchief, green skirt, green sailor collar,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "kiwi-araga-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":" kiwi araga, bangs, ahoge, mole, mole under eye, purple eyes, green hair, hair bun, double hair bun,, ",
+            "dress":"{ skirt, shirt, long sleeves, school uniform, white shirt, pleated skirt, serafuku, sailor collar, neckerchief, green skirt, green sailor collar,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "sayo-minakami-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":" sayo minakami, long hair, brown eyes, bow, hair bow, green hair,, ",
+            "dress":"{ skirt, shirt, long sleeves, school uniform, white shirt, pleated skirt, serafuku, sailor collar, neckerchief, green skirt, green sailor collar,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "nemo-anemo-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":" nemo anemo, short hair, green hair, pink eyes, hair over one eye, aqua hair, ahoge,, ",
+            "dress":"{ skirt, shirt, white shirt, cardigan, grey skirt,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Kaoruko" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Kaoruko, , ",
+            "dress":"{ school uniform,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Kiwi" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Kiwi, , ",
+            "dress":"{ school uniform,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "fairy_heart" : {
+        #"file_name":"",
+        "positive":{
+            "char":" fairy heart,magical girl,twintails,pink hair, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Christhea" : {
+        #"file_name":"",
+        "positive":{
+            "char":" {christhea|daisei}, ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "lunaly_lily" : {
+        #"file_name":"",
+        "positive":{
+            "char":" lunaly lily, magical girl, , ",
+            "dress":"{ black thighhighs, hairband,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "sdxl-lyco-mew_ichigo-original-ponyDiffusionV6XL-v2" : {
+        #"file_name":"",
+        "positive":{
+            "char":" mew_ichigo, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "fairyflowerpony" : {
+        #"file_name":"",
+        "positive":{
+            "char":" fairyflower,short hair, silver hair, ahoge, hair intakes, scrunchie, one-side up, hair ornament, flower, green eyes, magical girl,  ",
+            "dress":"{ detached sleeves, puffy short sleeves, bare shoulders, yellow dress, bow, ribbon, bridal garter, gloves, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "evilshirleyponyvera" : {
+        #"file_name":"",
+        "positive":{
+            "char":" evilshirley,  magical girl, grey hair, short hair, red eyes, hair ornament, ",
+            "dress":"{ choker, shirt, covered navel, black sleeves, puffy short sleeves, purple vest, black elbow gloves, purple skirt, black thigh boots, high heel boots, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "sirius(pony)" : {
+        #"file_name":"",
+        "positive":{
+            "char":" 1girl,sirius \(azur lane\),azur lane, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "PDXL_ZKCFujiko-000005" : {
+        #"file_name":"",
+        "positive":{
+            "char":" ZKCFujiko, ",
+            "dress":"{ dress, camisole, necklace, belt|yellow sleeveless shirt, blue frilled skirt, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Kimiko_Miyagawa_IV_OC_Pony" : {
+        #"file_name":"",
+        "positive":{
+            "char":" monster girl, mermaid, mermaid tail, head fins, black hair, long hair, hime cut, hair ringlets, hair over breasts, gold tiara, medium breasts, eye shadow, orange eyes, slit pupils, koi tail , ",
+            "dress":"{ kimono, obi, sleeves, hair ornament, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Kira-000021" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Kira,purple hair,long hair,red hairband,red shirt,mole under eye,purple eyes,, ",
+            "dress":"{ choker,crop top,white socks,asymmetrical legwear,black skirt,black footwear,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Seki_Hiromi-99" : {
+        #"file_name":"",
+        "positive":{
+            "char":" seki hiromi, long hair, brown hair, red eyes, wavy hair, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
     "Miyoshi_Sana-113" : {
         #"file_name":"",
         "positive":{
@@ -4730,6 +6878,13 @@
         },
         "strength_model": (0.5,0.7),
     },
+	"Outfit_soph-RedRidingHood-PDXL": {	
+        "positive":{
+            "dress":"dr3ss, red dress, long dress, capelet, hood, form-fitting, collarbone, cleavage, ",
+            #"dress":",",
+        },
+        #"strength_model": (0.5,0.7),
+    },
 	"TomoyoDaidoujiXL": {	
         "positive":{
             "char":"daidouji tomoyo, black hair, long hair, blunt bangs, hairband, long hair, purple eyes,    ",
@@ -5367,6 +7522,38 @@
         },
         #"strength_model": (0.5,1.0),
     },
+	"Marin_Kitagawa": {	
+        "positive":{
+            "char":"Marin Kitagawa,   ",
+            #"hair":" ",
+            "dress":"{gothic fashion,,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Himari": {	
+        "positive":{
+            "char":"Himari, Black hair,long hair,  ",
+            #"hair":" ",
+            #"dress":"{gothic fashion,,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"SonoBisqueDoll_KitagawaMarinXL": {	
+        "positive":{
+            "char":"{multicolored hair, blonde hair, long hair, magenta eyes, ear piercing, earrings, pink nails, makeup,|multicolored hair, blonde hair, hair over shoulder, low ponytail, pink scrunchie, leopard print, magenta eyes, ear piercing, earrings, pink nails, makeup }  ",
+            #"hair":" ",
+            "dress":"{MarinSchool, bead bracelet, black choker, neck bell, ring, collared shirt, white shirt, short sleeves, blue necktie, plaid skirt, blue skirt, tied shirt|MarinBikini, plaid shirt, blue shirt, yellow shirt, black choker, denim shorts, collarbone, necklace|MarinBikini, black choker, necklace, black bikini, floral print, medium breasts, side-tie bikini bottom|MarinCasual, off-shoulder shirt, white shirt, bare shoulders, short sleeves, neck ribbon, black ribbon, high-waist shorts, black shorts, buttons|MarinDress, black dress, long sleeves, detached collar, cleavage|MarinHome, green dress, floral print, cleavage, strap slip|MarinHome, green dress, floral print, cleavage, strap slip|MarinHoodie, grey hoodie, long sleeves, sleeves past wrists|MarinApron, green apron, plaid apron, bare shoulders,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Matoba_Risa_Pony-10": {	
+        "positive":{
+            "char":"matoba risa, long hair, black hair, yellow eyes, twintails   ",
+            #"hair":" ",
+            #"dress":"{,|__dress__,}",
+        },
+        #"strength_model": (0.5,1.0),
+    },
 	"asuka_hina_XL-pony-v1": {	
         "positive":{
             "char":"asuka hina,, ,   ",
@@ -5769,7 +7956,7 @@
             "dress":"{purple capelet, orange bowtie,bowtie, shirt,hair bobbles,|purple capelet, orange bowtie, thick eyebrows, bowtie, shirt,black pantyhose, staff, belt, holding staff, skull, skirt, frills, |long sleeves, white dress, pink bow, frills, hair ornament, ribbon, skull |__dress__ } ",
         },
     },
-	"Tokishikko_Pony-10": {	
+	"Tokishikko_Pony-10": {	#0922
         "positive":{
             "char":"Tokishikko_Dana, blue_eyes, black_hair, long_hair, twintails, parted_bangs, ",
             "dress":"{hair bobbles, purple_capelet, black_dress, frills, black_pantyhose, belt, long_sleeves, orange_bow,|__dress__ } ",
@@ -6425,6 +8612,17 @@
 	"luna_kindred_sdxl_v2": {	
         "positive":{
              "char" :"luna kindred,",
+        },
+    },
+	"Komuro_Chinami-91": {	
+        "positive":{
+             "char" :"komuro chinami, long hair, brown hair, brown eyes,",
+        },
+    },
+	"cheshirePDXL_scarxzys": {	
+        "positive":{
+             "char" :"cheshire, aqua eyes, black hair, streaked hair, short hair,",
+             "dress" :"animal ears, maid headdress, wrists cuffs, black dress, white dress, cleavage, frills, puffy detached sleeves, short sleeves, white thighhighs, garter straps, stiletto heels, long ribbon, lace-trimmed legwear, detached collar,",
         },
     },
 	"miyako-saitou-s1-ponyxl-lora-nochekaiser": {	
