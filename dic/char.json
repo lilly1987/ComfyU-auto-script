@@ -48,11 +48,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "ponyxl_c_shimoneta_Hyouka_Fuwa__Shimoneta_akumakushu" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" hyoukafuwa, green hair, purple eyes,",
+            "dress":"{ neck collar, red tie, labcoat, long skirt , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -60,11 +60,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Souma_Natsumi-92" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"souma natsumi, black hair, green eyes , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2549,6 +2549,366 @@
         "positive":{
             "char":"long hair, black hair, purple eyes, blunt bangs , ",
             "dress":"{ MiuISY, brown sweater, white shirt, red necktie, pleated skirt, black skirt, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "seras_ashrain_anime_v2-soralz" : {
+        #"file_name":"",
+        "positive":{
+            "char":" seras ashrain, blonde hair, long hair, blunt bangs, tiara, pointy ears, blue eyes, ",
+            "dress":"{ red knight outfit, red collar, juliet sleeves, long sleeves, white gloves, cleavage, breast cover, corset, white knee boots|white knight outfit, blue collar, white cape, open cape, breasts, cleavage, white top with blue straps, navel, black elbow gloves, fingerless gloves, brown belt, pelvic curtain, black legwear, white knee boots|armoured white knight outfit, blue collar, white cape, open cape, breasts, cleavage, white top with blue straps, navel, armoured gauntlets, black elbow gloves, fingerless gloves, brown belt, pelvic curtain, black legwear, armoured legwear, white knee boots|cleavage, nude, white sleepwear, camisole, white underwear, bare shoulders, bare thighs, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
