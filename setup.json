@@ -2,7 +2,7 @@
     "totalMax":1280,
     "ckptMax":12,
     "listMax":2,
-    "queue_loop":3,
+    "queue_loop":2,
     "Path":"SD",
     "Path":"Pony",
     "CheckpointPath":"hosekiLustrousmixPony_v20.safetensors",
