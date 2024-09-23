@@ -984,11 +984,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "A_Digital-ponyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" A_Digital, horse ears, horse tail,short stature,pink hair, long hair, blue eyes,, ",
+            "dress":"{ Digital_Race, thighhighs, bow, collarbone, hair bow, necklace,skirt,midriff,Sleeveless,boots|Digital_HW, detached sleeves, hair bun, double bun, jiangshi,pink clothes,sleeves past wrists,boots, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -996,11 +996,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "BG_yurina_pony_ver1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" bg_yurina, green eyes, brown hair, long hair, drill hair, bangs,, ",
+            "dress":"{  school uniform, brown jacket, blazer, necktie, long sleeves, shirt, plaid skirt, white thighhighs,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2124,11 +2124,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Hu_Tao_Genshin_Impact_Pony_XL_LORA" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" HuTao_DskFll,  long hair,   brown hair, long sleeves,  twintails,    ",
+            "dress":"{ hat,,jewelry,bracelet, coat, black headwear, chinese clothes, ring, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2136,10 +2136,10 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Tougou_Ai-80" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
+            "char":"  tougou ai, short hair, black hair, brown eyes, ",
             "dress":"{ , |__dress__},",
         },
         #"negative":{
@@ -2592,11 +2592,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "umamusume_matikane_tannhauser_pony_v1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" brown hair, hair ornament, hairclip,  wavy hair,, ",
+            "dress":"{ mkt casual, matikane tannhauser (umamusume), animal ears, blue jacket, blush, brown hair, ears through headwear, hair ornament, hairclip, hat, highres, horse ears, horse girl, horse tail, jacket, long sleeves, multicolored hair, neck ribbon, open jacket, red headwear, shirt, skirt, streaked hair, tail, casual, medium hair, yellow eyes, beret, blue cardigan, brown skirt, cardigan, shirt tucked in, eyebrows visible through hair, purple ribbon, purple shirt, white hair, alternate costume, hair between eyes,|mkt race, matikane tannhauser (umamusume), animal ears, belt bag, blush, bow, brown hair, cabbie hat, ears through headwear, hair ornament, hairclip, hat, highres, horse ears, horse girl, horse tail, medium hair, multicolored hair, streaked hair, tail, white hair, belt, brown eyes, clothing cutout, shoulder cutout, boots, ribbon, yellow eyes, blue headwear, dress, ear piercing, piercing, belt buckle, buckle, hair between eyes, blue bow, blue hat, collared shirt, long sleeves, puffy long sleeves, puffy sleeves, shirt, white shirt, bare shoulders, blue skirt, frilled skirt, frills, skirt, bowtie, brown footwear, corset, frilled dress, socks, ear ornament, blue bowtie, belt pouch, pouch, bangs, eyebrows visible through hair, center frills, tilted headwear,  two-tone hair, waving, detached sleeves, brown jacket, jacket, sleeveless, sleeveless jacket,|mkt school, matikane tannhauser (umamusume), animal ears, blush, brown eyes, brown hair, collarbone, hair ornament, hairclip, hat, highres, horse ears, horse girl, medium hair, ribbon, school uniform, tracen school uniform, eyebrows behind hair, eyebrows visible through hair, hair between eyes, hair ribbon, horse tail, tail, cabbie hat, ears through headwear, yellow eyes, bow, hair bow, multicolored hair, pleated skirt, puffy short sleeves, puffy sleeves, short sleeves, skirt, streaked hair, summer uniform, flat cap, frilled skirt, frills, horseshoe ornament, purple shirt, sailor collar, sailor shirt, shirt, thighhighs, tilted headwear, white thighhighs, blue headwear, serafuku, wavy hair, purple bow, purple serafuku, white legwear,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6026,6 +6026,28 @@
     "Kagari" : {        
         "positive":{
             "char":"fuyukawa_kagari, ",
+            #"dress":"{strapless dress, black gloves, black thighhighs,garter straps,|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Mage_Bikini_Warriors_XL" : {        
+        "positive":{
+            "char":"star \(stymbol\),  purple hair, short hair, purple eyes, ",
+            "dress":"{witch hat,, detached collar, detached sleeves, wide sleeves, fur trim, scarf, {bikini,|} black thighhighs,|__dress__},",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Okuyama_Saori-92" : {        
+        "positive":{
+            "char":"okuyama saori, brown hair, long hair, brown eyes, ",
             #"dress":"{strapless dress, black gloves, black thighhighs,garter straps,|__dress__},",
         },
         #"negative":{

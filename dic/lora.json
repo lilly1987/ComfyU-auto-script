@@ -21,10 +21,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "thermometer_pony_V1.0" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "thermometer_pony_V1.0":" thermometer, object insertion, ",
         },
         #"negative":{
         #    "char":"",

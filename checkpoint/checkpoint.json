@@ -52,12 +52,38 @@
             #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
         },
     },
+    "YutaAi_yutaAiV4" : {# -0922
+    },
     "anyponyTest_v10" : {# 
+    },
+    "hotarubreedXLRealmix_v10" : {# 0922
+        "positive":{
+            "quality":"newest, masterpiece, best quality,",
+            "checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,",
+            "face":"cute round face,",
+            #"source_anime":"",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
+        },
+        "cfg": (7.0,10),
+        "sampler_name": ["dpmpp_2m_sde","dpmpp_3m_sde",],
     },
     "peganaMERGE_v40" : {# 
         "positive":{
             "checkpoint":"score_9,score_8_up,score_7_up,score_6_up,score_5_up,score_4_up,",
             "source_anime":"",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        },
+        "negative":{
+            #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
+        },
+    },
+    "relhCheckpoint_v40" : {# -
+        "positive":{
+            "checkpoint":"score_9, score_8_up, score_7_up,,",
+            #"source_anime":"",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
         },
         "negative":{
