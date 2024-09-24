@@ -28,6 +28,7 @@
             #"checkpoint":"zPDXLrl, score_9, score_8_up, score_7_up, rating explicit, masterpiece, best quality, ultra HD quality details, photo realistic, realistic, hyperrealistic, cinematic lighting:0.32, highly detailed, detailed skin,",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
             "source_anime":"",
+            "style":"",
         },
         "negative":{
             #"checkpoint":" zPDXLrl-neg, pony_negativeV2, score_6, score_5, score_4, monochrome, extra legs, extra hands, mutated legs, mutated arms, pubic hair, extra fingers,",
@@ -39,6 +40,7 @@
             #"checkpoint":"zPDXLrl, score_9, score_8_up, score_7_up, rating explicit, masterpiece, best quality, ultra HD quality details, photo realistic, realistic, hyperrealistic, cinematic lighting:0.32, highly detailed, detailed skin,",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
             "source_anime":"",
+            "style":"",
         },
         "negative":{
             "checkpoint":"score_4,score_3,score_2,score_1,",
@@ -52,6 +54,7 @@
             "checkpoint":"zPDXLrl, score_9, score_8_up, score_7_up, rating explicit, masterpiece, best quality, ultra HD quality details, photo realistic, realistic, hyperrealistic, cinematic lighting:0.32, highly detailed, detailed skin,",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
             "source_anime":"",
+            "style":"",
         },
         "negative":{
             "checkpoint":" zPDXLrl-neg, pony_negativeV2, score_6, score_5, score_4, monochrome, extra legs, extra hands, mutated legs, mutated arms, pubic hair, extra fingers,",
@@ -100,6 +103,7 @@
         "positive":{
             "checkpoint":"score_9,score_8_up,score_7_up,score_6_up,score_5_up,score_4_up,",
             "source_anime":"",
+            "style":"",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
         },
         "negative":{
@@ -128,6 +132,7 @@
         "positive":{
             "checkpoint":"score_9,score_8_up,score_7_up,score_6_up,score_5_up,score_4_up,",
             "source_anime":"",
+            "style":"",
             #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
         },
         "negative":{
@@ -187,10 +192,10 @@
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
-    "curious_v11" : {# 09-24
+    "curious_v11" : {# - 09-24
 		"positive" : {
 			"checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up ,",
-			"source_anime":"source_anime,source_cartoon, comics style, 2d, flat color ,",
+			"source_anime":"source_anime, 2d, {flat color ,|}",#{source_cartoon,|} {comics style,|}
 		},
 		"negative" : {
 			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
@@ -199,6 +204,8 @@
         #"steps": 8,
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "skullpony_v30" : {# 
     },
     "mistnaimixPonyPDXL_v10" : {# 
 		"positive" : {

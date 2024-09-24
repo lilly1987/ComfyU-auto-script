@@ -57,12 +57,12 @@
     "ATC_v2_4_64" : {
         #"file_name":"",
         "positive":{
-            "ATC_v2_4_64":" pink medium flat-atcpny plastic chastity cage, ",
+            "ATC_v2_4_64":" { medium |}flat-atcpny plastic chastity cage, ",
         },
         #"negative":{
         #    "char":"",
         #},
-        "strength_model": (0.5,1.0,),
+        "strength_model": (0.5,0.75,),
         "strength_clip": 1,
     },
     "Chastity v3" : {
@@ -73,29 +73,29 @@
         #"negative":{
         #    "char":"",
         #},
-        "strength_model": (0.5,1.0,),
+        "strength_model": (0.5,0.75,),
         "strength_clip": 1,
     },
     "Sissy Chastity" : {
         #"file_name":"",
         "positive":{
-            "Sissy Chastity":"sissy chastity,testicles,1girl, , ",
+            "Sissy Chastity":"sissy chastity,testicles, , ",
         },
         #"negative":{
         #    "char":"",
         #},
-        "strength_model": (0.5,1.0,),
+        "strength_model": (0.5,0.75,),
         "strength_clip": 1,
     },
     "flat chastity cage" : {
         #"file_name":"",
         "positive":{
-            "flat chastity cage":"f1atcag3, chastity ring , cumdrip, leaking cum, precum drip, leaking precum  ",
+            "flat chastity cage":"f1atcag3, chastity ring ,{ cumdrip, leaking cum, precum drip, leaking precum |} ",
         },
         #"negative":{
         #    "char":"",
         #},
-        "strength_model": (0.5,1.0,),
+        "strength_model": (0.5,0.75,),
         "strength_clip": 1,
     },
     "" : {

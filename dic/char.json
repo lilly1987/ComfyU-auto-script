@@ -876,16 +876,16 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "yoshino_yorita-98" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"yorita yoshino, brown hair, brown eyes, long hair , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,0.75)
         #"strength_clip": 1,
     },
     "chloe_pokemon_v1-pdv6" : {
@@ -972,11 +972,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "code-geass-cc-s1-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" cc, c.c., yellow eyes, green hair, long hair, straight hair,, ",
+            "dress":"{straitjacket, white straitjacket, wide sleeves,|shirt, cleavage, white shirt, naked shirt, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1332,11 +1332,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Sun_Seto_-_Seto_no_Hanayome_瀬戸_燦_-_瀬戸の花嫁-000004" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"long hair, light brown hair, medium breasts, (brown eyes: 1.1), , ",
+            "dress":"{ skirt, pleated skirt, serafuku, red skirt, shirt, white shirt, sailor collar, white sailor collar, long sleeves, scarf, red scarf,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1344,7 +1344,7 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "フリーナver2.3-000009" : {
         #"file_name":"",
         "positive":{
             "char":" , ",
@@ -1752,11 +1752,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "BWshauntaltsukishiro" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" shaunshikimital,  purple hair, short hair, bob cut, blunt bangs, purple eyes,",
+            "dress":"{  capelet, purple shirt, elbow gloves, purple skirt, pantyhose, red mary janes,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2052,11 +2052,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Hiyori_Shiina__椎名_ひかり__Classroom_of_the_Elite-000008" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" sexy petite hiyori shiina, long hair, bangs, purple eyes, hair ribbon, grey hair, , ",
+            "dress":"{  skirt, shirt, long sleeves, bow, ribbon, school uniform, jacket, pleated skirt, bowtie, blue bow, blazer, white skirt, red jacket,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2152,12 +2152,12 @@
         #"file_name":"",
         "positive":{
             "char":"handa roco, long hair, grayish-brown hair, light green eyes , ",
-            "dress":"{ , |__dress__},",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "skeletonknight-juliana-s1-ponyxl-lora-nochekaiser" : {
@@ -5902,7 +5902,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "deathmarchtotheparallelworldrhapsody-Mia" : {
@@ -5914,7 +5914,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "deathmarchtotheparallelworldrhapsody-Lulu" : {
@@ -5926,7 +5926,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "deathmarchtotheparallelworldrhapsody-Arisa" : {
@@ -5938,7 +5938,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "deathmarchtotheparallelworldrhapsody-Zena" : {
@@ -5950,7 +5950,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "ProfessedHerselfPupiloftheWiseMan-Pam" : {
@@ -6982,7 +6982,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Agnes_Tachyon-ponyXL" : {
