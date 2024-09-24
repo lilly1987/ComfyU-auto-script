@@ -1,8 +1,8 @@
 {
     "totalMax":1280,
-    "ckptMax":12,
-    "listMax":2,
-    "queue_loop":2,
+    "ckptMax":15,
+    "listMax":3,
+    "queue_loop":3,
     "Path":"SD",
     "Path":"Pony",
     "CheckpointPath":"hosekiLustrousmixPony_v20.safetensors",
@@ -144,7 +144,11 @@
         ".*priscilla_barielle_rezero_Pony_XL.*",
         ".*Anna-S_Rank_Boukensha_de_aru_Ore_no_Musume.*",
         ".*BWshauntaltsukishiro.*",
+        ".*nemo-anemo-ponyxl-lora-nochekaiser.*",
+        ".*ChamTakashimaYakumoPonyXL.*",
+        ".*kohinata_poem_pony_ver1.*",
         ".*Sui_PD6XL.*",
+        ".*rwby_blakebelladonna_ponyXL.*",
         ".*EmiliaLudwell_izo.*",
         ".*NayutaKaniPony.*",
         ".*tokisakikurumi-10.*",
@@ -156,7 +160,16 @@
         ".*ShalltearXL.*",
         ".*Hoseki_BocchiTheRock_Pasan_PDXL_v2.*",
         ".*leen_isekai_smartphone-v2_pdv6.*",
+        ".*PonyxlSekibankiDora_charSekibankiPony.*",
+        ".*bakemonogatari_oshino_ponyXL-000007.*",
+        ".*chisaki-sarashina-s1-ponyxl-lora-nochekaiser.*",
+        ".*MakimaPonyXL-10.*",
+        ".*kiwi-araga-ponyxl-lora-nochekaiser.*",
+        ".*KeiShiroganePonyXL.*",
         ".*MeilingLiXL.*",
+        ".*leen-pony3-005.*",
+        ".*midori-maid_blue archive_PONY_epoch-000020.*",
+        ".*fesakura-pdxl-nvwls-v1.*",
         ".*shiKurumiV2.*",
         ".*mia-xl-04.*",
         ".*Akizuki_Ritsuko.*",
@@ -219,6 +232,15 @@
         #"Edel_PONY_from_Sousou_no_Frieren",
     ],    
     "loras_random":{        
+        "cage":{
+            "per":01.1250,
+            "loras":[
+                {"Chastity v3" : "Chastity v3"},
+                {"Sissy Chastity" : "Sissy Chastity"},
+                {"flat chastity cage" : "flat chastity cage"},
+                {"ATC_v2_4_64" : "ATC_v2_4_64"},
+            ],
+        },
         "my":{
             "per":0.250,
             "loras":[
@@ -360,7 +382,7 @@
             "loras":[
                 {"MS_PDX_Spitroast_Lite" : "MS_PDX_Spitroast_Lite"},
                 {"PR0N3-000010" : "PR0N3-000010"},
-                {"Lesbian_piledriver" : "Lesbian_piledriver"},
+                #{"Lesbian_piledriver" : "Lesbian_piledriver"},
                 {"Mind_Freak" : "Mind_Freak"},
                 {"Sex Voyeur" : "Sex Voyeur"},
                 {"mozo" : "mozo"},
@@ -418,6 +440,12 @@
             "loras":[
                 {"uterus_prolapse_V7" : "uterus_prolapse_V7"},
                 #{"Chloroform v1" : "Chloroform v1"},
+            ],
+        },
+        "boy":{
+            "per":0.1250,
+            "loras":[
+                {"trapsgoonwild02" : "trapsgoonwild02"},
             ],
         },
     },

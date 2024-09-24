@@ -24,6 +24,702 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
+    "Yaguchi_Miu-98" : {
+        #"file_name":"",
+        "positive":{
+            "char":" yaguchi miu, black hair, brown eyes, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Song Yu-ra prefectPonyxl" : {
+        #"file_name":"",
+        "positive":{
+            "char":" long hair, brown eyes, orange hair, orange eyes, brown hair, ",
+            "dress":"{ sleeveless dress, black dress, covered collarbone, fishnets, see-through cleavage, white belt,|white jacket, long sleeves, black crop top, collarbone, cleavage, midriff, navel, white pants |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "hutao" : {
+        #"file_name":"",
+        "positive":{
+            "char":"hu tao , ",
+            "dress":"{official_costume , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "uma_hokko_tarumae_ponyxl" : {
+        #"file_name":"",
+        "positive":{
+            "char":"hokko tarumae \(umamusume\), brown hair, two-tone hair, twin long braids, purple eyes, horse girl, horse ears, ear cover, horse tail, , ",
+            "dress":"{ white headwear, hair bow, striped bow, sailor collar, collarbone, white jacket, half gloves, mismatched gloves, black gloves, white gloves, long sleeves, bowtie, white skirt, white socks, shoes, sneakers| white headwear, hair bow, striped bow, white shirt, blue sweater, neck ribbon, ribbon, long sleeves, pleated skirt, blue skirt, white socks, shoes, blue footwear, sneakers , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "oreimo-meruru-s2-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":" kanao kurusu, brown hair, ribbon, twintails, brown eyes, hair ribbon, ahoge,, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "kudoushinobu_ponyXLV6" : {
+        #"file_name":"",
+        "positive":{
+            "char":"cgkds , ",
+            "dress":"{ brown hair,short hair,blue eyes, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ChamTakashimaYakumoPonyXL" : {
+        #"file_name":"",
+        "positive":{
+            "char":" TakashimaYakumo, light brown hair, purple eyes, long hair, hairclip, ",
+            "dress":"{ TakashimaYakumo, light brown hair, purple eyes, long hair, hairclip, necklace, collared shirt, white shirt, detached sleeves, bare shoulders, high-waist skirt, blue skirt, long skirt, brown pantyhose|TakashimaYakumo, light brown hair, purple eyes, long hair, low ponytail, hair over shoulder, hair flower, necklace, white bikini, strapless bikini, bracelet, armlet, sarong, thighlet|TakashimaYakumo, light brown hair, purple eyes, long hair, headgear, mecha musume, black leotard, elbow gloves, cleavage cutout, shoulder pads, black thighhighs, see-through, covered navel, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Hoseki_BlueArchive_Rio_PDXL_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" rioba, red eyes, ringed eyes, white pupils,very long hair, hairclip, ",
+            "dress":"{ black jacket, id card, white turtleneck, black skirt, thigh holster, pantyhose|white turtleneck, black skirt, thigh holster, pantyhose, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Shirasaka_Koume-91" : {
+        #"file_name":"",
+        "positive":{
+            "char":" shirasaka koume, blonde hair, hair over one eye, short hair, brown eyes, ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
     "JN_Lillie" : {
         #"file_name":"",
         "positive":{
@@ -780,11 +1476,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "evangeline_PDXL-000002" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" evangeline a.k. mcdowell, ",
+            "dress":"{ brown vest, school uniform, plaid skirt|serafuku, black serafuku, sleeveless, red necktie, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -792,11 +1488,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "AgnesTachyonPDXLv6" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" atdef, red eyes, brown hair, ahoge, hair between eyes, short hair, horse ears, single earring, horse tail, ",
+            "dress":"{ white coat, lab coat, sleeves past wrists, sleeves past fingers, black necktie, short necktie, yellow sweater, black shirt, pantyhose, black pantyhose, test tube, white footwear, high heels, high heel boots, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2172,11 +2868,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Histoire_Neptunia_PonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"Histoire \(neptunia)\, blonde hair, blue eyes, long hair, twintails, , ",
+            "dress":"{short dress, hat, necktie, thighhighs, white legwear, fairy wings, footwear, boots, detached sleeves, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2184,11 +2880,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Uni_Neptunia_PonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Uni \(neptunia)\, black hair, red eyes, medium hair, two side up, hair ribbon, small breasts, ",
+            "dress":"{elbow gloves, long slevees, black dress, short dress, collar, bare shoulders, thighhighs , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2196,11 +2892,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Compa_Neptunia_PonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Compa \(neptunia)\, pink hair, pink eyes, long hair, curly hair, bangs,, ",
+            "dress":"{ hairband, heart choker, detached sleeves, bare shoulders, ribbed sweater, sleeves past wrists, plaid skirt, miniskirt, leg warmers, boots, belt,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2208,11 +2904,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "uni_XL-bf16-pony-v1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" uni \(neptunia\), , ",
+            "dress":"{ frilled dress, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2220,11 +2916,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Leander-AzurLane_ponyXL_v10" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" leander, ",
+            "dress":"{ white jacket, white shirt, red skirt, high-waist skirt, white gloves, elbow gloves, fingerless gloves, black thigh highs, garter straps, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2232,11 +2928,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Char-ZZZ-JaneDoe-V1-Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" jane doe \(zenless zone zero\),tail, long hair ",
+            "dress":"{ fingerless gloves, black shorts, cropped jacket, single garter strap, single leg pantyhose, single thighhigh, necktie, platform boots, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2244,35 +2940,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "horiyuuko_ponyXLV6" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"cghryk ,brown hair,ponytail,brown eyes ",
+           # "dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3036,11 +3708,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Kachofugetsu_pony_v01" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Kachofugetsu, blue eyes, purple eyes, red hair, {short hair,|} bob cut, blunt bangs,  toenails,",
+            "dress":"{ bare shoulders,sandals, , (long dress:1.2), |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3172,7 +3844,7 @@
         #"file_name":"",
         "positive":{
             "char":"  sekibanki, red hair, red eyes, blue bow, ",
-            "dress":"{  black shirt, long sleeves, red skirt, two-tone cape,, |__dress__},",
+            "dress":"{  black shirt, long sleeves, red skirt,{ two-tone cape,|}, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3708,11 +4380,35 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Monica_Kruszewski_Pony-000009" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
+            "char":"monica kruszewski, blonde hair, blue eyes, hair ribbon, medium breasts, twintails, ribbon, , ",
             "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "SlimesAmaryllis" : {
+        #"file_name":"",
+        "positive":{
+            "char":" slimes_amaryllis, black hair",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "celeste_izo" : {
+        #"file_name":"",
+        "positive":{
+            "char":"celeste, long hair, black hair, red eyes, , ",
+            "dress":"{ ached sleeves, bridal gauntlets, bare shoulders, collarbone,|long dress, side slit, black thighhighs, high heels,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3828,11 +4524,23 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "sekine-shiori-xl-02" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"sekine shiori , ",
+            "dress":"{white school uniform, lavender skirt, white stockings , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Mifune_Miyu-131" : {
+        #"file_name":"",
+        "positive":{
+            "char":"mifune miyu, brown hair, brown eyes, long hair , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3852,11 +4560,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Souseiseki" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" souseiseki,heterochromia,green eyes,red eyes,brown hair,short hair,, ",
+            "dress":"{top hat,blue dress,long sleeves,frills, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3864,11 +4572,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Sonohara_YuikoV1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" blue eyes,purple hair,long hair, ",
+            "dress":"{  sandals,blue dress,belt,watch, wristwatch, sleeveless dress, jewelry, bracelet,| swimsuit,navel, black bikini,barefoot,cleavage, choker,highleg bikini,|underwear,navel,black bra,black panties,barefoot,side-tie panties,underwear only,cleavage,lace trim,| cleavage cutout, cleavage, chinese clothes,bare shoulders,choker,|towel,barefoot, cleavage,| cleavage,dress, red dress,|long skirt,cleavage, sweater,sandals,collarbone,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3876,11 +4584,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "kushima-kamome-xl-03" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" kushima kamome, ",
+            "dress":"{ black dress with blue shawl, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3888,47 +4596,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Takama_Kozue_2e-4_Compass-JeloXL-000008-sv_fro-0.95-8" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" jelotakes, brown eyes, red hair, hair intakes, bangs, long hair, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3951,20 +4623,20 @@
     "Mita" : {
         #"file_name":"",
         "positive":{
-            "char":" <lora:Mita:0.75>, dark blue eyes, dark blue hair, braids hair,  , ",
+            "char":" dark blue eyes, dark blue hair, braids hair,  , ",
             "dress":"{red hairband, choker, red sweater, blue skirt, hair ornament, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,1.0,)
         #"strength_clip": 1,
     },
     "kohinata_poem_pony_ver1" : {
         #"file_name":"",
         "positive":{
-            "char":" kohinata_poem, brown eyes, brown hair, short hair, hair between eyes, , ",
-            "dress":"{ school uniform, red bowtie, pink jacket, hood, blue skirt, plaid skirt, white thighhighs, zettai ryouiki,, |__dress__},",
+            "char":" kohinata_poem, brown eyes, brown hair, {short hair,|} hair between eyes, , ",
+            "dress":"{ school uniform, red bowtie,{ pink jacket,|}  blue skirt, plaid skirt, white thighhighs, zettai ryouiki,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4032,11 +4704,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Yami_Pony-10" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Konjiki_no_Yami, red_eyes, blonde_hair, hair_intakes, two_side_up, long_hair, small_breasts, hair_ornament",
+            "dress":"{red_eyes, blonde_hair, hair_intakes, two_side_up, long_hair, small_breasts, hair_ornament, black_dress, cleavage_cutout, bare_shoulders, thigh_strap, detached_sleeves , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4140,11 +4812,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "yusakozue_ponyXLV6" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" cgykz, blonde hair,low twintails,green eyes",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4152,11 +4824,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Blanc_Neptunia_PonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Blanc \(neptunia)\, brown hair, blue eyes, short hair, ",
+            "dress":"{ hat, ribbon, long sleeves, wide sleeves, off shoulder, bare shoulders, short dress, coat, fur trim, ankle ribbon,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4164,11 +4836,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "IrisvielVonEinzbernP1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" zzirisviel, white hair, red eyes,, long hair, ",
+            "dress":"{   red shirt, dress shirt, white skirt, pantyhose,| white dress, navel, bare shoulders, detached sleeves, crown, stomach tattoo,| black dress, navel, bare shoulders, detached sleeves, crown, stomach tattoo,|  pantyhose, thighboots, coat, fur hat,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4176,23 +4848,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "IllyasvielVonEinzbern" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "sweetdevilXLPony" : {
-        #"file_name":"",
-        "positive":{
-            #"char":" , ",
-            "dress":"sweetdevil, off shoulder, frilled skirt,layered skirt, garter straps, black thighhighs,butterfly hair ornament,navel,bra,,",
+            "char":" zzIllya, red eyes, white hair,, ",
+            "dress":"{papakha, purple headwear, white scarf, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4236,11 +4896,47 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Emotional_hardcore_XL-bf16-pony-v1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" emotional_hardcore, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "yusa-xl-05" : {
+        #"file_name":"",
+        "positive":{
+            "char":" yusa, ",
+            "dress":"{ angel beats uniform, lavender skirt, black leggings, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "ShirasakaKoume_pony_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":"srskkum, short hair, blonde hair, hair over one eye, brown eyes,  flat chest, small breasts, , ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "kozue" : {
+        #"file_name":"",
+        "positive":{
+            "char":" yusa_kozue, low_twintails, blonde_hair, green_eyes, , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4260,11 +4956,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Holostars - Tsukishita Kaoru v1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"tsukishita kaoru, pink hair, long hair, bow hairband, purple eyes, flat chest , ",
+            "dress":"{white sweater, turtleneck sweater, brown shorts, black jacket, off-shoulder, boots , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4272,11 +4968,12 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "NemuNemu_AutismMxi" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            #"style":" , ",
+            #"char":" , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4284,47 +4981,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Kei_Yuuki_Tales_of_Agriculture___結城蛍_もやしもん__PonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" yuuki_kei,otoko no ko,black eyes,long hair,purple lipstick,, ",
+            "dress":"{headdress,gothic,thighhighs, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4356,35 +5017,23 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Aino_Nagisa-76" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" aino nagisa, long hair, brown hair, ponytail, brown eyes, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "ChamWhiteBurinyanPonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"WhiteBurinyan, animal ears, tail, long hair, braid, twintails, hair ribbon , ",
+            "dress":"{ jirai kei, pink shirt, collared shirt, frills, long sleeves, high-waist skirt, black skirt, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4608,18 +5257,6 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "JanusUniformXLPony" : {
-        #"file_name":"",
-        "positive":{
-            #"char":" , ",
-            "dress":"school uniform,white serafuku,double-breasted,white pantyhose,hat,,",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
     "eunie xl 065" : {
         #"file_name":"",
         "positive":{
@@ -4668,16 +5305,16 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Manabe_Itsuki-101" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" manabe itsuki, brown hair, brown eyes, ponytail, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5040,6 +5677,18 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
+    "Yusa_Kozue-77" : {
+        #"file_name":"",
+        "positive":{
+            "char":"yusa kozue, blonde hair, green eyes, twintails ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,)
+        #"strength_clip": 1,
+    },
     "Takafuji_Kako-127" : {
         #"file_name":"",
         "positive":{
@@ -5049,7 +5698,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "mogador-10 (1)" : {
@@ -5213,18 +5862,6 @@
         "positive":{
             "char":" lucy, short hair, bangs, blue eyes, blue hair, multicolored hair, makeup, multicolored eyes, ",
             #"dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "colorkimonoPony" : {
-        #"file_name":"",
-        "positive":{
-            #"char":" , ",
-            "dress":"Color kimono,",
         },
         #"negative":{
         #    "char":"",
@@ -6468,18 +7105,6 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "Cardcaptor_Sakura_clothing_Lora_cT" : {
-        #"file_name":"",
-        "positive":{
-            #"char":" , ",
-            "dress":"ct_c4ptor,black serafuku, white necktie, white sailor collar, white skirt, mini skirt,white beret,,",
-        },
-        "negative":{
-            "char":"3d, sketch, fat, obese, inflation,",
-        },
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
     "fesakura-pdxl-nvwls-v1" : {
         #"file_name":"",
         "positive":{
@@ -6773,7 +7398,7 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "nonoa-miyamae-s1-ponyxl-lora-nochekaiser" : {        
+    "nonoa-miyamae-s1-ponyxl-lora-nochekaiser" : {#-
         "positive":{
             "char":" nonoa miyamae, blonde hair, short hair, side ponytail, one side up, braid, hair ornament, yellow eyes, ahoge, hair clip, hair intakes,, ",
             "dress":"{ shirt, bow, school uniform, jacket, white shirt, collared shirt, bowtie, red bow, blazer, red bowtie, black skirt, pleated skirt,, |__dress__},",
@@ -7587,17 +8212,6 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "jiangshi_pony_V1.1" : {        
-        "positive":{
-            #"char":"takasaki, long hair, brown hair, brown eyes, ",
-            "dress":"jiangshi, hat, black dress, ofuda, black pantyhose, shoes,",
-        },
-        #"negative":{
-        #    "foot":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
     "Shirley_fennete_Pony.1" : {        
         "positive":{
             "char":"shirley fenette, orange hair, green eyes, half updo, long hair,",
@@ -7908,7 +8522,7 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "Tearlaments Merrli ponyXL v1.1" : {        
+    "Tearlaments Merrli ponyXL v1.1" : { # 09-23
         "positive":{
             "char":"Tearlaments Merrli,",
             #"dress":"{strapless dress, black gloves, black thighhighs,garter straps,|__dress__}",
@@ -7916,7 +8530,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
     "luna_kindred_pony_v10" : {        
@@ -8045,7 +8659,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,0.75)
         #"strength_clip": 1,
     },
     "kagari-xl-13" : {        
@@ -8350,15 +8964,15 @@
         #"strength_model": (0.25,1.0),
         #"strength_clip": (0.25,1.0),
     },
-    "yuzu-hiiragi-ponyxl-lora-nochekaiser" : {        
+    "yuzu-hiiragi-ponyxl-lora-nochekaiser" : { #
         "positive":{
-            "char":"yuzu hiiragi, blue eyes, hair ornament, medium hair, multicolored hair, pink hair, red hair, streaked hair, twintails,",
+            "char":"yuzu hiiragi, blue eyes, hair ornament, medium hair, multicolored hair, pink hair, red hair, streaked hair, {twintails,|}",
             "dress":"{ bare arms, bracelet, collared shirt, jewelry, necktie, pleated skirt, red necktie, red skirt, shirt, skirt, sleeveless, sleeveless shirt, wing collar, two-tone shirt,|__dress__,} ",
         },
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.25,1.0),
+        "strength_model": (0.5,1.0),
         #"strength_clip": (0.25,1.0),
     },
     "sky-striker-ace-raye-ponyxl-lora-nochekaiser" : {        
@@ -9263,6 +9877,7 @@
         #"negative":{
         #    "foot":"",
         #},
+        "strength_model": (0.5,0.75),
         #"strength_model": (0.5,1.0),
         #"strength_clip": (0.5,1.0),
     },
@@ -9749,20 +10364,6 @@
         },
         "strength_model": (0.5,0.75),
     },
-	"witch_Pony_V1.0": {	
-        "positive":{
-            "dress":"jyojifuku, witch, dress, pantyhose,hat, ",
-            #"dress":",",
-        },
-        "strength_model": (0.5,0.7),
-    },
-	"Outfit_soph-RedRidingHood-PDXL": {	
-        "positive":{
-            "dress":"dr3ss, red dress, long dress, capelet, hood, form-fitting, collarbone, cleavage, ",
-            #"dress":",",
-        },
-        #"strength_model": (0.5,0.7),
-    },
 	"TomoyoDaidoujiXL": {	
         "positive":{
             "char":"daidouji tomoyo, black hair, long hair, blunt bangs, hairband, long hair, purple eyes,    ",
@@ -9952,7 +10553,7 @@
             "char":" pale skin, bob cut, empty eyes,  ",
             "dress": " {__dress__|oshinodef,naoetsu high school uniform, pink shirt, turtleneck, black necktie, long sleeves, sleeves past fingers, puffy sleeves, black undershirt, black skirt, pleated skirt, black pantyhose,|oshinodress, black dress, sleeveless dress, turtleneck dress, black gloves, elbow gloves, two-sided skirt, black thighhighs, bare shoulders},",
         },
-        #"strength_model": (0.0,0.75),
+        "strength_model": (0.750,01.0),
         #"strength_clip": (0.50,01.0),
     },
 	"Emilie-pony-Tanger": {	
@@ -10598,14 +11199,6 @@
             "char":"DK_BUNNY,   ",
             #"hair":" ",
             #"dress":"{,|__dress__,}",
-        },
-        #"strength_model": (0.5,1.0),
-    },
-	"hud_dk_mdressXLP": {	
-        "positive":{
-            #"char":"DK_BUNNY,   ",
-            #"hair":" ",
-            "dress":"hud_dk_mdress, see-through white loose fit lace mod dress, short dress, baggy clothes, long sleeves, white hairband, earrings,",
         },
         #"strength_model": (0.5,1.0),
     },
