@@ -110,10 +110,10 @@
         "strength_model": (0.5,0.75,),
         "strength_clip": 1,
     },
-    "" : {
+    "SeeThroughSex" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "SeeThroughSex":" SEE THROUGH SEX, ",
         },
         #"negative":{
         #    "char":"",
@@ -121,10 +121,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "NSFW_1.4" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "NSFW_1.4":"{stiing on dildo|lift up skirt,pantie|woman on top|grab|leg up|group sex,threesome|multiple girl} , ",
         },
         #"negative":{
         #    "char":"",
@@ -209,10 +209,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "One_Leg_Sex__Scissor_Pose__Split_Standing" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "One_Leg_Sex__Scissor_Pose__Split_Standing":" Scissor Standing, hand support, leg grab, ",
         },
         #"negative":{
         #    "char":"",

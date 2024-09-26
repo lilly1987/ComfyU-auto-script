@@ -23,6 +23,30 @@
     },
     "hybridmixSDXL_mod6Mod7Merge050" : {# -
     },
+    "violetbreed_v10" : {# =
+        "positive":{
+            "quality":"newest, masterpiece, best quality, BREAK",
+            "checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, BREAK",
+            #"source_anime":"",
+            #"style":"",
+        },
+        "negative":{
+            #"checkpoint":" zPDXLrl-neg, pony_negativeV2, score_6, score_5, score_4, monochrome, extra legs, extra hands, mutated legs, mutated arms, pubic hair, extra fingers,",
+            #"realistic":",",
+        },
+    },
+    "cosplayserendipitypn_v50Semirealistic" : {# =
+        "positive":{
+            #"checkpoint":"zPDXLrl, score_9, score_8_up, score_7_up, rating explicit, masterpiece, best quality, ultra HD quality details, photo realistic, realistic, hyperrealistic, cinematic lighting:0.32, highly detailed, detailed skin,",
+            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":" zPDXLrl-neg, pony_negativeV2, score_6, score_5, score_4, monochrome, extra legs, extra hands, mutated legs, mutated arms, pubic hair, extra fingers,",
+            "realistic":",",
+        },
+    },
     "sasakiPonySDXL_ponyV05" : {# =
         "positive":{
             #"checkpoint":"zPDXLrl, score_9, score_8_up, score_7_up, rating explicit, masterpiece, best quality, ultra HD quality details, photo realistic, realistic, hyperrealistic, cinematic lighting:0.32, highly detailed, detailed skin,",
