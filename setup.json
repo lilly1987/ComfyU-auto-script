@@ -156,6 +156,7 @@
         ".*Sui_PD6XL.*",
         ".*rwby_blakebelladonna_ponyXL.*",
         ".*EmiliaLudwell_izo.*",
+        ".*Shinmai_Maou_No_Testament-Maria_Naruse-PDXL.*",
         ".*NayutaKaniPony.*",
         ".*tokisakikurumi-10.*",
         ".*rory_mercury-PD-1.0.*",
@@ -382,7 +383,7 @@
             "per":0.1250,
             "loras":[
                 {"Side-by-side_BJ" : "Side-by-side_BJ"},
-                {"hug and suck-v1" : "hug and suck-v1"},
+                #{"hug and suck-v1" : "hug and suck-v1"},
                 #{"BBCDeepthroat" : "BBCDeepthroat"},
                 {"Blowjob" : "Blowjob"},
                 #{"All_the_way_down_to_stomach" : "All_the_way_down_to_stomach"},
@@ -496,5 +497,5 @@
     #"queue_prompt":False,    
     #"print_setup":True,
     #"print_workflow":True,
-    #"debug":True,
+    "debug":True,
 }

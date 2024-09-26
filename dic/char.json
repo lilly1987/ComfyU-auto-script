@@ -216,10 +216,22 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Nitta_Minami-108" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
+            "char":" nitta minami, brown hair, brown eyes, long hair, ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,)
+        #"strength_clip": 1,
+    },
+    "li you" : {
+        #"file_name":"",
+        "positive":{
+            "char":" LI YOU, ",
             "dress":"{ , |__dress__},",
         },
         #"negative":{
@@ -228,23 +240,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Lv" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"LV_\(KALPA_OF_UNIVERSE\) , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -517,11 +517,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "tokoyami_towa_sdxl_pony" : {
         #"file_name":"",
         "positive":{
             "char":" , ",
-            "dress":"{ , |__dress__},",
+            "dress":"{ towa_base, twintails, two-tone jacket, closed jacket, cropped jacket, off shoulder, black crop top, black short shorts, fishnet thighhighs, single thighhigh, baseball cap, demon tail, piercings|towa_casual, jirai kei, frilled shirt, high-waist skirt, grey cardigan, beret, fake horns, thigh strap, thigh tattoo, ear piercing|towa_white, high ponytail, very long hair, white crop top, white jacket, cleavage, white demon wings, white shorts, short shorts, long sleeves, white gloves, knee pads, piercings|towaschool, low twin braids, black shirt, black skirt, pleated skirt, collared shirt, purple necktie, demon horns, demon wings, demon tail, ear piercing|towa_break, ponytail, two-tone shirt, see-through skirt, navel, fishnet thighhighs, single thighhigh, asymmetrical sleeves, jewelry|towa_newyears, single braid, checkered kimono, japanese clothes, fishnet gloves, purple bow, hair flower, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -529,11 +529,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "anna_yanami_anime_v6-soralz" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" anna yanami, blue hair, medium hair,  blue eyes,  {ponytail, yellow scrunchie|}",
+            "dress":"{ school uniform, white collared shirt, short sleeves, blue bowtie, yellow bowtie, grey pleated skirt, blue kneehighs, brown footwear|winter school uniform, white blazer, white collared shirt, long sleeves, sleeves past wrist, blue bowtie, yellow bowtie, yellow vest, grey pleated skirt, blue kneehighs, white footwear, |__dress__},",
         },
         #"negative":{
         #    "char":"",

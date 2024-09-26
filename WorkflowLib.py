@@ -68,13 +68,16 @@ def workflow_setup(workflow_api,setup):
         del workflow_api["FaceDetailer"]["inputs"]["image"]
         #print(workflow_api)
     #workflow_api["FaceDetailer"]["inputs"].remove(image)
-            
+    
+# SetArrRnd2(setup,linputs,{},"A",(1.0,4.0))
 def SetArrRnd2(setup,d,f,k,v):
     if k in f :
         d[k]=f[k]
+    if k in d :
+        pass
     else:
         d[k]=setup.get(k,v)
-        
+    #print(f"d[{k}]" , d[k])
     r=SetArrRnd(d,k,v)    
     if r is None: 
         d.set(k,v)
@@ -90,8 +93,6 @@ def workflow_Loras(workflow_api,setup):
     
     LoraLoader=workflow_api["LoraLoader"]
     linputs=LoraLoader["inputs"]
-    SetArrRnd2(setup,linputs,{},"A",(1.0,4.0))
-    SetArrRnd2(setup,linputs,{},"B",(1.0,2.0))
     fname="CheckpointLoaderSimple"
     
     for k, v in LorasDic.items():
@@ -122,6 +123,8 @@ def workflow_Loras(workflow_api,setup):
         fname=name
         #print("inputs",inputs)
         
+    SetArrRnd2(setup,linputs,{},"A",(1.0,4.0))
+    SetArrRnd2(setup,linputs,{},"B",(1.0,2.0))
     #print("LoraLoader",LoraLoader)
     
 def workflow_Wildcard(workflow_api,setup):
