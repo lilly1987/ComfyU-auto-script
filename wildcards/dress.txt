@@ -1,1 +1,25 @@
-{0-3$$ $$ China|evening|maid|Japanese|kimono|lolita|princess|wedding|sweater|bride|collared|victorian|witch|gothic|school|sailor|pleated|santa|sweater|blazer|uniform} {dress|fashion}, {{long |}{puffy |}sleeves,|} {frills,|} {corset,|} {coat,|} { {garter straps,|} {thighs,|thighhighs,|loose socks,} | }
+{0-3$$ $$ China|evening|maid|Japanese|kimono|lolita|princess|wedding|bride|collared|victorian|witch|gothic|school|sailor|pleated|santa|sweater|blazer} {dress|fashion|uniform}, {{long |}{puffy |}sleeves,|} {frills,frilled dress,|} {corset,|} {coat,|} { {garter straps,|} {thighs,|thighhighs,|loose socks,} | }
+China dress
+evening dress
+maid
+Japanese fashion
+kimono
+lolita fashion
+princess dress
+wedding dress
+sweater dress
+bride dress
+collared
+victorian dress
+witch
+gothic fashion
+school uniform
+sailor uniform
+pleated
+santa uniform
+blazer
+uniform
+frills fashion
+coat
+jacket fashion
+frilled dress,
