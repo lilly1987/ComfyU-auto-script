@@ -198,10 +198,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "size_difference-000006" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "size_difference":"stomach bulge,absurd stomach bulge,size difference,hangin on penis,{giant man,|} {{vaginal|anal} penetration,|} , ",
         },
         #"negative":{
         #    "char":"",
@@ -2311,7 +2311,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.25,0.5,)
         #"strength_clip": 1,
     },
     "pussybursterXVer001" : {        

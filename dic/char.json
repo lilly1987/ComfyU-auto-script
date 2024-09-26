@@ -2305,11 +2305,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "stussy_xl" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"stussyop ,short hair,blonde hair,blue eyes ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2317,11 +2317,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Pony_Seras_Ashrain__Failure_Frame_ハズレ枠" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" seras_ashrain,  pointy ears, blonde hair, blue eyes, elf,  long hair, bangs, , ",
+            "dress":"{ tiara,  cleavage, navel, gloves,  black gloves, fingerless gloves, elbow gloves, cape, gauntlets, armor, thighhighs, pelvic curtain, boots,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2329,11 +2329,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Seras Ashrain-PonyXL-lora-Faxtron" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" seras ashrain, blue eyes, blonde hair, long hair, pointy ears,  , ",
+            "dress":"{ red dress, long sleeves, black cape, white gloves, hair ornament, white thighhighs, cleavage,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2341,11 +2341,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Pony-XL-SerasAshrain" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" seras_ashrain,, blonde hair, long hair, blue eyes, blunt bang, anime coloring, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2353,11 +2353,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Kanao Tsuyuri - Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" black hair, side ponytail, blunt bangs, butterfly hair ornament, hair ornament, purple eyes, , ",
+            "dress":"{purple jacket, long sleeves, purple skirt, white belt, white cape , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2365,11 +2365,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Kallens_Mother-Code_Geass" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" km,brown hair,blue eyes,long hair,, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2377,11 +2377,23 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Nonomura_Sora-105" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
+            "char":" nonomura sora, long hair, green eyes, black hair, ",
             "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,)
+        #"strength_clip": 1,
+    },
+    "Dragon_King_Sharun_from_Epic_Seven" : {
+        #"file_name":"",
+        "positive":{
+            "char":" dk_sharun, ",
+           # "dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2389,11 +2401,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "TMLH_SY_v1.1_pony-000042" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"MLH_SY ,constricted pupils,grey hair,ahoge,long hair,hair between eyes,brown eyes, ",
+            "dress":"{ pink bow,purple bow,clothes around waist,white shirt,collared shirt,pleated skirt,black socks,grey skirt,breasts,uwabaki,|white high heels,pink nurse cap,torn white thighhighs,pink shirt,breasts,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2401,11 +2413,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "PONY_Angelica" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" angelica, green eyes, brown hair, hair ribbon,  ",
+            "dress":"{ collarbone, denim jacket, pink dress, pink boots,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2413,11 +2425,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Sakurajima_Pony-10" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Sakurajima_Mai, purple_eyes, black_hair, long_hair, medium_breasts, hair_clip, rabbit_hair_ornament",
+            "dress":"{school_uniform, red_necktie, brown_jacket, blazer, collared_shirt, pleated_skirt, blue_skirt, black_pantyhose , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2425,35 +2437,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Rio_Futaba_-_Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" rio futaba,lab,brown hair,brown eyes,long hair, ",
+            "dress":"{ necktie,school uniform,labcoat,red necktie,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2533,11 +2521,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Futaba_Pony-10" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Futaba_Rio, brown_eyes, grey_hair, long_hair,",
+            "dress":"{  rimless_eyewear, red_necktie, labcoat, school_uniform, collared_shirt, brown_vest, pleated_skirt, blue_skirt, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8553,7 +8541,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "zs_TaoXL" : {        
