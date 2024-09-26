@@ -21,6 +21,18 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
+    "slime sex_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            "slime sex_pony_V1.0":" slime sex,slime ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
     "transparent_tube-000007" : {
         #"file_name":"",
         "positive":{
@@ -208,10 +220,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "HDA_GoblinGangbangXL" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "HDA_GoblinGangbangXL":" HDA_GoblinGangbangXL, ",
         },
         #"negative":{
         #    "char":"",

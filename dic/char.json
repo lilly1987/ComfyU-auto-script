@@ -12,18 +12,6 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,)
-        #"strength_clip": 1,
-    },
     "Yaguchi_Miu-98" : {
         #"file_name":"",
         "positive":{
@@ -108,11 +96,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "cuique-pony_v2-000008" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" cuique, ,blue eyes, hime cut, blue hair, swept bangs,",
+            "dress":"{ cornflower,brooch,lace choker,blue capeletjitome,blue dress,bonnet,sapphire,flustered,white pantyhose,maryjanes,long dress, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -120,11 +108,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "LithiaBeryl-10" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"lithia ,hair between eyes, ",
+            "dress":"{bare shoulders, shirt, hair ornament, thighhighs, gloves, navel,collarbone, jacket, shorts, sleeveless, choker, black gloves, hairclip, midriff, belt, black thighhighs, fingerless gloves, necklace, off shoulder,coat, crop top,black shirt, short shorts, sleeveless shirt, one side up, black choker, tank top, x hair ornament, single thighhigh, white shorts, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -132,11 +120,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Annette_Isekai_Shikkaku_PONY_XL_by_UOC" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" 4nnette, Annette Isekai Shikkaku,Annette \(Isekai Shikkaku\),, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -372,11 +360,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Fuwahatsuko" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" long hair, blue hair,aqua eyes,   bangs,, ",
+            "dress":"{ blue jacket,  ascot, skirt suit, pencil skirt, long skirt,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -456,11 +444,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "mirabilis fehPonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"mirabilis feh,low-tied long hair, ",
+            "dress":"{detached sleeves,capelet,sleeveless dress,pantyhose,boots, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -468,11 +456,11 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "1007 Chinese wedding dress_v1_pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            #"char":" , ",
+            "dress":"ruanyi1007,bare shoulders,detached sleeves,red dress,floral print,strapless dress,,",
         },
         #"negative":{
         #    "char":"",
@@ -480,23 +468,24 @@
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "ColoredContactLenses_pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" ((score_9, realistic)), ((fair skin)), ((skinny)), a pretty woman, kpop, jpop, idol, top model, , ",
+            "dress":"{high neck, multicolored dress, sleeves dress, hair ornament,, |__dress__},",
+            "source_anime":"",
         },
-        #"negative":{
-        #    "char":"",
-        #},
+        "negative":{
+            "realistic":"",
+        },
         #"strength_model": (0.75,1.0,)
         #"strength_clip": 1,
     },
-    "" : {
+    "fireflyPDXL_scarxzys" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"firefly, blue eyes, pink eyes, gradient eyes, grey hair, long hair, black hairband, hair ornament , ",
+            "dress":"{ brown capelet, frilled collar, white shirt, long sleeves, white sleeves, green skirt, gradient thighhighs, black thighhighs, orange neckerchief, frills, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -5260,8 +5249,8 @@
     "eunie xl 065" : {
         #"file_name":"",
         "positive":{
-            "char":"eunie, medium hair, blue eyes, head wings , ",
-            "dress":"{ casual, leather jacket, black bodysuit, belt, sneakers, open hoodie, black choker, jacket buttons|swimwear, sarong, blue bikini bottom, halterneck top, sandals, thigh strap, white choker, power frame, flower ornament|cosplay, thigh boots, suspender skirt, ribbed shirt, elbow gloves, |__dress__},",
+            "char":"eunie, {medium hair,|} blue eyes, head wings , ",
+            "dress":"{ casual, leather jacket, belt, sneakers, open hoodie, black choker, jacket buttons|swimwear, sarong, blue bikini bottom, halterneck top, sandals, thigh strap, white choker, power frame, flower ornament|cosplay, thigh boots, suspender skirt, ribbed shirt, elbow gloves, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -7499,7 +7488,7 @@
     },
     "KaguraPDCAMEq1v1.1 GBF" : {        
         "positive":{
-            "char":"red eyes, grey hair, very long hair, low-tied long hair, rabbit ears, braided sidelocks, hair tassel, hair ornaments , ",
+            "char":"red eyes, grey hair, very long hair, low-tied long hair, {rabbit ears,|} braided sidelocks, hair tassel, hair ornaments , ",
             "dress":"{ sleveless, red kimono, tassels, shoulder strap, detached wide sleeves, frilled sleeves, see-through floating shawl, yellow sash, belt bow, navel cutout, long white skirt, overskirt, tabi, sandals , |__dress__},",
         },
         #"negative":{
