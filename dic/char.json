@@ -3337,8 +3337,8 @@
     "" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" anna kushina,   long hair, dress, white hair, red eyes,  ",
+            "dress":"{ hat, bow, frills, capelet, ribbon, red dress, mini hat, shoes, red footwear, red headwear, white pantyhose, hair ribbon,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
