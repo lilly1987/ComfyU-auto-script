@@ -1281,11 +1281,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Kotozume_YukariV1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"Kotozume Yukari, purple hair, long hair, purple eyes, red earrings, , ",
+            "dress":"{white dress, short sleeves, collarbone|school uniform, brown jacket, double breasted, brown skirt, purple bowtie, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1293,11 +1293,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "kahilitsukishiro" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" kahiligolf, blue hair, long hair, flipped hair, swept bangs, blue eyes, ",
+            "dress":"{  brown jacket, plaid jacket, long sleeves, white shirt, collarbone, open clothes, blue skirt,  |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1305,11 +1305,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "HuoHuoV2-03-Khan" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" HuoHuo, green hair, long hair, green eyes, animal ears, ghostly blue tail, tail,, ",
+            "dress":"{ bare shoulders, puffy long sleeves, wide sleeves, white sleeves, dark green coat, off-shoulder coat, blue headwear. hat, red tassel, neck ribbon, red ribbon, collared shirt, white shirt, hair ornament, chinese clothes, two-tone shirt, dress, green shirt, sleeveless shirt,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1317,11 +1317,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "[杏行为] Artist Style PonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            #"char":" , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1329,11 +1329,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "noshiro" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"oni,noshiro,small breasts,black hair,slender,long hair,hair ornament, , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1341,11 +1341,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "elfin" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"  green eyes, pointy ears, multicolored hair,, ",
+            "dress":"{ shirt,bar legs, braid,black thighhighs,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1353,11 +1353,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "EmotoYuzunaPDCAMEq1v1 HoukagonoWitch" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"green eyes, blonde hair, two side up, hair ribbon, hairclip,  ",
+            "dress":"{ red bowtie, white shirt, uniform, black cape, long sleeves, lace-trimmed skirt, striped, black thighhighs, sneakers ,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6695,11 +6695,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "ORAS_Lisiatsukishiro" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" luistia, idol, green hair, aqua hair, long hair, asymmetrical hair, green eyes,",
+            "dress":"{   white jacket, pink shirt, jeans skirt,  |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6707,11 +6707,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Yellow_Pokemon_PDXL_v2" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" zzYellow, brown eyes, blonde hair, long hair, ponytail, bangs, ",
+            "dress":"{ orange tunic, brown belt, pants, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6719,11 +6719,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Eru_Chitanda_-_Hyouka" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" eru chitanda,long hair,serafuku,bangs, ",
+            "dress":"{ ,school uniform,kamiyama high school uniform \(hyouka\), |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6731,11 +6731,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "arcueid_brunestudPDXL_scarxzys" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" arcueid, red eyes, blonde hair, short hair, ahoge, ",
+            "dress":"{ white sweater, turtleneck, long sleeves, cross necklace, blue skirt, pleated skirt, black pantyhose, miniskirt, brown footwear, boots, |__dress__},",
         },
         #"negative":{
         #    "char":"",
