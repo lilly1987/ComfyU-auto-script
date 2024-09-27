@@ -240,6 +240,7 @@
     ],    
     "loras_random":{        
         "cage":{
+            "per":0.750,
             "per":0.1250,
             "loras":[
                 {"Chastity v3" : "Chastity v3"},
@@ -495,6 +496,6 @@
     #"queue_prompt_wait":False,    
     #"queue_prompt":False,    
     #"print_setup":True,
-    #"print_workflow":True,
+    "print_workflow":True,
     #"debug":True,
 }
