@@ -1,5 +1,5 @@
 {
-    "totalMax":1500000,
+    "totalMax":100000000,
     "ckptMax":15,
     "listMax":3,
     "queue_loop":3,
@@ -496,6 +496,6 @@
     #"queue_prompt_wait":False,    
     #"queue_prompt":False,    
     #"print_setup":True,
-    "print_workflow":True,
+    #"print_workflow":True,
     #"debug":True,
 }

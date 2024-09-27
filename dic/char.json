@@ -3334,18 +3334,6 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" anna kushina,   long hair, dress, white hair, red eyes,  ",
-            "dress":"{ hat, bow, frills, capelet, ribbon, red dress, mini hat, shoes, red footwear, red headwear, white pantyhose, hair ribbon,, |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,)
-        #"strength_clip": 1,
-    },
     "Luna_tsukuyomi_pony_xl" : {
         #"file_name":"",
         "positive":{
@@ -3358,11 +3346,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "vampire_fraulein_XL_pony_v1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" vampire fraulein, ",
+            "dress":"{  gothic fusion, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3406,11 +3394,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Zombie(Bubble Planet)-Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Zombie, ahoge,medium hair,green hair,hair between eyes,parted bangs,green eyes,bright pupils",
+            "dress":"{ aqua shirt,cropped shirt,long sleeves,sleeves past wrists,medium breasts,navel,denim shorts,blue shorts,short shorts,bandaid on knee,black socks,sneakers,white footwear, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3790,11 +3778,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "hareru-asagiri-s1-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"hareru asagiri, short hair, bangs, black hair, hair ornament, brown eyes, hairclip, food-themed hair ornament, fried egg, egg hair ornament, medium breasts , ",
+            "dress":"{ skirt, shirt, school uniform, collarbone, white shirt, short sleeves, pleated skirt, serafuku, black skirt, sailor collar, neckerchief, red neckerchief, black sailor collar,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3802,11 +3790,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "hareru-asagiri-s1-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" hareru asagiri, short hair, bangs, black hair, hair ornament, brown eyes, hairclip, food-themed hair ornament, fried egg, egg hair ornament, medium breasts, ",
+            "dress":"{ skirt, shirt, school uniform, collarbone, white shirt, short sleeves, pleated skirt, serafuku, black skirt, sailor collar, neckerchief, red neckerchief, black sailor collar,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3814,11 +3802,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "seirei_gensouki_-_ sayo" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" sayo, long_hair, braid, flower, hair_ornament, hair_flower,  purple_hair, brown_eyes, twin_braids, black_hair, ",
+            "dress":"{ japanese_clothes, kimono, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3826,11 +3814,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "ramonu_240924_prodigy" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" ramonu, black hair, streaked hair, purple eyes, braid, hair ornament, ",
+            "dress":"{ shobufuku, garter straps, white shirt, black skirt, gloves, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3838,10 +3826,10 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "sajuna" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
+        "char":" inui sajuna,{two side up|one side up|side ponytail} long hair, ",
             "dress":"{ , |__dress__},",
         },
         #"negative":{
@@ -4714,11 +4702,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Kallen_Imayoh-03" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Kallen, white hair, long hair, braided ponytail, blue eyes,, ",
+            "dress":"{ Kas_Def, black leotard, white armor, black panties, black thighhighs, single thighhigh, detached sleeves, bare shoulders, pelvic curtain, goggles around neck, hairclip, turtleneck, red sleeves, cross print, grey cross, red wrist cuffs, black sleeve, red trim, red gloves, single glove, thigh strap, thigh pouch,|Kas_Alt, black leotard, white armor, black panties, black thighhighs, single thighhigh, detached sleeves, bare shoulders, pelvic curtain, goggles around neck, hairclip, turtleneck, cross print, green cross, black wrist cuffs, black sleeves, green trim, black gloves, single glove, thigh strap, thigh pouch,|Kas_SF, cat ears, yellow belt, jacket, black jacket, short sleeves, yellow sleeves, long gloves, jewelry, high collar, clothing writing, jewelry, black leggings, bodysuit,|Kas_Hymn, red dress, white corset, dress, frilled skirt, frilled dress, halterneck, criss-cross halter, cross, jewelry, cleavage, detached sleeves, white sleeves, long sleeves, red bra, white thighhighs, x thigh strap, hair ornament, veil,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4774,11 +4762,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Kallen_Sundenjager-03" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Kallen, white hair, long hair, braided ponytail, blue eyes,, ",
+            "dress":"{ Kal_Def, hair ornament, cross earrings, off-shoulder jacket, red inner jacket, red strap, black jacket, long sleeves, black gloves, chest strap, shoulder straps, blue bra, see-through, white dress, pleated dress, short dress, strap dress, see-through skirt, black shorts, short shorts, white thighhighs, thigh pouch, necklace, black choker, cleavage,|Kal_Hal, halloween costume, strapless dress, orange dress, black dress, frilled skirt, layered skirt, jewelry, detached collar, witch hat, earrings, bracelet, orange gloves, single glove, cleavage, |Kal_Mng, alt dress, white dress, cleavage cutout, gold trim, pleated skirt, black skirt, alt skirt, juliet sleeves, wide sleeves, white sleeves, long sleeves, white collar, white footwear, thigh boots,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4786,11 +4774,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "sppriconneYukariponyXL-000009" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            #"char":" , ",
+            "dress":"{ yukaridef, hat, cross earrings, blue dress, orange ascot, white shirt, white gloves|yukarisu, white headwear, swimsuit, striped bikini, shirt, open clothes, skirt|yukariadv, cleavage, fur trim, white jacket, white top, navel, black gloves, denim shorts, short shorts, belt, black thighhighs, single thighhigh, thigh strap, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4810,11 +4798,95 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Mizumoto_Yukari-131" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" mizumoto yukari, brown hair, brown eyes, long hair, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.6,0.8,)
+        #"strength_clip": 1,
+    },
+    "yuzuki_yukari_XL-pony-v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":"yuzuki yukari , ",
+            "dress":"{short dress,|long dress|street fashion|casual|serafuku |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,)
+        #"strength_clip": 1,
+    },
+    "charlotte_Ulysses_ponyxl_v1_char" : {
+        #"file_name":"",
+        "positive":{
+            "char":" charlotte_olis, 1girl, brown hair, side drill, purple eyes, ",
+            "dress":"{ gown, blue choker, armband, elbow gloves, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,)
+        #"strength_clip": 1,
+    },
+    "kancolle-u-511-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":" u-511, blonde hair, long hair, pale skin, blue eyes,, ",
+            "dress":"{ garrison cap, hair ornament, hat, jacket, military, military uniform, open clothes, open jacket, puffy sleeves, thighhighs,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,)
+        #"strength_clip": 1,
+    },
+    "Utsuho_Reiuji-ponyXL" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Utsuho, very long hair, bangs, black hair, hair between eyes, red eyes, third eye, hair bow,, ",
+            "dress":"{  white shirt, short sleeves, frills, puffy sleeves, belt, miniskirt, green skirt, black thighhighs, black footwear, single shoe, white cape, starry sky print, feathered , black wings, arm cannon,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,)
+        #"strength_clip": 1,
+    },
+    "Tiki_FE_XL" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Tiki, pointy ears, long hair, green hair, {ponytail,| } {green|red} eyes, flat chest, hair ribbon, very long hair, short stack,, ",
+            "dress":"{brown  holding, long sleeves, dark aura, stone, short stack,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,)
+        #"strength_clip": 1,
+    },
+    "Hayami_Ayumi_Ver2.0_XL" : {
+        #"file_name":"",
+        "positive":{
+            "char":" HayamiAyumi, brown hair, brown eyes, long hair,  flat chest,Yellow camisole, underwear, socks, blue panties, red ribbon,, ",
+            "dress":"{ Yellow camisole, underwear, socks, blue panties, red ribbon,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,)
+        #"strength_clip": 1,
+    },
+    "senren_banka-murasame-ponyxl" : {
+        #"file_name":"",
+        "positive":{
+            "char":" murasame,yuzu-soft,green_hair,very_long_hair,red_eyes,sidelocks,blunt_bangs,blunt_ends,hime_cut,flat_chest,, ",
+            "dress":"{ murasame_school_uniform,school_uniform,two_side_up,low-tied_long_hair,hair_bow,blue_bow,white_ribbon,white_sailor_collar,blue_jacket,cropped_jacket,detached_sleeves,red_ribbon,shirt,white_shirt,long_sleeves,skirt,blue_skirt,frilled_skirt,black_socks,ankle_socks,shoes,yellow_footwear,footwear_bow,|murasame_katana_clothing,katana_clothing,two_side_up,straight_hair,butterfly_hair_ornament,hair_ribbon,halterneck,criss-cross_halter,bare_shoulders,japanese_clothes,black_kimono,short_kimono,long_sleeves,wide_sleeves,sleeves_past_wrists,detached_sleeves,pom_pom_\(clothes\),sash,red_sash,skirt,miniskirt,sandals,cross-laced_footwear,|murasame_casual,casual,ponytail,hair_bow,purple_bow,japanese_clothes,kimono,short_kimono,long_sleeves,wide_sleeves,sleeves_past_wrists,yellow_sash,yellow_bow,white_kimono,pink_kimono,argyle_clothes,argyle_legwear,zettai_ryouiki,thighhighs,white_thighhighs,frilled_thighhighs,lace_trim,shoes,mary_janes,red_footwear,|murasame_pajamas,pajamas,straight_hair,japanese_clothes,yukata,kimono,blue_kimono,long_sleeves,wide_sleeves,print_kimono,floral_print,sash,pink_bow,barefoot,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4834,11 +4906,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "hsr-tingyun-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"tingyun, black hair, fox girl, fox tail, fox, fox ears, green eyes, kitsune, large breasts, animal ears, ponytail, , ",
+            "dress":"{ bracelet, cleavage, detached collar, detached sleeves, jewelry, revealing clothes, bare shoulders,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4846,11 +4918,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "arknights-mudrock-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" mudrock, hair flower, flower, red eyes, white hair, long hair, large breasts, pointy ears, hair ornament, horns,, ",
+            "dress":"{ black dress, dress, earrings, jewelry, necklace, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4858,11 +4930,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "azurlane-amagi-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"amagi, animal ear fluff, animal ears, brown hair, fox ears, fox girl, fox tail, kitsune, purple eyes, very long hair, large breasts, , ",
+            "dress":"{ bare shoulders, bikini, black choker, choker, cleavage, detached sleeves, hair ornament, makeup, obi, revealing clothes, see-through clothes, sash, string bikini, swimsuit, thigh strap, white bikini,|animal print, bridal gauntlets, choker, coat, gloves, japanese clothes, kimono, obi, purple kimono, red coat, sash, wide sleeves,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4870,95 +4942,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "reverse1999-sonetto-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,)
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"sonetto, green eyes, long hair, orange hair, two side up, very long hair, braid , ",
+            "dress":"{ black bow, bow, checkered hairband, dress, gloves, grey jacket, jacket, long sleeves, pants, pants under dress, puffy long sleeves, puffy sleeves, white dress, white gloves, white pants,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6755,11 +6743,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Le_Temeraire-03" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"LeTem, blonde hair, green eyes, very long hair, twintails, low twintails, , ",
+            "dress":"{ Rai_Def, red ribbon, blue corset, underbust, cross-laced clothes, white bra, frilled capelet, blue capelet, black choker, cross choker, blue gloves, frilled gloves, white skirt, garter straps, white thighhighs, frilled thighhighs, frills, cross earrings,|Rai_Swimsuit, drill hair, blue bikini, halterneck, red bow, two-tone bow, blue bow, hair bow, swimsuit skirt, midriff, ribbed skirt, blue skirt, cleavage, panty strap, frilled bikini, frills, frilled armband, thigh strap,|Rai_Paj, twin braids, purple shorts, short shorts, fur trim, fur-trimmed shorts, white thigh strap, pink bow, pink ribbon, sleep mask, sleeping mask, cross choker, cleavage, pajamas, striped hoodie, bra strap, white shirt, frilled shirt,|Rai_Muse, twin braids, black sash, black bow, black ribbon, twin braids, hair ribbon, white pantyhose, frilled skirt, white skirt, blue skirt, white dress, strapless dress, black choker, detached sleeves, puffy short sleeves, frilled sleeves, blue sleeves, white gloves, frilled gloves,|Rai_Cheer, twin braids, pleated skirt, red skirt, high-waist skirt, side cutout, crop top, white shirt, sleeveless shirt, white thighhighs, criss-cross halter, halterneck,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6767,11 +6755,11 @@
         #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Kallen_6S-03" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Kallen, white hair, long hair, braided ponytail, blue eyes, , ",
+            "dress":"{ Kal_Def, long sleeves, frilled necktie, white shirt, black vest, white skirt, pleated skirt, mask, mask on head, purple pantyhose, thigh strap, purple gloves, bare shoulders, black sleeves, ribbon, purple rose,|Kal_JP, long sleeves, japanese clothes, military hat, black hat, black gloves, fur on shoulder, pleated skirt, wide sleeves, black skirt, black bow, armor, choker, belt, jacket,|Kal_Nun, long sleeves, nun, veil, black dress, thigh straps, black footwear, thigh boots, pelvic curtain, white gloves,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
