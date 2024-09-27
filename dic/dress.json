@@ -1,0 +1,179 @@
+{
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "hutaoclo" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"taoclo,shorts,long sleeves,black shorts,short shorts,chinese clothes,shirt,wide sleeves,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "jirai kei_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char": "",
+            "dress":"jirai kei ,pink shirt ,black skirt,thighhighs,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "crinoline_pony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"crinoline skirt,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "off shoulder sweater_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"off-shoulder sweater,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+	"hud_dk_mdressXLP": {	
+        "positive":{
+            #"char":"DK_BUNNY,   ",
+            #"hair":" ",
+            "dress":"hud_dk_mdress, see-through white loose fit lace mod dress, short dress, baggy clothes, long sleeves, white hairband, earrings,",
+        },
+        #"strength_model": (0.5,1.0),
+    },
+	"Outfit_soph-RedRidingHood-PDXL": {	
+        "positive":{
+            "dress":"dr3ss, red dress, long dress, capelet, hood, form-fitting, collarbone, cleavage, ",
+            #"dress":",",
+        },
+        #"strength_model": (0.5,0.7),
+    },
+	"witch_Pony_V1.0": {	
+        "positive":{
+            "dress":"jyojifuku, witch, dress, pantyhose,hat, ",
+            #"dress":",",
+        },
+        "strength_model": (0.5,0.7),
+    },
+    "jiangshi_pony_V1.1" : {        
+        "positive":{
+            #"char":"takasaki, long hair, brown hair, brown eyes, ",
+            "dress":"jiangshi, hat, black dress, ofuda, black pantyhose, shoes,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "Cardcaptor_Sakura_clothing_Lora_cT" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"ct_c4ptor,black serafuku, white necktie, white sailor collar, white skirt, mini skirt,white beret,,",
+        },
+        "negative":{
+            "char":"3d, sketch, fat, obese, inflation,",
+        },
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "girllikeslytherin_pony05" : {
+        #"file_name":"",
+        "positive":{
+            #"char":"  , ",
+            "dress":"{ slytherin, avada kedavra, green light, holding wand, magic, wide sleeves, striped necktie, sweater, pleated skirt, thighhighs, robe, wind, table, window, hogwarts school uniform, cute, medium tits, sweat, shy, blush, parted lips,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "colorkimonoPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"Color kimono,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "JanusUniformXLPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"school uniform,white serafuku,double-breasted,white pantyhose,hat,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "sweetdevilXLPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"sweetdevil, off shoulder, frilled skirt,layered skirt, garter straps, black thighhighs,butterfly hair ornament,navel,bra,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+}

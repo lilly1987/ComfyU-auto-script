@@ -1,8 +1,9 @@
 {
     "hosekiLustrousmixPony_v20" : {        
         "positive":{
-            "quality":"score_9, score_7_up, source_anime, ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            "quality":" ",
+            "checkpoint":" score_9, score_7_up, ,",
+            "source_anime":"source_anime,",
         },
         "negative":{
             "quality":"monochrome, greyscale",
@@ -23,10 +24,149 @@
     },
     "hybridmixSDXL_mod6Mod7Merge050" : {# -
     },
+    "violetbreed_v10" : {# =
+        "positive":{
+            "quality":"newest, masterpiece, best quality, BREAK",
+            "checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, BREAK",
+            #"source_anime":"",
+            #"style":"",
+        },
+        "negative":{
+            #"checkpoint":"  ",
+            #"realistic":",",
+        },
+    },
+    "pianomix_v11" : {# =
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":"  ,",
+            "realistic":",",
+        },
+    },
+    "remilftoon_v10" : {# =
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":"  ,",
+            "realistic":",",
+        },
+    },
+    "cosplayserendipitypn_v50Semirealistic" : {# =
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":" ,",
+            "realistic":",",
+        },
+    },
+    "matrixClassic_v11A" : {# =
+        "positive":{
+            "checkpoint":" score_6, score_5, score_4, 3d,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":" ,",
+            #"realistic":",",
+        },
+    },
+    "xeFigurePony_01" : {# =
+        "positive":{
+            #"checkpoint":" ",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            "checkpoint":"score_4, score_3, loli, simple background, white background, text, logo, watermark, mosaic, censor",
+            "realistic":",",
+        },
+    },
+    "momoiropony_v15" : {# =
+        "positive":{
+            "checkpoint":" score_9, score_8_up, score_7_up, source_anime,,",
+            #"dress":" ,",
+            #"source_anime":"",
+            #"style":"",
+        },
+        "negative":{
+            #"checkpoint":" ,",
+            "realistic":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils, abs,",
+        },
+    },
+    "sasakiPonySDXL_ponyV05" : {# =
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":" ,",
+            "realistic":",",
+        },
+    },
+    "hardcoreAsianCosplay_ponyV11" : {# =
+        "positive":{
+            #"checkpoint":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            "checkpoint":"score_4,score_3,score_2,score_1,",
+            "ugly":"ugly, blurry,,",
+            "cartoon":"cgi, illustration, cartoon,,",
+            "realistic":",",
+        },
+    },
+    "sphCosplayrealisticPONY_v21EnergeticFix" : {# =
+        "positive":{
+            "checkpoint":"zPDXLrl, score_9, score_8_up, score_7_up, rating explicit, masterpiece, best quality, ultra HD quality details, photo realistic, realistic, hyperrealistic, cinematic lighting:0.32, highly detailed, detailed skin,",
+            #"checkpoint":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            "checkpoint":" zPDXLrl-neg, pony_negativeV2, score_6, score_5, score_4, monochrome, extra legs, extra hands, mutated legs, mutated arms, pubic hair, extra fingers,",
+            "realistic":",",
+        },
+    },
+    "athAnyamixPDXL_v10" : {# =
+        "positive":{
+            "checkpoint":"score_9,score_8_up,score_7_up,",
+            #"checkpoint":" ,",
+        },
+        "negative":{
+            "checkpoint":"score_4,score_3,score_2,score_1,ugly,bad hands,source_cartoon,lowres,watermark,3d,monochrome,blurry,",
+        },
+        "cfg": (6.0,8),
+    },
+    "uncannyValley_v3Toon" : {# =
+        "positive":{
+            "checkpoint":"{score_9, score_8_up, score_7_up, toon \(style\)|score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, 3d,}",
+            #"checkpoint":" ,",
+        },
+        "negative":{
+            "checkpoint":"score_4, score_3, score_2, score_1",
+        },
+    },
     "mizuiropony_v10" : {# -
         "positive":{
             "checkpoint":"score_9, score_8_up, score_7_up, source_anime,",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             "checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
@@ -35,7 +175,7 @@
     "icatsSarponyx_v10" : {# -
         "positive":{
             "checkpoint":"score_9, score_8_up, score_7_up BREAK ict style,,",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             "3d":"3d, monochrome, watermark,",
@@ -46,10 +186,12 @@
         "positive":{
             "checkpoint":"score_9,score_8_up,score_7_up,score_6_up,score_5_up,score_4_up,",
             "source_anime":"",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            "style":"",
+            #"checkpoint":" ,",
         },
         "negative":{
-            #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
+            #"checkpoint":" ,",
+            "realistic":",",
         },
     },
     "YutaAi_yutaAiV4" : {# -0922
@@ -62,10 +204,10 @@
             "checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,",
             "face":"cute round face,",
             #"source_anime":"",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
-            #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
+            #"checkpoint":" ,",
         },
         "cfg": (7.0,10),
         "sampler_name": ["dpmpp_2m_sde","dpmpp_3m_sde",],
@@ -74,26 +216,27 @@
         "positive":{
             "checkpoint":"score_9,score_8_up,score_7_up,score_6_up,score_5_up,score_4_up,",
             "source_anime":"",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            "style":"",
+            #"checkpoint":" ,",
         },
         "negative":{
-            #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
+            #"checkpoint":" ,",
         },
     },
     "relhCheckpoint_v40" : {# -
         "positive":{
             "checkpoint":"score_9, score_8_up, score_7_up,,",
             #"source_anime":"",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
-            #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils,",
+            #"checkpoint":" ,",
         },
     },
     "perfectnai_v10" : {# -
         "positive":{
             "checkpoint":"score_9, score_8_up, score_7_up, depth of field, natural light, light rays, raytracing, rating: explicit, nsfw,",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             "checkpoint":"score_4, score_5, score_6 score_4, score_3, score_2, score_1, bad feet, bad hands, ugly, deformed, bad quality, amateur drawing, beginner drawing, deformed, bad anatomy, deformed, white background, deformed hands, deformed feet, ugly eyes, ugly tits, watermark, fat, plump, realistic,,",
@@ -102,7 +245,7 @@
     "baseAnimeStylePony_v3" : {# -
         "positive":{
             "checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             #"quality":"monochrome, greyscale",
@@ -133,18 +276,35 @@
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
-    "mistnaimixPonyPDXL_v10" : {# 
+    "curious_v11" : {# - 09-24
 		"positive" : {
-			"checkpoint":"score_9, score_8_up, score_7_up, score_6_up,anime_screencap ,",
+			"checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up ,",
+			"source_anime":"source_anime, 2d, {flat color ,|}",#{source_cartoon,|} {comics style,|}
 		},
 		"negative" : {
-			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+			#"checkpoint":" ,",
+			"realistic":"rsource_anime, realistic, 3d,",
 		},
         #"steps": 8,
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
-    "aaaautismPonyFinetune_aaaReStartV2" : {# -
+    "skullpony_v30" : {# 
+    },
+    "mistnaimixPonyPDXL_v10" : {# 
+		"positive" : {
+			"checkpoint":"score_9, score_8_up, score_7_up, score_6_up,anime_screencap ,",
+		},
+		"negative" : {
+			#"checkpoint":" ,",
+		},
+        #"steps": 8,
+        #"cfg": (1.5,2),
+        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+    },
+    "aaaautismPonyFinetune_aaaReStartV2" : {# --
+        "cfg": (4.5,7),
+        "sampler_name": ["euler_ancestral",],
     },
     "savant_v104" : {# 
 		"negative" : {
@@ -179,7 +339,7 @@
 			#"quality":"smasterpiece, best quality, ",
 		},
 		"negative" : {
-			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+			#"checkpoint":" ,",
 		},
         #"steps": 8,
         #"cfg": (1.5,2),
@@ -198,10 +358,10 @@
     },
     "bemypony_Semianime" : {# 
 		"positive" : {
-			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+			#"checkpoint":" ,",
 		},
 		"negative" : {
-			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+			#"checkpoint":" ,",
 		},
         #"steps": 8,
         #"cfg": (1.5,2),
@@ -209,7 +369,7 @@
     },
     "incursiosMemeDiffusion_v27PDXL" : {# 
 		"positive" : {
-			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+			#"checkpoint":" ,",
 		},
 		"negative" : {
 			"realistic":"realistic,",
@@ -221,11 +381,11 @@
     "xlE4pMix_xlE4pMix" : {# 
 		"positive" : {
 			"quality":"(masterpiece:0.7), (best quality:1.1),,",
-			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+			#"checkpoint":" ,",
 		},
 		"negative" : {
 			"quality":"(worst quality:0.8), (low quality:1.1), simple background, bad anatomy, error, (mangled fingers:1.05), (bad hands:0.9), (2.5D:0.6), (light particles:0.7), narrow waist, (muscular:0.7), (ribs:0.9), symbol-shaped pupils,",
-			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+			#"checkpoint":" ,",
 		},
         #"steps": 8,
         #"cfg": (1.5,2),
@@ -233,10 +393,10 @@
     },
     "ebaramfcgponymix_v11" : {# 
 		"positive" : {
-			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+			#"checkpoint":" ,",
 		},
 		"negative" : {
-			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+			#"checkpoint":" ,",
 		},
         #"steps": 8,
         #"cfg": (1.5,2),
@@ -244,10 +404,10 @@
     },
     "lizmix_v70" : {# -
 		"positive" : {
-			#"checkpoint":"score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,,",
+			#"checkpoint":" ,",
 		},
 		"negative" : {
-			#"checkpoint":"score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon,,",
+			#"checkpoint":" ,",
 		},
         #"steps": 8,
         #"cfg": (1.5,2),
@@ -293,7 +453,18 @@
         #"cfg": (1.5,2),
         #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
     },
-    "kaywaiiXL_v11" : {# -
+    "kaywaiiXL_v12" : {# 
+        "positive":{
+            "checkpoint":"score_9,score_8_up,",
+        },
+        "negative":{
+            "checkpoint":"score_4_up, score_5_up, extra digits, fewer digits,",
+        },
+        #"steps": 8,
+        "cfg": (5.0,7),
+        "sampler_name": ["euler_ancestral"],
+    },
+    "kaywaiiXL_v11" : {# --
         "positive":{
             "checkpoint":"score_9,score_8_up,",
         },
@@ -302,7 +473,8 @@
         },
         #"steps": 8,
         #"cfg": (1.5,2),
-        #"sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
+        "cfg": (5.0,7),
+        "sampler_name": ["euler_ancestral"],
     },
     "mklanNSFWANIMEHentai_mklan223hentai" : {#  -
         "positive":{
@@ -395,7 +567,7 @@
     "honeyMixXLHighContrast_v1" : {# -
         "positive":{
             "quality":"score_9, score_8_up, source_anime, ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             "quality":"monochrome, greyscale",
@@ -409,10 +581,10 @@
     "copycatPVC_v20" : { #+
         "positive":{
             #"quality":"score_9, score_8_up, score_7_up, source_anime ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
-            #"checkpoint":"source_pony, source_furry, simple background, monochrome, greyscale, lowres, low detail, blurry, bad anatomy, bad proportions, deformed, deformed anatomy, deformed fingers, , ",
+            #"checkpoint":" ,",
 			#"style":",",
         },
         #"steps": (30,60),
@@ -422,7 +594,7 @@
     "monstercoffeecelsiusMix_v10" : {        
         "positive":{
             "checkpoint":"score_9, score_8_up, score_7_up, source_anime ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             "checkpoint":"source_pony, source_furry, simple background, monochrome, greyscale, lowres, low detail, blurry, bad anatomy, bad proportions, deformed, deformed anatomy, deformed fingers, , ",
@@ -435,7 +607,7 @@
     "icatcherAnime_v10" : {        
         "positive":{
             "quality":"score_9, score_8_up, score_7_up, source_anime ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             "checkpoint":"source_pony, source_furry, simple background, monochrome, greyscale, lowres, low detail, blurry, bad anatomy, bad proportions, deformed, deformed anatomy, deformed fingers, , ",
@@ -448,7 +620,7 @@
     "novaAnimeXL_ponyV40" : { # -
         "positive":{
             "quality":"BREAK score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, BREAK ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             "checkpoint":"score_4, score_5, 3d, jpeg artifacts, username, watermark, signature, normal quality, worst quality, large head, low quality, text, error, missing fingers, extra digits, fewer digits, bad eye,",
@@ -460,7 +632,7 @@
     "novaAnimeXL_ponyV20" : {        
         "positive":{
             "quality":"BREAK score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, source_anime, BREAK ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             "checkpoint":"score_4, score_5, 3d, jpeg artifacts, username, watermark, signature, normal quality, worst quality, large head, low quality, text, error, missing fingers, extra digits, fewer digits, bad eye,",
@@ -472,10 +644,10 @@
     "xermix_v10" : {        
         "positive":{
             #"quality":"score_9, score_8_up, score_7_up, source_anime, ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
-            #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils, abs,",
+            #"checkpoint":" ,",
         },
         #"steps": (30,60),
         #"cfg": (4,8),
@@ -484,10 +656,10 @@
     "4goldmixl_v111" : { #+
         "positive":{
             #"quality":"score_9, score_8_up, score_7_up, source_anime, ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
-            #"checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils, abs,",
+            #"checkpoint":" ,",
         },
         #"steps": (30,60),
         #"cfg": (4,8),
@@ -496,7 +668,7 @@
     "momoiropony_v14" : { # -
         "positive":{
             "quality":"score_9, score_8_up, score_7_up, source_anime, ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             "checkpoint":"deformed anatomy, deformed fingers, realistic, source_furry, censored, @_@, heart-shaped pupils, abs,",
@@ -508,7 +680,7 @@
     "omegaPonyXLAnime_v20" : {        
         "positive":{
             "quality":"score_9,{score_8_up, score_7_up, ",
-            #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+            #"checkpoint":" ,",
         },
         "negative":{
             "checkpoint":"score_4, score_5, score_6, source_pony, source_furry, monochrome, 3d, photo, hyperrealistic, realstic, rough sketch, fewer digits, extra digits, signature, artist name, ",
@@ -521,10 +693,10 @@
     "specterPDXL_v10" : {        
         #"positive":{
         #    "quality":"score_9,{score_8_up, score_7_up, ",
-        #    #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        #    #"checkpoint":" ,",
         #},
         #"negative":{
-        #    "checkpoint":"score_4, score_5, score_6, source_pony, source_furry, monochrome, 3d, photo, hyperrealistic, realstic, rough sketch, fewer digits, extra digits, signature, artist name, ",
+        #"checkpoint":" ,",
 		#	"style":",",
         #},
         "steps": (30,50),
@@ -534,10 +706,10 @@
     "defactaXL3_v30Animagine" : {        
         #"positive":{
         #    "quality":"score_9,{score_8_up, score_7_up,|} ",
-        #    #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        #    #"checkpoint":" ,",
         #},
         #"negative":{
-        #    "checkpoint":"score_4, score_5, score_6, source_pony, source_furry, monochrome, 3d, photo, hyperrealistic, realstic, rough sketch, fewer digits, extra digits, signature, artist name, ",
+        #"checkpoint":" ,",
 		#	"style":",",
         #},
         #"steps": 4,
@@ -547,10 +719,10 @@
     "aaaautismPonyFinetune_rsLightning4steps" : {        
         #"positive":{
         #    "quality":"score_9,{score_8_up, score_7_up,|} ",
-        #    #"dress":"gloves, long sleeves, jewelry, black gloves, blue belt, black pants, wide sleeves, blunt bangs, crop top, underboob, highleg, single earring, hoop earrings,",
+        #    #"checkpoint":" ,",
         #},
         #"negative":{
-        #    "checkpoint":"score_4, score_5, score_6, source_pony, source_furry, monochrome, 3d, photo, hyperrealistic, realstic, rough sketch, fewer digits, extra digits, signature, artist name, ",
+        #"checkpoint":" ,",
 		#	"style":",",
         #},
         "steps": 4,

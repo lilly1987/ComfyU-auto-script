@@ -21,6 +21,172 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
+    "slime sex_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            "slime sex_pony_V1.0":" slime sex,slime ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,)
+        #"strength_clip": 1,
+    },
+    "transparent_tube-000007" : {
+        #"file_name":"",
+        "positive":{
+            "transparent_tube":" yumiA4, transparent tube, input eggs,, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "trapsgoonwild02" : {
+        #"file_name":"",
+        "positive":{
+            "trapsgoonwild02":"{extreme penetration, large insertion, hyper penis, penis size difference|double anal, threesome,3boys|squish,skindentation|micropenis, flaccid} ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "YadokugaeruV1" : {
+        #"file_name":"",
+        "positive":{
+            "YadokugaeruV1":" {yad0kug4eru|yadokugaeru}, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "ATC_v2_4_64" : {
+        #"file_name":"",
+        "positive":{
+            "ATC_v2_4_64":" { medium |}flat-atcpny plastic chastity cage, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,),
+        "strength_clip": 1,
+    },
+    "Chastity v3" : {
+        #"file_name":"",
+        "positive":{
+            "Chastity v3":" steel chastity_cage,chastity cage,testicles,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,),
+        "strength_clip": 1,
+    },
+    "Sissy Chastity" : {
+        #"file_name":"",
+        "positive":{
+            "Sissy Chastity":"sissy chastity,testicles, , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,),
+        "strength_clip": 1,
+    },
+    "flat chastity cage" : {
+        #"file_name":"",
+        "positive":{
+            "flat chastity cage":"f1atcag3, chastity ring ,{ cumdrip, leaking cum, precum drip, leaking precum |} ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,),
+        "strength_clip": 1,
+    },
+    "SeeThroughSex" : {
+        #"file_name":"",
+        "positive":{
+            "SeeThroughSex":" SEE THROUGH SEX, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "NSFW_1.4" : {
+        #"file_name":"",
+        "positive":{
+            "NSFW_1.4":"{stiing on dildo|lift up skirt,pantie|woman on top|grab|leg up|group sex,threesome|multiple girl} , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "brush wheel_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            "brush wheel_pony_V1.0":" crotch rub, brush wheel, sex machine, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Double vaginal on back-000008" : {
+        #"file_name":"",
+        "positive":{
+            "Double vaginal on back-000008":" double vaginal, sex, spread legs, 1girl, 2boys, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "hug-and-suck-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "hug-and-suck-ponyxl-lora-nochekaiser":" hug and suck, nude, waist hug, deepthroat, hugging another's leg, fellatio, oral, penis, hug, 1boy, standing, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Sex Voyeur" : {
+        #"file_name":"",
+        "positive":{
+            "Sex Voyeur":"ROUND_SEX_VOYEUR , SOFT_SEX_VOYEUR,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "armhug_Pony_v1" : {
+        #"file_name":"",
+        "positive":{
+            "armhug_Pony_v1":"arm hug , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
     "thermometer_pony_V1.0" : {
         #"file_name":"",
         "positive":{
@@ -32,10 +198,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "size_difference-000006" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "size_difference":"stomach bulge,absurd stomach bulge,size difference,hangin on penis,{giant man,|} {{vaginal|anal} penetration,|} , ",
         },
         #"negative":{
         #    "char":"",
@@ -43,10 +209,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "One_Leg_Sex__Scissor_Pose__Split_Standing" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "One_Leg_Sex__Scissor_Pose__Split_Standing":" Scissor Standing, hand support, leg grab, ",
         },
         #"negative":{
         #    "char":"",
@@ -54,10 +220,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "HDA_GoblinGangbangXL" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "HDA_GoblinGangbangXL":" HDA_GoblinGangbangXL, ",
         },
         #"negative":{
         #    "char":"",
@@ -2145,7 +2311,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.25,0.5,)
         #"strength_clip": 1,
     },
     "pussybursterXVer001" : {        

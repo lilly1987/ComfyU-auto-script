@@ -1,0 +1,6 @@
+"lora_name": "Pony\\ATC_v2_4_64.safetensors", "strength_model": 0.6328034140319583, "strength_clip": 1.0, "inverse": false, "A": 2.3863879993352217, "B": 1.2383138571061867,
+"lora_name": "Pony\\flat chastity cage.safetensors", "strength_model": 0.6915567256320599, "strength_clip": 1.0, "inverse": false, "A": 3.764687924298993, "B": 1.5853010840481843,
+"lora_name": "Pony\\hand under skirt_pony_V1.0.safetensors", "strength_model": 0.6720071055805827, "strength_clip": 0.6878604313885057, "inverse": false, "A": 3.380712566465788, "B": 1.02833955381663,
+"lora_name": "Pony\\Sissy Chastity.safetensors", "strength_model": 0.5773370876158704, "strength_clip": 1.0, "inverse": false, "A": 2.190326885917596, "B": 1.2377612401998825,
+"lora_name": "Pony\\Sex_from_behind_symmetrical_docking.safetensors", "strength_model": 0.3833242824763039, "strength_clip": 0.6721928910221819, "inverse": false, "A": 2.2589886405137567, "B": 1.0924786672574713,
+"lora_name": "Pony\\vagina weightlifting_pony_V1.0.safetensors", "strength_model": 0.7184114976434989, "strength_clip": 0.7922238697580923, "inverse": false, "A": 2.0548619532517893, "B": 1.721433143605521,
