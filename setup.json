@@ -129,8 +129,7 @@
         "shot":"lower body,out of focus,",
         "view":"(multiple views:1.{125|0}), (multiple viewer:1.{125|0}),  (cropped:1.{125|0}), face only,  facial,",
         #"realistic":"{realistic,|}",
-        "realistic":",",
-        "realistic":"realistic,",
+        #"realistic":"realistic,",
     },
     "Checkpoint":[
         "nachaPonyCheckpoint_v05",
@@ -153,7 +152,7 @@
         ".*nemo-anemo-ponyxl-lora-nochekaiser.*",
         ".*ChamTakashimaYakumoPonyXL.*",
         ".*kohinata_poem_pony_ver1.*",
-        ".*Sui_PD6XL.*",
+        #".*Sui_PD6XL.*",
         ".*rwby_blakebelladonna_ponyXL.*",
         ".*EmiliaLudwell_izo.*",
         ".*Shinmai_Maou_No_Testament-Maria_Naruse-PDXL.*",
@@ -496,6 +495,6 @@
     #"queue_prompt_wait":False,    
     #"queue_prompt":False,    
     #"print_setup":True,
-    #"print_workflow":True,
-    "debug":True,
+    "print_workflow":True,
+    #"debug":True,
 }

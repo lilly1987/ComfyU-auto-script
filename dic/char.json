@@ -9,7 +9,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Yaguchi_Miu-98" : {
@@ -21,7 +21,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Song Yu-ra prefectPonyxl" : {
@@ -33,7 +33,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hutao" : {
@@ -45,7 +45,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "uma_hokko_tarumae_ponyxl" : {
@@ -57,7 +57,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "oreimo-meruru-s2-ponyxl-lora-nochekaiser" : {
@@ -69,31 +69,31 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Amamiya Yuko(tn)-Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Amamiya Yuko,very long hair,black hair,floating hair,hair bow,white bow,hair ribbon,white ribbon,bangs,red eyes ",
+            "dress":"{black choker,collarbone,school uniform,white sailor collar,neck ribbon,black dress,buttons,long sleeves,white gloves,small breasts,black pantyhose,loafers , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Wolfram(vrchat)-Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Wolfram,animal ears,wolf ears,long hair,black hair,multicolored hair,streaked hair,orange hair,ponytail,hair between eyes,parted bangs,blue eyes ",
+            "dress":"{ collarbone,bare shoulders,hooded jacket,grey jacket,white tank top,dog tags,bare arms,wristwatch,medium breasts,wolf tail,black pants,open fly,underwear,camouflage panties,green panties,sneakers, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "cuique-pony_v2-000008" : {
@@ -105,7 +105,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "LithiaBeryl-10" : {
@@ -117,7 +117,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Annette_Isekai_Shikkaku_PONY_XL_by_UOC" : {
@@ -129,79 +129,79 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "DX888Kanami-10" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"kanami,   ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Marielle_LogHorizon_Pony_ct_ver4" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" ct_mar1e, green hair, long hair, ",
+            "dress":"{ blue dress, fur trim, black pantyhose, coat, long sleeves, purple belt,|green jacket, sleeves rolled up, blue pants, bracelet,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "DX888Henrietta-10" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"henrietta, hair up,, ",
+            "dress":"{  glasses, dress,  anime screencap, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "night angel _(last origin)-koto-PonyXL rex" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"mature female, flat chest, long hair, red eyes, red hair, hairclip,  hair scrunchie,  ",
+            "dress":"{nalo,  black dress ,| nadef,__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "mirajane-rev" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" mj,  flat chest, blue eyes, long hair, white hair, ponytail,  ",
+            "dress":"{ choker, collarbone, bare shoulders, tank top, crop top, short shorts, black shorts, black thighhighs, bracelet,,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "kurosaki_ruri_ponyxl_v1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" aaruri, long hair, multicolored hair, purple hair, hair ornament, earrings, pink eyes, , ",
+            "dress":"{ grey shirt, white vest, brown belt, black pants|pinafore dress, yellow dress, short sleeves, bracelet, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "EndGirl(Bubble Planet)-Pony" : {
@@ -213,7 +213,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Nitta_Minami-108" : {
@@ -237,7 +237,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Lv" : {
@@ -249,7 +249,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kudoushinobu_ponyXLV6" : {
@@ -261,7 +261,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ChamTakashimaYakumoPonyXL" : {
@@ -273,7 +273,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "koshaji_pony-000020" : {
@@ -285,7 +285,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kyouko_Sakura-ponyXL" : {
@@ -297,7 +297,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Nishino_flower_v1.0_Cibitai" : {
@@ -309,7 +309,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hoseki_BlueArchive_Rio_PDXL_v1" : {
@@ -321,7 +321,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "jean bart" : {
@@ -333,7 +333,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Erwen" : {
@@ -345,7 +345,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "celestine12" : {
@@ -357,7 +357,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Fuwahatsuko" : {
@@ -369,79 +369,79 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "MaoChan(uramakaron)-Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"MaoChan , long hair,brown hair,hair ornament,hairclip,sidelocks,bangs,brown eyes,",
+            "dress":"{ school uniform,cardigan,red bowtie,striped bowtie,white shirt,collared shirt,long sleeves,sleeves past wrists,grey skirt,pleated skirt,plaid skirt,black socks,loafers, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Pony-XL-ShinJiav1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"  shin jia,   long hair,ribbon, parted lips,  blue eyes,  hair between eyes,  ",
+            "dress":"{ jacket on shoulders, jacket,,sleeveless,  shirt,  neck ribbon, wrist cuffs, white shirt, sleeveless shirt, hair ribbon, black ribbon,  |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "u-47-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"u-47, black hair, large breasts, long hair, red eyes, crossed bangs, white hair, streaked hair, one side up, hair ornament, ear piercing, , ",
+            "dress":"{ black one-piece swimsuit, black panties, bridal gauntlets, cleavage, cross, iron cross, jewelry, one-piece swimsuit, swimsuit, thighhighs, underwear, zipper, center opening,|bike shorts, choker, cleavage, cross, glasses, iron cross, navel, semi-rimless eyewear, camisole, white camisole, jacket, black jacket, zipper, bare shoulders,|apron, black panties, black skirt, cross, frilled apron, frills, iron cross, long sleeves, maid headdress, miniskirt, navel, panties, skirt, thighhighs, unzipped, waist apron, zipper, zipper pull tab, cleavage, center opening,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "character_Arisu_PONY" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" flat chest, blue eyes, double bun, purple bow, blue hair, twintails, hair between eyes, hair bow,, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "ヴィオレ魔ゐ" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"  flat chest,blush, purple hair, purple eyes, short hair, short twintail, , ",
+            "dress":"{ off shoulder, layered mini skirt,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "samidare-09" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"samidareKC,blue hair, long hair, flat cheast, swept bangs , ",
+            "dress":"{school uniform,serafuku, black gloves, elbow gloves, black thighhighs,sailor collar, neckerchief, sleeveless shirt, white skirt,  , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "mirabilis fehPonyXL" : {
@@ -453,7 +453,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "1007 Chinese wedding dress_v1_pony" : {
@@ -465,7 +465,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ColoredContactLenses_pony" : {
@@ -478,7 +478,7 @@
         "negative":{
             "realistic":"",
         },
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "fireflyPDXL_scarxzys" : {
@@ -490,31 +490,31 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Akatsuki_LH_PXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" lhakatsuki, ponytail, flat chest, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        "strength_model": (0.6,0.8,)
         #"strength_clip": 1,
     },
-    "" : {
+    "DX888Raynesia-10" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" raynesia, half updo, , ",
+            "dress":"{ascot, blouse, pink skirt,|cape, pink shir, jewelry, lilac skirt, hair bow , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "tokoyami_towa_sdxl_pony" : {
@@ -526,7 +526,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "anna_yanami_anime_v6-soralz" : {
@@ -538,7 +538,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Moon_Test2" : {
@@ -550,7 +550,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ChamTetsukawaToaPonyXL" : {
@@ -562,7 +562,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yugioh_lovelylabyrinth_ponyXL" : {
@@ -574,19 +574,19 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "zara-07" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"  long hair, wavy hair,  ",
+            "dress":"{zaraKC, skirt, shirt, long sleeves, bare shoulders, pantyhose, miniskirt, black pantyhose, red skirt,mini hat, braid, french braid, ,,|zaradueKC, skirt,shirt, long sleeves, hat, bare shoulders, white shirt, ascot, clothing cutout,  side braid, corset, french braid, mini hat, bridal garter, red ascot, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "iris_konosuba_PONY_last" : {
@@ -598,7 +598,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "iris-stylish-sword-belzerg-s3-ponyxl-lora-nochekaiser" : {
@@ -610,7 +610,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Mary_Jenny_XL_pony_v1" : {
@@ -622,7 +622,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Irisu" : {
@@ -634,7 +634,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Celeste(dgs)" : {
@@ -646,7 +646,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Shirasaka_Koume-91" : {
@@ -670,7 +670,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Vert_Neptunia_PonyXL" : {
@@ -682,7 +682,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "monicaXL" : {
@@ -694,7 +694,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "fumiya-kuroba-s2-ponyxl-lora-nochekaiser" : {
@@ -706,7 +706,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "JN_Lillie" : {
@@ -718,7 +718,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Takasaki Asuka(oin)-Pony" : {
@@ -730,7 +730,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ponyxl_c_shimoneta_Hyouka_Fuwa__Shimoneta_akumakushu" : {
@@ -742,7 +742,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Souma_Natsumi-92" : {
@@ -754,7 +754,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Green-05 (1)" : {
@@ -766,7 +766,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Green-05" : {
@@ -778,7 +778,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "lass swshPonyXL" : {
@@ -790,43 +790,43 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "codevein_miakarnstein_ponyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" mia karnstein, long hair, blonde hair, twintails, green eyes, ",
+            "dress":"{ black coat, long coat, open coat, long sleeves, fur-trimmed sleeves, purple dress, short dress, bustier, spaghetti strap, black gloves, purple thighhighs, thigh strap, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Heavyrain_pony-000014" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" normalrain, animal_ears, long_hair, horse_ears, purple_eyes, hairband, grey_hair, hair_ornament, hair_flower, white_hair, striped tail,, ",
+            "dress":"{official_alternate_costume,  black_dress, white_rose, long_sleeves, striped_hairband, white_pantyhose| white_jacket, white_shirt, open_jacket, black_mini_skirt, long_sleeves, white_coat, black_pantyhose, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Azusa1024_Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" aizawa azusa, long hair, blue eyes, blonde hair, very long hair, braid, low-tied long hair, hair between eyes",
+            "dress":"{ skirt, long sleeves, hat, pleated skirt, belt, coat, ascot, witch hat, witch, dress, juliet sleeves, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Female scientist(tn)-Pony" : {
@@ -838,7 +838,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Bunny Girl" : {
@@ -850,7 +850,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "M∀LICE_Q_WHITE_BINDER_XL_pony_v1" : {
@@ -862,7 +862,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yoshino_yorita-98" : {
@@ -886,7 +886,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "HK416(gf)-Pony" : {
@@ -898,7 +898,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Night_Wing_Sorceress_XL_pony_v1" : {
@@ -910,7 +910,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Wei Li(nmd3)-Pony" : {
@@ -922,7 +922,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "_tovenikke-elesico-pony" : {
@@ -934,7 +934,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Jasmine" : {
@@ -946,7 +946,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "sagiri_esu_pony" : {
@@ -958,7 +958,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "code-geass-cc-s1-ponyxl-lora-nochekaiser" : {
@@ -970,7 +970,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Shibasaki_Kazuha" : {
@@ -982,7 +982,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Charlotte_Scherzen_Pony_v1" : {
@@ -994,7 +994,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "shiYukinoV2" : {
@@ -1006,7 +1006,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Lyna_the_Light_Charmer" : {
@@ -1018,7 +1018,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "seirei_gensouki_-_ aishia" : {
@@ -1030,7 +1030,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yuria_p_v1.5" : {
@@ -1042,7 +1042,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "purin" : {
@@ -1054,7 +1054,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1066,7 +1066,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "GX_Aura_Opera_Waifu" : {
@@ -1078,7 +1078,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Futa Pony" : {
@@ -1090,7 +1090,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Ren_Fragile_Sayonara_Tsuki_no_Haikyo" : {
@@ -1102,7 +1102,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Tae_Shimura" : {
@@ -1114,7 +1114,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Uchida_Yuka" : {
@@ -1126,7 +1126,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "seirei_gensouki_-_ celia_claire" : {
@@ -1138,7 +1138,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ooriru-pdxl-v4" : {
@@ -1150,7 +1150,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "BG_remi_pony_ver1" : {
@@ -1162,7 +1162,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kana_Arima_oshi" : {
@@ -1174,7 +1174,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Iris_Arcadia_Kuroinu_V1" : {
@@ -1186,7 +1186,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1198,7 +1198,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1210,7 +1210,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1222,7 +1222,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1234,91 +1234,91 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "ShirayukiChiyo_pony_v1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" srykcy,short hair, black hair, bob cut, blunt bangs, purple eyes, flat chest, small breasts,, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "sdxl-ma-korisu-pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" morino korisu,blonde hair, long hair, sidelocks, parted bangs, ruby eyes, blonde eyelashes, flat chest ",
+            "dress":"{blue long dress, white blouse, puffy sleeves, ribbon|nero alice|skyblue long maid dress, long sleeves, star \(symbol\), puffy sleeves, hair bow, white maid apron, white bow, ribbon, juliet sleeves, frills , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Meltryllis_XL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"long hair, purple hair, blue eyes, flat chest, ribbon, , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Cow(Bubble Planet)-Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"horns,animal ears,cow ears,very long hair,light brown hair,sidelocks,hair between eyes,parted bangs,brown eyes , ",
+            "dress":"{collarbone,cleavage,frilled coat,white coat,black dress,brown dress,large breasts,puffy short sleeves,brown footwear , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "hm-hori-V01-000003" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" hm-hori, {single hair bun|long hair|ponytail scrunchie|side ponytail|crunchie|folded ponytail|ponytail|low twintails},brown hair, brown eyes",
+            "dress":"{ school uniform skirt white shirt black socks uwabaki|skirt white shirt black socks apron|cheerleader track jacket white skirt pom pom|gym clothes|red shirt black skirt midriff|green shirt black pants|white shirt red shorts|aqua shirt brown shorts, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Alex(Bubble Planet)-Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"Alex| long hair,orange hair,ponytail,hair over shoulder,sidelocks,swept bangs,green eyes,white pupils,bright pupils, ",
+            "dress":"{collarbone,cleavage,bare shoulders,green shirt,off-shoulder shirt,spaghetti strap,medium breasts,puffy sleeves,short sleeves,shirt tucked in,high-waist skirt,brown skirt,black socks,brown footwear , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "ChamBlackHeartPonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" BlackHeart, power symbol-shaped pupils, ",
+            "dress":"{ BlackHeartBase, power symbol-shaped pupils, black leotard, elbow gloves, black thighhighs, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Sun_Seto_-_Seto_no_Hanayome_瀬戸_燦_-_瀬戸の花嫁-000004" : {
@@ -1330,7 +1330,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "フリーナver2.3-000009" : {
@@ -1342,79 +1342,79 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "yukari-sendou-s2-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"yukari sendou, short hair, purple eyes, bangs, blunt bangs, brown hair, , ",
+            "dress":"{ skirt, thighhighs, hat, school uniform, cape, brown cape, white thighhighs, witch hat, capelet, white capelet, bow, yellow bow, pleated skirt, green skirt, corset,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "yukari.pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" yukari, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "yukari_blue archive_PONY_last" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" yukari \(blue archive\), purple eyes,purple hair,, ",
+            "dress":"{ low-tied  very long hair, hair flower,halo,serafuku,red neckerchief,pleated skirt,japanese clothes,wide sleeves,tabi,black sandals| ,parted bangs,low-tied long hair,hair flower,halo,black serafuku,black sailor collar,purple neckerchief,(pleated bangs:1.2),black pleated skirt,black wide sleeves,white socks,black zouri, |yukari-default,__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "kurosakichitose_v2_ponyXLV6" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"ht_ageha , ",
+            "dress":"{ school uniform, skirt, thighhighs, zettai ryouiki|jacket, skirt, cleavage, bustier, black choker, midriff, navel|underwear, white panties, frilled panties, side-tie panties, black thighhighs, frilled thighhighs, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Natalia-10natalia" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" natalia,brown hair,short hair,red eyes,bangs ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Yukari" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Yukari, purple eyes,blonde hair,  ",
+            "dress":"{ lab coat, sweater,red sweater,,turtleneck,stud earrings,pencil skirt,,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Witch(Bubble Planet)-Pony" : {
@@ -1426,7 +1426,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Nian_Ark-03" : {
@@ -1438,7 +1438,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "elie-pdxl-nvwls-v2" : {
@@ -1450,7 +1450,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Momohara_Character_LoRa_-_PonyXL" : {
@@ -1462,7 +1462,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "evangeline_PDXL-000002" : {
@@ -1474,7 +1474,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "AgnesTachyonPDXLv6" : {
@@ -1486,7 +1486,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "EXS-TIA_MagicaAzarin_-_Lusterise" : {
@@ -1498,7 +1498,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Valentina2_pony-000006" : {
@@ -1510,7 +1510,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1522,7 +1522,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "l2lucia-pdxl-nvwls-v1" : {
@@ -1534,7 +1534,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Wolf(Bubble Planet)-Pony" : {
@@ -1546,7 +1546,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "SkeletonGirl(Bubble Planet)-Pony" : {
@@ -1558,7 +1558,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Minami_Chiaki" : {
@@ -1570,7 +1570,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "darudayuSB69" : {
@@ -1582,7 +1582,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "shirley_autismConfetti_v02" : {
@@ -1594,7 +1594,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hina-amano-ponyxl-lora-nochekaiser" : {
@@ -1606,7 +1606,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hoseki_WWY_HinaAmano_PDXL_v1" : {
@@ -1618,7 +1618,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "watase_mayumi_pony_v1" : {
@@ -1630,7 +1630,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "mayumi_thyme_pony_sobsynapse-000005" : {
@@ -1642,7 +1642,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "CodeGeass_VillettaNuXL" : {
@@ -1654,7 +1654,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Villetta_Nu" : {
@@ -1666,7 +1666,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "koshimizu_toru_ponyxl_v1" : {
@@ -1678,7 +1678,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1690,7 +1690,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1702,7 +1702,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yugioh-eria-ponyxl-lora-nochekaiser" : {
@@ -1714,7 +1714,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Shaman_of_the_Tenyi_XL_pony_v1" : {
@@ -1726,7 +1726,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hinoakane_ponyXLV6" : {
@@ -1738,7 +1738,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "BWshauntaltsukishiro" : {
@@ -1750,7 +1750,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yugioh-hiita-ponyxl-lora-nochekaiser" : {
@@ -1762,7 +1762,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Mizuki2024-10" : {
@@ -1774,7 +1774,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "alyce_(dohna_dohna)_pony_v1" : {
@@ -1786,7 +1786,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1798,7 +1798,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1810,7 +1810,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Elysia" : {
@@ -1822,7 +1822,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "KianaKaslana" : {
@@ -1834,7 +1834,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "TinaHolyPonyXL-10" : {
@@ -1846,7 +1846,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1858,7 +1858,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Anna Sprengel XL1.0 V1" : {
@@ -1870,7 +1870,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Homura-ponyXL" : {
@@ -1882,7 +1882,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "youhua-pony-Tanger" : {
@@ -1894,7 +1894,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hana Mitani" : {
@@ -1906,7 +1906,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -1918,7 +1918,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ameki_pony" : {
@@ -1930,7 +1930,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ChamKaminariQpiPonyXL" : {
@@ -1942,7 +1942,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ChamRocoKaburakiPonyXL" : {
@@ -1954,7 +1954,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Houkiboshi_Prima_Doll_official_Style-000005" : {
@@ -1966,7 +1966,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Void_Menreiki_pony_v01" : {
@@ -1978,7 +1978,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Shishimura Koro" : {
@@ -1990,7 +1990,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2002,7 +2002,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "GBC_Rin_pony-000030" : {
@@ -2014,7 +2014,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Oki aoi-000024" : {
@@ -2026,7 +2026,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "michishio-06-1" : {
@@ -2038,7 +2038,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hiyori_Shiina__椎名_ひかり__Classroom_of_the_Elite-000008" : {
@@ -2050,7 +2050,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "misumi_uika_PonyXL" : {
@@ -2062,7 +2062,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "saki_ogataV1" : {
@@ -2074,7 +2074,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "GBC_NANA-pony-000028" : {
@@ -2086,7 +2086,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Misiliana-000001" : {
@@ -2098,7 +2098,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "lass hgssPonyXL" : {
@@ -2110,7 +2110,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "sajoyukimi_ponyXLV6" : {
@@ -2122,7 +2122,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "GAGE-dorene_ezelcant_XL(pony)v10" : {
@@ -2134,7 +2134,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Handa_Roco-134" : {
@@ -2158,7 +2158,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "lynneburg-clays-s1-ponyxl-lora-nochekaiser" : {
@@ -2170,7 +2170,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "blacksummoner-ange-s1-ponyxl-lora-nochekaiser" : {
@@ -2182,7 +2182,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "nukumizu kaju_make heroine_PONY_epoch-000036" : {
@@ -2194,7 +2194,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "RisheIrmgardWeitzner-XL-v1" : {
@@ -2206,7 +2206,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Soyo-08" : {
@@ -2218,7 +2218,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "saki-ayase-s1-ponyxl-lora-nochekaiser" : {
@@ -2230,7 +2230,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2242,7 +2242,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2254,7 +2254,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2266,7 +2266,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2278,7 +2278,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2290,7 +2290,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2302,7 +2302,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "stussy_xl" : {
@@ -2314,7 +2314,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Pony_Seras_Ashrain__Failure_Frame_ハズレ枠" : {
@@ -2326,7 +2326,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Seras Ashrain-PonyXL-lora-Faxtron" : {
@@ -2338,7 +2338,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Pony-XL-SerasAshrain" : {
@@ -2350,7 +2350,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kanao Tsuyuri - Pony" : {
@@ -2362,7 +2362,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kallens_Mother-Code_Geass" : {
@@ -2374,7 +2374,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Nonomura_Sora-105" : {
@@ -2398,7 +2398,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "TMLH_SY_v1.1_pony-000042" : {
@@ -2410,7 +2410,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Angelica" : {
@@ -2422,7 +2422,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Sakurajima_Pony-10" : {
@@ -2434,7 +2434,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Rio_Futaba_-_Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai" : {
@@ -2446,7 +2446,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "BBFGOP1" : {
@@ -2458,7 +2458,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ciel_summer_fgo-space_ciel" : {
@@ -2470,7 +2470,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ciel_summer_fgo-ciel_sensei" : {
@@ -2482,7 +2482,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ciel_summer_fgo-ciel" : {
@@ -2494,7 +2494,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "mahoushoujoprismshirleyponyB" : {
@@ -2506,7 +2506,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "C.C.-PonyXL-lora-Faxtron" : {
@@ -2518,7 +2518,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Futaba_Pony-10" : {
@@ -2530,7 +2530,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "CC-000009" : {
@@ -2542,7 +2542,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "C.C." : {
@@ -2554,7 +2554,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "cheshirebs2cat" : {
@@ -2566,7 +2566,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "cheshire(clothes)XLPony-000010" : {
@@ -2578,7 +2578,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "CheshirePDCAMEq5v1 AL" : {
@@ -2590,7 +2590,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "komurochinami_ponyXLV6" : {
@@ -2602,7 +2602,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "[Pony] Akane Aikawa _ Mahou Tsukai Tai! (Magic User's Club)_epoch_16" : {
@@ -2614,7 +2614,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hoseki_Idolmaster_KakoTakafuji_PDXL_v1" : {
@@ -2626,7 +2626,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yor-briar-ponyxl-lora-nochekaiser" : {
@@ -2638,7 +2638,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "luna.pony" : {
@@ -2650,7 +2650,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ChamHimemoriLunaPonyXL" : {
@@ -2662,7 +2662,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kurashinaasuka-pdxl-nvwls-v1" : {
@@ -2674,7 +2674,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "aikawa_himeno_pony_ver2" : {
@@ -2686,7 +2686,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Ellen_Artorius" : {
@@ -2698,7 +2698,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "TachibanaGE-pdxl-bsinky-v1" : {
@@ -2710,7 +2710,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "37_from_Reverse_1999_Pony" : {
@@ -2722,7 +2722,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2734,7 +2734,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2746,7 +2746,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2758,7 +2758,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2770,7 +2770,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "love_is_war_sdxl_pony-kaguya" : {
@@ -2782,7 +2782,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "love_is_war_sdxl_pony-miko" : {
@@ -2794,7 +2794,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "love_is_war_sdxl_pony-kei" : {
@@ -2806,7 +2806,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "love_is_war_sdxl_pony-hysk" : {
@@ -2818,7 +2818,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "love_is_war_sdxl_pony-chika" : {
@@ -2830,7 +2830,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "KeiShiroganePonyXL" : {
@@ -2842,7 +2842,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kei_Shirogane_Kaguya-sama_Love_Is_War_V1" : {
@@ -2854,7 +2854,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Histoire_Neptunia_PonyXL" : {
@@ -2866,7 +2866,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Uni_Neptunia_PonyXL" : {
@@ -2878,7 +2878,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Compa_Neptunia_PonyXL" : {
@@ -2890,7 +2890,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "uni_XL-bf16-pony-v1" : {
@@ -2902,7 +2902,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Leander-AzurLane_ponyXL_v10" : {
@@ -2914,7 +2914,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Char-ZZZ-JaneDoe-V1-Pony" : {
@@ -2926,7 +2926,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "horiyuuko_ponyXLV6" : {
@@ -2938,7 +2938,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2950,7 +2950,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2962,7 +2962,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2974,7 +2974,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2986,7 +2986,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -2998,7 +2998,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3010,7 +3010,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3022,7 +3022,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3034,7 +3034,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3046,7 +3046,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3058,7 +3058,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3070,7 +3070,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3082,7 +3082,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3094,7 +3094,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3106,7 +3106,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3118,7 +3118,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kei" : {
@@ -3130,7 +3130,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Shirogane Noel" : {
@@ -3142,7 +3142,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ChamShiroganeNoelPonyXL" : {
@@ -3154,7 +3154,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3166,7 +3166,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "noel-shirogane-ponyxl-lora-nochekaiser" : {
@@ -3178,7 +3178,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ellen_baker_pony_ver2" : {
@@ -3190,7 +3190,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "sdxl-lyco-mew_ichigo-original-animagine_xl_3_1-v2" : {
@@ -3202,7 +3202,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ImoutoToSonoYuujin_MiuXL" : {
@@ -3214,7 +3214,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3226,7 +3226,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3238,7 +3238,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "seras_ashrain_anime_v2-soralz" : {
@@ -3250,7 +3250,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3262,7 +3262,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3274,7 +3274,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3286,7 +3286,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3298,7 +3298,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3310,7 +3310,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3322,7 +3322,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3334,7 +3334,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3346,7 +3346,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3358,7 +3358,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3370,7 +3370,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3382,7 +3382,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3394,7 +3394,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3406,7 +3406,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3418,7 +3418,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3430,7 +3430,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3442,7 +3442,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3454,7 +3454,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3466,7 +3466,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3478,7 +3478,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3490,7 +3490,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3502,7 +3502,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3514,7 +3514,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3526,7 +3526,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3538,7 +3538,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3550,7 +3550,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3562,7 +3562,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3574,7 +3574,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3586,7 +3586,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3598,7 +3598,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3610,7 +3610,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3622,7 +3622,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3634,7 +3634,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "A_Digital-ponyXL" : {
@@ -3646,7 +3646,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "BG_yurina_pony_ver1" : {
@@ -3658,7 +3658,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3670,7 +3670,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3682,7 +3682,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3694,7 +3694,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kachofugetsu_pony_v01" : {
@@ -3706,7 +3706,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -3718,7 +3718,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Tenkubashi_Tomoka-113" : {
@@ -3730,7 +3730,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Arch_Mage_IceLightning_MapleStory" : {
@@ -3742,7 +3742,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ioroi_renzu" : {
@@ -3754,7 +3754,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Stelle_v1-10" : {
@@ -3766,7 +3766,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hiori_Nayuki-000009" : {
@@ -3778,7 +3778,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "quelplan-xl-pony-v1-000010" : {
@@ -3790,7 +3790,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "morganLF_WaterPrincessPDXL_scarxzys" : {
@@ -3802,7 +3802,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Saimin_Enbu_Kaguya-000009" : {
@@ -3814,7 +3814,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "FireflyV1-Aesthetic" : {
@@ -3826,7 +3826,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PonyxlSekibankiDora_charSekibankiPony" : {
@@ -3838,7 +3838,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Muller" : {
@@ -3850,7 +3850,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Sarah-10" : {
@@ -3862,7 +3862,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Platinum_Arknights-booru" : {
@@ -3874,7 +3874,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "allmind_XL_pony_v1" : {
@@ -3886,7 +3886,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "shbeatrix-pdxl-nvwls-v1" : {
@@ -3898,7 +3898,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "baimongfa2_prefectPonyXL3" : {
@@ -3910,7 +3910,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kanata(pony)" : {
@@ -3922,7 +3922,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "monaim-000010" : {
@@ -3934,7 +3934,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_RF3_Raven" : {
@@ -3946,7 +3946,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Minase_Iori-103" : {
@@ -3958,7 +3958,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Inui_Pony-10" : {
@@ -3970,7 +3970,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "urza_pranaice-xl-pony-v1-000008" : {
@@ -3982,7 +3982,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ChamNayamiPeachfoxPonyXL" : {
@@ -3994,7 +3994,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Honkai3 vita2_pony" : {
@@ -4006,7 +4006,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yanzhen_pony2" : {
@@ -4018,7 +4018,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "GBC_JQLY_pony-000030" : {
@@ -4030,7 +4030,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "alya-pony" : {
@@ -4042,7 +4042,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4054,7 +4054,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4066,7 +4066,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Tateno_Mai" : {
@@ -4078,7 +4078,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "charalora" : {
@@ -4090,7 +4090,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4102,7 +4102,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4114,7 +4114,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4126,7 +4126,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4138,7 +4138,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4150,7 +4150,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4162,7 +4162,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4174,7 +4174,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4186,7 +4186,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4198,7 +4198,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Fubuki" : {
@@ -4210,7 +4210,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Lilishka" : {
@@ -4222,7 +4222,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Towa" : {
@@ -4234,7 +4234,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "EPopmFubukiPony-04" : {
@@ -4246,7 +4246,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "tiamat" : {
@@ -4258,7 +4258,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4270,7 +4270,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "KitLora" : {
@@ -4282,7 +4282,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "stephaniedola-pdxl-nvwls-v1" : {
@@ -4294,7 +4294,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Claes" : {
@@ -4306,7 +4306,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ishtar_fgoPDXL_scarxzys" : {
@@ -4318,7 +4318,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kirihaPDXL_scarxzys" : {
@@ -4330,7 +4330,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "doa_leifang" : {
@@ -4342,7 +4342,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yui kotegawa" : {
@@ -4354,7 +4354,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "FubukiV2" : {
@@ -4366,7 +4366,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Monica_Kruszewski_Pony-000009" : {
@@ -4378,7 +4378,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "SlimesAmaryllis" : {
@@ -4390,7 +4390,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "celeste_izo" : {
@@ -4402,7 +4402,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "masaki-sonoue-s1-ponyxl-lora-nochekaiser_r2" : {
@@ -4414,7 +4414,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "RenYamashiroV2" : {
@@ -4426,7 +4426,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "FubukiAzuma" : {
@@ -4438,7 +4438,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4450,7 +4450,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "mayonakapunch-yuki-s1-ponyxl-lora-nochekaiser" : {
@@ -4462,7 +4462,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Vermilio1024_Pony" : {
@@ -4474,7 +4474,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Clara_Pony-10" : {
@@ -4486,7 +4486,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kotetsu_pony" : {
@@ -4498,19 +4498,19 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Kafka Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Kafka_Honkai,pink_eyes, red_hair, long_hair, large_breasts ",
+            "dress":"{ eyewear_on_head, white_shirt, collared_shirt, black_coat, coat, purple_gloves, high-waist_shorts, thigh_strap, long_sleeves, single_thigh_boot, pink_pantyhose, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "sekine-shiori-xl-02" : {
@@ -4522,7 +4522,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Mifune_Miyu-131" : {
@@ -4534,19 +4534,19 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
-    "" : {
+    "Lyria-Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Lyria \(Granblue Fantasy\), long hair, blue hair,, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Souseiseki" : {
@@ -4558,7 +4558,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Sonohara_YuikoV1" : {
@@ -4570,7 +4570,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kushima-kamome-xl-03" : {
@@ -4582,7 +4582,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Takama_Kozue_2e-4_Compass-JeloXL-000008-sv_fro-0.95-8" : {
@@ -4594,7 +4594,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "fgo_179_a1" : {
@@ -4606,7 +4606,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Mita" : {
@@ -4630,7 +4630,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "OutfitThavernarXLPony" : {
@@ -4642,7 +4642,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "MoonfireXLPony" : {
@@ -4654,7 +4654,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "DancerXLPony" : {
@@ -4666,7 +4666,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "_risa_matoba-elesico-pony" : {
@@ -4678,7 +4678,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4690,7 +4690,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Yami_Pony-10" : {
@@ -4702,7 +4702,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4714,7 +4714,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4726,7 +4726,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4738,7 +4738,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4750,7 +4750,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4762,7 +4762,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4774,7 +4774,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hu_Tao_Genshin_Impact_Pony_XL_LORA" : {
@@ -4786,7 +4786,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Tougou_Ai-80" : {
@@ -4798,7 +4798,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yusakozue_ponyXLV6" : {
@@ -4810,7 +4810,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Blanc_Neptunia_PonyXL" : {
@@ -4822,7 +4822,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "IrisvielVonEinzbernP1" : {
@@ -4834,7 +4834,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "IllyasvielVonEinzbern" : {
@@ -4846,7 +4846,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kitakami_kancolle_ponyXL_v1" : {
@@ -4858,7 +4858,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "reikakitakamiimaspony" : {
@@ -4870,7 +4870,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Chloe_Auber" : {
@@ -4882,7 +4882,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Emotional_hardcore_XL-bf16-pony-v1" : {
@@ -4894,7 +4894,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yusa-xl-05" : {
@@ -4906,7 +4906,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ShirasakaKoume_pony_v1" : {
@@ -4918,7 +4918,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kozue" : {
@@ -4930,7 +4930,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -4942,7 +4942,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Holostars - Tsukishita Kaoru v1" : {
@@ -4954,7 +4954,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "NemuNemu_AutismMxi" : {
@@ -4967,7 +4967,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kei_Yuuki_Tales_of_Agriculture___結城蛍_もやしもん__PonyXL" : {
@@ -4979,7 +4979,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "pony_char_koshimizu_toru-000018" : {
@@ -4991,7 +4991,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "sptoruKochimizuXLPony" : {
@@ -5003,7 +5003,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Aino_Nagisa-76" : {
@@ -5027,7 +5027,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5039,7 +5039,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5051,7 +5051,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5063,7 +5063,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5075,7 +5075,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5087,7 +5087,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5099,7 +5099,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5111,7 +5111,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "LoraPonyXLV60_cosTsumugi_v1" : {
@@ -5123,7 +5123,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "mayumi-saegusa-s2-ponyxl-lora-nochekaiser" : {
@@ -5135,7 +5135,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hina.pony" : {
@@ -5147,7 +5147,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5159,7 +5159,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5171,7 +5171,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5183,7 +5183,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5195,7 +5195,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5207,7 +5207,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5219,7 +5219,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "umamusume_matikane_tannhauser_pony_v1" : {
@@ -5231,7 +5231,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Sorasaki_Hina_Pony-10" : {
@@ -5243,7 +5243,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "eunie xl 065" : {
@@ -5255,7 +5255,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "sakamata_chloe_ponyxl_v1" : {
@@ -5267,7 +5267,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "suou_momoko_sdxl_locon_pony_v2" : {
@@ -5279,7 +5279,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5291,7 +5291,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Manabe_Itsuki-101" : {
@@ -5315,7 +5315,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5327,7 +5327,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5339,7 +5339,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5351,7 +5351,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5363,7 +5363,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -5375,7 +5375,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Manhattan Cafe-ponyXL_locon" : {
@@ -5387,7 +5387,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "umamusume_manhattancafe_ponyXL" : {
@@ -5399,7 +5399,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kitakami_futaba_pony_v1" : {
@@ -5411,7 +5411,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "brj-sayo-ponyXL-v1" : {
@@ -5423,7 +5423,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "haruka-hanabishi-ponyxl-lora-nochekaiser" : {
@@ -5435,7 +5435,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kaoruko-tenkawa-ponyxl-lora-nochekaiser" : {
@@ -5447,7 +5447,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kiwi-araga-ponyxl-lora-nochekaiser" : {
@@ -5459,7 +5459,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "sayo-minakami-ponyxl-lora-nochekaiser" : {
@@ -5471,7 +5471,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "nemo-anemo-ponyxl-lora-nochekaiser" : {
@@ -5483,7 +5483,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kaoruko" : {
@@ -5495,7 +5495,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kiwi" : {
@@ -5507,7 +5507,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "fairy_heart" : {
@@ -5519,7 +5519,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Christhea" : {
@@ -5531,7 +5531,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "lunaly_lily" : {
@@ -5543,7 +5543,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "sdxl-lyco-mew_ichigo-original-ponyDiffusionV6XL-v2" : {
@@ -5555,7 +5555,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "fairyflowerpony" : {
@@ -5567,7 +5567,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "evilshirleyponyvera" : {
@@ -5579,7 +5579,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "sirius(pony)" : {
@@ -5591,7 +5591,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PDXL_ZKCFujiko-000005" : {
@@ -5603,7 +5603,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kimiko_Miyagawa_IV_OC_Pony" : {
@@ -5615,7 +5615,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kira-000021" : {
@@ -5627,7 +5627,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Seki_Hiromi-99" : {
@@ -5639,7 +5639,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Miyoshi_Sana-113" : {
@@ -5651,7 +5651,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yor-briar-s1-ponyxl-lora-nochekaiser" : {
@@ -5663,7 +5663,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Yusa_Kozue-77" : {
@@ -5699,7 +5699,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kitakami_Reika-89" : {
@@ -5711,7 +5711,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kiriya Nozomi 霧谷 希 v0.1" : {
@@ -5723,7 +5723,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hoseki_Pokemon_NurseJoy_PDXL_v1" : {
@@ -5735,7 +5735,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hoseki_Fuukoi_AkariWatanabe_PDXL_v1" : {
@@ -5747,7 +5747,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hisakawa_Nagi-85" : {
@@ -5759,7 +5759,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ggwpKerlichV1" : {
@@ -5771,7 +5771,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "chloe_von_einzbernPDXL_scarxzys" : {
@@ -5783,7 +5783,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Koshimizu_Sachiko-130" : {
@@ -5795,7 +5795,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Anna-S_Rank_Boukensha_de_aru_Ore_no_Musume" : {
@@ -5807,7 +5807,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Yokoyama_Chika-60" : {
@@ -5819,7 +5819,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Villetta_Nu_Code_Geass_V2" : {
@@ -5831,7 +5831,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Satouno Diamond-ponyXL_V1" : {
@@ -5843,7 +5843,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "cyberpunk-lucy-s1-ponyxl-lora-nochekaiser" : {
@@ -5855,7 +5855,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "mahou_shoujo_ni_akogarete_-_hanabishi_haruka" : {
@@ -5867,7 +5867,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hinat4_Yng-05" : {
@@ -5879,7 +5879,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "deathmarchtotheparallelworldrhapsody-Orna" : {
@@ -5951,7 +5951,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ProfessedHerselfPupiloftheWiseMan-Amalette" : {
@@ -5963,7 +5963,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ProfessedHerselfPupiloftheWiseMan-Etenoa" : {
@@ -5975,7 +5975,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ProfessedHerselfPupiloftheWiseMan-Emera" : {
@@ -5987,7 +5987,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ProfessedHerselfPupiloftheWiseMan-Uneko" : {
@@ -5999,7 +5999,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ProfessedHerselfPupiloftheWiseMan-Mira" : {
@@ -6011,7 +6011,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "prim-fiofire-ponyxl-lora-nochekaiser" : {
@@ -6023,7 +6023,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kuroinu-kaguya-ova-ponyxl-lora-nochekaiser" : {
@@ -6035,7 +6035,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kuroinu-ruu-ruu-ova-ponyxl-lora-nochekaiser" : {
@@ -6047,7 +6047,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Anna_Florence_Kuroinu_V1" : {
@@ -6059,7 +6059,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "AstridFlamelKuroinuV1" : {
@@ -6071,7 +6071,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Rita-03" : {
@@ -6083,7 +6083,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Fallen_RosemaryV4-03" : {
@@ -6095,7 +6095,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "shimakazePDXL_scarxzys" : {
@@ -6107,7 +6107,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "amatsukazePDXL_scarxzys" : {
@@ -6119,7 +6119,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "edenszero_rebeccabluegarden_ponyXL" : {
@@ -6131,7 +6131,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ChamShibaTomoshibiPonyXL" : {
@@ -6143,7 +6143,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "olivia vel vine v0.1" : {
@@ -6155,7 +6155,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Gu_Yuena-03" : {
@@ -6167,7 +6167,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Rita_PhantomIron-03" : {
@@ -6179,7 +6179,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Stella_Vermillion" : {
@@ -6191,7 +6191,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Merlidiana-000008" : {
@@ -6203,7 +6203,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maou-sama_-_kyon" : {
@@ -6215,7 +6215,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Moroh4-05" : {
@@ -6227,7 +6227,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Setsun4-05" : {
@@ -6239,7 +6239,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maougun-satie-s1-ponyxl-lora-nochekaiser" : {
@@ -6251,7 +6251,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kishibeayaka_ponyXLV6" : {
@@ -6263,7 +6263,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Han4bi-05" : {
@@ -6275,7 +6275,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "retia-adolf-ponyxl-lora-nochekaiser" : {
@@ -6287,7 +6287,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Akiyama" : {
@@ -6299,7 +6299,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "GBC_RW_pony-000020" : {
@@ -6311,7 +6311,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yukihime-xl-pony-v1-000004" : {
@@ -6323,7 +6323,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "AcetrainerSMPonyXL-v1.1" : {
@@ -6335,7 +6335,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "4da-05" : {
@@ -6347,7 +6347,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "eru01-e10" : {
@@ -6359,7 +6359,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Himaw4ri-05" : {
@@ -6371,7 +6371,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "shiromi_ioriPDXL_scarxzys" : {
@@ -6383,7 +6383,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "shis_mitville" : {
@@ -6395,7 +6395,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Mutsumi-v2_Pony" : {
@@ -6407,7 +6407,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Power_Pony-10" : {
@@ -6419,7 +6419,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Maya_Kumashiro" : {
@@ -6431,7 +6431,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Curse_Maker_Etrian" : {
@@ -6443,7 +6443,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Furina_Pony-10" : {
@@ -6455,7 +6455,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Fujino Mitsuki-Manga(zasoo)-Pony" : {
@@ -6467,7 +6467,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Angel_Usukubo" : {
@@ -6479,7 +6479,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Luciela-Elsword_Character" : {
@@ -6491,7 +6491,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Frey1024_Pony" : {
@@ -6503,7 +6503,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hsr_xueyi_ponyXL" : {
@@ -6515,7 +6515,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "" : {
@@ -6527,7 +6527,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "KashimaRiriPDCAMEq1v1 KakeSeishunSparking!" : {
@@ -6539,7 +6539,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Martha" : {
@@ -6551,7 +6551,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "TakiShiina-09" : {
@@ -6563,7 +6563,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "willis_fujisaki-xl-pony-v1-000008" : {
@@ -6575,7 +6575,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "inside-chan_mk.iii_pony_v1" : {
@@ -6587,7 +6587,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "act-age_pony_v1" : { #-
@@ -6599,7 +6599,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Aikawa_Chinatsu-78" : {
@@ -6611,7 +6611,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Shalliceres" : {
@@ -6623,7 +6623,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "5-Toubun - Nakano Rena v1.1" : {
@@ -6635,7 +6635,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Project KV - Kuzunoha Rei v1.1" : {
@@ -6647,7 +6647,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "laplus4" : {
@@ -6659,7 +6659,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "VRChat_Karin-000015" : {
@@ -6671,7 +6671,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hakuryuuPDXL_scarxzys" : {
@@ -6683,7 +6683,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "juufuutei_raden_hololive_pdxl_goofy" : {
@@ -6695,7 +6695,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maou-sama_-_mink" : {
@@ -6707,7 +6707,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Nia_Teppelin_Young_Timeskip__Antispiral-000015" : {
@@ -6719,7 +6719,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "BG_minagi_pony_ver1" : {
@@ -6731,7 +6731,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Olga_Discordia_Kuroinu_V1" : {
@@ -6743,7 +6743,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "MayaKaiNi-16" : {
@@ -6755,7 +6755,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "seras_ashrainPDXL_scarxzys" : {
@@ -6767,7 +6767,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maou-sama_-_yukikaze" : {
@@ -6779,7 +6779,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maou-sama_-_tron" : {
@@ -6791,7 +6791,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maou-sama_-_yuu_kirino" : {
@@ -6803,7 +6803,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "morishimaharuka-pdxl-nvwls-v1" : {
@@ -6815,7 +6815,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "meimei001_pony" : {
@@ -6827,7 +6827,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ootoriEmuPonyV1" : {
@@ -6839,7 +6839,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Sistermon_blanc" : {
@@ -6851,7 +6851,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Katrina_v2" : {
@@ -6863,7 +6863,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hsr-waifu-pack-fuxuan" : {
@@ -6875,7 +6875,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hsr-waifu-pack-yunli" : {
@@ -6887,7 +6887,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hsr-waifu-pack-march7" : {
@@ -6899,7 +6899,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hsr-waifu-pack-zaryanka" : {
@@ -6911,7 +6911,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hsr-waifu-pack-svetlyachok" : {
@@ -6923,7 +6923,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hugin the Runick Wings ponyXL v1.1" : {
@@ -6935,7 +6935,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "NaviaPony" : {
@@ -6947,7 +6947,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ladynagant_pony_v1" : {
@@ -6959,7 +6959,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Miura_Azusa-94" : {
@@ -6983,7 +6983,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "belfast(pony2)" : {
@@ -6995,7 +6995,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Roshidere_KujouAlyaMikhailovnaXL" : {
@@ -7007,7 +7007,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Witchcrafter Madame Verre ponyXL v1" : {
@@ -7019,7 +7019,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Yujin_Im" : {
@@ -7031,7 +7031,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "lass bwPonyXL" : {
@@ -7043,7 +7043,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Sakura Pony" : {
@@ -7055,7 +7055,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "chiyono.pony" : {
@@ -7067,7 +7067,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "YaoYao-03" : {
@@ -7079,7 +7079,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Mei_APHO-03" : {
@@ -7091,7 +7091,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "fesakura-pdxl-nvwls-v1" : {
@@ -7103,7 +7103,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "CHAR-SakuraMatouPonyXL" : {
@@ -7115,7 +7115,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "aoi_sakura_ponyxl_v1" : {
@@ -7127,7 +7127,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "umamusume_sakurabakushino_ponyXL" : {
@@ -7139,7 +7139,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ShirayuriSakura_Pony_ct_ver2-000007" : {
@@ -7151,7 +7151,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "fate_saskura1" : {
@@ -7163,7 +7163,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kinomoto_sakura" : {
@@ -7175,7 +7175,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "pony_char_sakura_ritsuki-000033" : {
@@ -7187,7 +7187,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Iroha_Igarashi-60" : {
@@ -7199,7 +7199,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "pony_char_igarashi_rika-000027" : {
@@ -7211,7 +7211,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "rikaIgarashiXL" : {
@@ -7223,7 +7223,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Igarashi_Kyoko-42" : {
@@ -7235,7 +7235,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Ujiie_Mutsumi-98" : {
@@ -7247,7 +7247,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "alolaleaf" : {
@@ -7259,7 +7259,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "quintessential_quintuplets_sdxl_pony-itsuki" : {        
@@ -7271,7 +7271,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "quintessential_quintuplets_sdxl_pony-miku" : {        
@@ -7283,7 +7283,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "quintessential_quintuplets_sdxl_pony-nino" : {        
@@ -7295,7 +7295,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "quintessential_quintuplets_sdxl_pony-ichika" : {        
@@ -7307,7 +7307,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "_nodokaba-elesico-pony" : {        
@@ -7318,7 +7318,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "fate-bb-ponyxl-lora-nochekaiser" : {        
@@ -7329,7 +7329,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Arknights_Robin_Standart_outfit__Gift_of_Wild" : {        
@@ -7340,7 +7340,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "rin-tohsaka-ubw-ponyxl-lora-nochekaiser" : {        
@@ -7351,7 +7351,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "feixiao-strPO-v1A" : {        
@@ -7362,7 +7362,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "shikanoko-ukai-s1-ponyxl-lora-nochekaiser" : {        
@@ -7373,7 +7373,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "chisaki-sarashina-s1-ponyxl-lora-nochekaiser" : {        
@@ -7384,7 +7384,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "nonoa-miyamae-s1-ponyxl-lora-nochekaiser" : {#-
@@ -7395,7 +7395,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "chiharu-tsubameya-s1-ponyxl-lora-nochekaiser" : {        
@@ -7406,7 +7406,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "alisa-mikhailovna-kujou-s1-ponyxl-lora-nochekaiser" : {        
@@ -7417,7 +7417,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kinu-tanukikouji-s1-ponyxl-lora-nochekaiser" : {        
@@ -7428,7 +7428,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maria-mikhailovna-kujou-s1-ponyxl-lora-nochekaiser" : {        
@@ -7439,7 +7439,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yuki-suou-s1-ponyxl-lora-nochekaiser" : {        
@@ -7450,7 +7450,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ayano-kimishima-s1-ponyxl-lora-nochekaiser" : {        
@@ -7461,7 +7461,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "anastasia_ponyXLV6" : {        
@@ -7472,7 +7472,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "StelleHSR-Aesthetic" : {        
@@ -7483,7 +7483,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "KaguraPDCAMEq1v1.1 GBF" : {        
@@ -7494,7 +7494,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kurumi" : {        
@@ -7505,7 +7505,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "lass dpptPonyXL" : {        
@@ -7516,7 +7516,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Finana_Ryugu" : {        
@@ -7527,7 +7527,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ChamChaChaPonyXL" : {        
@@ -7538,7 +7538,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Asahina_Mafuyu" : {        
@@ -7549,7 +7549,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Yoisaki_Kanade" : {        
@@ -7560,7 +7560,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Akiyama_Mizuki" : {        
@@ -7571,7 +7571,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Otori_Emu" : {        
@@ -7582,7 +7582,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kusanagi_Nene" : {        
@@ -7593,7 +7593,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kaama_XL_r2" : {        
@@ -7604,7 +7604,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "sakuSasaki_XL-Pony_LoRA-C3Lier_16-16-8-8_AdamW_Un3e-4_Te1.5e-4_10batch" : {        
@@ -7615,7 +7615,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "pony_char_sasaki_saku-000006" : {        
@@ -7626,7 +7626,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "AndreaDoriaPDCAMEq2v1.1 AL" : {        
@@ -7637,7 +7637,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "lass xyPonyXL" : {        
@@ -7648,7 +7648,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "hub lass and Brigade Armor ponyXL v1.2" : {        
@@ -7659,7 +7659,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "lass gscPonyXL" : {        
@@ -7670,7 +7670,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "lass smPonyXL" : {        
@@ -7681,7 +7681,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Mavis_Pony-10" : {        
@@ -7692,7 +7692,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "trisha_elric_XL_pony_v1" : {        
@@ -7703,7 +7703,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "EveBaccanoXL-08" : {        
@@ -7714,7 +7714,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "chloe-von-einzbern-prisma-s2s3-ponyxl-lora-nochekaiser" : {        
@@ -7725,7 +7725,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "rin-tohsaka-ponyxl-lora-nochekaiser" : {        
@@ -7736,7 +7736,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "erika-ainsworth-prisma-s3-ponyxl-lora-nochekaiser" : {        
@@ -7747,7 +7747,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "illyasviel-von-einzbern-ponyxl-lora-nochekaiser" : {        
@@ -7758,7 +7758,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "EriIbusakiBattl3-10" : {        
@@ -7769,7 +7769,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Tenma Unomiya" : {        
@@ -7780,7 +7780,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maou-sama_-_luna_elegant" : {        
@@ -7791,7 +7791,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Anna_Clement_Pony" : {        
@@ -7802,7 +7802,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Takasaki_Asuka" : {        
@@ -7813,7 +7813,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Yuki_Orange" : {        
@@ -7824,7 +7824,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Seiun_Sky-ponyXL" : {        
@@ -7835,7 +7835,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Alisa-Aesthetic" : {        
@@ -7846,7 +7846,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ViridiXL" : {        
@@ -7857,7 +7857,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "mimi-katsura-prisma-s2-ponyxl-lora-nochekaiser" : {        
@@ -7868,7 +7868,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "tatsuko-gakumazawa-prisma-s2-ponyxl-lora-nochekaiser" : {        
@@ -7879,7 +7879,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "illyasviel-von-einzbern-prisma-s2s3-ponyxl-lora-nochekaiser" : {        
@@ -7890,7 +7890,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "jptiara2v7_prefectPonyXL3" : {        
@@ -7901,7 +7901,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Sheffield1024_Pony" : {        
@@ -7912,7 +7912,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ElaineAuclairCasual" : {        
@@ -7923,7 +7923,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "ElaineAuclairKai" : {        
@@ -7934,7 +7934,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Ulrica" : {        
@@ -7945,7 +7945,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kazuki new 2-000009" : {        
@@ -7956,7 +7956,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Aria_Roscente__The_Villainess_Turns_the_Hourglass__Manhwa__Webtoon" : {        
@@ -7967,7 +7967,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Nia_Teppelin" : {        
@@ -7978,7 +7978,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Suigintou" : {        
@@ -7989,7 +7989,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "lady xyPonyXL" : {        
@@ -8000,7 +8000,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Euphemia1XL-v1" : {        
@@ -8011,7 +8011,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "vanguardPDXL_scarxzys" : {        
@@ -8022,7 +8022,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "chaika_trabantPDXL_scarxzys" : {        
@@ -8033,7 +8033,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "KusugawaSasara_Pony_ct" : {        
@@ -8044,7 +8044,7 @@
         "negative":{
             "char":"3d,  sketch, score_6, score_5, score_4, worst quality, low quality, floating hair, muscular female, outline, holding, book, paper, holding pencil, bag, school bag, badge, name tag, v, sunset,",
         },
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Yukina(kjk)-Pony" : {        
@@ -8055,7 +8055,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "checkpoint-e85_s595" : {        
@@ -8066,7 +8066,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "BloomingLidicaV3" : {        
@@ -8121,7 +8121,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Chu_Qingcheng-03" : {        
@@ -8132,7 +8132,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Takahashi_Reiko-100" : {        
@@ -8143,7 +8143,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Hiiragi_Shino-100" : {        
@@ -8154,7 +8154,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "machiyukiricka-pdxl-nvwls-v1" : {        
@@ -8165,7 +8165,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maou-sama_-_aku" : {        
@@ -8176,7 +8176,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maou-sama_-_angel_white" : {        
@@ -8187,7 +8187,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "maou-sama_-_killer_queen" : {        
@@ -8198,7 +8198,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Shirley_fennete_Pony.1" : {        
@@ -8209,7 +8209,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Tsujino_Akari-96.1" : {        
@@ -8220,7 +8220,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "negligeePony" : {        
@@ -8231,7 +8231,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "NessaPXL - by KillerUwU13_AI" : {        
@@ -8242,7 +8242,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Lisara" : {        
@@ -8253,7 +8253,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "yuzuhara_yuzumi-xl-pony-v2-000007" : {        
@@ -8264,7 +8264,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "debora-pdxl-nvwls-v1" : {        
@@ -8275,7 +8275,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "SUBARU_MITEJIMA" : {        
@@ -8286,7 +8286,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Sakurai_Minami" : {        
@@ -8297,7 +8297,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Saegusa_Izumi" : {        
@@ -8308,7 +8308,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Saegusa_Kasumi" : {        
@@ -8319,7 +8319,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kitayama_Shizuku" : {        
@@ -8330,7 +8330,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "WhiskeyProjectXL" : {        
@@ -8341,7 +8341,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "mari-iochi-ponyxl-lora-nochekaiser" : {        
@@ -8352,7 +8352,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "andrea_doria_XL_pony_bf16_v1" : {        
@@ -8363,7 +8363,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "kaede-akamatsu-ponyxl-lora-nochekaiser" : {        
@@ -8374,7 +8374,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "gsbarbara.pony" : {        #-
@@ -8396,7 +8396,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "HisakawaTwins_pony_v1-hskwhyt" : {
@@ -8408,7 +8408,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "HisakawaTwins_pony_v1-hskwng" : {        
@@ -8420,7 +8420,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Tearlaments Shaylen ponyXL v1.1" : {        
@@ -8431,7 +8431,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Tearlaments Havnis ponyXL v1" : {        
@@ -8442,7 +8442,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Tearlaments Kitkallos PonyXL v5" : {        
@@ -8453,7 +8453,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "AgnesClaudel" : {        
@@ -8464,7 +8464,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "AgnesClaudelKai" : {        
@@ -8475,7 +8475,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "PONY_Tearlaments_Scheiren" : {        
@@ -8486,7 +8486,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Anastasia_pony_v1" : {        
@@ -8497,7 +8497,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "MiorineV2-Aesthetic" : {        
@@ -8508,7 +8508,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Tearlaments Merrli ponyXL v1.1" : { # 09-23
@@ -8530,7 +8530,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Harada_Miyo-59" : {        
@@ -8552,7 +8552,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "fireemblem_ordelia_ponyXL" : {        
@@ -8563,7 +8563,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "tokisakikurumi-10" : {        
@@ -8574,7 +8574,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
 	#"tokisakikurumi-10": {	
@@ -8593,7 +8593,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "NayutaKaniPony" : {        
@@ -8604,7 +8604,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Emilia-XL-V7-000002" : {        
@@ -8615,7 +8615,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Kagari" : {        
@@ -8626,7 +8626,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Mage_Bikini_Warriors_XL" : {        
@@ -8637,7 +8637,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Okuyama_Saori-92" : {        
@@ -8659,7 +8659,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Ichika_Amasawa___天沢_一夏__Classroom_of_the_Elite-000009" : {        
@@ -8692,7 +8692,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Towa" : {#-
@@ -8703,7 +8703,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "rwby_weissschnee_ponyXL" : {        
@@ -8714,7 +8714,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "Shinmai_Maou_No_Testament-Kurumi_Nonaka-PDXL" : {        
@@ -10064,7 +10064,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.5,0.75,)
         #"strength_clip": 1,
     },
     "mayumi-mahouka-01" : {        
