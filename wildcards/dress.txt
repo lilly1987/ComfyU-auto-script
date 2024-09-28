@@ -22,4 +22,5 @@ uniform
 frills fashion
 coat
 jacket fashion
-frilled dress,
+frilled dress
+mermaid dress

@@ -3,60 +3,515 @@
         #"file_name":"",
         "positive":{
             #"char":" , ",
-            "dress":"{ , |__dress__},",
+            "dress":",",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "" : {
         #"file_name":"",
         "positive":{
             #"char":" , ",
-            "dress":"{ , |__dress__},",
+            "dress":",",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "tomesode_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"tomesode,black kimono,obi,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "flight attendant_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"flight attendant,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "kk_sexydress_set38" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"kk_sexydress_set38,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "bunny girl dress_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"bunny girl dress, skirt,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "hutaoclo" : {
         #"file_name":"",
         "positive":{
             #"char":" , ",
-            "dress":"taoclo,shorts,long sleeves,black shorts,short shorts,chinese clothes,shirt,wide sleeves,",
+            "dress":"taoclo,",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "jirai kei_pony_V1.0" : {
+    "breast_curtainPony" : {
         #"file_name":"",
         "positive":{
-            #"char": "",
-            "dress":"jirai kei ,pink shirt ,black skirt,thighhighs,",
+            #"char":" , ",
+            "dress":"breast curtain,",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "lose sidetail_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"lose sidetail, side ponytail, hair ornament,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "0905 Sexy lingeri 39_v1_pony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"ruanyi0905,see-through dress,white thighhighs,thong,lingerie,lace trim,blonde hair,long hair,white bra,choker,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "classic maid_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"maid,maid headdress",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "SpicaOutfit" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"CHEERLEADER OUTFIT,SPICA CHEERLEADER OUTFIT",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "beautiful dress" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"beautiful dress,anime-dress,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "sweetdevilXLPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"sweetdevil, off shoulder, frilled skirt,layered skirt, garter straps, black thighhighs,butterfly hair ornament,navel,bra,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Little Red Riding Hood_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"little red riding hood, red dress, basket, skirt, corset,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "estheuni001PONY" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"estheuniform001, short sleeves short dress, black uniform, pantyhose:1.2, collarbone, black high heels,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "school uniform pony-v1.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"school uniform,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "school uniform Pony V3.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"school uniform,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "school uniform v4.0 pony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"school uniform,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "school uniform v5.0 pony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"black school uniform,school uniform,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Floral mesh Robe see-through" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"floral mesh robe, long sleeves, see-through, satin bow belt,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Neko_Frill_Resize" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"neko frill,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "" : {
         #"file_name":"",
         "positive":{
             #"char":" , ",
-            "dress":"{ , |__dress__},",
+            "dress":",",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Too_many_frills_pony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "Too_many_frills_pony":"too_many_frills,frills,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,1.50,),
+        "strength_clip": (0.5,1.50,),
+    },
+    "hud_anubis_drss_XLP" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"hhud_anubis_drss, black dress with gold detail, (black animal ears), gold headdress, long sleeves, puffy sleeves,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "BT_Knitted_Sweater_Dress_Pony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"knitted sweater dress,tight,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":",",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "off shoulder sweater_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"off-shoulder sweater,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "FF14MaidXLPony" : {
+        #"file_name":"",
+        "positive":{
+            "dress":" maid\(FF14\), maid, frilled dress, frilled sleeves,juliet sleeves, wrist cuffs, apron,,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "crinoline_pony" : {
@@ -68,7 +523,199 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Oktoberfest_sexy_dress" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"okdir_1, sexy off-shoulder dress, short sleeves,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Sexy_costume_pink_bed_beauty" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"pidrslbe_1, pink short off-shoulder dress, transparent spaghetti strap, gem, layered, golden garter straps, thighhighs, pink bridal gauntlets,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Converse shoes" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"(color) shoes,kuangwei,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "reij-dresslady" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"reij-lady, black dress, lsvr sleeves, stockings, black platform shoes,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Lingerie_Set_Sheer_Dress_02" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"L1ngerie_Dr3ss01,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "GreaGBF_dress_v0.1a_e6r" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"gl_dress, pelvic curtain, lace, tiara, bridal gauntlets",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "FrenchMaid-000003" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"Jed-frmd ,French Maid , A short, frilly black dress with white apron,  fishnet stockings, black heels,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "PinkWitch-000003" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"reij-pnkwtch,short skirt,hat",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "wrenchsjoyfuljinglepdxl" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"wrenchsjoyfuljingle,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "163e1abe-d7a2-4601-8140-4c18cc1159af.TA_trained" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"hoopdress,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "hud_s1n_XLP" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"hud_s1n, short black dress, long sleeves, veil, thighhighs,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "nature_princess_xlp" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"HUD_spr_armr, hair decoration, (chiffon dress), long sleeves, jewelry, intricate engraved metal neckpiece, shoulder piece, jeweled belt, breastplate, long sleeves,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "hutaoclo" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"taoclo,shorts,long sleeves,black shorts,short shorts,chinese clothes,shirt,wide sleeves,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "jirai kei_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            #"char": "",
+            "dress":"jirai kei ,pink shirt ,black skirt,thighhighs,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "cutesy_dress_v0.2-pony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"white dress, frilled dress, sleeves past wrists, see-through,,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "crinoline_pony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"crinoline skirt,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "off shoulder sweater_pony_V1.0" : {
@@ -80,7 +727,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
 	"hud_dk_mdressXLP": {	
@@ -113,7 +760,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "Cardcaptor_Sakura_clothing_Lora_cT" : {
@@ -125,7 +772,7 @@
         "negative":{
             "char":"3d, sketch, fat, obese, inflation,",
         },
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "girllikeslytherin_pony05" : {
@@ -137,7 +784,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "colorkimonoPony" : {
@@ -149,7 +796,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "JanusUniformXLPony" : {
@@ -161,7 +808,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "sweetdevilXLPony" : {
@@ -173,7 +820,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.75,1.0,)
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
 }
