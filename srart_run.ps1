@@ -1,3 +1,5 @@
+Get-Desktop 0 | Switch-Desktop
+
 # need "Install-Module VirtualDesktop"
 $cnt=Get-DesktopCount
 $cnt
