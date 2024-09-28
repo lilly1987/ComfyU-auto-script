@@ -1,4 +1,5 @@
 {
+	
     "" : {
         #"file_name":"",
         "positive":{
@@ -14,6 +15,28 @@
         #"file_name":"",
         "positive":{
             "":" , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "":" , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "gg1-000009" : {
+        #"file_name":"",
+        "positive":{
+            "gg1":" tentacle sex, multiple penises , ",
         },
         #"negative":{
         #    "char":"",

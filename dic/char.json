@@ -24,6 +24,30 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
+    "kujo_karen-pony-v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" blonde hair, bow, bowtie, breasts, floating hair, hair bun, hair ornament, hairclip, , kin-iro mosaic, kujou karen, long hair, single hair bun, purple eyes,",
+            "dress":"{jacket, medium breasts, moegi high school uniform,  school uniform, shirt, skirt, star \(symbol\), union jack, x hair ornament,  |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "kazutake hazano xl 033" : {
+        #"file_name":"",
+        "positive":{
+            "char":"kagari,  grey hair, grey eyes, , ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
     "Hoseki_Idolmaster_FukaToyokawa_PDXL_v1" : {
         #"file_name":"",
         "positive":{
@@ -56,11 +80,11 @@
         },
         "strength_model": (0.5,0.75,),
     },
-    "" : {
+    "fallenshadowponyxl" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" fallenshadow1, medium hair, pink eyes,  flat chest, ",
+            "dress":"{black dress, arm ribbon, ribbon, bow, frills, halterneck, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -152,11 +176,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "YarandralaBHPXL - by KillerUwU13_AI" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" YarandralaBHPXL, blue eyes, pink hair, long hair, hair between eyes, sidelocks, pointy ears, earrings, medium breasts, ",
+            "dress":"{ cleavage cutout, brown corset, green dress, short sleeves, green loincloth, white thighhighs, brown thigh boots, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -5656,14 +5680,14 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.75,0.875,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Char-HonkaiSR-Asta-Pony-V1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" asta \(honkai: star rail\), ",
+            "dress":"{detached sleeves, high heels, high-waist skirt, overskirt, anklet, thigh strap, bracelet, hairpin, belt, bowtie, choker, sleeveless shirt, id card , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -9084,12 +9108,13 @@
         #"file_name":"",
         "positive":{
             "char":" chiyono, ",
-            "dress":"{ , race,|, school,, |__dress__},",
+           # "dress":"{ , race,|, school,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
+        "strength_clip": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "YaoYao-03" : {
@@ -12695,7 +12720,7 @@
             #"hair":" ",
             "dress": " {__dress__| sleeveless shirt, detached sleeves, white shorts, black pantyhose, pantyhose under shorts, bare shoulders, navel,},",
         },
-        #"strength_model": (0.5,1.0),
+        "strength_model": (0.5,0.75),
     },
 	"Blake_v2": {	
         "positive":{
