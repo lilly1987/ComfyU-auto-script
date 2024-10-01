@@ -12,11 +12,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "shinosawa_hiro-000014" : {
         #"file_name":"",
         "positive":{
             "char":" , ",
-            "dress":"{ , |__dress__},",
+            "dress":"{ idol clothes, shinosawa_hiro, 1girl, bare shoulders, braid, braided bangs, detached sleeves, dress, jewelry,  skirt|normal outfit, shinosawa_hiro, 1girl, blue shorts, brown jacket, clothes hanger, collarbone, forehead,  jacket, long hair, long sleeves,  open clothes, open jacket, open mouth, shirt, short shorts, shorts,  white shirt|normal outfit, shinosawa_hiro, 1girl, dress, forehead, hair ornament, hairclip, long hair, long sleeves, striped, striped dress, thighhighs, vertical-striped dress, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -251,7 +251,7 @@
     "PEARL_DIAMOND" : {
         #"file_name":"",
         "positive":{
-            "char":" Pearl_Diamond,  blonde hair, hair intakes, short hair, blunt bangs, hair ribbon, blue eyes,",
+            "char":" Pearl_Diamond,  blonde hair, hair intakes, {short hair,|} blunt bangs, hair ribbon, blue eyes,",
             "dress":"{ school uniform, white jacket, large breasts, blue bowtie, insignia, white skirt, pleated skirt, black gloves, fingerless gloves, black pantyhose, black boots , |__dress__},",
         },
         #"negative":{
@@ -3874,7 +3874,7 @@
     "Zombie(Bubble Planet)-Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" Zombie, ,medium hair,green hair,hair between eyes,parted bangs,green eyes,bright pupils",
+            "char":" medium hair,green hair,hair between eyes,parted bangs,green eyes,bright pupils",
             "dress":"{ aqua shirt,cropped shirt,long sleeves,sleeves past wrists,medium breasts,navel,denim shorts,blue shorts,short shorts,bandaid on knee,black socks,sneakers,white footwear, |__dress__},",
         },
         #"negative":{
@@ -5695,11 +5695,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Yuki_MayonakaPunch_PonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Yuki \(mayopunch)\, red hair, gradient eyes, orange eyes, blunt bangs, hair intakes, ponytail, long hair, sidelocks, ",
+            "dress":"{collared shirt, long sleeves, high-waist dark skirt, long skirt, frills, neck ribbon, black choker, puffy sleeves, boots , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8112,7 +8112,7 @@
         #"file_name":"",
         "positive":{
             "char":" AstridFlamelKuroinu, witch hat, {red|blue} eyes, ",
-            "dress":"{ , |__dress__},",
+            "dress":"{witch dress , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8663,7 +8663,7 @@
     "Shalliceres" : {
         #"file_name":"",
         "positive":{
-            "char":" Shalliceres, braid, grey hair, 1girl, solo, long hair, floating hair, crown braid, red eyes, black ribbon, bangs, hair bow, hair ribbon, breasts,  , ",
+            "char":" Shalliceres, braid, grey hair,  long hair, floating hair, crown braid, red eyes, black ribbon, bangs, hair bow, hair ribbon, breasts,  , ",
             "dress":"{ Shalliceres_armor, dress, gloves, black gloves, armor dress, armor, breastplate, sleeveless, bare shoulders,, |__dress__},",
         },
         #"negative":{
@@ -11077,7 +11077,7 @@
         #"strength_model": (0.25,1.0),
         #"strength_clip": (0.25,1.0),
     },
-    "Sui_PD6XL" : {        
+    "Sui_PD6XL" : {      #-  
         "positive":{
             "char":"Sui,",
             #"dress":"{  NSSakiDress,black dress, choker,|__dress__,} ",
@@ -11883,6 +11883,17 @@
         #"strength_model": (0.5,1.0),
         #"strength_clip": (0.5,1.0),
     },
+    "yoshino_yorita-121" : {        
+        "positive":{
+            "char":"yorita yoshino, brown hair, brown eyes, long hair,   ",
+			#"dress":"{black thighhighs, white dress, puffy short sleeves, puffy sleeves|__dress__}",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        "strength_model": (0.5,0.75),
+        #"strength_clip": (0.5,1.0),
+    },
     "acetrainerXYtsukishiro" : {        
         "positive":{
             "char":"acexy,   ",
@@ -11894,7 +11905,7 @@
         "strength_model": (0.5,0.75),
         #"strength_clip": (0.5,1.0),
     },
-    "raimon_pony_v1-000060" : {        
+    "raimon_pony_v1-000060" : {       #-  
         "positive":{
             "char":"raimon_natsumi,   ",
 			#"dress":"{black thighhighs, white dress, puffy short sleeves, puffy sleeves|__dress__}",
@@ -12579,7 +12590,7 @@
 	"Kagenui-000011": {	
         "positive":{
             "char":"brown eyes, bob cut, two-tone hair, red hair, looking at viewer, blunt bangs,hair ornament, black hair.",
-            "dress": " {__dress__|jacket, wristband, collared shirt, striped pants, short sleeves, suspenders,high heels, platform heels, toeless legwear},",
+            "dress": " {__dress__|jacket, wristband, collared shirt, striped skirt, short sleeves, suspenders, high heels, toeless legwear},",
         },
         #"strength_model": (0.0,0.75),
         #"strength_clip": (0.50,01.0),
@@ -13180,7 +13191,8 @@
             #"hair":" ",
             #"dress":"{hat, flower, dress, white dress,white colored eyelashes,bare shoulders, hat flower,|__dress__,}",
         },
-        #"strength_model": (0.5,1.0),
+        "strength_model": (0.5,1.0),
+        "strength_clip": (0.5,1.0),
     },
 	"FarashaAl-QittaXL(kamidan)": {	
         "positive":{
@@ -13601,7 +13613,7 @@
     },
 	"Hannah_littlewitch": {	
         "positive":{
-            "char":"hannah, 1girl,  brown hair,  ponytail,  grey eyes,,  ",
+            "char":"hannah, brown hair,  ponytail,  grey eyes,,  ",
             "dress":"{luna nova school uniform school uniform,socks, shoes,yellow ribbon, white shirt, skirt, shirt, collared shirt, long sleeves, loafers, blue vest, vest, kneehighs, blue socks,,|__dress__}",
         },
         "strength_model": (0.5,1.0),
@@ -14120,6 +14132,7 @@
         "positive":{
              "char" :"komuro chinami, long hair, brown hair, brown eyes,",
         },
+		"strength_model": (0.5,0.75,),
     },
 	"cheshirePDXL_scarxzys": {	
         "positive":{

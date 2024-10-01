@@ -2655,7 +2655,17 @@
     },
     "Double vaginal from behind-000009" : {        
         "positive":{
-            "Double vaginal from behind-000009":" double vaginal, from behind,  1girl,  2boys,",
+            "Double vaginal from behind-000009":" double vaginal, sex from behind,  1girl,  2boys,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "mindlessface-XL-v2" : {        
+        "positive":{
+            "mindlessface-XL-v2":" (mindlessface:1.1),,",
         },
         #"negative":{
         #    "foot":"",

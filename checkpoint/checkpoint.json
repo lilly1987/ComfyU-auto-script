@@ -19,6 +19,9 @@
     "ponycolors_00001" : {# -0917
         "sampler_name": ["euler_ancestral"],
     },
+    "m1ne0hmerge_v10" : { 
+        "sampler_name": ["euler_ancestral"],
+    },
     "nachaPonyCheckpoint_v05" : { 
         "sampler_name": ["euler_ancestral"],
     },
@@ -72,6 +75,18 @@
         "negative":{
             #"checkpoint":"  ",
             #"realistic":",",
+        },
+    },
+    "unlimitedPORN_xREAL" : {# -
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":"  ,",
+            "realistic":",",
         },
     },
     "pianomix_v11" : {# =
@@ -157,6 +172,33 @@
             "realistic":",",
         },
     },
+    "kaguya_v580RR" : {# =
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+            "realistic":" realistic, ",
+        },
+        "negative":{
+            "quality":"five-fingers, sticky fingers, worst quality, low quality,  ,",
+            "realistic":",",
+        },
+    },
+    "waiREALMIX_v11" : {# =
+        "positive":{
+            "checkpoint":" score_9, score_8_up, score_7_up,,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            "checkpoint":"score_6,score_5,score_4,,,",
+            "quality":" worst quality, low quality, bad anatomy, bad hands, missing fingers, fewer digits, source_furry, source_pony, source_cartoon,3d, blurry, ,",
+            #"cartoon":"cgi, illustration, cartoon,,",
+            "realistic":",",
+        },
+		"sampler_name": ["euler_ancestral"],
+    },
     "hardcoreAsianCosplay_ponyV11" : {# =
         "positive":{
             #"checkpoint":" ,",
@@ -217,6 +259,16 @@
         },
         "negative":{
             "3d":"3d, monochrome, watermark,",
+        },
+        "cfg": (5.0,7),
+    },
+    "waiC_v60" : {# 
+        "positive":{
+            "checkpoint":"score_9, score_8_up, score_7_up,source_anime,BREAK,",
+            #"checkpoint":" ,",
+        },
+        "negative":{
+            "3d":"score_6, score_5, score_4, source_cartoon, 3d, (censor),monochrome,blurry, lowres,watermark,,",
         },
         "cfg": (5.0,7),
     },
