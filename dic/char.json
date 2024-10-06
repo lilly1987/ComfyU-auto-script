@@ -12,6 +12,30 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "Hoseki_Fate_Cleopatra_PDXL_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":"ftclp,  very long hair, blue hair, aqua eyes, long hair, blunt bangs, facial tattoo, gold hairband, hoop earrings, belt collar , ",
+            "dress":"{ necklace, pendant, two-tone jacket, white jacket, black jacket, mismatched sleeves, asymmetrical sleeves, white belt, belt buckle, brown pantyhose, black knee boots, bracelet, jewelry|necklace, pendant, white sleeveless dress, collarbone, black ribbon, gold armlet, bracelet, jewelry, ring, black pumps|gold armlet, bracelet, two-tone one-piece swimsuit, black one-piece swimsuit, white one-piece swimsuit, stomach cutout, blue ribbon, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
     "shinosawa_hiro-000014" : {
         #"file_name":"",
         "positive":{
@@ -212,11 +236,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Gloria_Pokemon_P1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"Gloria \(pokemon\), brown hair, brown eyes, , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -224,11 +248,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "SSGloriaTsukishiroSaikaDataset" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" gloiyuuria, ",
+           # "dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -236,11 +260,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "izuna_blue archive_PONY_last" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"izuna-default,  izuna \(blue archive\),yellow eyes, black hair, animal ears,, ",
+            "dress":"{ halo,fox tail,school uniform, japanese clothes,scarf,serafuku,skirt,gloves,(fishnets:1.1),single black sock,loafers, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -13504,6 +13528,8 @@
             "char":"cornelia li britannia, purple eyes, purple hair,,  ",
             #"dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
         },
+        "strength_model": (0.5,0.75,),
+        "strength_clip": 1,
     },
 	"chihaya_anon_fullclothes_ver": {	
         "positive":{

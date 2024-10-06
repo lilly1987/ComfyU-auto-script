@@ -39,6 +39,19 @@
             #"realistic":",",
         },
     },
+    "icatsSarponyx_v10" : {# =
+        "positive":{
+            #"quality":"masterpiece, best, great,",
+            "checkpoint":"score_9, score_8_up, score_7_up BREAK ict style,",
+            #"source_anime":"",
+            #"style":"",
+        },
+        "negative":{
+            #"checkpoint":"  ",
+            #"realistic":",",
+            #"quality":"worst, worse, average, signature, watermark,",
+        },
+    },
     "eclipseXL_v10" : {# =
         "positive":{
             "quality":"masterpiece, best, great,",

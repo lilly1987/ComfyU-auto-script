@@ -33,6 +33,62 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "":" , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "":" , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "CoveredPenetrationPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "CoveredPenetrationPony":"{COVERED PENETRATION , |SEE THROUGH SEX},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "Double vaginal on back-000008" : {
+        #"file_name":"",
+        "positive":{
+            "Double vaginal on back-000008":"double vaginal, sex, spread legs, 1girl, 2boys , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "TGRearDap" : {
+        #"file_name":"",
+        "positive":{
+            "TGRearDap":" TGRearDap,anal, double anal, from behind ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
     "gg1-000009" : {
         #"file_name":"",
         "positive":{
