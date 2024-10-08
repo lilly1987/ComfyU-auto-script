@@ -244,15 +244,31 @@ def setup_lora_add(setup):
     r=setup.pop("loras_random",{})
     if v:
         #==============================================
-        for k, v in r.items():
-            p=v.pop("per",1.0)
-            if p>=random.random():
+        if setup.pop("loras_random_mod") == "weights" :
+            arv=[]
+            arp=[]
+            for k, v in r.items():                
+                arp.append(v.get("per",1.0))
+                arv.append(v)
+                
+            #print("arv : ",arv)
+            #print("arp : ",arp)
+            lst=random.choices(arv,weights =arp,k=SetArrRndV((1,max-now)) )
+            #print("weights : ",lst)
+            for v in lst:                
                 l=SetArrRnd(v,"loras")
-                l=lora_dic(dicTagLora,dicLoraFileNameToTag,l,randSet,charSet,f"random {k}")
-                now+=1
-                if now>=max:
-                    print("now>=max loras_random",now,max)
-                    return
+                l=lora_dic(dicTagLora,dicLoraFileNameToTag,l,randSet,charSet,f"random w {k}")
+            now+=len(lst)
+        else:
+            for k, v in r.items():
+                p=v.pop("per",1.0)
+                if p>=random.random():
+                    l=SetArrRnd(v,"loras")
+                    l=lora_dic(dicTagLora,dicLoraFileNameToTag,l,randSet,charSet,f"random a {k}")
+                    now+=1
+                    if now>=max:
+                        print("now>=max loras_random",now,max)
+                        return
         ##==============================================
         LoraAddCnt=SetArrRnd(setup,"LoraAddCnt")
         listLora=list(dicFileLora.keys())

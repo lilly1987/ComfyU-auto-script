@@ -135,6 +135,7 @@
         #"realistic":"{realistic,|}",
         #"realistic":"realistic,",
     },
+    "loras_random_mod":"weights",
     "loras_random":{        
         "my":{
             "per":0.1250,
@@ -594,6 +595,7 @@
     "LoraAddCnt":(0,2),
     "LoraMaxCnt":(4,6),
     "LoraMaxCnt":(2,4),
+    "LoraMaxCnt":(3,3),
     "LoraMaxCnt":(1,3),
     #"queue_prompt_wait":False,    
     #"queue_prompt":False,    
