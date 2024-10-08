@@ -364,6 +364,7 @@
                 {"MS_PDX_Spitroast_Lite" : "MS_PDX_Spitroast_Lite"},
                 {"PR0N3-000010" : "PR0N3-000010"},
                 #{"Lesbian_piledriver" : "Lesbian_piledriver"},
+                {"cum-inflation-ponyxl-lora-nochekaiser" : "cum-inflation-ponyxl-lora-nochekaiser"},
                 {"Mind_Freak" : "Mind_Freak"},
                 {"Sex Voyeur" : "Sex Voyeur"},
                 {"One_Leg_Sex__Scissor_Pose__Split_Standing" : "One_Leg_Sex__Scissor_Pose__Split_Standing"},
@@ -393,6 +394,9 @@
         "acc":{
             "per":0.1250,
             "loras":[
+                {"Huge_dildo-000001" : "Huge_dildo-000001"},
+                {"Huge Insertion Bulge pony-v1.0" : "Huge Insertion Bulge pony-v1.0"},
+                {"huge_dildo_xl" : "huge_dildo_xl"},
                 {"analDildoQuiron" : "analDildoQuiron"},
                 {"HDA_AnalBeadsXL" : "HDA_AnalBeadsXL"},
                 {"Clit_Leash-000018" : "Clit_Leash-000018"},
@@ -415,6 +419,7 @@
         },
         "Punch":{
             "per":0.1250,
+            "per":0.06250,
             "loras":[
                 {"BellyPunchPonyV1-000001" : "BellyPunchPonyV1-000001"},
                 {"BellyPunchPonyV1-000002" : "BellyPunchPonyV1-000002"},

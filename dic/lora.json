@@ -22,10 +22,32 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Huge_dildo-000001" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "Huge_dildo-000001":" huge dildo, sex toy, large insertion,dildo riding, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "huge_dildo_xl" : {
+        #"file_name":"",
+        "positive":{
+            "huge_dildo_xl":" huge dildo, sex toy, large insertion,dildo riding, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Huge Insertion Bulge pony-v1.0" : {
+        #"file_name":"",
+        "positive":{
+            "Huge Insertion Bulge pony-v1.0":" stomach bulge,dildo,vaginal object insertion, ",
         },
         #"negative":{
         #    "char":"",
@@ -44,10 +66,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "cum-inflation-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "cum-inflation-ponyxl-lora-nochekaiser":" cum inflation, inflation, big belly, excessive cum, cum overflow, cum, rolling eyes, huge penis, ahegao, cum in nose, ejaculation, cum in mouth, cervical penetration, sex, penis, cum in ass, sex from behind, hetero, doggy style, arm grab, 1boy , ",
         },
         #"negative":{
         #    "char":"",
