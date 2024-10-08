@@ -39,6 +39,19 @@
             #"realistic":",",
         },
     },
+    "fnMixPonyXL_v15Beta" : {# =
+        "positive":{
+            #"quality":"masterpiece, best, great,",
+            "checkpoint":" BREAK score_9,score_8_up,score_7_up, BREAK ",
+            #"source_anime":"",
+            #"style":"",
+        },
+        "negative":{
+            "checkpoint":"score_6,score_5,score_4,source_furry,source_pony,ugly,bad feet,bad hands,   ",
+            #"realistic":",",
+            #"quality":"worst, worse, average, signature, watermark,",
+        },
+    },
     "icatsSarponyx_v10" : {# =
         "positive":{
             #"quality":"masterpiece, best, great,",
@@ -90,6 +103,48 @@
             #"realistic":",",
         },
     },
+    "PonyAsianBeauty_v10" : {# -
+        "positive":{
+            "checkpoint":" score_9,score_8_up,score_7_up,source_real,realistic,photorealistic,zPDXL,4k,realistic detailed skin,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            "checkpoint":" score_5,score_4,score_3,score_2,score_1,NEGATIVE_HANDS-pony,negativeXLD,aidxlv05_neg,zPDXL-neg, ,",
+            "realistic":",",
+        },
+		"workflow":{
+			"FaceDetailer":{
+				"steps": (30,60),
+			},
+		},
+        "cfg": (3,5),
+    },
+    "mergeij02_v10VAE" : {# -
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":"  ,",
+            "realistic":",",
+        },
+    },
+    "reasianponyMerge_reasiantoonV10" : {# 
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":"  ,",
+            "realistic":",",
+        },
+    },
     "unlimitedPORN_xREAL" : {# -
         "positive":{
             #"checkpoint":" ,",
@@ -102,7 +157,19 @@
             "realistic":",",
         },
     },
-    "pianomix_v11" : {# =
+    "pianomix_v11" : {# =--
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":"  ,",
+            "realistic":",",
+        },
+    },
+    "MergeijPONY_v40VAE" : {# =
         "positive":{
             #"checkpoint":" ,",
             #"dress":" ,",
@@ -128,7 +195,7 @@
     },
     "cosplayserendipitypn_v50Semirealistic" : {# =
         "positive":{
-            #"checkpoint":" ,",
+            "checkpoint":" score_9, score_8_up, score_7_up, rating explicit, realistic, masterpiece, best quality, ultra HD quality details,,",
             #"dress":" ,",
             "source_anime":"",
             "style":"",

@@ -33,10 +33,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "haraboko_pony_V3.0" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "haraboko_pony_V3.0":"extrem insertion,stomach bulge , ",
         },
         #"negative":{
         #    "char":"",
@@ -552,10 +552,76 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
+    "ntr_pony_V1.0" : {
+        #"file_name":"",
+        "positive":{
+            "ntr_pony_V1.0":" ntr, netorare, blush, 1boy, grabbing from behind, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "licking nipples_pony_V1.1" : {
+        #"file_name":"",
+        "positive":{
+            "licking nipples_pony_V1.1":" licking nipples, breasts,nipples,grabbijg breasts,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
     "" : {
         #"file_name":"",
         "positive":{
             "":" , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "":" , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Deep_Kiss-000009 (1)" : {
+        #"file_name":"",
+        "positive":{
+            "Deep_Kiss-000009 (1)":"deep kiss , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "standanal-000026" : {
+        #"file_name":"",
+        "positive":{
+            "standanal-000026":" standanal, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "rectangular_frame" : {
+        #"file_name":"",
+        "positive":{
+            "rectangular_frame":" bound, rectangular frame, bdsm,bondage,, ",
         },
         #"negative":{
         #    "char":"",
@@ -772,10 +838,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "body_cage" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "body_cage":" body_cage, ",
         },
         #"negative":{
         #    "char":"",
@@ -783,10 +849,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "attached_to_wall" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "attached_to_wall":" attached_to_wall, ",
         },
         #"negative":{
         #    "char":"",
@@ -794,76 +860,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "analDildoQuiron" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,),
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "":" , ",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,),
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "":" , ",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,),
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "":" , ",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,),
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "":" , ",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,),
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "":" , ",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.75,1.0,),
-        #"strength_clip": 1,
-    },
-    "" : {
-        #"file_name":"",
-        "positive":{
-            "":" , ",
+            "analDildoQuiron":"anaDildoQuiron ,anal object insertion, ",
         },
         #"negative":{
         #    "char":"",
@@ -1541,15 +1541,26 @@
     },
 	"sex_with_arch_back_kiss": {	
         "positive":{
-            "hanging_preparing_pony":"kiss, arched back, sex from behind,",
+            "sex_with_arch_back_kiss":"kiss, arched back, sex from behind,",
             "pose":"",
         },
     },
 	"hanging_preparing_pony": {	
         "positive":{
-            "hanging_preparing_pony":"{1-3$$hanged, |hanging,| hanging executed,} {asphyxiation,|},arm behind back, {vibrator,|}",
+            "hanging_preparing_pony":"{1-3$$hanged, |hanging,| hanging executed,} {asphyxiation,|},arm behind back, {vibrator,|} {struggling,|}",
             "pose":"",
         },
+    },
+    "execution_hanged_pony_v2" : {        
+        "positive":{
+            "execution_hanged_pony_v2":"{1-3$$hanged, |hanging,| hanging executed,} {asphyxiation,| },arm behind back, {vibrator,|} {struggling,|}",
+            "pose":"",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
     },
 	"device-bondage-v1.0": {	
         "positive":{
@@ -2458,17 +2469,6 @@
     "sexmen_pony" : {        
         "positive":{
             "fatmenx" :"fatmenx,",
-        },
-        #"negative":{
-        #    "foot":"",
-        #},
-        #"strength_model": (0.75,1.0,),
-        #"strength_clip": 1,
-    },
-    "execution_hanged_pony_v2" : {        
-        "positive":{
-            "execution_hanged_pony_v2":"{1-3$$hanged, |hanging,| hanging executed,} {asphyxiation,| },arm behind back, {vibrator,|}",
-            "pose":"",
         },
         #"negative":{
         #    "foot":"",

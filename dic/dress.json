@@ -419,6 +419,18 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
+    "OutfitThavernarXLPony" : {
+        #"file_name":"",
+        "positive":{
+            #"char":" , ",
+            "dress":"{ bandeau, dancer,cross-laced legwear,detached sleeves, circlet,jewelry,pelvic curtain,,hair ornments,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
     "Too_many_frills_pony" : {
         #"file_name":"",
         "positive":{

@@ -92,6 +92,8 @@ def setup_checkpoint(setup):
         updatek(setup,d,"positive")
         d.pop("positive",{})
         d.pop("negative",{})
+        updatek(setup,d,"workflow")
+        d.pop("workflow",{})
         update(workflow["KSampler"],d)
         update(workflow["FaceDetailer"],d)
     

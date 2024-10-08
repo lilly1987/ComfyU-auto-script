@@ -1,6 +1,6 @@
 {
     "totalMax":100000000,
-    "ckptMax":15,
+    "ckptMax":30,
     "listMax":3,
     "queue_loop":3,
     "Path":"SD",
@@ -30,6 +30,7 @@
             "steps": (30,40),
             "steps": 30,
             "cfg": (4,10),
+            "cfg": (4,8),
             "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
             "sampler_name": ["euler_ancestral" ],
             "scheduler": "karras",
@@ -42,6 +43,7 @@
             "steps": (30,40),
             "steps": (35,45),
             "cfg": (5,9),
+            "cfg": (3,7),
             "sampler_name": ["euler_ancestral","dpmpp_2m","dpmpp_2m_sde",],
             "sampler_name": ["euler_ancestral" ],
             "scheduler": "karras",
@@ -134,23 +136,6 @@
         #"realistic":"realistic,",
     },
     "loras_random":{        
-        "Too_many_frills_pony":{
-            "per":0.1250,
-            "per":0.50,
-            "loras":[
-                {"Too_many_frills_pony" : "Too_many_frills_pony"},
-            ],
-        },
-        "cage":{
-            "per":0.750,
-            "per":0.1250,
-            "loras":[
-                {"Chastity v3" : "Chastity v3"},
-                {"Sissy Chastity" : "Sissy Chastity"},
-                {"flat chastity cage" : "flat chastity cage"},
-                {"ATC_v2_4_64" : "ATC_v2_4_64"},
-            ],
-        },
         "my":{
             "per":0.1250,
             "loras":[
@@ -164,6 +149,7 @@
                 {"gg1-000009" : "gg1-000009"},
                 {"mindlessface-XL-v2" : "mindlessface-XL-v2"},
                 {"Blowjob" : "Blowjob"},
+                {"haraboko_pony_V3.0" : "haraboko_pony_V3.0"},
                 {"mozo" : "mozo"},
                 {"size_difference-000006" : "size_difference-000006"},
                 {"groping_pony_V1.0" : "groping_pony_V1.0"},
@@ -174,12 +160,33 @@
                 {"Chastity v3" : "Chastity v3"},
                 {"Sissy Chastity" : "Sissy Chastity"},
                 {"flat chastity cage" : "flat chastity cage"},
+                {"ATC_v2_4_64" : "ATC_v2_4_64"},				
+                {"Deep_Kiss-000009 (1)" : "Deep_Kiss-000009 (1)"},		
+                {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
+            ],
+        },
+		"cage":{
+            "per":0.750,
+            "per":0.1250,
+            "loras":[
+                {"Chastity v3" : "Chastity v3"},
+                {"Sissy Chastity" : "Sissy Chastity"},
+                {"flat chastity cage" : "flat chastity cage"},
                 {"ATC_v2_4_64" : "ATC_v2_4_64"},
             ],
         },
-        "dress":{
+		"Too_many_frills_pony":{
+            "per":0.50,
+            "per":0.250,
+            "per":0.0,
+            "loras":[
+                {"Too_many_frills_pony" : "Too_many_frills_pony"},
+            ],
+        },
+		"dress":{
             "per":0.1250,
             "loras":[
+                {"Too_many_frills_pony" : "Too_many_frills_pony"},
                 {"jirai kei_pony_V1.0" : "jirai kei_pony_V1.0"},
                 {"off shoulder sweater_pony_V1.0" : "off shoulder sweater_pony_V1.0"},
                 {"classic maid_pony_V1.0" : "classic maid_pony_V1.0"},
@@ -188,6 +195,7 @@
                 {"tomesode_pony_V1.0" : "tomesode_pony_V1.0"},
                 {"kk_sexydress_set38" : "kk_sexydress_set38"},
                 {"flight attendant_pony_V1.0" : "flight attendant_pony_V1.0"},
+                {"OutfitThavernarXLPony" : "OutfitThavernarXLPony"},
                 {"hutaoclo" : "hutaoclo"},
                 {"crinoline_pony" : "crinoline_pony"},
                 {"off shoulder sweater_pony_V1.0" : "off shoulder sweater_pony_V1.0"},
@@ -214,6 +222,15 @@
                 {"nature_princess_xlp" : "nature_princess_xlp"},
             ],
         },
+        "boots":{
+            "per":0.1250,
+            "loras":[
+                #{"heelless_ballet_boots":"heelless_ballet_boots"},
+                {"Balletboots":"Balletboots"},
+                {"Caged_Heels-000005":"Caged_Heels-000005"},
+                #{"balletboots_v1":"balletboots_v1"},
+            ],
+        },
         "Choke":{
             "per":0.1250,
             "loras":[
@@ -224,14 +241,41 @@
                 {"strangling_pony_V1.0" : "strangling_pony_V1.0"},
             ],
         },
-        "hand under skirt":{
+        "pose":{
             "per":0.1250,
             "loras":[
-                {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
+                {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},		
+                {"ntr_pony_V1.0" : "ntr_pony_V1.0"},
+                {"licking nipples_pony_V1.1" : "licking nipples_pony_V1.1"},		
+            ],
+        },
+        "body":{
+            "per":0.1250,
+            "loras":[
+                {"Holding minigirl" : "Holding minigirl"},
+                {"minig_full_neslon-000009" : "minig_full_neslon-000009"},
+                {"minigirl-pony-sdxl" : "minigirl-pony-sdxl"},
+                {"Extreme_tiny" : "Extreme_tiny"},
+                #{"Concept_Gigantic_stomach_bulge" : "Concept_Gigantic_stomach_bulge"},
+                {"amputee_XL_pony" : "amputee_XL_pony"},
+                {"skinny_body_LoRA_V2_for_Pony" : "skinny_body_LoRA_V2_for_Pony"},
+                {"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002" : "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002"},
+                {"stomach_bulge_above_the_chest-000016" : "stomach_bulge_above_the_chest-000016"},
+            ],
+        },
+        "mini":{
+            "per":0.1250,
+            "per":0.0,
+            "loras":[
+                {"Holding minigirl" : "Holding minigirl"},
+                {"minig_full_neslon-000009" : "minig_full_neslon-000009"},
+                {"minigirl-pony-sdxl" : "minigirl-pony-sdxl"},
+                {"Extreme_tiny" : "Extreme_tiny"},
             ],
         },
         "stomach_bulge_above_the_chest":{
             "per":0.1250,
+            "per":0.0,
             "loras":[
                 {"stomach_bulge_above_the_chest-000016" : "stomach_bulge_above_the_chest-000016"},
             ],
@@ -242,15 +286,6 @@
         #        {"Sex_from_behind_symmetrical_docking" : "Sex_from_behind_symmetrical_docking"}, # +
         #    ],
         #},
-        "mini":{
-            "per":0.1250,
-            "loras":[
-                {"Holding minigirl" : "Holding minigirl"},
-                {"minig_full_neslon-000009" : "minig_full_neslon-000009"},
-                {"minigirl-pony-sdxl" : "minigirl-pony-sdxl"},
-                {"Extreme_tiny" : "Extreme_tiny"},
-            ],
-        },
         #"Chloroform v1":{
         #    "per":0.250,
         #    "loras":[
@@ -265,6 +300,8 @@
                 {"earfuck" : "earfuck"},
                 {"Concept_in_wall" : "Concept_in_wall"},
                 {"impalement_civ" : "impalement_civ"},
+                {"hanging_preparing_pony" : "hanging_preparing_pony"},
+                {"execution_hanged_pony_v2" : "execution_hanged_pony_v2"},
                 {"HangingPonyV2-000005" : "HangingPonyV2-000005"},
                 {"HangingPonyV2-000010" : "HangingPonyV2-000010"},
                 {"HangingPonyV2-000015" : "HangingPonyV2-000015"},
@@ -289,37 +326,22 @@
         #    "loras":[
         #    ],
         #},
-        "boots":{
-            "per":0.1250,
-            "loras":[
-                #{"heelless_ballet_boots":"heelless_ballet_boots"},
-                {"Balletboots":"Balletboots"},
-                {"Caged_Heels-000005":"Caged_Heels-000005"},
-                #{"balletboots_v1":"balletboots_v1"},
-            ],
-        },
         "bind":{
             "per":0.1250,
             "loras":[
                 {"sprawled_pony_V1.0" : "sprawled_pony_V1.0"},                
                 {"ImpaledPonyV1-000002" : "ImpaledPonyV1-000002"},
                 {"permanent_metal_framebent_over_v3-000010" : "permanent_metal_framebent_over_v3-000010"},
+                {"attached_to_wall" : "attached_to_wall"},
                 {"fourarmedmale" : "fourarmedmale"},
+                {"rectangular_frame" : "rectangular_frame"},
+                {"body_cage" : "body_cage"},
                 {"rope_walking_pony" : "rope_walking_pony"},
                 {"X bound_pony_V1.1" : "X bound_pony_V1.1"},
                 {"groping_pony_V1.0" : "groping_pony_V1.0"},
                 {"hand under skirt_pony_V1.0" : "hand under skirt_pony_V1.0"},
                 {"garrote_2-000012" : "garrote_2-000012"},
                 #{"Roped_Up" : "Roped_Up"},
-            ],
-        },
-        "body":{
-            "per":0.1250,
-            "loras":[
-                #{"Concept_Gigantic_stomach_bulge" : "Concept_Gigantic_stomach_bulge"},
-                {"amputee_XL_pony" : "amputee_XL_pony"},
-                {"skinny_body_LoRA_V2_for_Pony" : "skinny_body_LoRA_V2_for_Pony"},
-                {"Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002" : "Slimtastic_Thinomenal_Skinnymazing_Anorsexya_Pony_XL-000002"},
             ],
         },
         "fellatio":{
@@ -345,6 +367,8 @@
                 {"Sex Voyeur" : "Sex Voyeur"},
                 {"One_Leg_Sex__Scissor_Pose__Split_Standing" : "One_Leg_Sex__Scissor_Pose__Split_Standing"},
                 {"size_difference-000006" : "size_difference-000006"},
+				{"haraboko_pony_V3.0" : "haraboko_pony_V3.0"},
+                {"standanal-000026" : "standanal-000026"},
                 {"mozo" : "mozo"},
                 {"cowgirl_position_nonpov_xl" : "cowgirl_position_nonpov_xl"},
                 {"sex_with_arch_back_kiss" : "sex_with_arch_back_kiss"},
@@ -368,9 +392,17 @@
         "acc":{
             "per":0.1250,
             "loras":[
+                {"analDildoQuiron" : "analDildoQuiron"},
                 {"HDA_AnalBeadsXL" : "HDA_AnalBeadsXL"},
                 {"Clit_Leash-000018" : "Clit_Leash-000018"},
                 {"vagina weightlifting_pony_V1.0" : "vagina weightlifting_pony_V1.0"},
+            ],
+        },
+        "etc":{
+            "per":0.1250,
+            "loras":[
+                {"uterus_prolapse_V7" : "uterus_prolapse_V7"},		
+                #{"Chloroform v1" : "Chloroform v1"},
             ],
         },
         "style":{
@@ -395,13 +427,6 @@
                 {"BellyPunchPonyV1-000010" : "BellyPunchPonyV1-000010"},
             ],
         },
-        "etc":{
-            "per":0.1250,
-            "loras":[
-                {"uterus_prolapse_V7" : "uterus_prolapse_V7"},
-                #{"Chloroform v1" : "Chloroform v1"},
-            ],
-        },
         "boy":{
             "per":0.1250,
             "loras":[
@@ -413,7 +438,9 @@
         "nachaPonyCheckpoint_v05",
         "peganaMERGE_v50",
         "mikoshiPony_v11",
+        "bubbleHentaiPony_v10",
         "waiREALMIX_v11",
+        "reasianponyMerge_reasiantoonV10",
     ],
     "ListCard":[
         ".*hoodAL-ponyxl-bshi-v1.*",
@@ -423,6 +450,7 @@
         ".*Sucy_Manbavaran_Little_Witch_Academia__-_Pony.*",
         ".*rice.pony.*",
         ".*kurumi_tokisaki_0-000035.*",
+        ".*chaika_trabantPDXL_scarxzys.*",
         ".*luna_kindred_pony_v10.*",
         ".*fate_morganlefay_ponyXL-CHALDEA.*",
         ".*priscilla_barielle_rezero_Pony_XL.*",
@@ -475,6 +503,8 @@
         ".*rwby_weissschnee_ponyXL.*",
         ".*Shalliceres.*",
         ".*Anastasia_pony_v1.*",
+        ".*PDXL_ZKCFujiko-000005.*",
+        ".*GBC_RW_pony-000020.*",
         ".*weiss_v2.*",
         ".*sdxl-gmas-shinohiro-pony.*",
         ".*Sucy_Manbaravan.*",
@@ -497,7 +527,7 @@
         ".*Futaba_Anzu-51.*",
         ".*priscilla-barielle-s3-leak-ponyxl-lora-nochekaiser.*",
         ".*DK_BUNNY.*",
-        ".*sense_sousou no frieren_PONY_last.*",
+        #".*sense_sousou no frieren_PONY_last.*",
         ".*mari-iochi-ponyxl-lora-nochekaiser.*",
         ".*Emilia-XL-V7-000002.*",
         ".*Edel_PONY_from_Sousou_no_Frieren.*",
@@ -518,6 +548,7 @@
         ".*TanakaMamimi_pony_v1.*",
         ".*PinkHairWitchV1.*",
         ".*TakagakiKaede_pony_v1.*",
+        ".*Ichinose_Shiki-88.*",
         ".*Eris_PONY.*",
         ".*mutsuki_blue archive_PONY_last.*",
         ".*Mahouka-08.*",
