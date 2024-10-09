@@ -19,6 +19,9 @@
     "ponycolors_00001" : {# -0917
         "sampler_name": ["euler_ancestral"],
     },
+    "wolfony_v10" : { #241009
+        #"sampler_name": ["euler_ancestral"],
+    },
     "m1ne0hmerge_v10" : { 
         "sampler_name": ["euler_ancestral"],
     },
@@ -467,6 +470,16 @@
         },
         "cfg": (7.0,10),
         "sampler_name": ["dpmpp_2m_sde","dpmpp_3m_sde",],
+    },
+    "uncannyValley_v3Pvc" : {# 
+        "positive":{
+            "checkpoint":"score_9, score_8_up, score_7_up,",
+            #"source_anime":"",
+            #"checkpoint":" ,",
+        },
+        "negative":{
+            "checkpoint":" score_4, score_3, score_2, score_1,",
+        },
     },
     "relhCheckpoint_v40" : {# -
         "positive":{

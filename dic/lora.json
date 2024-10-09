@@ -175,7 +175,7 @@
         #"negative":{
         #    "char":"",
         #},
-        "strength_model": (0.25,0.75,),
+        "strength_model": (0.25,0.5,),
         "strength_clip": 1,
     },
     "Chastity v3" : {
@@ -508,10 +508,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "mika_pikazo_PonyXL_style_v01" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "mika_pikazo_PonyXL_style_v01":" , ",
         },
         #"negative":{
         #    "char":"",
@@ -519,10 +519,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "suspensionPony" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "suspensionPony":"suspension , arms behind back, bound, { leg down, |leg up,| spread legs, |}",
         },
         #"negative":{
         #    "char":"",
@@ -530,10 +530,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "gyakuebi_pony_V1.1" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "gyakuebi_pony_V1.1":"gyakuebi, bound, bdsm, suspension, rope,shibari , ",
         },
         #"negative":{
         #    "char":"",
