@@ -410,12 +410,12 @@
         "Huge":{
             "per":0.1250,
             "loras":[
-				{"Concept_Gigantic_stomach_bulge" : "Concept_Gigantic_stomach_bulge"},
+				#{"Concept_Gigantic_stomach_bulge" : "Concept_Gigantic_stomach_bulge"},
 				{"Huge Insertion Bulge pony-v1.0" : "Huge Insertion Bulge pony-v1.0"},
 				{"Huge_Stomach_Bulge-000005" : "Huge_Stomach_Bulge-000005"},
 				{"bulgeallXLPony" : "bulgeallXLPony"},
 				{"bulgeniceXLPony" : "bulgeniceXLPony"},
-				{"bulgepecXLPony" : "bulgepecXLPony"},
+				#{"bulgepecXLPony" : "bulgepecXLPony"},
 				{"bulgesuperXLPony" : "bulgesuperXLPony"},
 				{"extrem insertion_Pony_V1.0" : "extrem insertion_Pony_V1.0"},
 				{"extreme_insertion_ponyXL_v1.2" : "extreme_insertion_ponyXL_v1.2"},

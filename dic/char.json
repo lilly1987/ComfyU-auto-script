@@ -24,6 +24,30 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     }, 
+    "oyama-mahiro_ep9_onimai_last" : {
+        #"file_name":"",
+        "positive":{
+            "char":" outfit9ep,oyama mahiro, brown eyes,grey hair,ahoge,hair ornament,, ",
+            "dress":"{ (red capelet:1.2),hood,fur trim,(brown shorts, black pantyhose:0.8),red boots, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    }, 
+    "oyama-mahiro_ep5_onimai_epoch-000020" : {
+        #"file_name":"",
+        "positive":{
+            "char":" outfit5ep,oyama mahiro, brown eyes,long hair,ahoge,wavy hair,",
+            "dress":"{ white dress,pink shirt,long sleeves,short socks,red footwear, , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    }, 
     "Sakurai_Momoka-65" : {
         #"file_name":"",
         "positive":{
@@ -5107,11 +5131,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "oyama-mahiro_ep4_onimai_epoch-000020" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" outfit4ep, oyama mahiro,brown eyes,long hair,ahoge,hair bun,, ",
+            "dress":"{ pink dress,puffy short sleeves,bare shoulders,(tank top:0.7),sandals, |__dress__},",
         },
         #"negative":{
         #    "char":"",
