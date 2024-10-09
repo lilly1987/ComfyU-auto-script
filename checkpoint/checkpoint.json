@@ -19,10 +19,16 @@
     "ponycolors_00001" : {# -0917
         "sampler_name": ["euler_ancestral"],
     },
+    "pixivponyepitamix_v20" : { #241009
+        #"sampler_name": ["euler_ancestral"],
+    },
     "blueTear_v20" : { #241009
         #"sampler_name": ["euler_ancestral"],
     },
     "wolfony_v10" : { #241009
+        #"sampler_name": ["euler_ancestral"],
+    },
+    "pickledPonyMix_v20" : { #241009
         #"sampler_name": ["euler_ancestral"],
     },
     "m1ne0hmerge_v10" : { 
@@ -51,6 +57,19 @@
             #"checkpoint":" BREAK score_9,score_8_up,score_7_up, BREAK ",
             #"source_anime":"",
             "Hitomi":"Hitomi",
+        },
+        "negative":{
+            #"checkpoint":"score_6,score_5,score_4,source_furry,source_pony,ugly,bad feet,bad hands,   ",
+            #"realistic":",",
+            #"quality":"worst, worse, average, signature, watermark,",
+        },
+    },
+    "pornzillaHentai_v20" : {# =
+        "positive":{
+            #"quality":"masterpiece, best, great,",
+            "checkpoint":" score_9, score_8_up, score_7_up, source anime,",
+            #"source_anime":"",
+            #"style":"",
         },
         "negative":{
             #"checkpoint":"score_6,score_5,score_4,source_furry,source_pony,ugly,bad feet,bad hands,   ",

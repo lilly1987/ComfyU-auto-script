@@ -407,11 +407,11 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "платья" : {
         #"file_name":"",
         "positive":{
             #"char":" , ",
-            "dress":",",
+            "dress":"{rorita_doresu|hanfu_dress|lehenga_choli},",
         },
         #"negative":{
         #    "char":"",

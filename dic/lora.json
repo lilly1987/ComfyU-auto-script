@@ -22,6 +22,39 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "":" , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "squatting-cowgirl-position-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "squatting-cowgirl-position-ponyxl-lora-nochekaiser":" squatting cowgirl position, cowgirl position, girl on top, straddling, sex, vaginal, hetero, penis, pussy,  happy sex, , ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "neck_bondage_stand" : {
+        #"file_name":"",
+        "positive":{
+            "neck_bondage_stand":" neck_bondage, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
     "Huge_dildo-000001" : {
         #"file_name":"",
         "positive":{
@@ -354,10 +387,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Lunas-Multiple Penetration Tentacles-SDXL-A1" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "Lunas-Multiple Penetration Tentacles-SDXL-A1":" multiple penetration, multiple insertions,",
         },
         #"negative":{
         #    "char":"",
@@ -365,10 +398,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "multiple_insertions_v0.2-pony" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "multiple_insertions_v0.2-pony":" {multiple insertions, anal object insertion, vaginal object insertion,|multiple penetrations, anal, vaginal }",
         },
         #"negative":{
         #    "char":"",
@@ -376,10 +409,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Defeated_v2-000002" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "Defeated_v2-000002":"tentacles, vaginal, anal, multiple_insertions,D3F34T3DPDXL,mindbreak, fucked_silly, defeated_heroine, ",
         },
         #"negative":{
         #    "char":"",
@@ -387,10 +420,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Defeated_v2-000006" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "Defeated_v2-000006":" tentacles, vaginal, anal, multiple_insertions,D3F34T3DPDXL,mindbreak, fucked_silly, defeated_heroine, ",
         },
         #"negative":{
         #    "char":"",
@@ -398,10 +431,54 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Defeated_v2-autism" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "Defeated_v2-000006":" tentacles, vaginal, anal, multiple_insertions,D3F34T3DPDXL,mindbreak, fucked_silly, defeated_heroine, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Concept_Defeated_Heroine_XL-000004" : {
+        #"file_name":"",
+        "positive":{
+            "Defeated_v2-000006":" tentacles, vaginal, anal, multiple_insertions,D3F34T3DPDXL,mindbreak, fucked_silly, defeated_heroine, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Concept_Defeated_Heroine_XL-000001" : {
+        #"file_name":"",
+        "positive":{
+            "Defeated_v2-000006":" tentacles, vaginal, anal, multiple_insertions,D3F34T3DPDXL,mindbreak, fucked_silly, defeated_heroine, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Concept_Defeated_Heroine_XL-000003" : {
+        #"file_name":"",
+        "positive":{
+            "Defeated_v2-000006":" tentacles, vaginal, anal, multiple_insertions,D3F34T3DPDXL,mindbreak, fucked_silly, defeated_heroine, ",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "Huge_Stomach_Bulge-000005" : {
+        #"file_name":"",
+        "positive":{
+            "Huge_Stomach_Bulge-000005":" stomach bulge, ",
         },
         #"negative":{
         #    "char":"",
@@ -1676,7 +1753,7 @@
     },
     "bind_four_sdxl" : {        
         "positive":{
-            "bulgeallXLPony":" stomach bulge, absurd stomach bulge, pectoral bulge, vaginal, anal,",
+            "bind_four_sdxl":" bind_all, machine, spread legs, bdsm,",
         },
         #"negative":{
         #    "foot":"",
@@ -2338,7 +2415,7 @@
     },
     "Sex_from_behind_symmetrical_docking" : {        
         "positive":{
-            "Sex_from_behind_symmetrical_docking":" 2girls, 2boys, sex from behind, foursome, symmetrical docking, breast press, side view, looking at another,",
+            "Sex_from_behind_symmetrical_docking":" {4girls,|2girls,|2girls, 2boys,|} sex from behind, foursome, symmetrical docking, breast press, side view, looking at another,",
         },
         #"negative":{
         #    "foot":"",

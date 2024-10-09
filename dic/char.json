@@ -11,6 +11,162 @@
         #},
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
+    }, 
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    }, 
+    "Renne" : {
+        #"file_name":"",
+        "positive":{
+            "char":"Renne, yellow eyes, parted bangs, hair ribbon, purple hair, long hair, young,  , ",
+            "dress":"{white dress, frills, ribbons, black sailor collar, red ascot, white socks, mary janes,       , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },    
+    "TrailsOfColdSteel-Guests-Renne Bright" : {
+        "file_name":"TrailsOfColdSteel-Guests-Renne",
+        "positive":{
+            "char":" Renne Bright, yellow eyes, purple hair, long hair, parted bangs, hair ribbon,,, ",
+            "dress":"{ black jacket, purple shirt, short sleeves, white skirt, thigh band, cross-laced boots , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },    
+    "TrailsOfColdSteel-Guests-Renne Rayne" : {
+        "file_name":"TrailsOfColdSteel-Guests-Renne",
+        "positive":{
+            "char":"  Nadia Rayne, blue eyes, pink hair, twintails, long hair, very long hair, pom pom hair ornament, hairclip, hair ribbon, petite, small breasts, ,, ",
+            "dress":"{pink dress, bare shoulders, detached sleeves, blue ascot, ruffled skirt, frills, black thighhighs, brown boots, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },    
+    "TrailsOfColdSteel-Guests-Renne Grandmaster" : {
+        "file_name":"TrailsOfColdSteel-Guests-Renne",
+        "positive":{
+            "char":" Grandmaster, blue hair, long hair, very long hair, red eyes, medium breasts, ,, ",
+            "dress":"{white shawl, white cloak, black dress, long sleeves, ruffles, jewelry, choker, pantyhose, red high heels, pelvic curtain |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },    
+    "TrailsOfColdSteel-Guests-Renne Seiland" : {
+        "file_name":"TrailsOfColdSteel-Guests-Renne",
+        "positive":{
+            "char":", Lucy Seiland, blonde hair, long hair, swept bangs, forehead, purple eyes, medium breasts, ,, ",
+            "dress":"{white suit, green undershirt, green frills, white miniskirt, pink ribbon, black pantyhose, high heels,|__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },    
+    "Dark_dream_Pony_xl" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ gothic dress,gothic hairband, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "PONY_RF2Julia" : {
+        #"file_name":"",
+        "positive":{
+            "char":"julia, light green hair, drill hair, purple eyes, hairband, white flower ornament , ",
+            "dress":"{ black dress, drill hair, orange ribbon, wide sleeves, frilled dress, white frills, long sleeves, lolita fashion, gothic lolita, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "LapisRosenberg" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Lapis Rosenberg, grey hair, long hair, heterochromia, yellow and aqua eyes, doll joints, headband, hair ornament, , ",
+            "dress":"{ purple dress, gothic lolita, frills, ribbons, white pantyhose, black gloves, purple shoes,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "LapisRosenbergKai" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Lapis Rosenberg, grey hair, long hair, braid, black ribbon, heterochromia, yellow and aqua eyes, small breasts,, ",
+            "dress":"{ purple dress, detached sleeves, bare shoulders, white collar, purple ribbon, black corset, white thighhighs, mary janes,  , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "NyoRussiaPony" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Nyosia, blonde hair, ",
+            "dress":"{ pink dress, fur, headband, hat, bow, black gloves, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "dolia-08" : {
+        #"file_name":"",
+        "positive":{
+            "char":" dolia, blue eyes, blue hair, long hair, ahoge, shell hair ornament, , ",
+            "dress":"{ bare shoulders, necklace, sleeveless, blue dress, bracelet, barefoot, seashell, starfish, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "Matsumoto_Sarina-97" : {
+        #"file_name":"",
+        "positive":{
+            "char":"  matsumoto sarina, long hair, brown hair, blue eyes, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
     },
     "Pretender Nine-Tattoo Dragon Eliza" : {
         #"file_name":"",
@@ -317,19 +473,19 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Kurokawa_Chiaki-93" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" kurokawa chiaki, long hair, black hair, brown eyes, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "YarandralaBHPXL - by KillerUwU13_AI" : {
@@ -572,11 +728,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Yshtola-05" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" yshtola,  miqo'te,animal ears, cat ears,   hair ornament,  white hair,  short hair, blue eyes, fur trim, cat tail,  bangs,  tail,  off shoulder, cat girl,  ",
+            "dress":"{  dress, cleavage, black dress,feathers, bare shoulders,thigh strap,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3808,7 +3964,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "yugioh-eria-ponyxl-lora-nochekaiser" : {
@@ -6307,11 +6463,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Mirai_XL" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Mirai_XL, long black hair, eyepatch, red eye, small breasts, ",
+            "dress":"{ Mirai_hebijo, school uniform, black sailor collar, black tie, black serafuku, black shirt, black pleated skirt, short sleeves, black legwear, brown loafers|Mirai_casual, pink tank top, inner camisole, bracelet, wristband, white kneesocks, blue pleated skirt, pink sneakers|Mirai_Shinobi, gothic lolita, lolita fashion, frilled hat with cat ears, dress, frills, capelet, long sleeves, black wings, white socks, black shoes, cat tail, |Mirai_hearts, heart print underwear, heart print bra, heart print panties,|__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6319,11 +6475,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "PB_mikoto_pony_ver1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"pb_mikoto, blue eyes, black hair, long hair, hairband,  , ",
+            "dress":"{lolita fashion, black dress, gothic lolita, detached sleeves, frills, white thighhighs, zettai ryouiki,| underwear, strapless, black bra, bare arms, black panties, breasts, navel, underwear only, frills, white thighhighs, zettai ryouiki, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6331,11 +6487,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "ophis" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"ophis,black hair,very long hair,bangs,black eyes , ",
+            "dress":"{ ophisdress,lolita hairband,pink neck bow,frills,ribbon,clothing cutout, open clothes,cross pasties, sleeves past wrists,white bloomers,lolita fashion,gothic lolita, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6832,14 +6988,15 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
+        "strength_clip": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Lapis_Lazuli-Dungeon_Defense" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"LapisLazuli, blue eyes, pointy ears, light pink hair, long hair, low twintails, , ",
+            "dress":"{ lapis suit , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6847,11 +7004,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "akirose_pony_v01a02ep17_resize32" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"akiBase, detached hair, low twintails, gradient eyes, purple eyes, blonde hair,  , ",
+            "dress":"{akiFirst, detached hair, low twintails, blonde hair, gradient eyes, purple eyes, headgear, elbow gloves, white gloves, black footwear, thigh boots, white skirt, blue jacket, white skirt, overskirt, red necktie, collared dress, shrug \(clothing\), cropped jacket, |akiSleep, sleepwear, short hair, parted bangs, blonde hair, gradient eyes, purple eyes, hair ornament, ribbon choker, white choker, blue nightgown, frilled nightgown, fake animal ears, white tail, cat tail, spaghetti strap, off shoulder, long sleeves, chemise, empire waist, single thighhigh, white thighhighs, frilled thighhighs, slippers, cat slippers, bloomers, front slit, navel, |akiSummer, detached hair, low twintails, gradient eyes, purple eyes, straw hat, sun hat, o-ring bikini bottom, layered bikini, blue bikini, print bikini, sling bikini top, sarong, blue sarong, hat flower, hat bow, blue bow, red flower, bracelet, thighlet, |akiNewYear, gradient eyes, purple eyes, bob cut, single side bun, side ponytail, detached hair, kanzashi, multiple hairpins,  blue beret, sideless kimono, sleeveless kimono, blue kimono, wide sleeves, detached sleeves, blue sleeves, black arm warmers, red capelet, hakama skirt, red hakama, waist apron, white apron, frilled apron, lace-up boots, brown footwear, |akiGoth, gradient eyes, purple eyes, blonde hair, braid, choker, ankle bow, back bow, black bow, black choker, black dress, black footwear, black gloves, black sash, collarbone, criss-cross halter, detached hair, dress, drill hair, earrings, fake animal ears, fake elf ears, frilled dress, frilled hairband, frilled sleeves, gothic lolita, hair behind ear, hairband, half glove, juliet sleeves, key, lace trim, lace-trimmed dress, layered dress, lolita fashion, lolita hairband, low twintails, parted bangs, petticoat, red petticoat, pocket square, strappy heels, twin drills, white pantyhose, wrist cuffs, |akiGaming, belt buckle, black belt, black shirt, blonde hair, collarbone, nail polish, off-shoulder shirt, overall skirt, overalls, paint stains, pink laces, pink nails, shirt, shoes, skirt, sneakers, white footwear, white overalls, white skirt, side slit, zipper, zipper pull tab, green jacket , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6859,11 +7016,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "latooni_subota_XL-bf16-pony-v1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"latooni subota, , ",
+            "dress":"{lolita fashion, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6871,11 +7028,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Chaika1024_Pony" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"chaika trabant , long hair, purple eyes, thick eyebrows, white hair, grey hair, hair ornament, lolita hairband",
+            "dress":"{ long sleeves, dress, thighhighs, frills, hairband, puffy sleeves, black thighhighs, rose, white rose, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6883,11 +7040,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "JN_Ekaterina_Kurae" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Katja,drill hair, very long hair, ",
+            "dress":"{ detached sleeves, gothic lolita, hairband, lolita fashion, black thighhighs, zettai ryouiki, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8213,7 +8370,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "AstridFlamelKuroinuV1" : {
@@ -10387,7 +10544,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "NessaPXL - by KillerUwU13_AI" : {        
@@ -10631,7 +10788,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "PONY_Tearlaments_Scheiren" : {        
@@ -13306,7 +13463,7 @@
             #"hair":" ",
             #"dress":"{,|__dress__,}",
         },
-        #"strength_model": (0.5,1.0),
+        "strength_model": (0.5,0.75),
     },
 	"Sasaki_Chie-112": {	
         "positive":{
@@ -13799,7 +13956,8 @@
             "char" :"plaindoll,white hair", 
             "dress":"{bonnet, red ascot, brown cloak, brown dress, long dress, gloves,|__dress__},",
         },
-        "strength_model": (0.5,0.875),
+        "strength_model": (0.5,0.75),
+        "strength_clip": (0.5,0.75),
     },
 	"sdxl-py-raffina": {	
         "positive":{
