@@ -175,7 +175,7 @@
         #"negative":{
         #    "char":"",
         #},
-        "strength_model": (0.5,0.75,),
+        "strength_model": (0.25,0.75,),
         "strength_clip": 1,
     },
     "Chastity v3" : {
@@ -706,10 +706,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "X-cross" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "X-cross":" xncrobor_1, bdsm, cuffs, standing, ",
         },
         #"negative":{
         #    "char":"",

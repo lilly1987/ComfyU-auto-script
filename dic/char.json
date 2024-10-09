@@ -12,16 +12,40 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Tsukioka_Kogane-123" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
+            "char":" tsukioka kogane, long hair, brown hair, brown eyes, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "Wakui_Rumi-95" : {
+        #"file_name":"",
+        "positive":{
+            "char":" wakui rumi, short hair, blue hair, black eyes, ",
             "dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "Imura_Setsuna-80" : {
+        #"file_name":"",
+        "positive":{
+            "char":" imura setsuna, long hair, brown hair, aqua eyes , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "Fujii_Tomo-96" : {
@@ -100,7 +124,7 @@
         #"file_name":"",
         "positive":{
             "char":" , ",
-            "dress":"{ idol clothes, shinosawa_hiro, 1girl, bare shoulders, braid, braided bangs, detached sleeves, dress, jewelry,  skirt|normal outfit, shinosawa_hiro, 1girl, blue shorts, brown jacket, clothes hanger, collarbone, forehead,  jacket, long hair, long sleeves,  open clothes, open jacket, open mouth, shirt, short shorts, shorts,  white shirt|normal outfit, shinosawa_hiro, 1girl, dress, forehead, hair ornament, hairclip, long hair, long sleeves, striped, striped dress, thighhighs, vertical-striped dress, |__dress__},",
+            "dress":"{ idol clothes, shinosawa_hiro, 1girl, bare shoulders, braid, braided bangs, detached sleeves, dress, jewelry,  skirt|normal outfit, shinosawa_hiro, 1girl, blue skirt, brown jacket, clothes hanger, collarbone, forehead,  jacket, long hair, long sleeves,  open clothes, open jacket, open mouth, shirt, short skirt, skirt,  white shirt|normal outfit, shinosawa_hiro, 1girl, dress, forehead, hair ornament, hairclip, long hair, long sleeves, striped, striped dress, thighhighs, vertical-striped dress, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -284,11 +308,35 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "PonyXL Claudia Enfield V1 " : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"claudia enfield, breasts, large breasts, , ",
+            "dress":"{ school uniform, black thighhighs, black skirt, black footwear, fur trim, garter straps, knee boots,|navel, cleavage, swimsuit, bikini, white bikini,|cleavage, striped clothes, bathrobe,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "claudia-levantine-ova-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":" claudia levantine, short hair, blue eyes, pink hair, french braid, braid,, ",
+           # "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "chloe_von_einzbern_ponyxl_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" aachloe, long hair, pink hair, half updo, hairpin, dark skin, orange eyes, small breasts,, ",
+            "dress":"{  red cape, breastplate, shrug (clothing), long sleeves, bridal gauntlets, stomach tattoo, waist cape, black bikini, thighs|, one side up,  school uniform, white sailor collar, red ribbon, white shirt, short sleeves, pleated skirt, black skirt,|  ponytail, hair bow, bell, animal ears, dark skin, orange eyes, tail, red collar, red belt, fur shawl, arm strap, animal hands, o-ring, stomach tattoo, fur-trimmed skirt, black skirt, thigh strap, black thighhighs |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -684,7 +732,7 @@
         #"file_name":"",
         "positive":{
             "char":"lithia ,hair between eyes, ",
-            "dress":"{bare shoulders, shirt, hair ornament, thighhighs, gloves, navel,collarbone, jacket, shorts, sleeveless, choker, black gloves, hairclip, midriff, belt, black thighhighs, fingerless gloves, necklace, off shoulder,coat, crop top,black shirt, short shorts, sleeveless shirt, one side up, black choker, tank top, x hair ornament, single thighhigh, white shorts, , |__dress__},",
+            "dress":"{bare shoulders, shirt, hair ornament, thighhighs, gloves, navel,collarbone, jacket, skirt, sleeveless, choker, black gloves, hairclip, midriff, belt, black thighhighs, fingerless gloves, necklace, off shoulder,coat, crop top,black shirt, short skirt, sleeveless shirt, one side up, black choker, tank top, x hair ornament, single thighhigh, white skirt, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -756,7 +804,7 @@
         #"file_name":"",
         "positive":{
             "char":" mj,  flat chest, blue eyes, long hair, white hair, ponytail,  ",
-            "dress":"{ choker, collarbone, bare shoulders, tank top, crop top, short shorts, black shorts, black thighhighs, bracelet,,, |__dress__},",
+            "dress":"{ choker, collarbone, bare shoulders, tank top, crop top, short skirt, black skirt, black thighhighs, bracelet,,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -864,7 +912,7 @@
         #"file_name":"",
         "positive":{
             "char":" kyoko, long hair, bow, ponytail, hair bow, red hair, red eyes, ribbon,, ",
-            "dress":"{ kyoko_magica, red dress, bare shoulders, detached sleeves, black thighhighs, red boots, knee boots|kyoko_Casual, blue jacket, black shirt, denim shorts, cutoffs, black boots|kyoko_school, school uniform, long sleeves, pleated skirt, kneehighs, black socks, loafers, red bowtie,  |__dress__},",
+            "dress":"{ kyoko_magica, red dress, bare shoulders, detached sleeves, black thighhighs, red boots, knee boots|kyoko_Casual, blue jacket, black shirt, denim skirt, cutoffs, black boots|kyoko_school, school uniform, long sleeves, pleated skirt, kneehighs, black socks, loafers, red bowtie,  |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -972,7 +1020,7 @@
         #"file_name":"",
         "positive":{
             "char":"u-47, black hair, large breasts, long hair, red eyes, crossed bangs, white hair, streaked hair, one side up, hair ornament, ear piercing, , ",
-            "dress":"{ black one-piece swimsuit, black panties, bridal gauntlets, cleavage, cross, iron cross, jewelry, one-piece swimsuit, swimsuit, thighhighs, underwear, zipper, center opening,|bike shorts, choker, cleavage, cross, glasses, iron cross, navel, semi-rimless eyewear, camisole, white camisole, jacket, black jacket, zipper, bare shoulders,|apron, black panties, black skirt, cross, frilled apron, frills, iron cross, long sleeves, maid headdress, miniskirt, navel, panties, skirt, thighhighs, unzipped, waist apron, zipper, zipper pull tab, cleavage, center opening,, |__dress__},",
+            "dress":"{ black one-piece swimsuit, black panties, bridal gauntlets, cleavage, cross, iron cross, jewelry, one-piece swimsuit, swimsuit, thighhighs, underwear, zipper, center opening,|bike skirt, choker, cleavage, cross, glasses, iron cross, navel, semi-rimless eyewear, camisole, white camisole, jacket, black jacket, zipper, bare shoulders,|apron, black panties, black skirt, cross, frilled apron, frills, iron cross, long sleeves, maid headdress, miniskirt, navel, panties, skirt, thighhighs, unzipped, waist apron, zipper, zipper pull tab, cleavage, center opening,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1093,7 +1141,7 @@
         #"file_name":"",
         "positive":{
             "char":" , ",
-            "dress":"{ towa_base, twintails, two-tone jacket, closed jacket, cropped jacket, off shoulder, black crop top, black short shorts, fishnet thighhighs, single thighhigh, baseball cap, demon tail, piercings|towa_casual, jirai kei, frilled shirt, high-waist skirt, grey cardigan, beret, fake horns, thigh strap, thigh tattoo, ear piercing|towa_white, high ponytail, very long hair, white crop top, white jacket, cleavage, white demon wings, white shorts, short shorts, long sleeves, white gloves, knee pads, piercings|towaschool, low twin braids, black shirt, black skirt, pleated skirt, collared shirt, purple necktie, demon horns, demon wings, demon tail, ear piercing|towa_break, ponytail, two-tone shirt, see-through skirt, navel, fishnet thighhighs, single thighhigh, asymmetrical sleeves, jewelry|towa_newyears, single braid, checkered kimono, japanese clothes, fishnet gloves, purple bow, hair flower, |__dress__},",
+            "dress":"{ towa_base, twintails, two-tone jacket, closed jacket, cropped jacket, off shoulder, black crop top, black short skirt, fishnet thighhighs, single thighhigh, baseball cap, demon tail, piercings|towa_casual, jirai kei, frilled shirt, high-waist skirt, grey cardigan, beret, fake horns, thigh strap, thigh tattoo, ear piercing|towa_white, high ponytail, very long hair, white crop top, white jacket, cleavage, white demon wings, white skirt, short skirt, long sleeves, white gloves, knee pads, piercings|towaschool, low twin braids, black shirt, black skirt, pleated skirt, collared shirt, purple necktie, demon horns, demon wings, demon tail, ear piercing|towa_break, ponytail, two-tone shirt, see-through skirt, navel, fishnet thighhighs, single thighhigh, asymmetrical sleeves, jewelry|towa_newyears, single braid, checkered kimono, japanese clothes, fishnet gloves, purple bow, hair flower, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1345,7 +1393,7 @@
         #"file_name":"",
         "positive":{
             "char":" green_pokemon,brown hair, ponytail,  ",
-            "dress":"{red headwear, shorts, black shirt, sleevles, head to waist, , |__dress__},",
+            "dress":"{red headwear, skirt, black shirt, sleevles, head to waist, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1405,7 +1453,7 @@
         #"file_name":"",
         "positive":{
             "char":"Female scientist , very long hair,light brown hair,wavy hair,messy long hair,shiny hair,sidelocks,hair between eyes,bangs,green eyes",
-            "dress":"{ collared shirt,dress shirt,white shirt,black necktie,medium breasts,long sleeves,grey belt,dark blue shorts,denim shorts,short shorts,black thighhighs,zettai ryouiki,loafers, |__dress__},",
+            "dress":"{ collared shirt,dress shirt,white shirt,black necktie,medium breasts,long sleeves,grey belt,dark blue skirt,denim skirt,short skirt,black thighhighs,zettai ryouiki,loafers, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1458,7 +1506,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "HK416(gf)-Pony" : {
@@ -1664,7 +1712,7 @@
         #"file_name":"",
         "positive":{
             "char":"arthropod girl , HoneyBee,antennae,medium hair,blonde hair,sidelocks,parted bangs,hair between eyes,brown eyes,bright pupils",
-            "dress":"{bare shoulders,turtleneck,black shirt,sleeveless shirt,midriff,medium breasts,bracelet,insect wings,black shorts,multicolored shorts,yellow shorts,zettai ryouiki,black thighhighs,black footwear,high heel boots , |__dress__},",
+            "dress":"{bare shoulders,turtleneck,black shirt,sleeveless shirt,midriff,medium breasts,bracelet,insect wings,black skirt,multicolored skirt,yellow skirt,zettai ryouiki,black thighhighs,black footwear,high heel boots , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1676,7 +1724,7 @@
         #"file_name":"",
         "positive":{
             "char":" Futakuchi, white long hair, black eyes, , ",
-            "dress":"{ red and black crop top, white shorts, white sneakers, baseball cap, midriff, bare shoulder, fingerless gloves, black socks, |__dress__},",
+            "dress":"{ red and black crop top, white skirt, white sneakers, baseball cap, midriff, bare shoulder, fingerless gloves, black socks, |__dress__},",
 
         },
         #"negative":{
@@ -1785,13 +1833,13 @@
     "BG_remi_pony_ver1" : {
         #"file_name":"",
         "positive":{
-            "char":" bg_reimi, yellow eyes, green hair, long hair, one side up, very long hair, , ",
+            "char":" bg_reimi, yellow eyes,  long hair, one side up, very long hair, , ",
             "dress":"{ school uniform, necktie, brown jacket, blazer, long sleeves, plaid skirt, white thighhighs, zettai ryouiki,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "Kana_Arima_oshi" : {
@@ -2038,7 +2086,7 @@
         #"file_name":"",
         "positive":{
             "char":"short hair, grey hair, parted bangs, purple eyes, hair bow, purple bow , ",
-            "dress":"{ ShinoSchool, blazer, brown jacket, purple bowtie, buttons, long sleeves, pleated skirt, blue skirt, black pantyhose|ShinoSchool, white shirt, purple bowtie, puffy short sleeves, high-waist skirt, pleated skirt, blue skirt, black pantyhose|ShinoCasual, sleeveless shirt, frilled shirt, ribbed shirt, white shirt, neck ribbon, black ribbon, purple shorts, pantyhose under shorts, (black pantyhose:1.2)|ShinoBikini, blue bikini, (white ribbon:1.2), small breasts, |__dress__},",
+            "dress":"{ ShinoSchool, blazer, brown jacket, purple bowtie, buttons, long sleeves, pleated skirt, blue skirt, black pantyhose|ShinoSchool, white shirt, purple bowtie, puffy short sleeves, high-waist skirt, pleated skirt, blue skirt, black pantyhose|ShinoCasual, sleeveless shirt, frilled shirt, ribbed shirt, white shirt, neck ribbon, black ribbon, purple skirt, pantyhose under skirt, (black pantyhose:1.2)|ShinoBikini, blue bikini, (white ribbon:1.2), small breasts, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2098,7 +2146,7 @@
         #"file_name":"",
         "positive":{
             "char":" hawa, brown eyes, blonde hair, twin braids, antenna hair,, ",
-            "dress":"{ yellow shirt, denim shorts, neckerchief,|brown shirt, sleeveless, brown shorts,|t-shirt, brown pants|brown dress, yellow bowtie,, |__dress__},",
+            "dress":"{ yellow shirt, denim skirt, neckerchief,|brown shirt, sleeveless, brown skirt,|t-shirt, brown pants|brown dress, yellow bowtie,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2194,7 +2242,7 @@
         #"file_name":"",
         "positive":{
             "char":"lithia ,hair between eyes, ",
-            "dress":"{bare shoulders, shirt, hair ornament, thighhighs, gloves, navel,collarbone, jacket, shorts, sleeveless, choker, black gloves, hairclip, midriff, belt, black thighhighs, fingerless gloves, necklace, off shoulder,coat, crop top,black shirt, short shorts, sleeveless shirt, one side up, black choker, tank top, x hair ornament, single thighhigh, white shorts, , |__dress__},",
+            "dress":"{bare shoulders, shirt, hair ornament, thighhighs, gloves, navel,collarbone, jacket, skirt, sleeveless, choker, black gloves, hairclip, midriff, belt, black thighhighs, fingerless gloves, necklace, off shoulder,coat, crop top,black shirt, short skirt, sleeveless shirt, one side up, black choker, tank top, x hair ornament, single thighhigh, white skirt, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2266,7 +2314,7 @@
         #"file_name":"",
         "positive":{
             "char":" mj,  flat chest, blue eyes, long hair, white hair, ponytail,  ",
-            "dress":"{ choker, collarbone, bare shoulders, tank top, crop top, short shorts, black shorts, black thighhighs, bracelet,,, |__dress__},",
+            "dress":"{ choker, collarbone, bare shoulders, tank top, crop top, short skirt, black skirt, black thighhighs, bracelet,,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2374,7 +2422,7 @@
         #"file_name":"",
         "positive":{
             "char":" kyoko, long hair, bow, ponytail, hair bow, red hair, red eyes, ribbon,, ",
-            "dress":"{ kyoko_magica, red dress, bare shoulders, detached sleeves, black thighhighs, red boots, knee boots|kyoko_Casual, blue jacket, black shirt, denim shorts, cutoffs, black boots|kyoko_school, school uniform, long sleeves, pleated skirt, kneehighs, black socks, loafers, red bowtie,  |__dress__},",
+            "dress":"{ kyoko_magica, red dress, bare shoulders, detached sleeves, black thighhighs, red boots, knee boots|kyoko_Casual, blue jacket, black shirt, denim skirt, cutoffs, black boots|kyoko_school, school uniform, long sleeves, pleated skirt, kneehighs, black socks, loafers, red bowtie,  |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2482,7 +2530,7 @@
         #"file_name":"",
         "positive":{
             "char":"u-47, black hair, large breasts, long hair, red eyes, crossed bangs, white hair, streaked hair, one side up, hair ornament, ear piercing, , ",
-            "dress":"{ black one-piece swimsuit, black panties, bridal gauntlets, cleavage, cross, iron cross, jewelry, one-piece swimsuit, swimsuit, thighhighs, underwear, zipper, center opening,|bike shorts, choker, cleavage, cross, glasses, iron cross, navel, semi-rimless eyewear, camisole, white camisole, jacket, black jacket, zipper, bare shoulders,|apron, black panties, black skirt, cross, frilled apron, frills, iron cross, long sleeves, maid headdress, miniskirt, navel, panties, skirt, thighhighs, unzipped, waist apron, zipper, zipper pull tab, cleavage, center opening,, |__dress__},",
+            "dress":"{ black one-piece swimsuit, black panties, bridal gauntlets, cleavage, cross, iron cross, jewelry, one-piece swimsuit, swimsuit, thighhighs, underwear, zipper, center opening,|bike skirt, choker, cleavage, cross, glasses, iron cross, navel, semi-rimless eyewear, camisole, white camisole, jacket, black jacket, zipper, bare shoulders,|apron, black panties, black skirt, cross, frilled apron, frills, iron cross, long sleeves, maid headdress, miniskirt, navel, panties, skirt, thighhighs, unzipped, waist apron, zipper, zipper pull tab, cleavage, center opening,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2603,7 +2651,7 @@
         #"file_name":"",
         "positive":{
             "char":" , ",
-            "dress":"{ towa_base, twintails, two-tone jacket, closed jacket, cropped jacket, off shoulder, black crop top, black short shorts, fishnet thighhighs, single thighhigh, baseball cap, demon tail, piercings|towa_casual, jirai kei, frilled shirt, high-waist skirt, grey cardigan, beret, fake horns, thigh strap, thigh tattoo, ear piercing|towa_white, high ponytail, very long hair, white crop top, white jacket, cleavage, white demon wings, white shorts, short shorts, long sleeves, white gloves, knee pads, piercings|towaschool, low twin braids, black shirt, black skirt, pleated skirt, collared shirt, purple necktie, demon horns, demon wings, demon tail, ear piercing|towa_break, ponytail, two-tone shirt, see-through skirt, navel, fishnet thighhighs, single thighhigh, asymmetrical sleeves, jewelry|towa_newyears, single braid, checkered kimono, japanese clothes, fishnet gloves, purple bow, hair flower, |__dress__},",
+            "dress":"{ towa_base, twintails, two-tone jacket, closed jacket, cropped jacket, off shoulder, black crop top, black short skirt, fishnet thighhighs, single thighhigh, baseball cap, demon tail, piercings|towa_casual, jirai kei, frilled shirt, high-waist skirt, grey cardigan, beret, fake horns, thigh strap, thigh tattoo, ear piercing|towa_white, high ponytail, very long hair, white crop top, white jacket, cleavage, white demon wings, white skirt, short skirt, long sleeves, white gloves, knee pads, piercings|towaschool, low twin braids, black shirt, black skirt, pleated skirt, collared shirt, purple necktie, demon horns, demon wings, demon tail, ear piercing|towa_break, ponytail, two-tone shirt, see-through skirt, navel, fishnet thighhighs, single thighhigh, asymmetrical sleeves, jewelry|towa_newyears, single braid, checkered kimono, japanese clothes, fishnet gloves, purple bow, hair flower, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2855,7 +2903,7 @@
         #"file_name":"",
         "positive":{
             "char":" green_pokemon,brown hair, ponytail,  ",
-            "dress":"{red headwear, shorts, black shirt, sleevles, head to waist, , |__dress__},",
+            "dress":"{red headwear, skirt, black shirt, sleevles, head to waist, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2915,7 +2963,7 @@
         #"file_name":"",
         "positive":{
             "char":"Female scientist , very long hair,light brown hair,wavy hair,messy long hair,shiny hair,sidelocks,hair between eyes,bangs,green eyes",
-            "dress":"{ collared shirt,dress shirt,white shirt,black necktie,medium breasts,long sleeves,grey belt,dark blue shorts,denim shorts,short shorts,black thighhighs,zettai ryouiki,loafers, |__dress__},",
+            "dress":"{ collared shirt,dress shirt,white shirt,black necktie,medium breasts,long sleeves,grey belt,dark blue skirt,denim skirt,short skirt,black thighhighs,zettai ryouiki,loafers, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -2940,18 +2988,6 @@
         "positive":{
             "char":" m∀lice q white binder, , ",
             "dress":"{white dress , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,),
-        #"strength_clip": 1,
-    },
-    "chloe_pokemon_v1-pdv6" : {
-        #"file_name":"",
-        "positive":{
-            "char":" chloe \(pokemon\), pokemon journeys, green eyes, brown hair,  hair flower, braided ponytail, long hair, eyelashes,, ",
-            "dress":"{ vermilion city school uniform, neck tassel, white dress, collared dress, short sleeves, white footwear, black socks,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3143,7 +3179,7 @@
         #"file_name":"",
         "positive":{
             "char":" Futakuchi, white long hair, black eyes, , ",
-            "dress":"{ red and black crop top, white shorts, white sneakers, baseball cap, midriff, bare shoulder, fingerless gloves, black socks, |__dress__},",
+            "dress":"{ red and black crop top, white skirt, white sneakers, baseball cap, midriff, bare shoulder, fingerless gloves, black socks, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3192,18 +3228,6 @@
         "positive":{
             "char":" ooriru, magenta eyes, grey hair, long hair, hair between eyes, , wolf ears, animal ear fluff, wolf tail",
             "dress":"{ , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,),
-        #"strength_clip": 1,
-    },
-    "BG_remi_pony_ver1" : {
-        #"file_name":"",
-        "positive":{
-            "char":" bg_reimi, yellow eyes, green hair, long hair, one side up, very long hair, , ",
-            "dress":"{ school uniform, necktie, brown jacket, blazer, long sleeves, plaid skirt, white thighhighs, zettai ryouiki,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3335,7 +3359,7 @@
         #"file_name":"",
         "positive":{
             "char":" hm-hori, {single hair bun|long hair|ponytail scrunchie|side ponytail|crunchie|folded ponytail|ponytail|low twintails},brown hair, brown eyes",
-            "dress":"{ school uniform skirt white shirt black socks uwabaki|skirt white shirt black socks apron|cheerleader track jacket white skirt pom pom|gym clothes|red shirt black skirt midriff|green shirt black pants|white shirt red shorts|aqua shirt brown shorts, |__dress__},",
+            "dress":"{ school uniform skirt white shirt black socks uwabaki|skirt white shirt black socks apron|cheerleader track jacket white skirt pom pom|gym clothes|red shirt black skirt midriff|green shirt black pants|white shirt red skirt|aqua shirt brown skirt, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3479,7 +3503,7 @@
         #"file_name":"",
         "positive":{
             "char":" NianArk, nian (arknights), purple eyes, white hair, red hair, streaked hair, horns, dragon tail, high ponytail,, ",
-            "dress":"{Ni_Def, red tube top, coat, white coat, midriff, navel, white shorts, short shorts, black belt, long sleeves, white sleeves, wide sleeves, bandeau, open coat, red gloves, elbow gloves, fingernails,|Ni_CN, pelvic curtain, china dress, white dress, sleeveless dress, bead bracelet, red gloves, elbow gloves, fingernails,|Ni_Film, black jacket, black pants, open jacket, jacket, crop top, red shirt, midriff, navel, collared shirt, black necktie, collarbone, long sleeves, black sleeves, red gloves, elbow gloves, fingernails, , |__dress__},",
+            "dress":"{Ni_Def, red tube top, coat, white coat, midriff, navel, white skirt, short skirt, black belt, long sleeves, white sleeves, wide sleeves, bandeau, open coat, red gloves, elbow gloves, fingernails,|Ni_CN, pelvic curtain, china dress, white dress, sleeveless dress, bead bracelet, red gloves, elbow gloves, fingernails,|Ni_Film, black jacket, black pants, open jacket, jacket, crop top, red shirt, midriff, navel, collared shirt, black necktie, collarbone, long sleeves, black sleeves, red gloves, elbow gloves, fingernails, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3491,7 +3515,7 @@
         #"file_name":"",
         "positive":{
             "char":" grey hair, long hair, green eyes,   , ",
-            "dress":"{zeroelie, black hairband, hair ribbon, black ribbon, red shrug top, blue ascot, white dress, yellow belt, skirt, thighs, black pantyhose, white boots|formElie, purple hairband, purple ribbon, necklace, purple gown, cleavage, bare shoulders, sleeveless dress, elbow gloves, white gloves, high heels|sumElie,  black hairband, hair ribbon, black ribbon, white bikini, front-tie bikini, side-tie bikini bottom, floral print, large breasts|sen4elie,  black hairband, hair ribbon, black ribbon, red coat, long sleeves, cyan necktie, black shirt, collared shirt, white belt, white skirt, black pantyhose, white boots|rqElie, black hairband, blue hat, sailor cap, blue jacket, crop top, cropped jacket, short sleeves, choker, cleavage, blue shorts, belt, short shorts, white skirt, pleated skirt, bracelet, white boots, high heel boots , |__dress__},",
+            "dress":"{zeroelie, black hairband, hair ribbon, black ribbon, red shrug top, blue ascot, white dress, yellow belt, skirt, thighs, black pantyhose, white boots|formElie, purple hairband, purple ribbon, necklace, purple gown, cleavage, bare shoulders, sleeveless dress, elbow gloves, white gloves, high heels|sumElie,  black hairband, hair ribbon, black ribbon, white bikini, front-tie bikini, side-tie bikini bottom, floral print, large breasts|sen4elie,  black hairband, hair ribbon, black ribbon, red coat, long sleeves, cyan necktie, black shirt, collared shirt, white belt, white skirt, black pantyhose, white boots|rqElie, black hairband, blue hat, sailor cap, blue jacket, crop top, cropped jacket, short sleeves, choker, cleavage, blue skirt, belt, short skirt, white skirt, pleated skirt, bracelet, white boots, high heel boots , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3575,7 +3599,7 @@
         #"file_name":"",
         "positive":{
             "char":"l2luc, blue hair, long hair, blue eyes,  ",
-            "dress":"{ hairband, pendant, off-shoulder shirt, white shirt, long sleeves, bare shoulders, orange shawl, red shorts, |__dress__},",
+            "dress":"{ hairband, pendant, off-shoulder shirt, white shirt, long sleeves, bare shoulders, orange shawl, red skirt, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3587,7 +3611,7 @@
         #"file_name":"",
         "positive":{
             "char":" Wolf, animal ears,wolf ears,animal ear fluff,very long hair,white hair,side ponytail,extra ears,hair between eyes,parted bangs,blue eyes",
-            "dress":"{ fur collar,fur trim,white sweater,puffy long sleeves,sleeves past wrists,small breasts,black shorts,wolf tail,white socks,loose socks,pink footwear,sneakers, |__dress__},",
+            "dress":"{ fur collar,fur trim,white sweater,puffy long sleeves,sleeves past wrists,small breasts,black skirt,wolf tail,white socks,loose socks,pink footwear,sneakers, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3599,7 +3623,7 @@
         #"file_name":"",
         "positive":{
             "char":" SkeletonGirl,long hair,grey hair,bone hair ornament,ponytail,skull hair ornament,sidelocks,hair behind ear,hair between eyes,parted bangs,blue eyes,wide-eyed,constricted pupils ",
-            "dress":"{ shrug \(clothing\),white clothing,cleavage cutout,crop top,black shirt,long sleeves,sleeves past wrists,fingerless gloves,navel,white shorts,short shorts,thighs,black socks,toes sock, |__dress__},",
+            "dress":"{ shrug \(clothing\),white clothing,cleavage cutout,crop top,black shirt,long sleeves,sleeves past wrists,fingerless gloves,navel,white skirt,short skirt,thighs,black socks,toes sock, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3659,7 +3683,7 @@
         #"file_name":"",
         "positive":{
             "char":" hina amano, long hair, low twintails, choker, ",
-            "dress":"{ sleeveless hoodie, sleeveless shirt, denim shorts, |__dress__},",
+            "dress":"{ sleeveless hoodie, sleeveless shirt, denim skirt, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3911,7 +3935,7 @@
         #"file_name":"",
         "positive":{
             "char":" medium hair,green hair,hair between eyes,parted bangs,green eyes,bright pupils",
-            "dress":"{ aqua shirt,cropped shirt,long sleeves,sleeves past wrists,medium breasts,navel,denim shorts,blue shorts,short shorts,bandaid on knee,black socks,sneakers,white footwear, |__dress__},",
+            "dress":"{ aqua shirt,cropped shirt,long sleeves,sleeves past wrists,medium breasts,navel,denim skirt,blue skirt,short skirt,bandaid on knee,black socks,sneakers,white footwear, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3995,7 +4019,7 @@
         #"file_name":"",
         "positive":{
             "char":"KaminariQpi, orange eyes, dark skin, blonde hair, long hair, swept bangs, low twintails , ",
-            "dress":"{ QpiDefault, orange eyes, dark skin, blonde hair, long hair, swept bangs, low twintails, x hair ornament, black hair ribbon, necklace, crop top, black shirt, zipper, two-tone jacket, white jacket, yellow jacket, black belt, black pants, single pantsleg, single leg pantyhose, fishnet pantyhose, torn pants|QpiCas, orange eyes, dark skin, blonde hair, long hair, swept bangs, low twintails, x hair ornament, black hair ribbon, necklace, white tank top, cross-laced clothes, black jacket, cropped jacket, long sleeves, midriff, black belt, black shorts, thigh strap|QpiChn, orange eyes, dark skin, blonde hair, swept bangs, double bun, hair ornament, tassel earrings, blue dress, china dress, hip vent, high collar, cleavage cutout, shoulder cutout, black belt, white jacket, off-shoulder jacket|QpiSmmr, orange eyes, dark skin, blonde hair, long hair, swept bangs, braid, hair ornament, sunglasses on head, ear piercing, pink bikini, floral print, frilled bikini, arm strap, thigh strap|QpiOriginal, orange eyes, dark skin, blonde hair, long hair, swept bangs, flower hairclip, blue earrings, black choker, hooded jacket, open jacket, two-tone gloves, black gloves, orange gloves, black sports bra, black shorts, very short shorts, knee boots, |__dress__},",
+            "dress":"{ QpiDefault, orange eyes, dark skin, blonde hair, long hair, swept bangs, low twintails, x hair ornament, black hair ribbon, necklace, crop top, black shirt, zipper, two-tone jacket, white jacket, yellow jacket, black belt, black pants, single pantsleg, single leg pantyhose, fishnet pantyhose, torn pants|QpiCas, orange eyes, dark skin, blonde hair, long hair, swept bangs, low twintails, x hair ornament, black hair ribbon, necklace, white tank top, cross-laced clothes, black jacket, cropped jacket, long sleeves, midriff, black belt, black skirt, thigh strap|QpiChn, orange eyes, dark skin, blonde hair, swept bangs, double bun, hair ornament, tassel earrings, blue dress, china dress, hip vent, high collar, cleavage cutout, shoulder cutout, black belt, white jacket, off-shoulder jacket|QpiSmmr, orange eyes, dark skin, blonde hair, long hair, swept bangs, braid, hair ornament, sunglasses on head, ear piercing, pink bikini, floral print, frilled bikini, arm strap, thigh strap|QpiOriginal, orange eyes, dark skin, blonde hair, long hair, swept bangs, flower hairclip, blue earrings, black choker, hooded jacket, open jacket, two-tone gloves, black gloves, orange gloves, black sports bra, black skirt, very short skirt, knee boots, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4007,7 +4031,7 @@
         #"file_name":"",
         "positive":{
             "char":"RocoKaburaki, green eyes, blonde hair, short hair, double bun, sidelocks, blunt bangs , ",
-            "dress":"{ RocoDefault, green eyes, blonde hair, short hair, double bun, sidelocks, blunt bangs, black baseball cap, hairclip, black choker, criss-cross halter, blue hoodie, blue coat, black shorts, thigh strap|RocoCas, green eyes, blonde hair, long hair, blunt bangs, hair ornament, black beret, necklace, overalls, white shirt, single bare shoulder, two-tone jacket, green jacket, black jacket, denim shorts, |__dress__},",
+            "dress":"{ RocoDefault, green eyes, blonde hair, short hair, double bun, sidelocks, blunt bangs, black baseball cap, hairclip, black choker, criss-cross halter, blue hoodie, blue coat, black skirt, thigh strap|RocoCas, green eyes, blonde hair, long hair, blunt bangs, hair ornament, black beret, necklace, overalls, white shirt, single bare shoulder, two-tone jacket, green jacket, black jacket, denim skirt, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4127,7 +4151,7 @@
         #"file_name":"",
         "positive":{
             "char":" blonde hair, purple eyes,short hair, ",
-            "dress":"{ navel, black bikini, underboob|short shorts, white shorts, off shoulder,bare shoulders,black shirt, |__dress__},",
+            "dress":"{ navel, black bikini, underboob|short skirt, white skirt, off shoulder,bare shoulders,black shirt, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4715,7 +4739,7 @@
         #"file_name":"",
         "positive":{
             "char":" HimemoriLuna, heterochromia, long hair, single hair ring, candy hair ornament, ",
-            "dress":"{LunaBase, heterochromia, long hair, single hair ring, candy hair ornament, crown, earrings, detached collar, pink dress, bare shoulders, short sleeves, bracelet, striped thighhighs|LunaNewYear, heterochromia, twin braids, hair flower, pink kimono, fur scarf, sash, hakama skirt, black pantyhose|LunaSailor, heterochromia, medium hair, mini crown, earrings, necklace, white sailor collar, blue dress, off-shoulder dress, star print, bracelet|LunaFormal, heterochromia, very long hair, twintails, hair ribbon, earrings, white dress, strapless dress, bare shoulders, cleavage, bow, white gloves, white thighhighs|LunaStreetwear, short hair, hair over one eye, sleeveless shirt, crop top, red necktie, arm strap, black shorts, highleg, black gloves, garter straps, torn thighhighs, jacket , |__dress__},",
+            "dress":"{LunaBase, heterochromia, long hair, single hair ring, candy hair ornament, crown, earrings, detached collar, pink dress, bare shoulders, short sleeves, bracelet, striped thighhighs|LunaNewYear, heterochromia, twin braids, hair flower, pink kimono, fur scarf, sash, hakama skirt, black pantyhose|LunaSailor, heterochromia, medium hair, mini crown, earrings, necklace, white sailor collar, blue dress, off-shoulder dress, star print, bracelet|LunaFormal, heterochromia, very long hair, twintails, hair ribbon, earrings, white dress, strapless dress, bare shoulders, cleavage, bow, white gloves, white thighhighs|LunaStreetwear, short hair, hair over one eye, sleeveless shirt, crop top, red necktie, arm strap, black skirt, highleg, black gloves, garter straps, torn thighhighs, jacket , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4979,7 +5003,7 @@
         #"file_name":"",
         "positive":{
             "char":" jane doe \(zenless zone zero\),tail, long hair ",
-            "dress":"{ fingerless gloves, black shorts, cropped jacket, single garter strap, single leg pantyhose, single thighhigh, necktie, platform boots, |__dress__},",
+            "dress":"{ fingerless gloves, black skirt, cropped jacket, single garter strap, single leg pantyhose, single thighhigh, necktie, platform boots, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -5207,7 +5231,7 @@
         #"file_name":"",
         "positive":{
             "char":" ShiroganeNoel, medium hair, braid, ",
-            "dress":"{NoelBase, medium hair, braid, tiara, armored dress, single pauldron, chest guard, chest strap, cleavage cutout, puffy sleeves, pelvic curtain, waist cape, leather belt, belt pouch, vambraces, fingerless gloves, black thighhighs, greaves|NoelNewYears, short hair, braid, hair flower, hair ornament, blue kimono, print kimono, floral print, sash|NoelCasual, medium hair, french braids, glasses, blue hair ribbons, black choker, white sweater, ribbed sweater, off-shoulder, plaid skirt, high-waist skirt|NoelCasual, medium hair, french braids, glasses, blue hair ribbons, black choker, black tank top, plaid skirt, high-waist skirt|NoelDirndl, long hair, hair flowers, detached collar, black bowtie, dirndl, detached sleeves, black corset, cleavage, bare shoulders, waist apron, white thighhighs|NoelDirndl, cow horns, cow ears, twin braids, hair flowers, necklace, dirndl, detached sleeves, black corset, cleavage, bare shoulders, waist apron, white thighhighs|NoelFifth, long hair, ponytail, blue hair ribbon, white shirt, off-shoulder shirt, see-through cleavage, short blue necktie, detached sleeves, juliet sleeves, black shorts, belt, white overskirt, thigh strap|NoelSchool, medium hair, braid, white shirt, collared shirt, blue bowtie, sleeves rolled up, shirt tucked in, blue skirt, plaid skirt|NoelBikini, short hair, braid, sunglasses on head, blue star choker, two-tone bikini, front-tie bikini top, chest belt, sleeveless, bare shoulders, highleg bikini, bikini skirt, thigh strap, wrist cuffs , |__dress__},",
+            "dress":"{NoelBase, medium hair, braid, tiara, armored dress, single pauldron, chest guard, chest strap, cleavage cutout, puffy sleeves, pelvic curtain, waist cape, leather belt, belt pouch, vambraces, fingerless gloves, black thighhighs, greaves|NoelNewYears, short hair, braid, hair flower, hair ornament, blue kimono, print kimono, floral print, sash|NoelCasual, medium hair, french braids, glasses, blue hair ribbons, black choker, white sweater, ribbed sweater, off-shoulder, plaid skirt, high-waist skirt|NoelCasual, medium hair, french braids, glasses, blue hair ribbons, black choker, black tank top, plaid skirt, high-waist skirt|NoelDirndl, long hair, hair flowers, detached collar, black bowtie, dirndl, detached sleeves, black corset, cleavage, bare shoulders, waist apron, white thighhighs|NoelDirndl, cow horns, cow ears, twin braids, hair flowers, necklace, dirndl, detached sleeves, black corset, cleavage, bare shoulders, waist apron, white thighhighs|NoelFifth, long hair, ponytail, blue hair ribbon, white shirt, off-shoulder shirt, see-through cleavage, short blue necktie, detached sleeves, juliet sleeves, black skirt, belt, white overskirt, thigh strap|NoelSchool, medium hair, braid, white shirt, collared shirt, blue bowtie, sleeves rolled up, shirt tucked in, blue skirt, plaid skirt|NoelBikini, short hair, braid, sunglasses on head, blue star choker, two-tone bikini, front-tie bikini top, chest belt, sleeveless, bare shoulders, highleg bikini, bikini skirt, thigh strap, wrist cuffs , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -5219,7 +5243,7 @@
         #"file_name":"",
         "positive":{
             "char":" Kallen, white hair, long hair, braided ponytail, blue eyes,, ",
-            "dress":"{ Kas_Def, black leotard, white armor, black panties, black thighhighs, single thighhigh, detached sleeves, bare shoulders, pelvic curtain, goggles around neck, hairclip, turtleneck, red sleeves, cross print, grey cross, red wrist cuffs, black sleeve, red trim, red gloves, single glove, thigh strap, thigh pouch,|Kas_Alt, black leotard, white armor, black panties, black thighhighs, single thighhigh, detached sleeves, bare shoulders, pelvic curtain, goggles around neck, hairclip, turtleneck, cross print, green cross, black wrist cuffs, black sleeves, green trim, black gloves, single glove, thigh strap, thigh pouch,|Kas_SF, cat ears, yellow belt, jacket, black jacket, short sleeves, yellow sleeves, long gloves, jewelry, high collar, clothing writing, jewelry, black leggings, bodysuit,|Kas_Hymn, red dress, white corset, dress, frilled skirt, frilled dress, halterneck, criss-cross halter, cross, jewelry, cleavage, detached sleeves, white sleeves, long sleeves, red bra, white thighhighs, x thigh strap, hair ornament, veil,, |__dress__},",
+            "dress":"{ Kas_Def, black leotard, white dress, black panties, black thighhighs, single thighhigh, detached sleeves, bare shoulders, pelvic curtain, goggles around neck, hairclip, turtleneck, red sleeves,   red wrist cuffs, black sleeve, red trim, red gloves, single glove, thigh strap, thigh pouch,|Kas_Alt, black dress, white armor, black panties, black thighhighs, single thighhigh, detached sleeves, bare shoulders, pelvic curtain,   hairclip, turtleneck,  black wrist cuffs, black sleeves, green trim, black gloves, single glove, thigh strap, thigh pouch,|Kas_SF, cat ears, yellow belt, jacket, black jacket, short sleeves, yellow sleeves, long gloves, jewelry, high collar, clothing writing, jewelry, black leggings, dress,|Kas_Hymn, red dress, white corset, dress, frilled skirt, frilled dress, halterneck, criss-cross halter, cross, jewelry, cleavage, detached sleeves, white sleeves, long sleeves, red bra, white thighhighs, x thigh strap, hair ornament, veil,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -5279,7 +5303,7 @@
         #"file_name":"",
         "positive":{
             "char":" Kallen, white hair, long hair, braided ponytail, blue eyes,, ",
-            "dress":"{ Kal_Def, hair ornament, cross earrings, off-shoulder jacket, red inner jacket, red strap, black jacket, long sleeves, black gloves, chest strap, shoulder straps, blue bra, see-through, white dress, pleated dress, short dress, strap dress, see-through skirt, black shorts, short shorts, white thighhighs, thigh pouch, necklace, black choker, cleavage,|Kal_Hal, halloween costume, strapless dress, orange dress, black dress, frilled skirt, layered skirt, jewelry, detached collar, witch hat, earrings, bracelet, orange gloves, single glove, cleavage, |Kal_Mng, alt dress, white dress, cleavage cutout, gold trim, pleated skirt, black skirt, alt skirt, juliet sleeves, wide sleeves, white sleeves, long sleeves, white collar, white footwear, thigh boots,, |__dress__},",
+            "dress":"{ Kal_Def, hair ornament, cross earrings, off-shoulder jacket, red inner jacket, red strap, black jacket, long sleeves, black gloves, chest strap, shoulder straps, blue bra, see-through, white dress, pleated dress, short dress, strap dress, see-through skirt, black skirt, short skirt, white thighhighs, thigh pouch, necklace, black choker, cleavage,|Kal_Hal, halloween costume, strapless dress, orange dress, black dress, frilled skirt, layered skirt, jewelry, detached collar, witch hat, earrings, bracelet, orange gloves, single glove, cleavage, |Kal_Mng, alt dress, white dress, cleavage cutout, gold trim, pleated skirt, black skirt, alt skirt, juliet sleeves, wide sleeves, white sleeves, long sleeves, white collar, white footwear, thigh boots,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -5291,7 +5315,7 @@
         #"file_name":"",
         "positive":{
             #"char":" , ",
-            "dress":"{ yukaridef, hat, cross earrings, blue dress, orange ascot, white shirt, white gloves|yukarisu, white headwear, swimsuit, striped bikini, shirt, open clothes, skirt|yukariadv, cleavage, fur trim, white jacket, white top, navel, black gloves, denim shorts, short shorts, belt, black thighhighs, single thighhigh, thigh strap, |__dress__},",
+            "dress":"{ yukaridef, hat, cross earrings, blue dress, orange ascot, white shirt, white gloves|yukarisu, white headwear, swimsuit, striped bikini, shirt, open clothes, skirt|yukariadv, cleavage, fur trim, white jacket, white top, navel, black gloves, denim skirt, short skirt, belt, black thighhighs, single thighhigh, thigh strap, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -5927,7 +5951,7 @@
         #"file_name":"",
         "positive":{
             "char":" platinum, white hair, brown eyes, long hair, sidelocks, animal ears, horse ears, very long hair, animal ear fluff, horse girl, tail, horse tail,, ",
-            "dress":"{thighhighs, gloves, long sleeves, navel, jacket, shorts, black gloves, midriff, black thighhighs, black footwear, short shorts, thigh boots, white jacket, zipper, white shorts , |__dress__},",
+            "dress":"{thighhighs, gloves, long sleeves, navel, jacket, skirt, black gloves, midriff, black thighhighs, black footwear, short skirt, thigh boots, white jacket, zipper, white skirt , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -5951,7 +5975,7 @@
         #"file_name":"",
         "positive":{
             "char":" shbtrx, light blonde hair, white hair, long hair, pointy ears, purple eyes, ",
-            "dress":"{hair ornament, circlet, choker, black cloak, black cape, criss-cross halter, white tube top, black shorts, black gloves, single thighhigh , |__dress__},",
+            "dress":"{hair ornament, circlet, choker, black cloak, black cape, criss-cross halter, white tube top, black skirt, black gloves, single thighhigh , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6563,7 +6587,7 @@
         #"file_name":"",
         "positive":{
             "char":" Kafka_Honkai,pink_eyes, red_hair, long_hair, large_breasts ",
-            "dress":"{ eyewear_on_head, white_shirt, collared_shirt, black_coat, coat, purple_gloves, high-waist_shorts, thigh_strap, long_sleeves, single_thigh_boot, pink_pantyhose, |__dress__},",
+            "dress":"{ eyewear_on_head, white_shirt, collared_shirt, black_coat, coat, purple_gloves, high-waist_skirt, thigh_strap, long_sleeves, single_thigh_boot, pink_pantyhose, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6811,11 +6835,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Hu_Tao_Pony-10" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" Hu_Tao_\(Genshin_Impact\),red_eyes, brown_hair, long_hair, twintails, symbol-shaped_pupils, small_breasts ",
+            "dress":"{ black_skirt, chinese_clothes, black_hat, hat_tassel, hat_ornament, black_shirt, long_sleeves, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6862,13 +6886,13 @@
     "Blanc_Neptunia_PonyXL" : {
         #"file_name":"",
         "positive":{
-            "char":" Blanc \(neptunia)\, brown hair, blue eyes, short hair, ",
+            "char":" Blanc \(neptunia)\, brown hair, blue eyes,{ short hair,|} ",
             "dress":"{ hat, ribbon, long sleeves, wide sleeves, off shoulder, bare shoulders, short dress, coat, fur trim, ankle ribbon,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "IrisvielVonEinzbernP1" : {
@@ -6995,7 +7019,7 @@
         #"file_name":"",
         "positive":{
             "char":"tsukishita kaoru, pink hair, long hair, bow hairband, purple eyes, flat chest , ",
-            "dress":"{white sweater, turtleneck sweater, brown shorts, black jacket, off-shoulder, boots , |__dress__},",
+            "dress":"{white sweater, turtleneck sweater, brown skirt, black jacket, off-shoulder, boots , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -7248,7 +7272,7 @@
         #"file_name":"",
         "positive":{
             "char":"LeTem, blonde hair, green eyes, very long hair, twintails, low twintails, , ",
-            "dress":"{ Rai_Def, red ribbon, blue corset, underbust, cross-laced clothes, white bra, frilled capelet, blue capelet, black choker, cross choker, blue gloves, frilled gloves, white skirt, garter straps, white thighhighs, frilled thighhighs, frills, cross earrings,|Rai_Swimsuit, drill hair, blue bikini, halterneck, red bow, two-tone bow, blue bow, hair bow, swimsuit skirt, midriff, ribbed skirt, blue skirt, cleavage, panty strap, frilled bikini, frills, frilled armband, thigh strap,|Rai_Paj, twin braids, purple shorts, short shorts, fur trim, fur-trimmed shorts, white thigh strap, pink bow, pink ribbon, sleep mask, sleeping mask, cross choker, cleavage, pajamas, striped hoodie, bra strap, white shirt, frilled shirt,|Rai_Muse, twin braids, black sash, black bow, black ribbon, twin braids, hair ribbon, white pantyhose, frilled skirt, white skirt, blue skirt, white dress, strapless dress, black choker, detached sleeves, puffy short sleeves, frilled sleeves, blue sleeves, white gloves, frilled gloves,|Rai_Cheer, twin braids, pleated skirt, red skirt, high-waist skirt, side cutout, crop top, white shirt, sleeveless shirt, white thighhighs, criss-cross halter, halterneck,, |__dress__},",
+            "dress":"{ Rai_Def, red ribbon, blue corset, underbust, cross-laced clothes, white bra, frilled capelet, blue capelet, black choker, cross choker, blue gloves, frilled gloves, white skirt, garter straps, white thighhighs, frilled thighhighs, frills, cross earrings,|Rai_Swimsuit, drill hair, blue bikini, halterneck, red bow, two-tone bow, blue bow, hair bow, swimsuit skirt, midriff, ribbed skirt, blue skirt, cleavage, panty strap, frilled bikini, frills, frilled armband, thigh strap,|Rai_Paj, twin braids, purple skirt, short skirt, fur trim, fur-trimmed skirt, white thigh strap, pink bow, pink ribbon, sleep mask, sleeping mask, cross choker, cleavage, pajamas, striped hoodie, bra strap, white shirt, frilled shirt,|Rai_Muse, twin braids, black sash, black bow, black ribbon, twin braids, hair ribbon, white pantyhose, frilled skirt, white skirt, blue skirt, white dress, strapless dress, black choker, detached sleeves, puffy short sleeves, frilled sleeves, blue sleeves, white gloves, frilled gloves,|Rai_Cheer, twin braids, pleated skirt, red skirt, high-waist skirt, side cutout, crop top, white shirt, sleeveless shirt, white thighhighs, criss-cross halter, halterneck,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -7476,7 +7500,7 @@
         #"file_name":"",
         "positive":{
             "char":"kitakami_futaba, twintails,long hair, hair ornament, pink hair, pink eyes, , ",
-            "dress":"{ pink_ribbon, see-through, detached_sleeves, pink_sailor_dress, underwear, denim_short_shorts_under_dress, zettai_ryouiki, vertical-striped thighhighs, thigh strap,pink_footwear, white_elbow_gloves, fingerless_gloves,, |__dress__},",
+            "dress":"{ pink_ribbon, see-through, detached_sleeves, pink_sailor_dress, underwear, denim_short_skirt_under_dress, zettai_ryouiki, vertical-striped thighhighs, thigh strap,pink_footwear, white_elbow_gloves, fingerless_gloves,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8052,7 +8076,7 @@
         "file_name":"ProfessedHerselfPupiloftheWiseMan",
         "positive":{
             "char":"Emera, black hair, very long hair, purple eyes, sidelocks, pointy ears, midriff,  elf,  ",
-            "dress":"{  black shorts,green gloves,   |__dress__},",
+            "dress":"{  black skirt,green gloves,   |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8232,7 +8256,7 @@
         #"file_name":"",
         "positive":{
             "char":" GuYuena, white hair, long hair, purple eyes, antenna hair, , ",
-            "dress":"{ Form_1st, white shirt, turtleneck, detached sleeves, white sleeves, antenna hair, long sleeves, ribbed sleeves, black line, bare hands, black gauntlets, ribbed thighhighs, white thighhighs, white shorts, bare hands, bare shoulders,|Form_2nd, strapless dress, white dress, frilled dress, gold trim, bare shoulders, detached collar, detached sleeves, long sleeves, frilled skirt, short skirt, white skirt, white thighhighs, hair ornament,,|Form_3rd, cleavage, leotard, purple leotard, white bra, thigh boots, white footwear, crystal, neon trim, strapless, shoulder armor, pauldrons, showgirl skirt, purple armor, white arm warmers, jewelry, tiara, long skirt,|Form_4th,  cleavage, purple dress, purple skirt, pleated skirt, layered skirt, frilled skirt, white jacket, white thighhighs, purple corset, long sleeves, shoulder cutout, white hair ornament, necklace, white sleeves, jewelry, belt, gem, |__dress__},",
+            "dress":"{ Form_1st, white shirt, turtleneck, detached sleeves, white sleeves, antenna hair, long sleeves, ribbed sleeves, black line, bare hands, black gauntlets, ribbed thighhighs, white thighhighs, white skirt, bare hands, bare shoulders,|Form_2nd, strapless dress, white dress, frilled dress, gold trim, bare shoulders, detached collar, detached sleeves, long sleeves, frilled skirt, short skirt, white skirt, white thighhighs, hair ornament,,|Form_3rd, cleavage, leotard, purple leotard, white bra, thigh boots, white footwear, crystal, neon trim, strapless, shoulder armor, pauldrons, showgirl skirt, purple armor, white arm warmers, jewelry, tiara, long skirt,|Form_4th,  cleavage, purple dress, purple skirt, pleated skirt, layered skirt, frilled skirt, white jacket, white thighhighs, purple corset, long sleeves, shoulder cutout, white hair ornament, necklace, white sleeves, jewelry, belt, gem, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8340,7 +8364,7 @@
         #"file_name":"",
         "positive":{
             "char":" Han4bi, long hair, hair between eyes,blue eyes, black hair,",
-            "dress":"{ black sweater, heart hole open chest, off shoulders,   blue shorts,, cleavage, bare shoulders, collarbone, japanese clothes, medium hair, kimono, off shoulder,  sash, no panties, obi, pelvic curtain, |__dress__},",
+            "dress":"{ black sweater, heart hole open chest, off shoulders,   blue skirt,, cleavage, bare shoulders, collarbone, japanese clothes, medium hair, kimono, off shoulder,  sash, no panties, obi, pelvic curtain, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8400,7 +8424,7 @@
         #"file_name":"",
         "positive":{
             "char":" acetrainer sm,, ",
-            #"dress":"{ visor cap,hoodie,fingerless gloves,bike shorts,boots, |__dress__},",
+            #"dress":"{ visor cap,hoodie,fingerless gloves,bike skirt,boots, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8520,7 +8544,7 @@
         #"file_name":"",
         "positive":{
             "char":"Furina_\(Genshin_Impact\), blue_eyes, heterochromia, white_hair, streaked_hair, , drop-shaped_pupils, flat_chest, ",
-            "dress":"{white_shorts, blue_headwear, blue_ascot, blue_bow, black_gloves, white_gloves, blue_jacket, white_shirt, thigh_strap , |__dress__},",
+            "dress":"{white_skirt, blue_headwear, blue_ascot, blue_bow, black_gloves, white_gloves, blue_jacket, white_shirt, thigh_strap , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8532,7 +8556,7 @@
         #"file_name":"",
         "positive":{
             "char":"Fujino Mitsuki ,,long hair,brown hair,crescent hair ornament,sidelocks,hair between eyes,parted bangs,brown eyes ",
-            "dress":"{ pink cardigan,open cardigan,neck ribbon,blue ribbon,collared shirt,white shirt,long sleeves,large breasts,skindentation,shirt tucked in,black belt,blue shorts,black pantyhose,high heel boots,black footwear, |__dress__},",
+            "dress":"{ pink cardigan,open cardigan,neck ribbon,blue ribbon,collared shirt,white shirt,long sleeves,large breasts,skindentation,shirt tucked in,black belt,blue skirt,black pantyhose,high heel boots,black footwear, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8556,7 +8580,7 @@
         #"file_name":"",
         "positive":{
             "char":" luciela r. sourcream , , ",
-            "dress":"{ petite, cone horns, small horns, mini crown,blue dress, white bow, detached sleeves, shorts, long hair,|diabla , gradient skin, petite, flat chest, symbol-shaped pupils, navel, single pantsleg,|diabla , alternate form, mature female, symbol-shaped pupils, hair between eyes, navel cutout, gradient skin , strapless dress , elbow gloves,|iblis, petite, flat chest, short hair with long locks , white hair , symbol-shaped pupils, gradient skin, navel_cutout , flame trim, tattoo, black fire ,|iblis, alternate form, mature female, sidelocks, absurdly long hair, white hair , symbol-shaped pupils, gradient skin, flame trim, tattoo, black fire , dress, navel_cutout , halo,|Noblesse , petite, twintails, bow , detached sleeves, short dress, absurdly long hair, waist wings, white dress, fur trim, thighhighs , leotard,|Chiliarch , petite, hood , twintails, hairclip, navel, belt, shorts, jacket, striped legwear, , |__dress__},",
+            "dress":"{ petite, cone horns, small horns, mini crown,blue dress, white bow, detached sleeves, skirt, long hair,|diabla , gradient skin, petite, flat chest, symbol-shaped pupils, navel, single pantsleg,|diabla , alternate form, mature female, symbol-shaped pupils, hair between eyes, navel cutout, gradient skin , strapless dress , elbow gloves,|iblis, petite, flat chest, short hair with long locks , white hair , symbol-shaped pupils, gradient skin, navel_cutout , flame trim, tattoo, black fire ,|iblis, alternate form, mature female, sidelocks, absurdly long hair, white hair , symbol-shaped pupils, gradient skin, flame trim, tattoo, black fire , dress, navel_cutout , halo,|Noblesse , petite, twintails, bow , detached sleeves, short dress, absurdly long hair, waist wings, white dress, fur trim, thighhighs , leotard,|Chiliarch , petite, hood , twintails, hairclip, navel, belt, skirt, jacket, striped legwear, , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8580,7 +8604,7 @@
         #"file_name":"",
         "positive":{
             "char":"xueyi, colored inner hair, black hair, red hair, blue hair, red eyes , ",
-            "dress":"{ chinese clothes, white shirt, off-shoulder shirt, gloves, gauntlets, pelvic curtain, black shorts, white pantyhose, jewelry, bare shoulders, cleavage, |__dress__},",
+            "dress":"{ chinese clothes, white shirt, off-shoulder shirt, gloves, gauntlets, pelvic curtain, black skirt, white pantyhose, jewelry, bare shoulders, cleavage, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -8724,7 +8748,7 @@
         #"file_name":"",
         "positive":{
             "char":" la+ darknesss \(4th costume\), grey hair, braid, purple hair, multicolored hair, pointy ears, streaked hair, demon girl, purple nails, ",
-            "dress":"{ white shirt, navel,white jacket,, necktie, detached sleeves, short shorts, sleeveless, black choker,belt, midriff, sailor collar, nail polish, thigh strap, black shorts,arm strap, purple necktie,|__dress__},",
+            "dress":"{ white shirt, navel,white jacket,, necktie, detached sleeves, short skirt, sleeveless, black choker,belt, midriff, sailor collar, nail polish, thigh strap, black skirt,arm strap, purple necktie,|__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -9096,7 +9120,7 @@
         #"file_name":"",
         "positive":{
             "char":" im yujin, brown hair, short hair, , yellow eyes, long eyelashes, idolmaster cinderella girls, , ",
-            "dress":"{ short sleeves, grey sleeve ends, white midriff, pink two-way collar, gold epaulettes, cleavage, collarbone, navel, shorts, short shorts, white shorts, pink belt, black gloves, pink footwear, high heels, |__dress__},",
+            "dress":"{ short sleeves, grey sleeve ends, white midriff, pink two-way collar, gold epaulettes, cleavage, collarbone, navel, skirt, short skirt, white skirt, pink belt, black gloves, pink footwear, high heels, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -9205,7 +9229,7 @@
         #"file_name":"",
         "positive":{
             "char":" ponytail, pink eyes,",
-            "dress":"{bakushinodef, horse tail, ponytail, gold hairband, horse ears, ear ornament, pink eyes, flower-shaped pupils, symbol in eye, flower in eye, pink dress, sleeveless dress, epaulettes, yellow neckerchief, double-breasted, mismatched gloves, black gloves, white gloves, black shorts, white thighhighs|bakushinoleader, horse tail, twin braids, red hairband, horse ears, pink eyes, flower-shaped pupils, symbol in eye, flower in eye, white shirt, sleeveless shirt, crop top, red gloves, fingerless gloves, red skirt, pleated skirt, midriff, |__dress__},",
+            "dress":"{bakushinodef, horse tail, ponytail, gold hairband, horse ears, ear ornament, pink eyes, flower-shaped pupils, symbol in eye, flower in eye, pink dress, sleeveless dress, epaulettes, yellow neckerchief, double-breasted, mismatched gloves, black gloves, white gloves, black skirt, white thighhighs|bakushinoleader, horse tail, twin braids, red hairband, horse ears, pink eyes, flower-shaped pupils, symbol in eye, flower in eye, white shirt, sleeveless shirt, crop top, red gloves, fingerless gloves, red skirt, pleated skirt, midriff, |__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -9395,7 +9419,7 @@
     "fate-bb-ponyxl-lora-nochekaiser" : {        
         "positive":{
             "char":" bb, purple hair, long hair, bangs,, ",
-            "dress":"{ purple eyes, black jacket, black skirt, collared shirt, hair ribbon, high-waist skirt, jacket, long sleeves, neck ribbon, open clothes, open jacket, pleated skirt, red ribbon, ribbon, shirt, skirt, sleeves past wrists, white shirt, wide sleeves,|purple eyes, backwards hat, bandeau, bare shoulders, baseball cap, braid, collarbone, hat, hat ornament, jacket, navel, off shoulder, single braid, star \(symbol\), star hat ornament, white headwear, yellow jacket, yellow skirt, bikini, white bikini,|red eyes, bare shoulders, black coat, coat, covered navel, dark skin, dark-skinned female, gloves, hair ribbon, highleg, highleg leotard, leotard, neck ribbon, open clothes, open coat, popped collar, red ribbon, ribbon, tan, white gloves, white leotard,|red eyes, bare shoulders, belt, bikini, black garter belt, black gloves, black thighhighs, fingerless gloves, gloves, hair ribbon, hairband, jewelry, micro shorts, navel, neck ribbon, purple bikini, purple ribbon, ribbon, shorts, swimsuit, tan, thighhighs, white belt,, |__dress__},",
+            "dress":"{ purple eyes, black jacket, black skirt, collared shirt, hair ribbon, high-waist skirt, jacket, long sleeves, neck ribbon, open clothes, open jacket, pleated skirt, red ribbon, ribbon, shirt, skirt, sleeves past wrists, white shirt, wide sleeves,|purple eyes, backwards hat, bandeau, bare shoulders, baseball cap, braid, collarbone, hat, hat ornament, jacket, navel, off shoulder, single braid, star \(symbol\), star hat ornament, white headwear, yellow jacket, yellow skirt, bikini, white bikini,|red eyes, bare shoulders, black coat, coat, covered navel, dark skin, dark-skinned female, gloves, hair ribbon, highleg, highleg leotard, leotard, neck ribbon, open clothes, open coat, popped collar, red ribbon, ribbon, tan, white gloves, white leotard,|red eyes, bare shoulders, belt, bikini, black garter belt, black gloves, black thighhighs, fingerless gloves, gloves, hair ribbon, hairband, jewelry, micro skirt, navel, neck ribbon, purple bikini, purple ribbon, ribbon, skirt, swimsuit, tan, thighhighs, white belt,, |__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -9406,7 +9430,7 @@
     "Arknights_Robin_Standart_outfit__Gift_of_Wild" : {        
         "positive":{
             "char":" Robin, animal ears, tail, yellow eyes, long hair, brown hair, hair between eyes, ponytail, fleckles,, ",
-            "dress":"{ white shirt, black shorts, brown pantyhose, legwear under shorts, shoes,|tank top, jacket, fur-trim, off-shoulder, yellow skirt, sneakers, choker, hair flower,, |__dress__},",
+            "dress":"{ white shirt, black skirt, brown pantyhose, legwear under skirt, shoes,|tank top, jacket, fur-trim, off-shoulder, yellow skirt, sneakers, choker, hair flower,, |__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -9587,13 +9611,13 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "Finana_Ryugu" : {        
         "positive":{
             "char":" finana_ryugu,  green hair, hair bangs, purple eyes, head fins, , ",
-            "dress":"{finana_1, purple crown, long hair, hair flowers, seashells, navel cutout, sailor collar, skirt, frills, bike shorts, boots, wrist cuffs,|finana_2, gold tiara, twintails, purple hair flowers, green dress, large purple bow, white yukata, floral print, oversized sleeves, black bodysuit, cleavage cutout, sash, white thighhighs, green sandals, , |__dress__},",
+            "dress":"{finana_1, purple crown, long hair, hair flowers, seashells, navel cutout, sailor collar, skirt, frills, bike skirt, boots, wrist cuffs,|finana_2, gold tiara, twintails, purple hair flowers, green dress, large purple bow, white yukata, floral print, oversized sleeves, black bodysuit, cleavage cutout, sash, white thighhighs, green sandals, , |__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -9626,7 +9650,7 @@
     "Yoisaki_Kanade" : {        
         "positive":{
             "char":" yoisaki_kanade, grey hair, very long hair, blue eyes, hair between eyes, official art,, ",
-            "dress":"{ hood down, sekai outfit, black hoodie, bare legs, red neckerchief,|blue track suit, black shirt, half open track suit, short shorts|gloves, earrings, jewelry, bow, holding, valentine, gift, dress, long sleeves, medium hair, black frilled dress, purple gloves,, |__dress__},",
+            "dress":"{ hood down, sekai outfit, black hoodie, bare legs, red neckerchief,|blue track suit, black shirt, half open track suit, short skirt|gloves, earrings, jewelry, bow, holding, valentine, gift, dress, long sleeves, medium hair, black frilled dress, purple gloves,, |__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -9637,7 +9661,7 @@
     "Akiyama_Mizuki" : {        
         "positive":{
             "char":" 1other, akiyama_mizuki, pink hair, long hair, side ponytail, pink eyes, official art, androgynous, , ",
-            "dress":"{  thighhighs, bangs, sailor collar, bow, striped skirt, black thighhighs, school uniform, sekai outfit, white sailor collar, black dress, frilled dress, frills, pink neckerchief,|school uniform, skirt, cardigan, bow, thighhighs, plaid, plaid skirt, white thighhighs, red bow, long sleeves, beige cardigan, pink collar, plaid ribbon,|hat, short shorts, choker, off shoulder, black headwear, black choker, collarbone, shirt, bangs, loose hair, street outfit, off shoulder pink sweatshirt, blue straps,, |__dress__},",
+            "dress":"{  thighhighs, bangs, sailor collar, bow, striped skirt, black thighhighs, school uniform, sekai outfit, white sailor collar, black dress, frilled dress, frills, pink neckerchief,|school uniform, skirt, cardigan, bow, thighhighs, plaid, plaid skirt, white thighhighs, red bow, long sleeves, beige cardigan, pink collar, plaid ribbon,|hat, short skirt, choker, off shoulder, black headwear, black choker, collarbone, shirt, bangs, loose hair, street outfit, off shoulder pink sweatshirt, blue straps,, |__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -9791,7 +9815,7 @@
     "chloe-von-einzbern-prisma-s2s3-ponyxl-lora-nochekaiser" : {        
         "positive":{
             "char":" chloe von einzbern, long hair, hair between eyes, yellow eyes, pink hair, dark skin, dark-skinned female,, ",
-            "dress":"{ twintails, dress, bare shoulders, collarbone, bracelet, halterneck, purple dress,|skirt, shirt, collarbone, white shirt, short sleeves, shorts, socks, striped, one side up, white socks, brown skirt, striped shirt, green shirt,|twintails, skirt, coat, fur trim, white coat,, |__dress__},",
+            "dress":"{ twintails, dress, bare shoulders, collarbone, bracelet, halterneck, purple dress,|skirt, shirt, collarbone, white shirt, short sleeves, skirt, socks, striped, one side up, white socks, brown skirt, striped shirt, green shirt,|twintails, skirt, coat, fur trim, white coat,, |__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -9901,7 +9925,7 @@
     "Seiun_Sky-ponyXL" : {        
         "positive":{
             "char":"Seiun_Sky, horse ears, horse tail, short hair, white hair, bangs, hair ornament, hairclip, blue eyes,  , ",
-            "dress":"{SS_Race,choker, white dress, Flutter Sleeves, white frills, (Sailor collar:0.6), green shorts, bracelet, boots|__dress__},",
+            "dress":"{SS_Race,choker, white dress, Flutter Sleeves, white frills, (Sailor collar:0.6), green skirt, bracelet, boots|__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -9945,7 +9969,7 @@
     "tatsuko-gakumazawa-prisma-s2-ponyxl-lora-nochekaiser" : {        
         "positive":{
             "char":" tatsuko gakumazawa, bangs, blonde hair, hair between eyes, brown eyes, , hair bun, double bun, thick eyebrows,",
-            "dress":"{bare shoulders, shorts, sleeveless, hood, bare arms, short shorts, sleeveless shirt, hoodie, hood down, red shorts, white hoodie, sleeveless hoodie,, |__dress__},",
+            "dress":"{bare shoulders, skirt, sleeveless, hood, bare arms, short skirt, sleeveless shirt, hoodie, hood down, red skirt, white hoodie, sleeveless hoodie,, |__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -9989,7 +10013,7 @@
     "ElaineAuclairCasual" : {        
         "positive":{
             "char":"Elaine Auclair, aqua eyes, blonde hair, long hair, braid, hair ornament,  , ",
-            "dress":"{earrings, black shirt, black shorts, black thighhighs, boots,   |__dress__},",
+            "dress":"{earrings, black shirt, black skirt, black thighhighs, boots,   |__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -10000,7 +10024,7 @@
     "ElaineAuclairKai" : {        
         "positive":{
             "char":"Elaine Auclair, aqua eyes, blonde hair, long hair, braid, hair ornament,  , ",
-            "dress":"{earrings, pendant, green jacket, black corset, belt, single glove, black shorts, black thighhighs, garter straps, white high heels,|__dress__},",
+            "dress":"{earrings, pendant, green jacket, black corset, belt, single glove, black skirt, black thighhighs, garter straps, white high heels,|__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -10008,6 +10032,7 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
+	
     "Ulrica" : {        
         "positive":{
             "char":"Ulrica, dark skin, forehead mark, blonde hair, twintails, blue horn ornament, aqua eyes, ",
@@ -10197,13 +10222,13 @@
     },
     "Chu_Qingcheng-03" : {        
         "positive":{
-            "char":"ChuQing, purple hair, long hair, purple eyes, face veil, mouth veil, see-through, white flower, hair flower,, ",
+            "char":"ChuQing, purple hair, long hair, purple eyes, {face veil, mouth veil,|} see-through, white flower, hair flower,, ",
             "dress":"{hanfu, chinese clothes, purple sash, underbust, shawl, long sleeves, wide sleeves, white sleeves, jewelry, long skirt, necklace,|Cheng_Alt, frilled veil, dress, white dress, purple corset, cleavage, long sleeves, white sleeves, wide sleeves, necklace, jewelry, white skirt, long skirt,,|__dress__},",
         },
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "Takahashi_Reiko-100" : {        
@@ -10574,7 +10599,7 @@
     "MiorineV2-Aesthetic" : {        
         "positive":{
             "char":"miorine rembran,  grey hair, long hair, , grey eyes, ,",
-            "dress":"{asticassia school uniform,green jacket, jacket, long sleeves, shoulder boards, green shorts, seamed legwear, pantyhose, ,|__dress__}",
+            "dress":"{asticassia school uniform,green jacket, jacket, long sleeves, shoulder boards, green skirt, seamed legwear, pantyhose, ,|__dress__}",
         },
         #"negative":{
         #    "foot":"",
@@ -10879,7 +10904,7 @@
     "PONY_RF3_Collette" : {        
         "positive":{
             "char" :"collete, double bun, blonde hair, brown eyes, ",
-            "dress":"{yellow headdress, yellow hat, food-themed clothes, detached sleeves, bare shoulders, pale yellow dress, orange thighhighs, green shorts,|__dress__}",
+            "dress":"{yellow headdress, yellow hat, food-themed clothes, detached sleeves, bare shoulders, pale yellow dress, orange thighhighs, green skirt,|__dress__}",
         },
         #"negative":{
         #    "foot":"",
@@ -11082,7 +11107,7 @@
     "PonyXL Cyan Hijirikawa V5" : {        
         "positive":{
             "char":"cyanh,",
-            "dress":"{cat ears, rabbit hoodie, hood up, pajama shorts, sleepwear, cat tail, pajamas, slippers|cyanh, navel, chest bow, swimsuit, white hairband, cat ears, cat tail, frilled bikini, blue hair bow,|   base_outfit, pink bowtie, dress, white trim skirt, headdress, cat ears, cat tail, chest bell, striped thighhighs, mary janes,|__dress__,} ",
+            "dress":"{cat ears, rabbit hoodie, hood up, pajama skirt, sleepwear, cat tail, pajamas, slippers|cyanh, navel, chest bow, swimsuit, white hairband, cat ears, cat tail, frilled bikini, blue hair bow,|   base_outfit, pink bowtie, dress, white trim skirt, headdress, cat ears, cat tail, chest bell, striped thighhighs, mary janes,|__dress__,} ",
         },
         #"negative":{
         #    "foot":"",
@@ -11525,7 +11550,7 @@
     "leona-nikke-richy-v1_pdxl" : {        
         "positive":{
             "char":"leona, pink hair, long hair, animal ears, yellow eyes,  ",
-			"dress":"{ white sweater, turtleneck, sweater dress, sports bra, detached sleeves, white belt, spandex shorts, sideboob, |__dress__}",
+			"dress":"{ white sweater, turtleneck, sweater dress, sports bra, detached sleeves, white belt, spandex skirt, sideboob, |__dress__}",
         },
         #"negative":{
         #    "foot":"",
@@ -11679,7 +11704,7 @@
     "Liko_Pokemon_P1" : {        
         "positive":{
             "char":"liko \(pokemon\), blue hair, hair clip,,,   ",
-			"dress":"{white shirt, hooded jacket, open jacket, denim shorts,,|__dress__}",
+			"dress":"{white shirt, hooded jacket, open jacket, denim skirt,,|__dress__}",
         },
         #"negative":{
         #    "foot":"",
@@ -12240,7 +12265,7 @@
     "Uzume_Nep-03" : {        #
         "positive":{
             "char":" Uzume, Uzu_OrangH, orange hair, twintails, blue eyes,,",
-            #"dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
+            #"dress":"{hairclip, white_camisole, denim_skirt, rope_belt, black_belt, open_jacket|__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -12251,7 +12276,7 @@
     "Barbara_littlewitch" : {        #
         "positive":{
             "char":" barbara,",
-            #"dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
+            #"dress":"{hairclip, white_camisole, denim_skirt, rope_belt, black_belt, open_jacket|__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -12262,7 +12287,7 @@
     "Shinmai_Maou_No_Testament-Maria_Naruse-PDXL" : {        #
         "positive":{
             "char":" Maria Naruse",
-            #"dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
+            #"dress":"{hairclip, white_camisole, denim_skirt, rope_belt, black_belt, open_jacket|__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -12273,7 +12298,7 @@
     "Yusa_Kozue-75" : {        #-
         "positive":{
             "char":" yusa kozue, blonde hair, green eyes, twintails",
-            #"dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
+            #"dress":"{hairclip, white_camisole, denim_skirt, rope_belt, black_belt, open_jacket|__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -12284,7 +12309,7 @@
     "Hiro_Shinosawa_Pony-10" : {        
         "positive":{
             "char":"Shinosawa_Hiro,orange_eyes, blonde_hair, very_long_hair, asymmetrical_bangs, small_breasts, blonde_eyelashes,",
-            "dress":"{hairclip, white_camisole, denim_shorts, rope_belt, black_belt, open_jacket|__dress__},",
+            "dress":"{hairclip, white_camisole, denim_skirt, rope_belt, black_belt, open_jacket|__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -12294,7 +12319,7 @@
     },
     "mutsuki_blue archive_PONY_last" : {        
         "positive":{
-             "char":"{(mutsuki-default:1.2), mutsuki \(blue archive\),purple eyes,white hair,side ponytail,halo,pointy ears,cropped jacket,short sleeves,high-waist skirt, frilled skirt,black boots,a thigh strap|(mutsuki-kimono:1.2), mutsuki \(blue archive\),purple eyes,white hair,hair bun,hair flower,halo,pointy ears,japanese clothes,white kimono,zouri,tabi,|(mutsuki-dress:1.2),mutsuki \(blue archive\),purple eyes,white hair,long hair,hairband,red dress,fishnets,high heels,|mutsuki-suit, mutsuki \(blue archive\),purple eyes,white hair,low ponytail,halo,pointy ears,red necktie,suit,shorts,white socks,black footwear|mutsuki-jantama,mutsuki \(blue archive\),purple eyes, white hair,long hair,twintails,pointy ears,halo,hair ornament,china dress,pelvic curtain,detached sleeves,thighhighs}, ",
+             "char":"{(mutsuki-default:1.2), mutsuki \(blue archive\),purple eyes,white hair,side ponytail,halo,pointy ears,cropped jacket,short sleeves,high-waist skirt, frilled skirt,black boots,a thigh strap|(mutsuki-kimono:1.2), mutsuki \(blue archive\),purple eyes,white hair,hair bun,hair flower,halo,pointy ears,japanese clothes,white kimono,zouri,tabi,|(mutsuki-dress:1.2),mutsuki \(blue archive\),purple eyes,white hair,long hair,hairband,red dress,fishnets,high heels,|mutsuki-suit, mutsuki \(blue archive\),purple eyes,white hair,low ponytail,halo,pointy ears,red necktie,suit,skirt,white socks,black footwear|mutsuki-jantama,mutsuki \(blue archive\),purple eyes, white hair,long hair,twintails,pointy ears,halo,hair ornament,china dress,pelvic curtain,detached sleeves,thighhighs}, ",
         },
         #"negative":{
         #    "foot":"",
@@ -12407,7 +12432,7 @@
         "positive":{
             "char":"reze, black choker, purple hair, choker, eyebrows hidden by hair, green eyes, hair between eyes, long bangs, medium hair,   ",
             #"hair":" ",
-            "dress": "{bare shoulders, black ribbon, black shorts, collar, collared shirt, neck ribbon, ribbon, shirt, shorts, sleeveless, sleeveless shirt, white shirt,|__dress__} ",
+            "dress": "{bare shoulders, black ribbon, black skirt, collar, collared shirt, neck ribbon, ribbon, shirt, skirt, sleeveless, sleeveless shirt, white shirt,|__dress__} ",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -12551,7 +12576,7 @@
         "positive":{
             "char":"KurumiNoah, short hair, two side up, hair ribbons",
             #"hair":" ",
-            "dress": " {__dress__|NoahBase, short hair, two side up, hair ribbons, hairclip, black shirt, frills, sleeveless, pink bowtie, pink jacket, fingerless clothes, see-through skirt, black shorts under skirt, o-ring thigh strap, demon wings, mini wings|NoahPrevious, short hair, cone hair bun, hair bow, hair ornament, black choker, frilled shirt, collared shirt, white shirt, brooch, chest belt, tied shirt, black shorts, blue belt, black coat|NoahKimono, long hair, black hat, hat with ears, hat bow, hat flower, ribbon choker, black hakama, bare shoulders, green sash, wide sleeves, lace gloves, purple hakama skirt|NoahNewYears, short hair, cone hair bun, hairclip, hair flower, fur scarf, green kimono, floral print, purple sash|NoahCat, short hair, cat ears, hair flower, hairclip, black beret, white shirt, frilled shirt, black bowtie, capelet, black corset, black skirt, bandaged leg, cat tail, angel wings, mini wings},",
+            "dress": " {__dress__|NoahBase, short hair, two side up, hair ribbons, hairclip, black shirt, frills, sleeveless, pink bowtie, pink jacket, fingerless clothes, see-through skirt, black skirt under skirt, o-ring thigh strap, demon wings, mini wings|NoahPrevious, short hair, cone hair bun, hair bow, hair ornament, black choker, frilled shirt, collared shirt, white shirt, brooch, chest belt, tied shirt, black skirt, blue belt, black coat|NoahKimono, long hair, black hat, hat with ears, hat bow, hat flower, ribbon choker, black hakama, bare shoulders, green sash, wide sleeves, lace gloves, purple hakama skirt|NoahNewYears, short hair, cone hair bun, hairclip, hair flower, fur scarf, green kimono, floral print, purple sash|NoahCat, short hair, cat ears, hair flower, hairclip, black beret, white shirt, frilled shirt, black bowtie, capelet, black corset, black skirt, bandaged leg, cat tail, angel wings, mini wings},",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -12559,7 +12584,7 @@
         "positive":{
             "char":"noah kurumi, 1girl, virtual youtuber, double bun, blonde hair, green eyes,",
             #"hair":" ",
-            "dress": " {__dress__|hair ornament, purple hairclip, hair bow, black jacket, open jacket, off shoulder, white shirt, collared shirt, tied shirt, midriff, green belt, short shorts, black shorts, nail polish, navel, boots,},",
+            "dress": " {__dress__|hair ornament, purple hairclip, hair bow, black jacket, open jacket, off shoulder, white shirt, collared shirt, tied shirt, midriff, green belt, short skirt, black skirt, nail polish, navel, boots,},",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -12577,7 +12602,7 @@
             #"hair":" ",
             "dress": " {__dress__| navel, midriff, belt, jacket, white jacket, long sleeves, open clothes, halterneck, criss-cross halter, pants, black pants,},",
         },
-        #"strength_model": (0.5,1.0),
+        "strength_model": (0.5,1.0),
     },
 	"Blake_Belladonna_-_RWBY_Ice_Queendom": {	
         "positive":{
@@ -12753,7 +12778,7 @@
         "positive":{
             "char":"blake belladonna, hair bow, black bow,  ",
             #"hair":" ",
-            "dress": " {__dress__| sleeveless shirt, detached sleeves, white shorts, black pantyhose, pantyhose under shorts, bare shoulders, navel,},",
+            "dress": " {__dress__| sleeveless shirt, detached sleeves, white skirt, black pantyhose, pantyhose under skirt, bare shoulders, navel,},",
         },
         "strength_model": (0.5,0.75),
     },
@@ -12868,7 +12893,7 @@
         "positive":{
             "char":"rhea fighter, green eyes, hair ribbon, ponytail, red hair, pointy ears, elf, white bow, white ribbon, ribbon,,   ",
             #"hair":" ",
-            "dress":"{gloves, bow, pantyhose, shorts, belt, black pantyhose, fur trim, short shorts, brown gloves, toeless legwear, legwear under shorts, brown shorts,,|__dress__,}",
+            "dress":"{gloves, bow, pantyhose, skirt, belt, black pantyhose, fur trim, short skirt, brown gloves, toeless legwear, legwear under skirt, brown skirt,,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -13092,7 +13117,7 @@
         "positive":{
             "char":"{multicolored hair, blonde hair, long hair, magenta eyes, ear piercing, earrings, pink nails, makeup,|multicolored hair, blonde hair, hair over shoulder, low ponytail, pink scrunchie, leopard print, magenta eyes, ear piercing, earrings, pink nails, makeup }  ",
             #"hair":" ",
-            "dress":"{MarinSchool, bead bracelet, black choker, neck bell, ring, collared shirt, white shirt, short sleeves, blue necktie, plaid skirt, blue skirt, tied shirt|MarinBikini, plaid shirt, blue shirt, yellow shirt, black choker, denim shorts, collarbone, necklace|MarinBikini, black choker, necklace, black bikini, floral print, medium breasts, side-tie bikini bottom|MarinCasual, off-shoulder shirt, white shirt, bare shoulders, short sleeves, neck ribbon, black ribbon, high-waist shorts, black shorts, buttons|MarinDress, black dress, long sleeves, detached collar, cleavage|MarinHome, green dress, floral print, cleavage, strap slip|MarinHome, green dress, floral print, cleavage, strap slip|MarinHoodie, grey hoodie, long sleeves, sleeves past wrists|MarinApron, green apron, plaid apron, bare shoulders,|__dress__,}",
+            "dress":"{MarinSchool, bead bracelet, black choker, neck bell, ring, collared shirt, white shirt, short sleeves, blue necktie, plaid skirt, blue skirt, tied shirt|MarinBikini, plaid shirt, blue shirt, yellow shirt, black choker, denim skirt, collarbone, necklace|MarinBikini, black choker, necklace, black bikini, floral print, medium breasts, side-tie bikini bottom|MarinCasual, off-shoulder shirt, white shirt, bare shoulders, short sleeves, neck ribbon, black ribbon, high-waist skirt, black skirt, buttons|MarinDress, black dress, long sleeves, detached collar, cleavage|MarinHome, green dress, floral print, cleavage, strap slip|MarinHome, green dress, floral print, cleavage, strap slip|MarinHoodie, grey hoodie, long sleeves, sleeves past wrists|MarinApron, green apron, plaid apron, bare shoulders,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -13148,7 +13173,7 @@
         "positive":{
             "char":"Luna, blue eyes, purple hair, long hair, braid, hair over shoulder, hair between eyes, bangs, small breasts,   ",
             #"hair":" ",
-            "dress":"{coat, green coat, hooded coat, shoulder cutout, long sleeves, shorts, short shorts, black shorts, midriff, belt, fingerless gloves, black gloves,,|__dress__,}",
+            "dress":"{coat, green coat, hooded coat, shoulder cutout, long sleeves, skirt, short skirt, black skirt, midriff, belt, fingerless gloves, black gloves,,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -13164,7 +13189,7 @@
         "positive":{
             "char":"long hair, purple hair, red eyes, wavy hair, hair between eyes,,   ",
             #"hair":" ",
-            "dress":"{fingerless gloves, black gloves, sleeveless, black shorts, bike shorts, white dress, black footwear,|school uniform, white skirt, puffy short sleeves, red ascot, white thighhighs, zettai ryouiki, serafuku, black sailor collar, black underbust,|__dress__,}",
+            "dress":"{fingerless gloves, black gloves, sleeveless, black skirt, bike skirt, white dress, black footwear,|school uniform, white skirt, puffy short sleeves, red ascot, white thighhighs, zettai ryouiki, serafuku, black sailor collar, black underbust,|__dress__,}",
         },
         #"strength_model": (0.5,1.0),
     },
@@ -13215,7 +13240,7 @@
             #"hair":" ",
             #"dress":"{hat, flower, dress, white dress,white colored eyelashes,bare shoulders, hat flower,|__dress__,}",
         },
-        "strength_model": (0.5,1.0),
+        "strength_model": (0.5,0.75),
         "strength_clip": (0.5,1.0),
     },
 	"FarashaAl-QittaXL(kamidan)": {	
@@ -13405,7 +13430,7 @@
         "positive":{
             #"isXl":", score_9, source anime, , ",
             "char" :" gakushinohiro, blonde hair, long hair, parted bangs, blonde eyelashes, flat chest, orange eyes, hairclip, pale, Skinny,",
-            "dress":"{white camisole, denim shorts, belt, khaki coat|__dress__},",
+            "dress":"{white camisole, denim skirt, belt, khaki coat|__dress__},",
         },
     },
 	"Mahouka-08": {	
@@ -13432,7 +13457,7 @@
     },
 	"midori-default_blue archive_PONY_last": {	
         "positive":{
-            "char" :"midori-default,midori \(blue archive\),green eyes,blonde hair,halo,blue hair ribbon,animal ear headphones, tail,multicolored jacket,wide sleeves,white shirt, blue necktie, shorts,black thighhighs,green footwear,",
+            "char" :"midori-default,midori \(blue archive\),green eyes,blonde hair,halo,blue hair ribbon,animal ear headphones, tail,multicolored jacket,wide sleeves,white shirt, blue necktie, skirt,black thighhighs,green footwear,",
             "hair":"{3::long hair|},",
         },
     },
@@ -13482,23 +13507,24 @@
             "char":"GTKKaedeIchisugi, blonde hair, hair scrunchie, ponytail, sidelocks, grey eyes, makeup,, ",
             #"dress":"{bow, skindentation, thighhighs, white thighhighs, bare shoulders, skirt, bowtie, left bow black, right bow green,|__dress__ } ",
         },
+		"strength_model": (0.5,0.75,),
     },
 	"MIANNE": {	
         "positive":{
             "char":"miannepr, yellow eyes, red hair, long hair, animal ears,  ",
-            "dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
+            "dress":"{black gloves, brown skirt, thigh boots, thighhighs, navel, belt,|__dress__ } ",
         },
     },
 	"Cornelia_li_Britannia": {	
         "positive":{
             "char":"Cornelia,purple hair,purple eyes,long hair,purple lips,,  ",
-            #"dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
+            #"dress":"{black gloves, brown skirt, thigh boots, thighhighs, navel, belt,|__dress__ } ",
         },
     },
 	"FRLGLeafTsukishiro": {	# -
         "positive":{
             "char":"frlgleaf,  ",
-            #"dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
+            #"dress":"{black gloves, brown skirt, thigh boots, thighhighs, navel, belt,|__dress__ } ",
         },
 		"strength_model": (0.5,0.75,),
     },
@@ -13517,7 +13543,7 @@
 	"Futoku_no_Guild-Toxico_Dannar-PDXL": {	
         "positive":{
             "char":"Toxico Dannar,  ",
-            #"dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
+            #"dress":"{black gloves, brown skirt, thigh boots, thighhighs, navel, belt,|__dress__ } ",
         },
     },
 	"umamusume_biwahayahide_ponyXL": {	
@@ -13535,7 +13561,7 @@
 	"cornellia-li-britannia-s1-ponyxl-lora-nochekaiser": {	
         "positive":{
             "char":"cornelia li britannia, purple eyes, purple hair,,  ",
-            #"dress":"{black gloves, brown shorts, thigh boots, thighhighs, navel, belt,|__dress__ } ",
+            #"dress":"{black gloves, brown skirt, thigh boots, thighhighs, navel, belt,|__dress__ } ",
         },
         "strength_model": (0.5,0.75,),
         "strength_clip": 1,
@@ -13735,6 +13761,7 @@
             "char":"ctiant3r3sa,,  ",
             "dress":"{dress, long sleeves, frilled sleeves, earring, white gloves, blue ribbon, hand up, pelvic curtain, short skirt, white pantyhose,|__dress__},",
         },
+		"strength_model": (0.5,0.75),
     },
 	"plana_blue archive_PONY_last": {	
         "positive":{

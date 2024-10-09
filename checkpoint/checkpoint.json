@@ -39,6 +39,19 @@
             #"realistic":",",
         },
     },
+    "hitomix_V10" : {# =
+        "positive":{
+            #"quality":"masterpiece, best, great,",
+            #"checkpoint":" BREAK score_9,score_8_up,score_7_up, BREAK ",
+            #"source_anime":"",
+            "Hitomi":"Hitomi",
+        },
+        "negative":{
+            #"checkpoint":"score_6,score_5,score_4,source_furry,source_pony,ugly,bad feet,bad hands,   ",
+            #"realistic":",",
+            #"quality":"worst, worse, average, signature, watermark,",
+        },
+    },
     "fnMixPonyXL_v15Beta" : {# =
         "positive":{
             #"quality":"masterpiece, best, great,",
@@ -133,6 +146,18 @@
             "realistic":",",
         },
     },
+    "waiSemireal_v30" : {# +
+        "positive":{
+            "checkpoint":" score_9, score_8_up, score_7_up,source_real,rating_explicit,BREAK,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":"  ,",
+            "realistic":",",
+        },
+    },
     "reasianponyMerge_reasiantoonV10" : {# 
         "positive":{
             #"checkpoint":" ,",
@@ -168,6 +193,19 @@
             #"checkpoint":"  ,",
             "realistic":",",
         },
+    },
+    "nova3DCGPony_v20" : {# +
+        "positive":{
+            "checkpoint":" score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, BREAK,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            "checkpoint":" score_4, score_5, jpeg artifacts, username, watermark, signature, normal quality, worst quality, large head, low quality, text, error, missing fingers, extra digits, fewer digits, bad eye ,",
+            "realistic":",",
+        },
+		"cfg": (5,8),
     },
     "MergeijPONY_v40VAE" : {# =
         "positive":{
