@@ -2158,7 +2158,7 @@
         #"file_name":"",
         "positive":{
             "char":" , ",
-            "dress":"{ShinoAnotherPurpleDress, 1girl, black pantyhose, medium breasts, purple eyes, blue skirt, single hair bun, white shirt, grey hair, alternate hairstyle, short sleeve, standing, cowboy shot|ShinoAlternativeOutfit, 1girl, school uniform, purple eyes, hair ribbon,  single hair bun, white hair, belt, long sleeves, cowboy shot|ShinoBlackBowtie, 1girl, single hair bun, black skirt, purple eyes, neck ribbon, white shirt, long skirt, short sleeves, hair ribbon, purple ribbon, grey hair, puffy sleeves, black ribbon, cowboy shot|ShinoGreenDress, 1girl, purple eyes, black pantyhose, dress, short hair, hair bow, short sleeves, hair ribbon, purple bow, standing|ShinoHikingOutfit, 1girl, purple eyes, short hair, purple bow, hair ribbon, white hair,  sash, white pantyhose, hair bow, purple ribbon, short sleeves, cowboy shot|ShinoKimino, japanese clothes, kimono, medium breasts, purple eyes, yukata, white hair, 1girl, alternate hairstyle, long hair, obi, sash, long sleeves, cowboy shot|ShinoLongHair, 1girl, purple eyes, long hair, towel, nude, grey hair, collarbone, wide-eyed, cowboy shot|ShinoOpenShirt, 1girl, purple eyes, medium breasts, black pantyhose, purple skirt, hair ribbon, short hair, sleeveless shirt, white shirt, hair bow, grey hair, cowboy shot|ShinoPurpleBowtie, black pantyhose, 1girl, purple eyes, purple skirt, hair ribbon, white shirt, short sleeves, short hair, single hair bun, purple ribbon, cowboy shot|ShinoPurpleDress, solo, 1girl, purple eyes, purple ribbon, red pantyhose, dress, hair ribbon, hair bun, short sleeves, white hair, purple bow, cowboy shot|ShinoPurpleDress2, 1girl, purple eyes, purple dress, hair bow, short sleeves, striped dress, purple bow, white hair, purple ribbon, cowboy shot|ShinoSchoolOutfit, black pantyhose, medium breasts, 1girl, purple eyes, school uniform, pleated skirt, short hair, bow, hair ribbon, cowboy shot|ShinoTowel, 1girl, naked towel, purple eyes, white hair, bare shoulders, cowboy shot|ShinoYellowDress, 1girl, solo, black pantyhose, purple eyes, hair ribbon, white hair, casual, skirt, long sleeves, cowboy shot , |__dress__},",
+            "dress":"{ShinoAnotherPurpleDress, 1girl, black pantyhose, medium breasts, purple eyes, blue skirt, single hair bun, white shirt, grey hair, alternate hairstyle, short sleeve, standing, cowboy shot|ShinoAlternativeOutfit, 1girl, school uniform, purple eyes, hair ribbon,  single hair bun, white hair, belt, long sleeves, cowboy shot|ShinoBlackBowtie, 1girl, single hair bun, black skirt, purple eyes, neck ribbon, white shirt, long skirt, short sleeves, hair ribbon, purple ribbon, grey hair, puffy sleeves, black ribbon, cowboy shot|ShinoGreenDress, 1girl, purple eyes, black pantyhose, dress, short hair, hair bow, short sleeves, hair ribbon, purple bow, standing|ShinoHikingOutfit, 1girl, purple eyes, short hair, purple bow, hair ribbon, white hair,  sash, white pantyhose, hair bow, purple ribbon, short sleeves, cowboy shot|ShinoKimino, japanese clothes, kimono, medium breasts, purple eyes, yukata, white hair, 1girl, alternate hairstyle, long hair, obi, sash, long sleeves, cowboy shot|ShinoLongHair, 1girl, purple eyes, long hair, towel, nude, grey hair, collarbone, wide-eyed, cowboy shot|ShinoOpenShirt, 1girl, purple eyes, medium breasts, black pantyhose, purple skirt, hair ribbon, short hair, sleeveless shirt, white shirt, hair bow, grey hair, cowboy shot|ShinoPurpleBowtie, black pantyhose, 1girl, purple eyes, purple skirt, hair ribbon, white shirt, short sleeves, short hair, single hair bun, purple ribbon, cowboy shot|ShinoPurpleDress,  1girl, purple eyes, purple ribbon, red pantyhose, dress, hair ribbon, hair bun, short sleeves, white hair, purple bow, cowboy shot|ShinoPurpleDress2, 1girl, purple eyes, purple dress, hair bow, short sleeves, striped dress, purple bow, white hair, purple ribbon, cowboy shot|ShinoSchoolOutfit, black pantyhose, medium breasts, 1girl, purple eyes, school uniform, pleated skirt, short hair, bow, hair ribbon, cowboy shot|ShinoTowel, 1girl, naked towel, purple eyes, white hair, bare shoulders, cowboy shot|ShinoYellowDress, 1girl,  black pantyhose, purple eyes, hair ribbon, white hair, casual, skirt, long sleeves, cowboy shot , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4030,7 +4030,7 @@
     "xiaodianxin_pony" : {
         #"file_name":"",
         "positive":{
-            "char":" 1girl, solo, realistic, photorealistic, asian,  brown hair, long hair, brown eyes, smile, hair ornament,, ",
+            "char":" 1girl,  realistic, photorealistic, asian,  brown hair, long hair, brown eyes, smile, hair ornament,, ",
            # "dress":"{ , |__dress__},",
         },
         #"negative":{
@@ -4435,6 +4435,30 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
+    "Seras Ashrain" : {
+        #"file_name":"",
+        "positive":{
+            "char":" Seras Ashrain,  , blonde hair,  long hair, blue eyes, , blunt bangs,elf, pointy ears ",
+            "dress":"{red dress, juliet sleeves, frills, clothing cutout,white breastwear, cleavage |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
+    "Hazurewaku_SerasAshrainXL" : {
+        #"file_name":"",
+        "positive":{
+            "char":" long hair, blonde hair, blunt bangs, blue eyes, pointy ears , ",
+            "dress":"{SerasRedDress, red dress, frilled collar, clothing cutout, large breasts, red corset, juliet sleeves, white gloves, black thighhighs, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
     "Pony_Seras_Ashrain__Failure_Frame_ハズレ枠" : {
         #"file_name":"",
         "positive":{
@@ -4678,7 +4702,7 @@
     "cheshirebs2cat" : {
         #"file_name":"",
         "positive":{
-            "char":"cheshirecatbs2, animal ears, tail, solo, cat ears, yellow eyes, curly hair, cat tail, cat girl, pink hair, purple hair, bangs, breasts, ringed eyes, , ",
+            "char":"cheshirecatbs2, animal ears, tail,  cat ears, yellow eyes, curly hair, cat tail, cat girl, pink hair, purple hair, bangs, breasts, ringed eyes, , ",
             "dress":"{socks, animal ear fluff, cleavage, fur trim, kneehighs, sleeveless, no shoes,  dress, black dress, , |__dress__},",
         },
         #"negative":{
@@ -4726,7 +4750,7 @@
     "[Pony] Akane Aikawa _ Mahou Tsukai Tai! (Magic User's Club)_epoch_16" : {
         #"file_name":"",
         "positive":{
-            "char":" aikawa_akane, 1girl, solo, long hair, streaked hair, multicolored hair, white hair, red hair, brown eyes, breasts, ",
+            "char":" aikawa_akane, 1girl,  long hair, streaked hair, multicolored hair, white hair, red hair, brown eyes, breasts, ",
             "dress":"{ akane_witch, witch hat, hat, blue dress, choker, cape, jewelry, earrings, gloves, pantyhose,|akane_dream, strapless, bare shoulders, red ribbon, red bow,  strapless dress, barefoot, bell,|akane_casual, sleeveless, sailor dress, black dress, sailor collar,, |__dress__},",
         },
         #"negative":{
@@ -13667,7 +13691,7 @@
     },
 	"Minami_Kotobuki_-_Oshi_No_Ko": {	
         "positive":{
-            "char":" minami kotobuki,1girl,solo,bow,hair ornament, ",
+            "char":" minami kotobuki,1girl,bow,hair ornament, ",
             "dress":"{shirt, uniform,white shirt,collared shirt,red bow,|__dress__}",
         },
     },

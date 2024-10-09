@@ -19,6 +19,9 @@
     "ponycolors_00001" : {# -0917
         "sampler_name": ["euler_ancestral"],
     },
+    "blueTear_v20" : { #241009
+        #"sampler_name": ["euler_ancestral"],
+    },
     "wolfony_v10" : { #241009
         #"sampler_name": ["euler_ancestral"],
     },
