@@ -228,8 +228,19 @@ def setup_lora_add(setup):
     randSet=setup.pop("randSet",{})
     loraSet=setup.pop("loraSet",{})
     
-    max=SetArrRnd(setup,"LoraMaxCnt")
-    setup.pop("LoraMaxCnt")
+    
+    #print("test",SetArrRndV(setup.get("LoraMaxCnt")))
+    #print("test",SetArrRndV(setup.get("LoraMaxCnt")))
+    #print("test",SetArrRndV(setup.get("LoraMaxCnt")))
+    #print("test",SetArrRndV(setup.get("LoraMaxCnt")))
+    #print("test",SetArrRndV(setup.get("LoraMaxCnt")))
+    #print("test",SetArrRndV(setup.get("LoraMaxCnt")))
+    #print("test",SetArrRndV(setup.get("LoraMaxCnt")))
+    #print("test",SetArrRndV(setup.get("LoraMaxCnt")))
+    #print("test",SetArrRndV(setup.get("LoraMaxCnt")))
+    #print("test",SetArrRndV(setup.get("LoraMaxCnt")))
+    max=SetArrRndV(setup.pop("LoraMaxCnt",0))
+    #setup.pop("LoraMaxCnt")
     #==============================================
     for k, v in Loras.copy().items():
         Loras.pop(k)
@@ -258,33 +269,37 @@ def setup_lora_add(setup):
             for v in lst:                
                 l=SetArrRnd(v,"loras")
                 l=lora_dic(dicTagLora,dicLoraFileNameToTag,l,randSet,charSet,f"random w {k}")
-            now+=len(lst)
+                now+=len(l)
+            #print("now>=max weights",now,max)
+            if now>=max:
+                print("now>=max weights",now,max)
+                return
         else:
             for k, v in r.items():
                 p=v.pop("per",1.0)
                 if p>=random.random():
                     l=SetArrRnd(v,"loras")
                     l=lora_dic(dicTagLora,dicLoraFileNameToTag,l,randSet,charSet,f"random a {k}")
-                    now+=1
+                    now+=len(l)
                     if now>=max:
                         print("now>=max loras_random",now,max)
                         return
         ##==============================================
-        LoraAddCnt=SetArrRnd(setup,"LoraAddCnt")
+        LoraAddCnt=SetArrRndV(setup.pop("LoraAddCnt",0))
         listLora=list(dicFileLora.keys())
         for i in range(LoraAddCnt):
             if len(listLora)==0 :
                 break
             name=random.choice(listLora)
             l=lora_dic(dicTagLora,dicLoraFileNameToTag,{name:name},loraSet,charSet,"add")
-            now+=1
+            now+=len(l)
             if now>=max:
                 print("now>=max LoraAddCnt",now,max,i+1, LoraAddCnt)
                 return
             listLora.remove(name)
     else:
         print("LoraAdd no")
-    setup.pop("LoraAddCnt")
+    #setup.pop("LoraAddCnt")
     print("now>=max all",now,max)
 
 
