@@ -21,9 +21,11 @@ def queue_prompt_wait(url="http://127.0.0.1:8188/prompt", max=1):
                     except HTTPError as e: 
                         progress.stop()
                         print('Error code: ', e.code)
+                        return True
                     except URLError as e:
                         progress.stop()
                         print('Reason: ', e.reason)
+                        
                     else:
                         break
                     

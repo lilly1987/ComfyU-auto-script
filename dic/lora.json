@@ -200,7 +200,7 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "ATC_v2_4_64" : {
+    "ATC_v2_4_64" : { #--
         #"file_name":"",
         "positive":{
             "ATC_v2_4_64":" { medium |}flat-atcpny plastic chastity cage, ",
@@ -208,8 +208,9 @@
         #"negative":{
         #    "char":"",
         #},
-        "strength_model": (0.25,0.5,),
-        "strength_clip": 1,
+        "strength_model": (0.0,0.25,),
+        "strength_clip": (0.0,0.75,),
+        #"strength_clip": 1,
     },
     "Chastity v3" : {
         #"file_name":"",

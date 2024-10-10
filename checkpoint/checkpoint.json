@@ -12,6 +12,20 @@
         #"steps": (30,30),
         #"cfg": (4,10),
     },
+    "bigblu25dmix25DStyle_v10" : {        
+        "positive":{
+            "quality":" ",
+            "checkpoint":"  score_9, score_8_up",
+            #"source_anime":"source_anime,",
+            "realistic":"realistic, 3d,",
+        },
+        "negative":{
+            "quality":"source_pony, source_furry, source_cartoon, signature, watermark, username, monochrome, censored, mosaic censorship, censorship, worst quality, low quality, sketch, normal quality, jpeg artifacts, depth of field, blurry, bloom, messy drawing, amateur drawing, fewer digits, extra digits, source_pony, source_furry, source_cartoon, signature, watermark, username, monochrome",
+        },
+        "sampler_name": ["euler_ancestral"],
+        #"steps": (30,30),
+        #"cfg": (4,10),
+    },
     "getphatPonyAnime_221" : {# -0921
         "sampler_name": ["euler_ancestral"],
         "cfg": (4.5,7),
@@ -30,6 +44,12 @@
     },
     "pickledPonyMix_v20" : { #241009
         #"sampler_name": ["euler_ancestral"],
+    },
+    "duelponyanimix_testV01" : { #241010
+        #"sampler_name": ["",],
+    },
+    "asteris_v10" : { #241010
+        #"sampler_name": ["",],
     },
     "m1ne0hmerge_v10" : { 
         "sampler_name": ["euler_ancestral"],
