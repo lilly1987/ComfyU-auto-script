@@ -94,6 +94,21 @@
     },
     "hybridmixSDXL_mod6Mod7Merge050" : {# -
     },
+    "waiREALCN_v120" : {# 
+        "positive":{
+            "checkpoint":"score_9, score_8_up, score_7_up,source_real,real skin, BREAK",
+            #"source_anime":"",
+            #"style":"",
+        },
+        "negative":{
+            "quality":"worst quality,low quality,worst detail,low detail,source_furry, source_pony, source_cartoon,2d,,bad anatomy, bad hands, text, error, missing fingers, (extra digit:1.4), fewer digits, cropped, bad artist, outlines,jpeg artifacts, signature, watermark, username, blurry,3d,,",
+            "checkpoint":"  ",
+            #"realistic":",",
+        },
+        "sampler_name": ["euler_ancestral"],
+        #"steps": (30,30),
+        "cfg": (5,7),
+    },
     "apolloluma_v1seHard" : {# -
         "positive":{
             #"checkpoint":"score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, BREAK",
@@ -198,7 +213,7 @@
     },
     "PonyAsianBeauty_v10" : {# -
         "positive":{
-            "checkpoint":" score_9,score_8_up,score_7_up,source_real,realistic,photorealistic,zPDXL,4k,realistic detailed skin,",
+            "checkpoint":" score_9,score_8_up,score_7_up,source_real,realistic,photorealistic,zPDXL,4k,realistic detailed skin,asian face",
             #"dress":" ,",
             "source_anime":"",
             "style":"",

@@ -4627,11 +4627,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Shimamura_Uzuki-58" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"shimamura uzuki, long hair, brown hair, brown eyes , ",
+           # "dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6403,11 +6403,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "makimako_pony_v1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"  mature female, makimako, skinny,, ",
+           # "dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -6619,11 +6619,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "wattko_pony_v1" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"  wattko, wattson, apex, blonde hair, girly bob, brown eyes, skinny,, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -7292,16 +7292,16 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Takamori_Aiko-74" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"  takamori aiko, brown hair, long hair, brown eyes, ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "Holostars - Tsukishita Kaoru v1" : {
@@ -7413,16 +7413,16 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Yuuki_Haru-103" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"yuuki haru, orange hair, brown eyes , ",
+            #"dress":"{ , |__dress__},",
         },
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "cure_butterfly" : {
@@ -9025,7 +9025,7 @@
         #"file_name":"",
         "positive":{
             "char":" kuzunoha rei, halo, short hair, white hair, green eyes, tsurime,, ",
-            "dress":"{ collared shirt, green vest, red ribbon, green hat, beret, green cape, green skirt,, |__dress__},",
+            "dress":"{ collared shirt,   vest, red ribbon,   hat, beret,   cape,   skirt,, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -13358,7 +13358,7 @@
             #"hair":" ",
             "dress":"{outfit_1, red coat, buttons, collared shirt, neck ribbon, brown vest, black skirt, long skirt, pleated skirt, black pantyhose,|outfit_1, white shirt, collared shirt, neck ribbon, brown vest, black skirt, pleated skirt, long skirt, black pantyhose,|outfit_2, red sweater, turtleneck, cross, long sleeves, black skirt, pleated skirt, zettai ryouiki, black thighhighs,|hair down, messy hair,outfit_3, nightgown, ruffles,|outfit_4, white blouse, spaghetti straps, midriff, black skirt, pleated skirt, black thighhighs, zettai ryouiki,|airport, holding suitcase, shiny marble floor, flight attendant, black pantyhose, red skirt, red jacket, white collar, red hat, tight clothes, red lipstick, buttoned jacket,,|__dress__,}",
         },
-        #"strength_model": (0.5,0.75),
+        "strength_model": (0.5,0.75),
     },
 	"kurokawachiaki_ponyXLV6": {	
         "positive":{

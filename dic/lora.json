@@ -927,10 +927,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "slim_thigh_gap" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "slim_thigh_gap":" sl1m_th1g4p,skinny,  ",
         },
         #"negative":{
         #    "char":"",
@@ -2303,6 +2303,16 @@
     "earfuck" : {        
         "positive":{
             "earfuck" :"earfuck,ear penetration,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "skinny_body" : {        
+        "positive":{
+            "skinny" :"skinny,",
         },
         #"negative":{
         #    "foot":"",

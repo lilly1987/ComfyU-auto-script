@@ -395,11 +395,11 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "0902 Home wear 5_v1_pony" : {
         #"file_name":"",
         "positive":{
             #"char":" , ",
-            "dress":",",
+            "dress":"ruanyi0902,beret,black ribbon,collared shirt,black pantyhose,high-waist skirt,white shirt,suspenders,",
         },
         #"negative":{
         #    "char":"",
