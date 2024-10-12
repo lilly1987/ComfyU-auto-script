@@ -479,11 +479,11 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "witch-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
             #"char":" , ",
-            "dress":",",
+            "dress":"  witch, hat, witch hat, dress, halloween, halloween costume, jewelry,,",
         },
         #"negative":{
         #    "char":"",
@@ -491,11 +491,11 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "wizard-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
             #"char":" , ",
-            "dress":",",
+            "dress":"  wizard, wizard hat, robe, dress, long sleeves, gloves,,",
         },
         #"negative":{
         #    "char":"",
@@ -748,7 +748,7 @@
             #"hair":" ",
             "dress":"hud_dk_mdress, see-through white loose fit lace mod dress, short dress, baggy clothes, long sleeves, white hairband, earrings,",
         },
-        #"strength_model": (0.5,1.0),
+        #"strength_model": (0.5,0.75),
     },
 	"Outfit_soph-RedRidingHood-PDXL": {	
         "positive":{

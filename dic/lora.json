@@ -11,10 +11,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Shibari_Tentacles_3" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "Shibari_Tentacles_3":"Tentacles, shibari, hanging, hanging in air , ",
         },
         #"negative":{
         #    "char":"",
@@ -22,10 +22,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "fairy_clit_onahole-V2-pony" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "fairy clit onahole":"fairy clit onahole ,minigirl, clitoral penetration ",
         },
         #"negative":{
         #    "char":"",
@@ -242,7 +242,7 @@
         #"negative":{
         #    "char":"",
         #},
-        "strength_model": (0.5,0.75,),
+        "strength_model": (0.25,0.5,),
         "strength_clip": 1,
     },
     "SeeThroughSex" : {
@@ -740,10 +740,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Underwatertentacles" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "Underwatertentacles":"tentacle sex in water, tentacles , levitating, floating, in water, underwater, underwater tentacle sex,",
         },
         #"negative":{
         #    "char":"",
@@ -751,10 +751,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Squat_On_Man-000012" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "Squat_On_Man-000012":"squat on man , feet on man,girl on top",
         },
         #"negative":{
         #    "char":"",
@@ -850,10 +850,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "arms_up" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "arms_up":" arms up, arm grab, ",
         },
         #"negative":{
         #    "char":"",
@@ -861,10 +861,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "MS_PDXL_ArmGrabSex_Lite" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "MS_PDXL_ArmGrabSex_Lite":"arm held back, arm behind back, arm grab, sex, sex from behind, , ",
         },
         #"negative":{
         #    "char":"",
@@ -1873,6 +1873,36 @@
         #    "foot":"",
         #},
         "strength_model": (0.25,0.75),
+        #"strength_clip": 1,
+    },
+    "All_the_way_through-000017" : {        
+        "positive":{
+            "All_the_way_through-000017":"All the way through,pierced,,dick goes right through,penis out of mouth",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "All_The_Way_Through-000010" : {        
+        "positive":{
+            "All_The_Way_Through-000010":"atwt,",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
+    "All the way through-000008" : {        
+        "positive":{
+            "All the way through-000008":"cum in mouth, sex, anal, vaginal, ",
+        },
+        #"negative":{
+        #    "foot":"",
+        #},
+        #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
     "All the way through" : {        
