@@ -883,10 +883,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "crucifixionponyxl1-10-8dim" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "crucifixionponyxl1-10-8dim":" crucifixion, ",
         },
         #"negative":{
         #    "char":"",
@@ -894,10 +894,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "crucifixion-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "crucifixion-ponyxl-lora-nochekaiser":"crucifixion, spread eagle position, bound, bdsm, restrained, bondage, spread arms, spread legs, { | tentacles, tentacle sex, monster,}, ",
         },
         #"negative":{
         #    "char":"",
@@ -905,10 +905,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "crimsonstyle_pony" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "crimsonstyle_pony":" crimsoncomic, ",
         },
         #"negative":{
         #    "char":"",
@@ -916,10 +916,10 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
-    "" : {
+    "Huge_Stomach_Bulge_v2-000012" : {
         #"file_name":"",
         "positive":{
-            "":" , ",
+            "Huge_Stomach_Bulge_v2-000012":"stomach bulge , ",
         },
         #"negative":{
         #    "char":"",

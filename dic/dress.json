@@ -395,6 +395,17 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
+    "reij-rosie" : {
+        #"file_name":"",
+        "positive":{
+            "dress":" reij-rosie, red dress, red platform shoes, red stockings,",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    },
     "0902 Home wear 5_v1_pony" : {
         #"file_name":"",
         "positive":{
@@ -775,6 +786,19 @@
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,
     },
+    "Cardcaptor_Sakura_clothing_Lora_cT-1" : {
+        "per":0.5,
+        "file_name":"Cardcaptor_Sakura_clothing_Lora_cT",
+        "positive":{
+            #"char":" , ",
+            "Cardcaptor_Sakura_clothing_Lora_cT":"ct_c4ptor,black serafuku, white necktie, white sailor collar, white skirt, mini skirt,white beret,,",
+        },
+        "negative":{
+            "3d":"3d, sketch, fat, obese, inflation,",
+        },
+        #"strength_model": (0.75,1.0,),
+        #"strength_clip": 1,
+    },
     "Cardcaptor_Sakura_clothing_Lora_cT" : {
         #"file_name":"",
         "positive":{
@@ -782,7 +806,7 @@
             "dress":"ct_c4ptor,black serafuku, white necktie, white sailor collar, white skirt, mini skirt,white beret,,",
         },
         "negative":{
-            "char":"3d, sketch, fat, obese, inflation,",
+            "3d":"3d, sketch, fat, obese, inflation,",
         },
         #"strength_model": (0.75,1.0,),
         #"strength_clip": 1,

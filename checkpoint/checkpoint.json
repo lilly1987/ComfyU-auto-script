@@ -11,6 +11,19 @@
         "sampler_name": ["euler_ancestral"],
         #"steps": (30,30),
         #"cfg": (4,10),
+    },    
+    "sakuramoon_v10" : {        
+        "positive":{
+            #"quality":" ",
+            "checkpoint":" score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,",
+            #"source_anime":"source_anime,",
+        },
+        "negative":{
+           # "quality":"monochrome, greyscale",
+        },
+        #"sampler_name": ["euler_ancestral"],
+        #"steps": (30,30),
+        #"cfg": (4,10),
     },
     "hardcoreHentaiPonyV1_v10" : {        
         "positive":{
@@ -40,6 +53,36 @@
         # "sampler_name": ["euler_ancestral"],
         #"steps": (30,30),
         #"cfg": (4,10),
+    },
+    "PVCStyleModelMovable_pony161B" : {        
+        "positive":{
+            #"quality":" ",
+            "checkpoint":" score_9,score_8_up,score_7_up,source_anime,",
+            #"source_anime":"source_anime,",
+            #"realistic":"realistic, ",
+        },
+        "negative":{
+            "checkpoint":" bad feet,shiny_skin,blurry,worstquality,watermark,score_4,score_3,score_2,score_1,simple background, ",
+            #"quality":" ",
+        },
+        #"sampler_name": ["euler_ancestral"],
+        #"steps": (30,30),
+        "cfg": (6,8),
+    },
+    "ponyAsianRealismAlpha_v05" : {        
+        "positive":{
+            #"quality":" ",
+            "checkpoint":" score_9, score_8_up, score_7_up, ",
+            #"source_anime":"source_anime,",
+            "realistic":"realistic, ",
+        },
+        "negative":{
+            "checkpoint":" score_6, score_5, score_4, ",
+            #"quality":" ",
+        },
+        "sampler_name": ["euler_ancestral"],
+        #"steps": (30,30),
+        "cfg": (4,7),
     },
     "bigblu25dmix25DStyle_v10" : {        
         "positive":{
@@ -81,6 +124,9 @@
         #"sampler_name": ["euler_ancestral"],
     },
     "duelponyanimix_testV01" : { #241010
+        #"sampler_name": ["",],
+    },
+    "ponymagine91_gamma" : { #241013 -
         #"sampler_name": ["",],
     },
     "asteris_v10" : { #241010
@@ -314,9 +360,10 @@
             "realistic":",",
         },
     },
-    "remilftoon_v10" : {# =
+    "remilftoon_v10" : {# = --
         "positive":{
-            #"checkpoint":" ,",
+            "checkpoint":"score_9, score_8_up, score_7_up, score_6_up ,",
+            "realistic":"realistic,",
             #"dress":" ,",
             "source_anime":"",
             "style":"",
@@ -508,7 +555,7 @@
             "realistic":",",
         },
     },
-    "ponyRealPlus_v20" : {# 
+    "ponyRealPlus_v20" : {# --
         "positive":{
             #"checkpoint":"score_9,score_8_up,score_7_up,score_6_up,score_5_up,score_4_up,ultra detailed eyes,",
             "source_anime":"",
