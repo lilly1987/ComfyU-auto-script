@@ -172,10 +172,16 @@ def lora_dic(dicTagLora,dicLoraFileNameToTag,l,loraSet,charSet,txt=""):
             tag=k
             d=v
         #print("d",d) # {'positive': {'char': 'mayumi saegusa, red eyes, black hair, long hair, ,
-        
+        #print("file_name",file_name)  
+        p=d.pop("per",1)
+        if not p>=random.random():
+            print(f"[cyan]SKIP -{txt}[/cyan] : ",tag)
+            continue
+            
         n=d.pop("file_name",file_name)
+        #print(f"file_name : ",n)
         n=SetArrRndV(n)
-        f=dicFileChar.get(n)                
+        f=dicFileChar.get(n)                        
         if f is not None:
             dset=charSet
         else:
@@ -209,7 +215,7 @@ def setup_lora_add(setup):
     dicLoraFileNameToTag={}
     for k, v in dicTagLora.copy().items():
         #print("dicTagLora",k, v)
-        a=v.pop("file_name",None)
+        a=v.get("file_name",None)
         if a is None:
             dicLoraFileNameToTag[k]=k
         else:
