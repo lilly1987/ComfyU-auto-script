@@ -330,6 +330,7 @@
         },
         "hang":{
             "per":0.1250,
+            "per":0.50,
             "loras":[
                 {"XL-hang-board-test-000012" : "XL-hang-board-test-000012"},
                 {"strangling_pony_V1.0" : "strangling_pony_V1.0"},                   
@@ -532,6 +533,7 @@
     "Checkpoint":[
         "nachaPonyCheckpoint_v05",
         "peganaMERGE_v50",
+        "hadrianDelicexlPony_v30a2",
         "nova3DCGPony_v20",
         "waiSemireal_v30",
         "pansybreed_v10",
@@ -544,6 +546,7 @@
     "ListCard":[
         ".*hoodAL-ponyxl-bshi-v1.*",
         ".*Hiyori_Shiina__椎名_ひかり__Classroom_of_the_Elite-000008.*",
+        ".*bakemonogatari_oshino_ponyXL-000007.*",
         ".*WanderingWitch_Fran.*",
         ".*Sucy_Pony-10.*",
         ".*Sucy_Manbavaran_Little_Witch_Academia__-_Pony.*",
@@ -606,9 +609,11 @@
         ".*kuwayama_chiyuki_pony.*",
         ".*rwby_weissschnee_ponyXL.*",
         ".*Shalliceres.*",
+        ".*hawa.*",
         ".*Anastasia_pony_v1.*",
         ".*PDXL_ZKCFujiko-000005.*",
         ".*GBC_RW_pony-000020.*",
+        ".*kozue.*",
         ".*weiss_v2.*",
         ".*sdxl-gmas-shinohiro-pony.*",
         ".*Sucy_Manbaravan.*",

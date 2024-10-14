@@ -791,7 +791,7 @@
         "file_name":"Cardcaptor_Sakura_clothing_Lora_cT",
         "positive":{
             #"char":" , ",
-            "Cardcaptor_Sakura_clothing_Lora_cT":"ct_c4ptor,black serafuku, white necktie, white sailor collar, white skirt, mini skirt,white beret,,",
+            "Cardcaptor_Sakura_clothing_Lora_cT":"ct_c4ptor,black serafuku, white necktie, white sailor collar, white skirt, mini skirt,white beret,garter straps,black thighhighs,",
         },
         "negative":{
             "3d":"3d, sketch, fat, obese, inflation,",

@@ -40,6 +40,19 @@
         #"steps": (30,30),
         #"cfg": (4,10),
     },
+    "getphatPony_v40" : {# =
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":" ,",
+            "realistic":",",
+        },
+		"cfg": (4,5),
+    },
     "catdash_v10" : {        
         "positive":{
             #"quality":" ",

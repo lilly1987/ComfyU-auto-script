@@ -1800,7 +1800,7 @@
     "HK416(gf)-Pony" : {
         #"file_name":"",
         "positive":{
-            "char":"HK416 , hk416 \(girls' frontline\), hat,beret,black headwear,very long hair,white hair,x hair ornament,sidelocks,blunt bangs,green eyes,facial mark,teardrop",
+            "char":"HK416 , hk416 \(girls' frontline\), hat,beret,black headwear,very long hair,white hair,x hair ornament,sidelocks,blunt bangs,green eyes ,teardrop",
             "dress":"{ military jacket,purple jacket,clothes writing,uniform,white gloves,long sleeves,german flag,large breasts,skindentation,pouch,miniskirt,black skirt,pleated skirt,plaid skirt,thighs,zettai ryouiki,black thighhighs,thigh holster,black footwear, |__dress__},",
         },
         #"negative":{
@@ -2073,7 +2073,7 @@
         #"file_name":"",
         "positive":{
             "char":" Kyuubi_LINEmonsterFarm, black hair, blunt bangs, hime cut, long hair, blue eyes,",
-            "dress":"{ sleeveless, blush stickers, whisker markings, claws, white dress, facial mark, fox ears, multiple tails, fox tail, leaf on head, a paper lantern, |__dress__},",
+            "dress":"{ sleeveless,   claws, white dress, fox ears, leaf on head,  |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -3240,18 +3240,6 @@
         "positive":{
             "char":" m∀lice q white binder, , ",
             "dress":"{white dress , |__dress__},",
-        },
-        #"negative":{
-        #    "char":"",
-        #},
-        #"strength_model": (0.5,0.75,),
-        #"strength_clip": 1,
-    },
-    "HK416(gf)-Pony" : {
-        #"file_name":"",
-        "positive":{
-            "char":"HK416 , hk416 \(girls' frontline\), hat,beret,black headwear,very long hair,white hair,x hair ornament,sidelocks,blunt bangs,green eyes,facial mark,teardrop",
-            "dress":"{ military jacket,purple jacket,clothes writing,uniform,white gloves,long sleeves,german flag,large breasts,skindentation,pouch,miniskirt,black skirt,pleated skirt,plaid skirt,thighs,zettai ryouiki,black thighhighs,thigh holster,black footwear, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -4612,7 +4600,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "stussy_xl" : {
@@ -6802,7 +6790,7 @@
     "mayonakapunch-yuki-s1-ponyxl-lora-nochekaiser" : {
         #"file_name":"",
         "positive":{
-            "char":" yuki, long hair, bangs, brown hair, brown eyes, horns, ponytail, blunt bangs, medium breasts,, ",
+            "char":" yuki, long hair, bangs, brown hair, brown eyes, ponytail, blunt bangs, medium breasts,, ",
             "dress":"{ skirt, shirt, long sleeves, white shirt, black skirt, frills, choker,, |__dress__},",
         },
         #"negative":{
@@ -11065,7 +11053,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "Shinmai_Maou_No_Testament-Kurumi_Nonaka-PDXL" : {        
@@ -11433,7 +11421,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.25,1.0),
+        "strength_model": (0.25,1.0),
         #"strength_clip": (0.25,1.0),
     },
     "zs_TokiXL" : {        
@@ -12649,7 +12637,7 @@
             "char":"miyako saitou, long hair, brown hair, brown eyes,,",
             #"dress":"{,|__dress__,}",
         },
-        #"strength_model": (0.5,0.75),
+        "strength_model": (0.5,0.75),
     },
 	"ranko-kanzaki-ponyxl-lora-nochekaiser": {	
         "positive":{
@@ -13016,7 +13004,7 @@
             #"hair":" ",
             "dress": " {__dress__| high collar, ponytail, peaked cap, white headwear, white coat, hair between eyes, military hat, white jacket, coat,},",
         },
-        #"strength_model": (0.5,0.75),
+        "strength_model": (0.5,0.75),
     },
 	"rwby_blakebelladonna_ponyXL": {	
         "positive":{
@@ -14527,11 +14515,6 @@
         "positive":{
              "char" :"cheshire, aqua eyes, black hair, streaked hair, short hair,",
              "dress" :"animal ears, maid headdress, wrists cuffs, black dress, white dress, cleavage, frills, puffy detached sleeves, short sleeves, white thighhighs, garter straps, stiletto heels, long ribbon, lace-trimmed legwear, detached collar,",
-        },
-    },
-	"miyako-saitou-s1-ponyxl-lora-nochekaiser": {	
-        "positive":{
-             "char":"miyako saitou, long hair, brown hair, brown eyes,,",
         },
     },
 	"ElenaPonrV2": {	

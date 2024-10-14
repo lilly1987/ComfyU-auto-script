@@ -1311,7 +1311,7 @@
         #    "char":"",
         #},
         "strength_model": (0.0,1.0,),
-        "strength_clip": 1,
+        "strength_clip": (0.0,1.0,),
     },
     "permanent_metal_framebent_over_v3-000010" : {
         #"file_name":"",
