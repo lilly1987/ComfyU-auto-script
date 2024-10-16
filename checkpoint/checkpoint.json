@@ -40,6 +40,32 @@
         #"steps": (30,30),
         #"cfg": (4,10),
     },
+    "runbullxlPonyBased_v08" : {# -
+        "positive":{
+            "checkpoint":" score_9, score_8_up, score_7_up, best quality, masterpiece, source_anime, [photo, irl, real, realistic, ultrarealistic, photorealistic, natural skin, detailed skin:0.5],",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            "quality":"worst quality, low quality, normal quality, messy drawing, amateur drawing, lowres, bad anatomy, bad hands, source_furry, source_pony, source_cartoon, comic, source filmmaker, 3d, blurry, cropped ,",
+            "realistic":",",
+        },
+		#"cfg": (4,5),
+    },
+    "citrusPony_v10" : {# -
+        "positive":{
+            #"checkpoint":" ,",
+            #"dress":" ,",
+            "source_anime":"",
+            "style":"",
+        },
+        "negative":{
+            #"checkpoint":" ,",
+            "realistic":",",
+        },
+		#"cfg": (4,5),
+    },
     "getphatPony_v40" : {# =
         "positive":{
             #"checkpoint":" ,",

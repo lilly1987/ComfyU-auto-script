@@ -24,6 +24,78 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     }, 
+    "" : {
+        #"file_name":"",
+        "positive":{
+            "char":" , ",
+            "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    }, 
+    "Wakabayashi_Tomoka-97" : {
+        #"file_name":"",
+        "positive":{
+            "char":"  wakabayashi tomoka, long hair, brown hair, ponytail, brown eyes, ",
+           # "dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    }, 
+    "Shirayuki_Chiyo-64" : {
+        #"file_name":"",
+        "positive":{
+            "char":" shirayuki chiyo, black hair, purple eyes, short hair, ",
+            #"dress":"{ , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        "strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    }, 
+    "renner-theiere-chardelon-ryle-vaiself-ponyxl-lora-nochekaiser" : {
+        #"file_name":"",
+        "positive":{
+            "char":" renner theiere chardelon ryle vaiself, long hair, blue eyes, blonde hair, hair ornament, very long hair, flower, hair flower,, ",
+            "dress":"{ long sleeves, dress, jewelry, puffy sleeves, necklace, blue dress, crown, princess, frills,, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    }, 
+    "renner_theiere_chardelon_ryle_vaiself_XL_pony_v1" : {
+        #"file_name":"",
+        "positive":{
+            "char":" renner theiere chardelon ryle vaiself, ",
+            "dress":"{blue dress , |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    }, 
+    "kuroyanagi_ruriko" : {
+        #"file_name":"",
+        "positive":{
+            "char":" kuroyanagi ruriko, ",
+            "dress":"{ white shirt,short sleeves,  sleeves,long skirt,  skirt,black ribbon,white socks,mary janes, |__dress__},",
+        },
+        #"negative":{
+        #    "char":"",
+        #},
+        #"strength_model": (0.5,0.75,),
+        #"strength_clip": 1,
+    }, 
     "oyama-mahiro_ep9_onimai_last" : {
         #"file_name":"",
         "positive":{
@@ -372,11 +444,11 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "NSRitsuFrusket" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":" NSRitsuFrusket, grey eyes, medium hair, half updo, green hair ribbon, ",
+            "dress":"{  light brown hair, green kimono, yellow obi, long sleeves, wide sleeves, floral print , |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -500,11 +572,11 @@
         "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "" : {
+    "pk-caitlin-V01-000004" : {
         #"file_name":"",
         "positive":{
-            "char":" , ",
-            "dress":"{ , |__dress__},",
+            "char":"pm-caitlin , blonde hair, very long hair, blue eyes",
+            "dress":"{ white dress, pink dress, twot-one dress, pink cape, see-through cape, pink hat, |__dress__},",
         },
         #"negative":{
         #    "char":"",
@@ -1785,7 +1857,7 @@
         "strength_model": (0.5,0.75)
         #"strength_clip": 1,
     },
-    "chloe_pokemon_v1-pdv6" : {
+    "chloe_pokemon_v1-pdv6" : { # -
         #"file_name":"",
         "positive":{
             "char":" chloe \(pokemon\), pokemon journeys, green eyes, brown hair,  hair flower, braided ponytail, long hair, eyelashes,, ",
@@ -4252,7 +4324,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "Houkiboshi_Prima_Doll_official_Style-000005" : {
@@ -4696,7 +4768,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "Nonomura_Sora-105" : {
@@ -5284,7 +5356,7 @@
         #"negative":{
         #    "char":"",
         #},
-        "strength_model": (0.5,0.75,),
+        "strength_model": (0.25,0.75,),
         #"strength_clip": 1,
     },
     "hiro_pony_v1" : {
@@ -5800,7 +5872,7 @@
         #"negative":{
         #    "char":"",
         #},
-        #"strength_model": (0.5,0.75,),
+        "strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
     "Oohara_Michiru-104" : {
@@ -9970,7 +10042,7 @@
     "pony_char_sasaki_saku-000006" : {        
         "positive":{
             "char":" sasaki saku, virtual youtuber, pink hair, multicolored hair, {short hair,|} pink eyes, green nails,  ",
-            "dress":"{hairclip, earrings, {animal hood, panda hood, {hood up,|}|} two-tone jacket, white jacket, black sleeves, long sleeves, collared shirt, pink shirt, red bowtie, plaid skirt, green skirt, black socks, black footwear , |__dress__},",
+            "dress":"{hairclip, earrings, {animal hood, panda hood, {hood up,|}|}  jacket, black sleeves, long sleeves, collared shirt, pink shirt, red bowtie, skirt, black socks, black footwear , |__dress__},",
         },
         #"negative":{
         #    "foot":"",
@@ -10044,7 +10116,7 @@
         #"strength_model": (0.5,0.75,),
         #"strength_clip": 1,
     },
-    "trisha_elric_XL_pony_v1" : {        
+    "trisha_elric_XL_pony_v1" : {       #-  
         "positive":{
             "char":"trisha elric , ",
             #"dress":"{ , |__dress__},",
@@ -10449,7 +10521,7 @@
         #"negative":{
         #    "foot":"",
         #},
-        #"strength_model": (0.5,0.75)
+        "strength_model": (0.5,0.75)
         #"strength_clip": 1,
     },
     "meru_otonashi_pony_2" : {        
@@ -13263,7 +13335,7 @@
             #"hair":" ",
             "dress":"{lizbet,|lizbetcos, dress, hair ornament,|__dress__,}",
         },
-        #"strength_model": (0.5,0.75),
+        "strength_model": (0.5,0.75),
     },
 	"redoofhealer_flarejioral_ponyXL": {	
         "positive":{
@@ -13279,7 +13351,7 @@
             #"hair":" ",
             "dress":"{dress, white dress, collarbone,,|__dress__,}",
         },
-        #"strength_model": (0.5,0.75),
+        "strength_model": (0.5,0.75),
     },
 	"Amaryllis_IrumaKun": {	
         "positive":{
