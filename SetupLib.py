@@ -156,6 +156,9 @@ def lora_dic(dicTagLora,dicLoraFileNameToTag,l,loraSet,charSet,txt=""):
     #print("l",l)
     for k, v in l.copy().items():
         l.pop(k)
+        if isinstance(v,list):
+            v=random.choice(v)
+        #print("v",v)  
         if isinstance(v,str):
             file_name=v
             tag=dicLoraFileNameToTag.get(v)
@@ -173,6 +176,7 @@ def lora_dic(dicTagLora,dicLoraFileNameToTag,l,loraSet,charSet,txt=""):
             d=v
         #print("d",d) # {'positive': {'char': 'mayumi saegusa, red eyes, black hair, long hair, ,
         #print("file_name",file_name)  
+        #print("d",d)  
         p=d.pop("per",1)
         if not p>=random.random():
             print(f"[cyan]SKIP -{txt}[/cyan] : ",tag)
